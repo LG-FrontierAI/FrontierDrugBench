@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this benchmark, please cite the preprint as below."
+title: >-
+  FrontierDrugBench: Can One Large Language Model Rival Specialists across Drug
+  Discovery and Development?
+abstract: >-
+  1,196 expert-authored tasks covering five biological domains (Disease Biology,
+  Molecular Biology, Cell Biology, In-vivo Study and Clinical Research) plus a
+  separately reported 42-task Live Benchmark, evaluated zero-shot against
+  experimental readouts, structural and clinical references and computational
+  design scores. This release distributes the 971 external tasks.
+authors:
+  - name: "LGLab Frontier AI Group"
+version: "1.0"
+date-released: "2026-11-24"
+license: CC-BY-4.0
+type: dataset
+url: "https://oribench.lglab.ac.cn/fdb"
+repository-code: "https://github.com/LG-FrontierAI/FrontierDrugBench"
+keywords:
+  - drug-discovery
+  - biomedical
+  - llm-evaluation
+  - benchmark

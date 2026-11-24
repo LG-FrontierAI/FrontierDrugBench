@@ -1,0 +1,12 @@
+{
+  "answer": [
+    "7",
+    "8",
+    "3",
+    "2"
+  ],
+  "direction": "lower_is_better",
+  "source_patent": "WO2026006882",
+  "endpoint": "plasma kallikrein enzyme IC50",
+  "unit": "nM"
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "AB25",
+  "parent_item_id": "AB25",
+  "category": "Molecular Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "6896651992059cda9617c968d13d3dfc5bb8270b45958ccb4f8f371554a3d8f8",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "b333da741010dbbaac37384c8a798055a1599e053f08a0e71ac4eadc45248536",
+      "study_information": "The target is the solubility endpoint reported in the common manufacturing comparison. Detailed buffer and operational limit definitions are not reported in the supplied source; do not invent them. sequence1/sequence2 are VH/VL for the full-length antibodies.",
+      "study_information_sha256": "8fd3e1b9b2b8d28957c1ce742621ed5c84c585f3ec87cb2e86dde4eae08177f6",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "US20260070969_WO2026059945"
+  ],
+  "study_id": "US20260070969A1_Table11",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB25",
+  "expanded_bench_id": "AB25-Molecular-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting high-concentration antibody solubility",
+  "format": "ranking"
+}

@@ -1,0 +1,3 @@
+name,dose_mg_kg,route,male_female_counts,AUC0_336_h_ug_mL,AUCinf_h_ug_mL
+ABS_201_100,100,IV,2/2,206000,426000
+ABS_201_300,300,IV,2/2,,

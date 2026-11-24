@@ -1,0 +1,7 @@
+name,format,PGRN_payload,TfR_shuttle,albumin_binding_domain,dose_mg_kg,route,BMP22_6_day1,BMP22_6_day4,BMP22_6_day7,BMP22_6_day14,BMP22_6_day63
+kappa5_1p5,10E10_Fab_albumin_binding_PGRN_fusion,full_length,10E10,C80.43,1.5,IV,0.7,1.0,0.89,0.87,
+kappa5_5,10E10_Fab_albumin_binding_PGRN_fusion,full_length,10E10,C80.43,5,IV,1.01,1.1,1.06,0.98,
+kappa5_15,10E10_Fab_albumin_binding_PGRN_fusion,full_length,10E10,C80.43,15,IV,0.95,1.15,1.15,1.26,
+kappa6_1p5,10E10_Fab_albumin_binding_PGRN_fusion,delta_pGF,10E10,C80.43,1.5,IV,0.9,1.01,1.02,0.95,
+kappa6_5,10E10_Fab_albumin_binding_PGRN_fusion,delta_pGF,10E10,C80.43,5,IV,0.87,1.22,1.1,1.13,
+kappa6_15,10E10_Fab_albumin_binding_PGRN_fusion,delta_pGF,10E10,C80.43,15,IV,0.93,1.19,1.14,1.16,

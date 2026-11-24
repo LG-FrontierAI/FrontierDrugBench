@@ -1,0 +1,42 @@
+{
+  "item_id": "AB50",
+  "parent_item_id": "AB50",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "4ae23463b5b6e27267ae73c129a53dae99b23e5aa606e2cb6039b58bd893608e",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "36a288f1f9329dc0bc7384c43c91894070d5937fbf2b7d796fb5eacacaa8ba68",
+      "study_information": "HEK293T cells stably express mouseTREM2. The antibodies are titrated from10ug/mL in three-fold serialdilutions, stained withFITC anti-human secondary and analyzed by flowcytometry. Human cell-binding EC50 is supplied as cross-species evidence; mouseTREM2 sequence differences can alter recognition.",
+      "study_information_sha256": "ee49dca6b6afb0f04568461d8d0f34ff148811bb79f5e3175480389c3f574dbf",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026006698A1"
+  ],
+  "study_id": "US20260001952A1_AB50",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB50",
+  "expanded_bench_id": "AB50-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting mouse-cell TREM2 recognition from human binding",
+  "format": "regression"
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "AB68",
+  "parent_item_id": "AB68",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "700291e1f1d2991149dd3516dc61d8e839ea02f5eee45081dde2fb989f4d9384",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "958701fa129729f5bb6fa60ecf8d53aa104e2e7f20e5eda3040fb79f12ed1313",
+      "study_information": "Predict 48-hour RIPA-extracted brain PGRN concentration (pg/mg wet tissue) for sandwich1_h48, sandwich2_h48 and kappa3_h48. Measurements through 24 hours, corresponding 48-hour PBS-soluble values and the older PTV11 profile are visible. Target RIPA and CSF results are withheld. PBS and RIPA are distinct extraction fractions; infer detergent-associated retention without treating the fractions as interchangeable free-drug measurements.",
+      "study_information_sha256": "a92ad700018a93e1d2ed3566b948cb940e8c4c384efda5c835ed771941b4c264",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2024263567A2"
+  ],
+  "study_id": "WO2024263567A2 Example5 Tables8A/8B/9/10; tissuefractionenzymeimmunoassay, humanTfRKI mice. Units pg/mg wetweight. Exactdosefor thisparticular concentrationseries not specified in accessible methods. Late targetfractionvalues are hidden.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB68",
+  "expanded_bench_id": "AB68-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting detergent-extracted brain exposure from soluble-fraction data",
+  "format": "regression"
+}

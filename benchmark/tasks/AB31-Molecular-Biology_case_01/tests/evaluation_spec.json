@@ -1,0 +1,42 @@
+{
+  "item_id": "AB31",
+  "parent_item_id": "AB31",
+  "category": "Molecular Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "60cffcfcaed6dc842cf322c6a9f3dfd393a9edfdacf8b75fabe991e27982b3ca",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "b61162c0e556211f1cf841885ec554796585382e69196cfab616eab6479b9f4b",
+      "study_information": "All molecules are the VHH-Fc constructs listed in Table9; sequence1 contains the complete tested fusion chain. Molecular names have been anonymized. The row reference is a measured reference and is not a target. All eight other rows must be predicted. The source uses transient ExpiCHO-S expression,14day culture, affinity purification and SEC polishing; culture conditions are shared within this comparison. Do not equate purified yield with solubility. ",
+      "study_information_sha256": "0df72b575602d22a901ec17a18b3fa0b732335ec6b951ba95499aa749577f9fe",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.65,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2025217497"
+  ],
+  "study_id": "US20250320285A1_Table12",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB31",
+  "expanded_bench_id": "AB31-Molecular-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting small-scale expression yield of VHH-Fc variants",
+  "format": "ranking"
+}

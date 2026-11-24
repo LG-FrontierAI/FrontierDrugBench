@@ -1,0 +1,53 @@
+{
+  "context": {
+    "model": "diet-induced obese rat",
+    "endpoint": "day-34 mean body-weight change relative to baseline"
+  },
+  "molecules": [
+    {
+      "id": "peptide_01",
+      "sequence_modified": "H-Y[Aib]EGTFTSDYSI[Aib]LDKIAQ[K]AFVQWLIAGGPSSGAPPPS-NH2",
+      "definitions": {
+        "Aib": "alpha-aminoisobutyric acid",
+        "[K]": "Lys epsilon-amino linked to (2-[2-(2-amino-ethoxy)-ethoxy]-acetyl)2-(isoGlu)1-CO-(CH2)18-COOH",
+        "H": "free N terminus",
+        "NH2": "C-terminal amide"
+      }
+    },
+    {
+      "id": "peptide_02",
+      "sequence_modified": "[19CD]-isoGlu-RD()GTATK()ATERLA-Aad-FLQRSSF-Gly(Me)-A-Ile(Me)-LSSTEVGSNT-Hyp-NH2",
+      "definitions": {
+        "D() and K()": "Asp2–Lys7 side-chain lactam",
+        "Gly(Me)": "N-methylglycine",
+        "Ile(Me)": "N-methylisoleucine",
+        "Aad": "(2S)-2-aminoadipic acid",
+        "Hyp": "trans-4-hydroxy-L-proline",
+        "[19CD]-isoGlu": "19-carboxy-nonadecanoyl attached to isoGlu alpha-amino; isoGlu side-chain carboxyl attached to Arg1 backbone nitrogen",
+        "NH2": "C-terminal amide"
+      }
+    }
+  ],
+  "candidates": [
+    {
+      "id": "regimen_03",
+      "days_0_to_13": "peptide_01 10 nmol/kg SC daily",
+      "days_14_to_34": "continue peptide_01 at same dose/schedule"
+    },
+    {
+      "id": "regimen_01",
+      "days_0_to_13": "vehicle",
+      "days_14_to_34": "vehicle"
+    },
+    {
+      "id": "regimen_04",
+      "days_0_to_13": "peptide_01 10 nmol/kg SC daily",
+      "days_14_to_34": "continue peptide_01 and add peptide_02 10 nmol/kg SC every second day"
+    },
+    {
+      "id": "regimen_02",
+      "days_0_to_13": "vehicle",
+      "days_14_to_34": "peptide_02 10 nmol/kg SC every second day"
+    }
+  ]
+}

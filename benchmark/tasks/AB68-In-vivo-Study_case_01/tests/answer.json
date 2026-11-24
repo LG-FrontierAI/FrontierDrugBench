@@ -1,0 +1,21 @@
+{
+  "item_id": "AB68",
+  "case_id": "case_01",
+  "parent_bench_id": "AB68",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": {
+    "sandwich1_h48": 1.3,
+    "sandwich2_h48": 5.64,
+    "kappa3_h48": 1.87
+  },
+  "unit": "pg/mg wet tissue",
+  "target_ids": [
+    "sandwich1_h48",
+    "sandwich2_h48",
+    "kappa3_h48"
+  ]
+}

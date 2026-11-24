@@ -1,0 +1,7850 @@
+{
+  "item_id": "Pocket-PL",
+  "case_id": "case-12",
+  "parent_bench_id": "Pocket-PL",
+  "answer": {
+    "cutoffs": {
+      "date": "2026-01-01",
+      "current_contact_distance_angstrom": 5.0,
+      "historical_sites": "source annotations; no uniform distance cutoff"
+    },
+    "historical_lookup_status": "SUCCESS",
+    "post_2026_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          65,
+          67,
+          80,
+          94,
+          112,
+          113,
+          114,
+          115,
+          117,
+          120,
+          123,
+          127,
+          131,
+          132,
+          135,
+          136,
+          139,
+          158,
+          159,
+          161,
+          162,
+          163,
+          170,
+          173,
+          174,
+          175,
+          220,
+          224
+        ]
+      }
+    ],
+    "historical_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          115,
+          162,
+          174
+        ],
+        "evidence_date": "2002-03-04",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          52,
+          65,
+          67,
+          94,
+          115,
+          174
+        ],
+        "evidence_date": "2003-06-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          46,
+          47,
+          52,
+          65,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2007-06-26",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2009-03-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2011-10-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2011-11-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          114,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2011-11-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2012-04-04",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2008-01-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2008-02-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          117,
+          162,
+          173
+        ],
+        "evidence_date": "2009-05-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          39,
+          68,
+          103
+        ],
+        "evidence_date": "2009-05-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          45,
+          46,
+          47,
+          52,
+          115,
+          117,
+          173
+        ],
+        "evidence_date": "2009-05-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2010-05-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          115,
+          117,
+          162,
+          173
+        ],
+        "evidence_date": "2010-05-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          65,
+          67,
+          112,
+          114,
+          115,
+          159,
+          173,
+          174
+        ],
+        "evidence_date": "2010-12-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          65,
+          67,
+          112,
+          114,
+          115,
+          159,
+          173,
+          174
+        ],
+        "evidence_date": "2010-12-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          48,
+          49,
+          50,
+          52,
+          65,
+          67,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2010-12-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          159,
+          173
+        ],
+        "evidence_date": "2010-12-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2010-12-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2010-12-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          65,
+          67,
+          112,
+          115,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2011-09-07",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          52,
+          65,
+          67,
+          112,
+          114,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2011-09-07",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2012-01-11",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2012-01-11",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2012-01-11",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2012-01-11",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          52,
+          65,
+          67,
+          112,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2012-01-11",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          52,
+          65,
+          67,
+          112,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2012-01-11",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          65,
+          67,
+          112,
+          114,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2011-12-07",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          65,
+          67,
+          117,
+          162,
+          173
+        ],
+        "evidence_date": "2011-06-08",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2012-08-22",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          50,
+          52,
+          65,
+          67,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2012-05-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          50,
+          52,
+          65,
+          67,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2012-05-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2012-05-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2012-05-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          275,
+          276,
+          278,
+          282
+        ],
+        "evidence_date": "2013-11-13",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2013-10-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          112,
+          114,
+          115,
+          117,
+          173,
+          174
+        ],
+        "evidence_date": "2014-11-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          115,
+          117,
+          119,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2014-09-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2015-02-04",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          42,
+          65,
+          94,
+          112,
+          115,
+          117,
+          162,
+          174
+        ],
+        "evidence_date": "2013-08-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          54,
+          65,
+          67,
+          94,
+          112,
+          114,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2013-09-25",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          115,
+          117,
+          162,
+          173
+        ],
+        "evidence_date": "2014-04-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          113,
+          115,
+          162,
+          174
+        ],
+        "evidence_date": "2014-03-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          113,
+          115,
+          162,
+          174
+        ],
+        "evidence_date": "2014-03-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2014-12-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          49,
+          65,
+          67,
+          94,
+          112,
+          113,
+          114,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2015-07-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          94,
+          112,
+          113,
+          114,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2015-07-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          113,
+          114,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2015-07-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          115,
+          116,
+          117,
+          173,
+          174
+        ],
+        "evidence_date": "2016-03-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          159,
+          160,
+          174
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          68,
+          102
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          127,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          281,
+          284,
+          289,
+          292
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          281,
+          282,
+          284,
+          285
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          159,
+          160,
+          162,
+          174
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          127,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          36,
+          38,
+          40,
+          66,
+          68
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          15,
+          16,
+          23,
+          182,
+          185
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          47,
+          52,
+          65,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2015-09-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          112,
+          115,
+          119,
+          162,
+          173
+        ],
+        "evidence_date": "2015-09-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          112,
+          115,
+          119,
+          159,
+          162,
+          173
+        ],
+        "evidence_date": "2015-09-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          254,
+          257,
+          258,
+          264
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          158,
+          161,
+          163,
+          224
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          23,
+          182,
+          185
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          294,
+          295
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          158,
+          161,
+          163,
+          224
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          38,
+          68,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          115,
+          162
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          135,
+          158,
+          161,
+          163
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          23,
+          182,
+          185
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          157,
+          159,
+          162,
+          173
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          135,
+          136,
+          158,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          123,
+          127,
+          132,
+          136,
+          158,
+          159,
+          161,
+          162,
+          220,
+          224
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          135,
+          136,
+          158,
+          159,
+          161,
+          162,
+          220,
+          224
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          135,
+          136,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          36,
+          38,
+          68,
+          102,
+          107
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          123,
+          132,
+          136,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          68,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          120,
+          132,
+          135,
+          139,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          36,
+          38,
+          68,
+          102,
+          107
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          23,
+          182,
+          185
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          38,
+          40,
+          68,
+          100,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          117,
+          120,
+          123,
+          127,
+          135,
+          158,
+          159,
+          161,
+          163,
+          173,
+          174,
+          224
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          117,
+          120,
+          127,
+          158,
+          159,
+          161,
+          163,
+          173,
+          174,
+          224
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          117,
+          123,
+          124,
+          158,
+          159,
+          161,
+          163,
+          173,
+          174,
+          220,
+          224
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          115,
+          157,
+          159,
+          162,
+          173
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          123,
+          127,
+          135,
+          158,
+          161,
+          163,
+          224
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          49,
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          233,
+          235
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          52,
+          65,
+          67,
+          115,
+          174
+        ],
+        "evidence_date": "2016-07-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          124,
+          136,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          102,
+          107
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          23,
+          182,
+          185
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          120,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          102,
+          107
+        ],
+        "evidence_date": "2016-11-30",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-02-10",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-02-10",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          160,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-02-10",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          160,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-02-10",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2016-02-10",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          47,
+          52,
+          65,
+          94,
+          114,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-11-08",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          46,
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-11-08",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          115,
+          117,
+          173,
+          174
+        ],
+        "evidence_date": "2017-10-25",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          115,
+          159,
+          162,
+          174
+        ],
+        "evidence_date": "2017-10-25",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          54,
+          65,
+          94,
+          113,
+          114,
+          162,
+          173
+        ],
+        "evidence_date": "2017-01-18",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-01-18",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          113,
+          114,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-01-18",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          49,
+          65,
+          112,
+          114,
+          115,
+          162,
+          174
+        ],
+        "evidence_date": "2017-01-18",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          123,
+          136,
+          158,
+          161,
+          162,
+          163,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          135,
+          158,
+          159,
+          161,
+          163,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          36,
+          38,
+          68,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          38,
+          39,
+          58,
+          68,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          136,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          136,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          135,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          117,
+          120,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          174,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          136,
+          158,
+          161,
+          162,
+          163,
+          173,
+          174,
+          220,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          158,
+          161,
+          163,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          23,
+          182,
+          185
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          158,
+          161,
+          163,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          102,
+          109
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          102,
+          109
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          124,
+          158,
+          161,
+          220,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          115,
+          116
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          112,
+          115,
+          162
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          123,
+          127,
+          132,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          52,
+          65,
+          67,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          123,
+          127,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          49,
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          174
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          233,
+          235,
+          243
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          158,
+          161,
+          220,
+          224
+        ],
+        "evidence_date": "2017-05-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          112,
+          115,
+          116,
+          117,
+          162,
+          174
+        ],
+        "evidence_date": "2017-05-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          112,
+          115,
+          116,
+          117,
+          159,
+          162,
+          174
+        ],
+        "evidence_date": "2017-05-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          94,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          47,
+          50,
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          117,
+          173
+        ],
+        "evidence_date": "2017-06-07",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          103
+        ],
+        "evidence_date": "2017-06-07",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          50,
+          52,
+          65,
+          67,
+          94,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-12-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          52,
+          65,
+          67,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-12-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-12-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          123,
+          158,
+          161,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          233,
+          235
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          101,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          123,
+          136,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          101,
+          102,
+          107
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          158,
+          161,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          49,
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          68,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          158,
+          161,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          123,
+          127,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          123,
+          127,
+          135,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          36,
+          38,
+          68,
+          101,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          162
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          123,
+          135,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          162,
+          173
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          158,
+          161,
+          163,
+          220,
+          221,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          51,
+          68,
+          70,
+          71,
+          102,
+          105
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          281,
+          284,
+          289,
+          292,
+          294
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          162
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          50,
+          52,
+          65,
+          67,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          123,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          51,
+          68,
+          71,
+          105
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          65,
+          67,
+          115,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-09-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          123,
+          124,
+          132,
+          158,
+          161,
+          220,
+          224
+        ],
+        "evidence_date": "2018-09-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          157,
+          159,
+          162
+        ],
+        "evidence_date": "2018-09-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          123,
+          124,
+          136,
+          158,
+          161,
+          220,
+          224
+        ],
+        "evidence_date": "2018-09-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          123,
+          124,
+          132,
+          135,
+          136,
+          158,
+          161,
+          220,
+          224
+        ],
+        "evidence_date": "2018-09-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          120,
+          123,
+          135,
+          139,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          68,
+          101,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          204,
+          238,
+          263,
+          264,
+          265
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          135,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          158,
+          159,
+          161,
+          162,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          120,
+          124,
+          158,
+          159,
+          161,
+          162,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          135,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          123,
+          124,
+          158,
+          159,
+          161,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          45,
+          117,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          117,
+          127,
+          135,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          135,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          117,
+          120,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          117,
+          136,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-09-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          124,
+          127,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          68,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          123,
+          124,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          281,
+          284,
+          289,
+          292,
+          294
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          159,
+          162,
+          173
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          123,
+          124,
+          158,
+          159,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-09-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          68,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2018-09-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          203,
+          204,
+          238,
+          263,
+          264,
+          265
+        ],
+        "evidence_date": "2018-09-05",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          123,
+          124,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          123,
+          124,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          135,
+          136,
+          158,
+          159,
+          161,
+          162,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          127,
+          135,
+          158,
+          159,
+          161,
+          162,
+          163,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          127,
+          132,
+          136,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          289,
+          292,
+          294,
+          297
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          281,
+          282,
+          284,
+          289
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          51,
+          68,
+          70,
+          71,
+          102,
+          105
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          115,
+          117,
+          162
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          159,
+          160
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          158,
+          159,
+          161,
+          163,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          123,
+          127,
+          135,
+          158,
+          159,
+          161,
+          162,
+          163
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          67,
+          112,
+          117,
+          162,
+          173,
+          174,
+          175
+        ],
+        "evidence_date": "2018-07-25",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-07-25",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-07-25",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          123,
+          124,
+          158,
+          159,
+          161,
+          162,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          68,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-11-22",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2017-11-22",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-03-06",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          123,
+          124,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          202,
+          203,
+          204,
+          238,
+          263,
+          265,
+          266,
+          271
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          117,
+          120,
+          123,
+          124,
+          158,
+          159,
+          161,
+          162,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          36,
+          38,
+          40,
+          100,
+          101,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          281,
+          292,
+          293,
+          294
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          204,
+          263,
+          266
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          120,
+          123,
+          124,
+          127,
+          158,
+          159,
+          161,
+          162,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          68,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          220,
+          224
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          117,
+          120,
+          127,
+          135,
+          158,
+          159,
+          161,
+          163,
+          173,
+          220
+        ],
+        "evidence_date": "2018-02-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          46,
+          51,
+          68,
+          69,
+          70,
+          71,
+          100,
+          102,
+          103,
+          104,
+          105
+        ],
+        "evidence_date": "2019-06-19",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          115,
+          173
+        ],
+        "evidence_date": "2019-06-19",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          51,
+          68,
+          69,
+          70,
+          102,
+          103,
+          104,
+          105,
+          107
+        ],
+        "evidence_date": "2019-06-19",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          65,
+          115,
+          157,
+          162,
+          173
+        ],
+        "evidence_date": "2019-06-19",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          66,
+          68,
+          102,
+          105,
+          107,
+          109
+        ],
+        "evidence_date": "2018-05-23",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          123,
+          135,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-06-06",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          162,
+          173
+        ],
+        "evidence_date": "2018-06-06",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          123,
+          127,
+          135,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2018-06-06",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          36,
+          38,
+          68,
+          101,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2018-06-06",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          162
+        ],
+        "evidence_date": "2018-06-06",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          45,
+          52,
+          65,
+          67,
+          117,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-03-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          45,
+          52,
+          65,
+          67,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-03-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          52,
+          65,
+          67,
+          112,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-03-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          52,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-03-27",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-08-07",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          52,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-08-07",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-10-02",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2019-10-02",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-10-02",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-10-02",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-10-02",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2019-10-02",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2019-10-02",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2019-10-02",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          115,
+          162,
+          173
+        ],
+        "evidence_date": "2019-07-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          159,
+          173,
+          174
+        ],
+        "evidence_date": "2020-02-26",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2020-02-26",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          94,
+          112,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-02-26",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-03-25",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-03-25",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          114,
+          115,
+          116,
+          173,
+          174
+        ],
+        "evidence_date": "2020-04-08",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-04-08",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          116,
+          173,
+          174
+        ],
+        "evidence_date": "2020-04-08",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          114,
+          115,
+          116,
+          173,
+          174
+        ],
+        "evidence_date": "2020-04-08",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          114,
+          116,
+          173,
+          174
+        ],
+        "evidence_date": "2020-04-08",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          52,
+          65,
+          112,
+          115,
+          157,
+          162,
+          173
+        ],
+        "evidence_date": "2020-01-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          38,
+          40,
+          107
+        ],
+        "evidence_date": "2020-01-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          236,
+          238,
+          239,
+          265,
+          271
+        ],
+        "evidence_date": "2020-01-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          112,
+          115,
+          162,
+          173
+        ],
+        "evidence_date": "2020-01-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          67,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-08",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-08",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          67,
+          173
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          40,
+          68,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          68
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          94,
+          115,
+          117,
+          162,
+          173
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          115,
+          116,
+          162,
+          163,
+          164,
+          169,
+          171
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          94,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          66,
+          68,
+          102,
+          107,
+          109
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          52,
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          66,
+          68
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          40,
+          66
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          67,
+          94,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2020-12-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          65,
+          67,
+          112,
+          117,
+          159,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          52,
+          65,
+          67,
+          112,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          49,
+          67,
+          73,
+          76,
+          79,
+          80,
+          154,
+          176,
+          177,
+          188
+        ],
+        "evidence_date": "2020-07-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          50,
+          52,
+          65,
+          67,
+          115,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          49,
+          76,
+          79,
+          154,
+          177,
+          188,
+          190
+        ],
+        "evidence_date": "2020-07-15",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          65,
+          67,
+          94,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          50,
+          52,
+          65,
+          67,
+          115,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2021-05-19",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          50,
+          52,
+          65,
+          67,
+          115,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2021-05-26",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          115,
+          117,
+          162,
+          174
+        ],
+        "evidence_date": "2020-07-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          67,
+          112,
+          115,
+          117,
+          162,
+          174
+        ],
+        "evidence_date": "2020-07-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2020-07-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2020-12-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2020-12-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2020-12-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2020-12-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          162,
+          173
+        ],
+        "evidence_date": "2020-12-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          162,
+          173
+        ],
+        "evidence_date": "2020-12-09",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2022-06-08",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          115,
+          120,
+          124,
+          127,
+          132,
+          136,
+          158,
+          159,
+          161,
+          162,
+          220,
+          224
+        ],
+        "evidence_date": "2021-08-04",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38
+        ],
+        "evidence_date": "2021-08-04",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          117,
+          120,
+          127,
+          132,
+          135,
+          136,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          220,
+          224
+        ],
+        "evidence_date": "2021-08-04",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          68,
+          102,
+          103
+        ],
+        "evidence_date": "2021-08-04",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2021-11-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2021-11-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          162,
+          174
+        ],
+        "evidence_date": "2021-11-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2021-11-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          48,
+          190
+        ],
+        "evidence_date": "2021-02-03",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          190,
+          197
+        ],
+        "evidence_date": "2021-02-03",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          121,
+          157,
+          158,
+          159
+        ],
+        "evidence_date": "2021-02-03",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          67,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2021-02-03",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          101,
+          106
+        ],
+        "evidence_date": "2021-02-03",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          80,
+          112,
+          115,
+          162,
+          173,
+          174,
+          175
+        ],
+        "evidence_date": "2021-04-07",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2021-08-11",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2022-10-19",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38
+        ],
+        "evidence_date": "2022-10-19",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          173,
+          174
+        ],
+        "evidence_date": "2022-09-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          94,
+          112,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2022-10-19",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          102
+        ],
+        "evidence_date": "2022-10-19",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          67,
+          159,
+          173,
+          174
+        ],
+        "evidence_date": "2022-10-19",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          50,
+          52,
+          65,
+          67,
+          115,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2022-12-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          112,
+          115,
+          162,
+          173
+        ],
+        "evidence_date": "2023-01-18",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          68,
+          107,
+          109
+        ],
+        "evidence_date": "2023-01-18",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          50,
+          52,
+          65,
+          112,
+          114,
+          115,
+          173
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          112,
+          115,
+          117,
+          162,
+          173
+        ],
+        "evidence_date": "2023-05-31",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          173,
+          174
+        ],
+        "evidence_date": "2023-05-31",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          132,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          47,
+          52,
+          65,
+          115,
+          162
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          115,
+          157,
+          159,
+          162
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          123,
+          139,
+          161,
+          163,
+          220
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          124,
+          158,
+          220,
+          224,
+          229
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          123,
+          135,
+          163,
+          220
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          123,
+          135,
+          139,
+          163,
+          220
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          94,
+          115,
+          162,
+          173
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          135,
+          139,
+          158,
+          161,
+          163,
+          220
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          115,
+          117,
+          162
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          115,
+          157,
+          159,
+          162
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          135,
+          158,
+          161,
+          163,
+          220
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          159,
+          160,
+          173,
+          174
+        ],
+        "evidence_date": "2022-12-07",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          135,
+          139,
+          158,
+          161,
+          163,
+          224
+        ],
+        "evidence_date": "2022-12-07",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          52,
+          65,
+          115,
+          157,
+          159,
+          162
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          124,
+          158,
+          161,
+          163,
+          220,
+          223,
+          224
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          73,
+          75,
+          76,
+          79
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          115,
+          157,
+          159,
+          162
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          124,
+          132,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          124,
+          135,
+          158,
+          161,
+          163,
+          224
+        ],
+        "evidence_date": "2023-03-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          115,
+          162,
+          174
+        ],
+        "evidence_date": "2023-03-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          65,
+          115,
+          157,
+          159,
+          162
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          124,
+          132,
+          135,
+          158,
+          161,
+          163,
+          224
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          124,
+          158,
+          161,
+          163,
+          220,
+          224
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          45,
+          46,
+          52,
+          65,
+          115,
+          157,
+          159,
+          162
+        ],
+        "evidence_date": "2022-10-12",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          158,
+          161,
+          163,
+          224
+        ],
+        "evidence_date": "2023-03-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          115,
+          157,
+          159,
+          162
+        ],
+        "evidence_date": "2023-03-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2022-11-23",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          115,
+          159,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2022-11-23",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          52,
+          65,
+          112,
+          117,
+          120,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          224
+        ],
+        "evidence_date": "2024-01-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          47,
+          52,
+          65,
+          67,
+          112,
+          117,
+          120,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          174,
+          224
+        ],
+        "evidence_date": "2024-01-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2024-04-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2024-04-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          113,
+          114,
+          115,
+          173,
+          174
+        ],
+        "evidence_date": "2024-04-24",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          115,
+          117,
+          162,
+          173
+        ],
+        "evidence_date": "2023-05-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2023-05-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          115,
+          162,
+          174
+        ],
+        "evidence_date": "2023-06-21",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2023-06-21",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          115,
+          162,
+          174
+        ],
+        "evidence_date": "2023-05-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2023-05-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          117,
+          158,
+          159,
+          161,
+          162,
+          220,
+          224
+        ],
+        "evidence_date": "2023-09-20",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          94,
+          117,
+          158,
+          159,
+          161,
+          162,
+          173,
+          220,
+          224
+        ],
+        "evidence_date": "2023-09-20",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          158,
+          161,
+          162,
+          173,
+          220,
+          224
+        ],
+        "evidence_date": "2023-09-20",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          136,
+          159,
+          161,
+          162,
+          163,
+          173,
+          224
+        ],
+        "evidence_date": "2023-09-20",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2024-10-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2024-10-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          113,
+          114,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2024-01-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          113,
+          114,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2024-01-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2024-01-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2024-01-17",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          117,
+          158,
+          161,
+          162,
+          163,
+          173
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          112,
+          117,
+          135,
+          158,
+          161,
+          162,
+          163,
+          173,
+          224
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          117,
+          120,
+          139,
+          159,
+          161,
+          162,
+          163,
+          173,
+          224
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          94,
+          112,
+          158,
+          159,
+          161,
+          162,
+          163,
+          224
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          94,
+          112,
+          117,
+          158,
+          159,
+          161,
+          162,
+          163,
+          224
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          94,
+          112,
+          117,
+          135,
+          158,
+          159,
+          161,
+          162,
+          163
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          94,
+          112,
+          117,
+          158,
+          161,
+          162,
+          224
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          94,
+          112,
+          117,
+          135,
+          158,
+          161,
+          162,
+          163,
+          224
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          94,
+          112,
+          117,
+          158,
+          159,
+          161,
+          162,
+          163,
+          224
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          224
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          224
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          45,
+          46,
+          52,
+          117,
+          158,
+          159,
+          161,
+          162,
+          163,
+          224
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          117,
+          136,
+          158,
+          159,
+          161,
+          162,
+          163,
+          224
+        ],
+        "evidence_date": "2024-05-01",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          115,
+          160,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2024-07-31",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          115,
+          160,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2024-07-31",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          49,
+          50,
+          52,
+          65,
+          114,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2024-09-11",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          50,
+          52,
+          65,
+          67,
+          112,
+          115,
+          162,
+          173,
+          174
+        ],
+        "evidence_date": "2024-09-11",
+        "source_database": "BioLiP_annotation_table"
+      }
+    ],
+    "combined_scoring_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          65,
+          67,
+          80,
+          94,
+          112,
+          113,
+          114,
+          115,
+          117,
+          120,
+          123,
+          127,
+          131,
+          132,
+          135,
+          136,
+          139,
+          158,
+          159,
+          161,
+          162,
+          163,
+          170,
+          173,
+          174,
+          175,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          47,
+          48,
+          49,
+          50,
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          159,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          47,
+          52,
+          65,
+          67,
+          94,
+          112,
+          114,
+          115,
+          116,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          47,
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          159,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          39,
+          68,
+          103
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          47,
+          52,
+          65,
+          115,
+          117,
+          162,
+          173
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          52,
+          65,
+          67,
+          94,
+          112,
+          114,
+          115,
+          117,
+          159,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          115,
+          117,
+          120,
+          127,
+          132,
+          135,
+          136,
+          157,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          65,
+          67,
+          112,
+          115,
+          117,
+          119,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          42,
+          52,
+          65,
+          67,
+          94,
+          112,
+          114,
+          115,
+          116,
+          117,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          275,
+          276,
+          278,
+          282
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          49,
+          65,
+          67,
+          80,
+          94,
+          112,
+          113,
+          114,
+          115,
+          162,
+          173,
+          174,
+          175
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          47,
+          50,
+          52,
+          65,
+          67,
+          94,
+          112,
+          159,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          47,
+          52,
+          65,
+          94,
+          112,
+          115,
+          117,
+          119,
+          157,
+          159,
+          162,
+          173
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          159,
+          160,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          36,
+          38,
+          40,
+          66,
+          68,
+          102,
+          103,
+          105,
+          107,
+          109
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          67,
+          112,
+          117,
+          120,
+          123,
+          124,
+          127,
+          135,
+          158,
+          159,
+          161,
+          163,
+          173,
+          174,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          281,
+          282,
+          284,
+          289,
+          292,
+          294
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          281,
+          282,
+          284,
+          285
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          159,
+          160,
+          162,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          15,
+          16,
+          23,
+          182,
+          185
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          254,
+          257,
+          258,
+          264
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          294,
+          295
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          36,
+          38,
+          39,
+          40,
+          58,
+          68,
+          100,
+          101,
+          102,
+          107,
+          109
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          117,
+          120,
+          123,
+          124,
+          127,
+          135,
+          139,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          65,
+          115,
+          117,
+          157,
+          159,
+          162,
+          173
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          233,
+          235,
+          243
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          117,
+          120,
+          123,
+          124,
+          127,
+          132,
+          135,
+          136,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          117,
+          120,
+          123,
+          124,
+          127,
+          132,
+          135,
+          136,
+          139,
+          158,
+          159,
+          161,
+          163,
+          220,
+          221,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          36,
+          38,
+          40,
+          100,
+          101,
+          102,
+          107,
+          109
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          47,
+          52,
+          54,
+          65,
+          94,
+          113,
+          114,
+          115,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          49,
+          50,
+          52,
+          65,
+          112,
+          114,
+          115,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          112,
+          115,
+          116,
+          117,
+          159,
+          162,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          123,
+          124,
+          127,
+          136,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          47,
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          120,
+          136,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          174,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          47,
+          50,
+          65,
+          67,
+          115,
+          159,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          46,
+          51,
+          68,
+          69,
+          70,
+          71,
+          100,
+          102,
+          103,
+          104,
+          105,
+          107
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          45,
+          46,
+          52,
+          65,
+          67,
+          115,
+          157,
+          159,
+          162,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          101,
+          102,
+          107
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          117,
+          120,
+          123,
+          124,
+          127,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          51,
+          68,
+          70,
+          71,
+          102,
+          105
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          202,
+          203,
+          204,
+          238,
+          263,
+          264,
+          265,
+          266,
+          271
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          120,
+          124,
+          127,
+          135,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          52,
+          117,
+          120,
+          123,
+          124,
+          127,
+          135,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          117,
+          123,
+          127,
+          135,
+          136,
+          158,
+          159,
+          161,
+          162,
+          163,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          65,
+          115,
+          120,
+          123,
+          124,
+          127,
+          132,
+          135,
+          136,
+          158,
+          159,
+          161,
+          162,
+          163,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          289,
+          292,
+          294,
+          297
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          52,
+          120,
+          123,
+          124,
+          127,
+          158,
+          159,
+          161,
+          162,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          281,
+          292,
+          293,
+          294
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          204,
+          263,
+          266
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          117,
+          120,
+          123,
+          127,
+          135,
+          139,
+          158,
+          159,
+          161,
+          163,
+          173,
+          220
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          52,
+          65,
+          67,
+          112,
+          117,
+          159,
+          162,
+          173,
+          174,
+          175
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          45,
+          46,
+          65,
+          67,
+          94,
+          112,
+          115,
+          116,
+          117,
+          159,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          94,
+          112,
+          114,
+          115,
+          116,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          38,
+          40,
+          107
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          236,
+          238,
+          239,
+          265,
+          271
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          65,
+          67,
+          112,
+          114,
+          116,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          49,
+          67,
+          73,
+          76,
+          79,
+          80,
+          154,
+          176,
+          177,
+          188,
+          190
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          94,
+          112,
+          115,
+          117,
+          162,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          40,
+          68,
+          102,
+          107,
+          109
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          38,
+          40,
+          66,
+          68
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          94,
+          115,
+          117,
+          162,
+          173
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          115,
+          116,
+          162,
+          163,
+          164,
+          169,
+          171
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          35,
+          40,
+          66
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          46,
+          67,
+          94,
+          112,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          48,
+          190
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          190,
+          197
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          121,
+          157,
+          158,
+          159
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          101,
+          106
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          50,
+          52,
+          65,
+          112,
+          114,
+          115,
+          173
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          123,
+          135,
+          139,
+          161,
+          163,
+          220
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          124,
+          158,
+          161,
+          163,
+          220,
+          223,
+          224,
+          229
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          73,
+          75,
+          76,
+          79
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          120,
+          124,
+          132,
+          135,
+          158,
+          161,
+          163,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          65,
+          67,
+          115,
+          159,
+          160,
+          162,
+          173,
+          174
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          47,
+          52,
+          65,
+          94,
+          112,
+          117,
+          120,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          220,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          94,
+          112,
+          117,
+          135,
+          136,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          117,
+          120,
+          139,
+          158,
+          159,
+          161,
+          162,
+          163,
+          173,
+          224
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          44,
+          52,
+          65,
+          94,
+          112,
+          117,
+          135,
+          158,
+          159,
+          161,
+          162,
+          163,
+          224
+        ]
+      }
+    ]
+  }
+}

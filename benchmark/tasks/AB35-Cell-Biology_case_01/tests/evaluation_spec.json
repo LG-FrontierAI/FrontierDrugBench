@@ -1,0 +1,42 @@
+{
+  "item_id": "AB35",
+  "parent_item_id": "AB35",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "b2e91136fe8ae9408c0e5c277262d92831d4ae62beab8b48648ee68b5bb1da35",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "86b97e3242520235bb8a7b2de489dcaf5daa977cc86504b31a4f8a667c0c8991",
+      "study_information": "Human TREM2/DAP12 reporter system. The same eight experimentally selected antibodies are assayed. Absence of NFAT agonism is distinct from absent cell-surface binding. Fixed antibody scaffold used in the source; sequence1/sequence2 are full VH/VL. No mouse results are substituted for the human-cell endpoint.",
+      "study_information_sha256": "074ae55daaaf220df588265e40874997adb25c2c3d391be12e1451f9daee15b4",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.65,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026006698A1"
+  ],
+  "study_id": "TREM2_cell_characterization_Examples_3_4",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB35",
+  "expanded_bench_id": "AB35-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting human TREM2 cell-surface binding from antibody variable sequences",
+  "format": "ranking"
+}

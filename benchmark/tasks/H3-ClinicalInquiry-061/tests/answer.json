@@ -1,0 +1,73 @@
+{
+  "bench_id": "H3-ClinicalInquiry-061",
+  "answer": "(No reference ideal answer was provided in the source data; this item is graded by the judge model against the frozen rubric only.)",
+  "reference_available": false,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Advises the user to receive the influenza vaccine around September to October and suggests other vaccines such as Tdap, PCV, Herpes zoster, and HBV based on the user’s immunization history.",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Inquires whether the user plans to travel internationally or resides with an immunocompromised individual, as vaccination guidelines may vary accordingly.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Asks if the user has experienced any adverse effects from immunization.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Uses appropriate formatting elements such as numbered lists or bullet points for improved readability.",
+        "points": 3,
+        "tags": [
+          "level:example",
+          "axis:communication_quality"
+        ]
+      },
+      {
+        "criterion": "Fails to ask whether the user plans to travel abroad or lives with an immunocompromised individual.",
+        "points": -6,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Incorrectly states that when an inactivated vaccine is given, another inactivated vaccine must be delayed.",
+        "points": -7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Fails to recommend that the user get the influenza vaccine around September to October.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      }
+    ],
+    "points": 23
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 23,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

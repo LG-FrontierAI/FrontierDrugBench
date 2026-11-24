@@ -1,0 +1,42 @@
+{
+  "item_id": "AB40",
+  "parent_item_id": "AB40",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "362492006219766700094763509ab0cb44f71651b08328a3c370afe1e0d01342",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "f0a47689d9e8e585f163255cf817086787c5ac42e69d2eb22aba847d438535ed",
+      "study_information": "Ten measured affinity-matured/framework-modified antibody clones from a single anti-IL17A/F campaign. Columns describe the same named source clones across source Tables4,5,7,9. This is a transfer-from-measured-assays task, not inference from unprovided sequences. SPR: captured antibody, soluble human cytokine, 25C, source neutral pH7.4 normalized to benchmark pH7.5. NFkB: HEK293 IL17RA+/IL17RC+ luciferase reporter, cytokine/antibody preassociation1h, cells16h. NHDF: normal human dermal fibroblasts, 0.5ng/mL TNF, cytokine/antibody preassociation1h, cells16h, supernatantIL6 ELISA. Reported ties are retained; source precision and finite sample uncertainty limit interpretation of near ties. No target relative IC50 or direct derived target is supplied.",
+      "study_information_sha256": "d8945320e94d1284703bfc9a77f23067165a03dee964c890d4a0ea117acbaba5",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026059945A2"
+  ],
+  "study_id": "IL17AF_cell_function_transfer_2026",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB40",
+  "expanded_bench_id": "AB40-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Transferring IL17F reporter inhibition to TNF-co-stimulated fibroblasts",
+  "format": "ranking"
+}

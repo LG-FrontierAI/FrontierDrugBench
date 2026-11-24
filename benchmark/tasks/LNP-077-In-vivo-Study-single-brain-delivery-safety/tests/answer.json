@@ -1,0 +1,162 @@
+{
+  "answer": {
+    "id": "IV-002",
+    "mode": "evidence_single",
+    "score_total": 100,
+    "metric_keys": [
+      "order_width",
+      "order_intensity",
+      "histology_map"
+    ]
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "lnp_evidence_v2",
+    "scoring_version": "v2"
+  },
+  "reference": {
+    "id": "IV-002",
+    "mode": "evidence_single",
+    "candidate_ids": [
+      "P400",
+      "P330",
+      "P220",
+      "P180",
+      "LNP_only"
+    ],
+    "sources": [
+      {
+        "patent": "WO2026053213A1",
+        "pdf_pages": [
+          32,
+          33,
+          34,
+          35,
+          36,
+          38,
+          41,
+          42
+        ],
+        "locator": "Example 5, Figures 5A-E and 5H",
+        "quote": "For siRNA-Cy5-LNP, a fixed dose of 1mg/kg was systemically injected, and brains were harvested 2.5 hours post-treatment.\nAt the highest PNP of 400 kPa, the opening was accompanied by microhemorrhage\nmeasurements were: 4.03 + 0.42 at 400 kPa, 3.428 + 0.245 at 220 kPa, and 3.25 + 0.11 at 180 kPa",
+        "kind": "patent",
+        "file": "WO2026053213A1.pdf",
+        "family_first_publication_date": "2026-03-12",
+        "family_id": "99014763",
+        "date_evidence_url": "https://patents.google.com/patent/WO2026053213A1/en",
+        "verification_scope": "AI review of current Google-indexed family/application/publication tables and local metadata; not exhaustive official worldwide family certification; human confirmation needed before final release."
+      }
+    ],
+    "issues": [
+      "Widths are descriptive reported means (4.03,3.428,3.25mm), not evidence of significant differences between every pair.",
+      "Pressure-arm intensity comparisons are NS and deliberately unscored; equal gold tiers are not imposed.",
+      "Histology labels are observations at the reported endpoint, not equivalence, zero-risk or long-term safety.",
+      "Exact MB count and total sonication duration remain missing; no executable protocol claimed.",
+      "No exact fluorescence intensity per pressure accepted",
+      "Unperfused brain fluorescence may include vascular label; not unequivocal intracellular delivery",
+      "No functional gene silencing; non-template siRNA cannot establish therapeutic knockdown",
+      "Source says delivery not compromised from NS; no noninferiority/equivalence test",
+      "Do not compare absolute intensities across dyes, cargo classes or assays as delivery efficiency"
+    ],
+    "metrics": [
+      {
+        "type": "ranking_constraints",
+        "key": "order_width",
+        "candidate_ids": [
+          "P400",
+          "P220",
+          "P180"
+        ],
+        "expected_pairs": [
+          [
+            "P400",
+            "P220"
+          ],
+          [
+            "P400",
+            "P180"
+          ],
+          [
+            "P220",
+            "P180"
+          ]
+        ],
+        "weight": 35
+      },
+      {
+        "type": "ranking_constraints",
+        "key": "order_intensity",
+        "candidate_ids": [
+          "P400",
+          "P330",
+          "P220",
+          "P180",
+          "LNP_only"
+        ],
+        "expected_pairs": [
+          [
+            "P400",
+            "LNP_only"
+          ],
+          [
+            "P330",
+            "LNP_only"
+          ],
+          [
+            "P220",
+            "LNP_only"
+          ],
+          [
+            "P180",
+            "LNP_only"
+          ]
+        ],
+        "weight": 35
+      },
+      {
+        "type": "mapping_choice",
+        "key": "histology_map",
+        "candidate_ids": [
+          "P400",
+          "P180"
+        ],
+        "choices": [
+          "reported_damage",
+          "no_damage_observed"
+        ],
+        "expected": {
+          "P400": "reported_damage",
+          "P180": "no_damage_observed"
+        },
+        "weight": 30
+      }
+    ],
+    "category": "in-vivo-biology",
+    "source_type": "patent",
+    "source_ids": [
+      "WO2026053213A1"
+    ],
+    "experiment_group": "Example 5, Figures 5A-E and 5H",
+    "release_ready": true,
+    "validation_scope": "source-record alignment, scoring contract and payload checks; not an independent experimental replication",
+    "example_model_answer": {
+      "reason": "self-check: gold-derived submission used to verify the grading contract",
+      "order_width": [
+        "P400",
+        "P220",
+        "P180"
+      ],
+      "order_intensity": [
+        "P400",
+        "P330",
+        "P220",
+        "P180",
+        "LNP_only"
+      ],
+      "histology_map": {
+        "P400": "reported_damage",
+        "P180": "no_damage_observed"
+      }
+    }
+  }
+}

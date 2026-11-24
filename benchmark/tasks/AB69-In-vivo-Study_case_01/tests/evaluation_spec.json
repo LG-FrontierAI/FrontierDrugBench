@@ -1,0 +1,42 @@
+{
+  "item_id": "AB69",
+  "parent_item_id": "AB69",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "9b842ce575315f45dc627e75276cb9c34e4aafbbdd5fc8d1779709ce6bff5bb0",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "4d48a5fd594556be13fadd5a37698eaf27a110582b15eb04b68a896cb4fcb668",
+      "study_information": "Predict the terminal beta-elimination half-life (hours) of HER2_trimer and HER2_negative_trimer. The HER2 monomer reference is visible. The constructs are one copy or three copies joined by 5-amino-acid flexible linkers; none contains an Fc. Negative charge engineering retained HER2 binding with an approximately 1.8-fold KD change versus the unmodified trimer. The experiment used six-week-old female BALB/c mice, 100 µg IP and terminal sampling through 24 hours, with selected trimer observations to 48 hours. Predict observed beta-phase persistence, not IV clearance.",
+      "study_information_sha256": "57d0dce60996bd87fae4a9bb8db682b83b15635f857e4f12890e12c98358c22c",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.7,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026076123A2"
+  ],
+  "study_id": "WO2026076123A2 Example8Table1;HER2constructs2Rs15D,3x2Rs15D,3x(-)2Rs15D. IPadministration,ELISA,noncompartmentalanalysis.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB69",
+  "expanded_bench_id": "AB69-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting HER2 nanobody persistence after multimerization and charge engineering",
+  "format": "regression"
+}

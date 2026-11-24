@@ -1,0 +1,128 @@
+{
+  "item_id": "AB53",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026006698A1"
+  ],
+  "study_id": "US20260001952A1_AB53",
+  "input_sha256": "d26b902411d5a30c2619a3cba87ce079e4e66e2c4054eb6f80460e4b44cb9a4f",
+  "study_information_sha256": "40c538d53937e63051c0dad704af4fe8f43c8a5694eda5f36ad4d2ff3dbbded6",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": true,
+  "unit": "rubric_fraction",
+  "sources": [
+    {
+      "publication_number": "US20260001952A1",
+      "url": "https://patents.google.com/patent/US20260001952A1/en",
+      "publication_date": "2026-01-01",
+      "family_earliest_publication_date": "2026-01-01",
+      "disclosure_status": "verified",
+      "locator": "Table1,Table2; Examples3,4,6,7; Figures3,4,7A-C",
+      "source_channel": "Actual nonempty web.run source1267lines; open625-700and755-775,2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "22A17",
+      "locator": "Table2",
+      "sequence_locator": "not_required",
+      "value": "0.1",
+      "unit": "ug/mL"
+    },
+    {
+      "name": "22A17",
+      "locator": "Example3",
+      "sequence_locator": "not_required",
+      "value": "0.04",
+      "unit": "ug/mL"
+    },
+    {
+      "name": "08B23",
+      "locator": "Table2",
+      "sequence_locator": "not_required",
+      "value": "0.6",
+      "unit": "ug/mL"
+    },
+    {
+      "name": "08B23",
+      "locator": "Example3",
+      "sequence_locator": "not_required",
+      "value": "",
+      "unit": ""
+    },
+    {
+      "name": "panel",
+      "locator": "Example4",
+      "sequence_locator": "not_required",
+      "value": "",
+      "unit": ""
+    }
+  ],
+  "rubric": [
+    {
+      "id": "FACS",
+      "points": 25,
+      "source_locator": "Table2;Example4",
+      "required_finding": "Rejects equating cellEC50 to intrinsic monovalentKD; mentions receptor density/format/assay-dependent avidity or detection."
+    },
+    {
+      "id": "function",
+      "points": 25,
+      "source_locator": "Table2;Example3",
+      "required_finding": "Uses08B23 binding plusinverseagonism as concrete counterexample to binding→agonism; retains22A17 reporterpotency as assay-specific observation."
+    },
+    {
+      "id": "model",
+      "points": 20,
+      "source_locator": "Example4",
+      "required_finding": "Notes capturedIgG andTREM2Fc multivalency can affect apparentkinetics; a1:1 fit is a model not proof of noavidity."
+    },
+    {
+      "id": "transfer",
+      "points": 15,
+      "source_locator": "Example3",
+      "required_finding": "Limits NFAT conclusions to engineeredBW5147context and does not claim microglial efficacy solely fromreporterEC50."
+    },
+    {
+      "id": "checks",
+      "points": 15,
+      "source_locator": "Examples3/4/6",
+      "required_finding": "Proposes two relevant discriminating checks withwhatresolved, e.g.monovalentkinetics/densityseries and endogenousmicroglial TREM2dependent signaling or phenotype withgenetic/control perturbation."
+    }
+  ],
+  "reference_answer": "Table2 and Example3 establish assay-specific observations.22A17 has human-cell binding EC50 of0.1ug/mL and NFAT-reporter EC50 of0.04ug/mL. These values do not identify intrinsic monovalent KD: cell receptor density, antibody valency, detection and avidity can influence a cell-binding titration.08B23 is a concrete counterexample to the claim that binding guarantees agonism: it binds human cells with EC50 of0.6ug/mL but is classified as an inverse agonist in the reporter assay.\n\nThe Example4 BLI assay captures IgG using AHC sensors and exposes it to TREM2-Fc. Both presentation and molecular valency can permit avidity. Fitting those data globally to a1:1 model does not prove that multivalent contributions are absent. A fitted apparent KD remains conditional on this assay setup.\n\nThe BW5147 NFAT readout demonstrates activity in an engineered reporter context; it alone establishes neither endogenous microglial signaling nor a beneficial microglial phenotype. First, compare monovalent Fab binding or controlled receptor-density conditions to distinguish intrinsic recognition from avidity. Second, test signaling and a defined functional endpoint in endogenous human microglia with a TREM2-loss or blocking control. That distinguishes target-dependent transfer of the effect from reporter-specific coupling and nonspecific cellular responses.",
+  "review_validation_examples": [
+    {
+      "label": "complete_reference",
+      "response": "Table2 and Example3 establish assay-specific observations.22A17 has human-cell binding EC50 of0.1ug/mL and NFAT-reporter EC50 of0.04ug/mL. These values do not identify intrinsic monovalent KD: cell receptor density, antibody valency, detection and avidity can influence a cell-binding titration.08B23 is a concrete counterexample to the claim that binding guarantees agonism: it binds human cells with EC50 of0.6ug/mL but is classified as an inverse agonist in the reporter assay.\n\nThe Example4 BLI assay captures IgG using AHC sensors and exposes it to TREM2-Fc. Both presentation and molecular valency can permit avidity. Fitting those data globally to a1:1 model does not prove that multivalent contributions are absent. A fitted apparent KD remains conditional on this assay setup.\n\nThe BW5147 NFAT readout demonstrates activity in an engineered reporter context; it alone establishes neither endogenous microglial signaling nor a beneficial microglial phenotype. First, compare monovalent Fab binding or controlled receptor-density conditions to distinguish intrinsic recognition from avidity. Second, test signaling and a defined functional endpoint in endogenous human microglia with a TREM2-loss or blocking control. That distinguishes target-dependent transfer of the effect from reporter-specific coupling and nonspecific cellular responses.",
+      "expected_met_ids": [
+        "FACS",
+        "function",
+        "model",
+        "transfer",
+        "checks"
+      ]
+    },
+    {
+      "label": "generic_unsubstantiated_rejection",
+      "response": "All results are unreliable. Repeat every experiment and draw no conclusions.",
+      "expected_met_ids": []
+    },
+    {
+      "label": "unsupported_acceptance",
+      "response": "All claims are established because the patent reports them. No controls or data checks are necessary.",
+      "expected_met_ids": []
+    },
+    {
+      "label": "single_specific_finding",
+      "response": "08B23 binds human TREM2 cells at0.6ug/mL but is an inverse agonist, so binding does not guarantee agonism.22A17 reporterEC50 is an assay-specific result.",
+      "expected_met_ids": [
+        "function"
+      ]
+    }
+  ]
+}

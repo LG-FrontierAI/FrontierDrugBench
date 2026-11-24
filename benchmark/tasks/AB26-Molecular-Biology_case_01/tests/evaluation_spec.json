@@ -1,0 +1,42 @@
+{
+  "item_id": "AB26",
+  "parent_item_id": "AB26",
+  "category": "Molecular Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "c79cacb229aecb741dc59e556060f10979c415d58fe2fd74e6f57615fb619a12",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "b9a1962b479f3721a262b2f8d19178baca8d762c7f79436c9b402048ec318c87",
+      "study_information": "All samples belong to the same experimental stability comparison, with matched 40 C incubation and iCIEF readout. This is a charge-variant measurement, not a DSF melting temperature or a measurement of intact antibody concentration.",
+      "study_information_sha256": "96d777de03b33191266b849e8614796226cfdd6b601dd2ab8ac36c6596857a9d",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "US20260070969_WO2026059945"
+  ],
+  "study_id": "US20260070969A1_Table12",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB26",
+  "expanded_bench_id": "AB26-Molecular-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting charge-variant stability under prolonged heat stress",
+  "format": "ranking"
+}

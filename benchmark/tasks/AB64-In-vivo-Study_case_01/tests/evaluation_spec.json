@@ -1,0 +1,42 @@
+{
+  "item_id": "AB64",
+  "parent_item_id": "AB64",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "98ca57beecafd027ab713871bf21d69f86fbbc03c2f597643db22fb2c61842f2",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "e25bf72392cb56682ea83b26b8748c083d90f651ff0d6c95b04ef3d53d71776c",
+      "study_information": "Rank the six target PD-1–VEGF bispecific antibodies from highest to lowest terminal serum half-life in the male cynomolgus IV study. AK112 is a visible same-study reference. Use matched binding, reporter and DSC measurements; missing measurements remain blank. Constructs ending .1L are distinct from .1La YTE constructs. The study used five males per group, body weights 2.5–3.9 kg, and serum follow-up through day 28. An IV dose is not specified in the accessible methods; do not infer one.",
+      "study_information_sha256": "8756e6e32d137d15db5df028a166600f454eaccf65a28b686fab0ae7e1bf33e0",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026064650A1"
+  ],
+  "study_id": "WO2026064650A1 / US20260109769A1 Example15 Table24. Male cynomolgus IV bolus; n=5 per group; 28-day sampling. In-vitro values explicitly match .1L constructs. AK112 is a prior reference, not a new 2026 candidate.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB64",
+  "expanded_bench_id": "AB64-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting primate persistence of PD-1–VEGF bispecific antibodies",
+  "format": "ranking"
+}

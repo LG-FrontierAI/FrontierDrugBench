@@ -1,0 +1,123 @@
+{
+  "item_id": "AB62",
+  "case_id": "case_01",
+  "task_type": "ranking",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "US20260070969A1"
+  ],
+  "study_id": "US20260070969A1 Example6 Table10; real cynomolgus50mg/kgIV observedterminalhalf-life. FixedFcYTE; sequencevariable/target-mediatedeffects remain candidates. NoSCtargetmeasurements supplied.",
+  "input_sha256": "1982be45f81b922bad59e3d5009d868d14a6d9c4b1528b26665781f28d7ef0b2",
+  "study_information_sha256": "5fac1a58d4219a19a61d3f27923cd75a21b45524714198e7414cc4c92ea173a4",
+  "target_ids": [
+    "molecule_01",
+    "molecule_02",
+    "molecule_03",
+    "molecule_04",
+    "molecule_05",
+    "molecule_06",
+    "molecule_07",
+    "molecule_08",
+    "molecule_09",
+    "molecule_10"
+  ],
+  "truth": {
+    "molecule_01": 24.5,
+    "molecule_02": 24.0,
+    "molecule_03": 19.4,
+    "molecule_04": 29.7,
+    "molecule_05": 22.7,
+    "molecule_06": 17.0,
+    "molecule_07": 21.5,
+    "molecule_08": 20.4,
+    "molecule_09": 31.2,
+    "molecule_10": 24.9
+  },
+  "higher_is_better": true,
+  "unit": "days",
+  "sources": [
+    {
+      "publication_number": "US20260070969A1",
+      "url": "https://patents.google.com/patent/US20260070969A1/en",
+      "publication_date": "2026-03-12",
+      "family_earliest_publication_date": "2026-03-12",
+      "disclosure_status": "verified",
+      "locator": "Example6 Table10; Examples4/5 Tables7/9; source lines2091–2117 and2031–2089; familylines2401–2467",
+      "source_channel": "web.run explicitresponse_length long; visibleprimaryHTML retrieved2026-10-23",
+      "disclosure_check": "USfirstpublication2026-03-12; WO2026059945A2 later2026-03-19; sameUScontinuation later2026-06-25. Relatedapplications list2024/2025provisionals; priorityisnotpublicdisclosure. TestcloneanimalPKTable10iscompletedexperiment; simulatedhumanPKFigure4excluded."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "molecule_01",
+      "locator": "Example6 Table10; Examples4/5 Tables7/9; source lines2091–2117 and2031–2089; familylines2401–2467",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 24.5,
+      "unit": "days"
+    },
+    {
+      "name": "molecule_02",
+      "locator": "Example6 Table10; Examples4/5 Tables7/9; source lines2091–2117 and2031–2089; familylines2401–2467",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 24.0,
+      "unit": "days"
+    },
+    {
+      "name": "molecule_03",
+      "locator": "Example6 Table10; Examples4/5 Tables7/9; source lines2091–2117 and2031–2089; familylines2401–2467",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 19.4,
+      "unit": "days"
+    },
+    {
+      "name": "molecule_04",
+      "locator": "Example6 Table10; Examples4/5 Tables7/9; source lines2091–2117 and2031–2089; familylines2401–2467",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 29.7,
+      "unit": "days"
+    },
+    {
+      "name": "molecule_05",
+      "locator": "Example6 Table10; Examples4/5 Tables7/9; source lines2091–2117 and2031–2089; familylines2401–2467",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 22.7,
+      "unit": "days"
+    },
+    {
+      "name": "molecule_06",
+      "locator": "Example6 Table10; Examples4/5 Tables7/9; source lines2091–2117 and2031–2089; familylines2401–2467",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 17.0,
+      "unit": "days"
+    },
+    {
+      "name": "molecule_07",
+      "locator": "Example6 Table10; Examples4/5 Tables7/9; source lines2091–2117 and2031–2089; familylines2401–2467",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 21.5,
+      "unit": "days"
+    },
+    {
+      "name": "molecule_08",
+      "locator": "Example6 Table10; Examples4/5 Tables7/9; source lines2091–2117 and2031–2089; familylines2401–2467",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 20.4,
+      "unit": "days"
+    },
+    {
+      "name": "molecule_09",
+      "locator": "Example6 Table10; Examples4/5 Tables7/9; source lines2091–2117 and2031–2089; familylines2401–2467",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 31.2,
+      "unit": "days"
+    },
+    {
+      "name": "molecule_10",
+      "locator": "Example6 Table10; Examples4/5 Tables7/9; source lines2091–2117 and2031–2089; familylines2401–2467",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 24.9,
+      "unit": "days"
+    }
+  ]
+}

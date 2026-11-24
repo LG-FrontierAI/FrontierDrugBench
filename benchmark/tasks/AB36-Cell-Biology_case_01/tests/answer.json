@@ -1,0 +1,25 @@
+{
+  "item_id": "AB36",
+  "case_id": "case_01",
+  "parent_bench_id": "AB36",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": {
+    "answer_mode": "single_case",
+    "item_id": "AB36",
+    "case_id": "case_01",
+    "truth": {
+      "candidate_01": 0,
+      "candidate_02": 1,
+      "candidate_03": 1,
+      "candidate_04": 1,
+      "candidate_05": 1,
+      "candidate_06": 1,
+      "candidate_07": 0,
+      "candidate_08": 1
+    }
+  }
+}

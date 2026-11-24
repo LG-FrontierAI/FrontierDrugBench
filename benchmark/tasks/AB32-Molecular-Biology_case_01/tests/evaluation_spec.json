@@ -1,0 +1,42 @@
+{
+  "item_id": "AB32",
+  "parent_item_id": "AB32",
+  "category": "Molecular Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "882456ade227f18099a72a69b364c35b73436bcdfb3b2305f8ec923b667ae4ff",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "4fe99006437e7dfc7187dcaa76ded4a3218f4f822ddfac4ef957a4ef580759b8",
+      "study_information": "All molecules are the VHH-Fc constructs listed in Table9; sequence1 contains the complete tested fusion chain. Molecular names have been anonymized. The row reference is a measured reference and is not a target. All eight other rows must be predicted. UNi(UnchainedLabs),20mM sodium acetate pH5.5,20–95C ramp0.3C/min,330/350nm fluorescence ratio; reported mean and SD retained. Use the reported mean Tm, not the aggregation onset. ",
+      "study_information_sha256": "2b9fd94382ee8284411d9d84ec742e3c96ec087201aee1404c539561433797d7",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.65,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2025217497"
+  ],
+  "study_id": "US20250320285A1_Table12",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB32",
+  "expanded_bench_id": "AB32-Molecular-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting VHH-Fc thermal unfolding",
+  "format": "ranking"
+}

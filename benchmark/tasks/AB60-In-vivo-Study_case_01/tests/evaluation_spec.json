@@ -1,0 +1,42 @@
+{
+  "item_id": "AB60",
+  "parent_item_id": "AB60",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "73f8f84f25a11a22d357b38bf06e94d789e0db15196482cf1cf329a3b6cfdb0f",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "099b75cc9b208369f04cdccae06ef988e1f849b0027c9bcda7b1e6fd923bfb73",
+      "study_information": "Predict the IV terminal half-life, in days, of clone_107, clone_202 and clone_203 from their sequences, human IL-23 binding and functional results, and the visible reference-antibody PK anchor. Full heavy-chain sequences include the actual Fc engineering; sequence2 is VL. A single 50 mg/kg IV dose was studied in male cynomolgus monkeys with serum follow-up through day 91. SPR dissociation was below the reported measurement bound; do not invent a finite KD.",
+      "study_information_sha256": "079fe55c3bc7616971b0a2727300f9b5cd226a946e63ffabe2616fbbc3a9423a",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.75,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2025170982A2"
+  ],
+  "study_id": "WO2025170982A2 Example 7: single 50 mg/kg dose in male cynomolgus monkeys, serum follow-up through day 91. Route-specific beta-elimination half-life. The SC clearance column is apparent clearance (CL/F), not independently measured IV clearance. In-vitro values are matched human IL-23 experiments; relative IC50 uses reference_1=1. These are finite-cohort experimental estimates.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB60",
+  "expanded_bench_id": "AB60-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting engineered IL-23 antibody persistence in cynomolgus monkeys",
+  "format": "regression"
+}

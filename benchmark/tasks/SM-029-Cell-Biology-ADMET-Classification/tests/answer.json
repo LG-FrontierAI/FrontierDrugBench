@@ -1,0 +1,40 @@
+{
+  "answer": {
+    "Papp-I01": {
+      "M066": "B1",
+      "M067": "B2",
+      "M064": "B1",
+      "M053": "B1",
+      "M068": "B2",
+      "M065": "B3",
+      "M062": "B4",
+      "M041": "B3",
+      "M063": "B2",
+      "M061": "B4"
+    }
+  },
+  "scoring": {
+    "raw_total_points": 20.0,
+    "total_points": 100,
+    "items": {
+      "Papp-I01": {
+        "type": "interval",
+        "raw_points": 20,
+        "candidates": [
+          "M041",
+          "M053",
+          "M061",
+          "M062",
+          "M063",
+          "M064",
+          "M065",
+          "M066",
+          "M067",
+          "M068"
+        ],
+        "points": 100.0
+      }
+    },
+    "points_policy": "raw_points are source-derived relative weights only; awarded points are normalized to a 100-point task."
+  }
+}

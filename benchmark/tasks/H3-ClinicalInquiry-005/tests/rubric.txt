@@ -1,0 +1,21 @@
+RUBRIC: H3-ClinicalInquiry-005 — Clinical information verification and uncertainty expression (hedging)
+
+Total Points: 11
+
+CRITERIA (4):
+
+Criterion 1: Covers the scheduled children's vaccinations in Japan, including MR, DPT-IPV, Hib, BCG, Pneumococcal, Japanese encephalitis, HPV, and Hepatitis B.
+    Points: 7
+    Tags: level:example, axis:completeness
+
+Criterion 2: Explains that the vaccination schedule differs depending on age, medical condition, and local authorities.
+    Points: 4
+    Tags: level:example, axis:accuracy
+
+Criterion 3: Fails to explain that the answers listed are only part of the vaccination offered and fail to include HPV and Hepatitis B vaccination.
+    Points: -2
+    Tags: level:example, axis:completeness
+
+Criterion 4: Fails to mention that vaccinations may differ depending on age and locality.
+    Points: -3
+    Tags: level:example, axis:completeness

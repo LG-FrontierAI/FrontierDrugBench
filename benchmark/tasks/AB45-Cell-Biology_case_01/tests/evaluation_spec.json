@@ -1,0 +1,42 @@
+{
+  "item_id": "AB45",
+  "parent_item_id": "AB45",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "c0ccc79635dc9fc6848e2e30eff8e9d9d5995d3acdd18591e0443802aae74c64",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "e53fadc1e71020dc5398b96eb8bfc0a2a1689014c4463ac06be165359145fa88",
+      "study_information": "Predict inhibition of biotinylated human TL1A binding to Expi293 cells displaying human DR3, measured by FACS after30min at4C at ligandEC80. Visible ELISA EC50 values measure binding to coated soluble human/cynomolgus TL1A proteins; they are not intrinsicKD. The two analogue reference antibodies retain observed blockingIC50. Table12 is the source of ELISA columns; Table14 is the withheld receptor-cell endpoint.",
+      "study_information_sha256": "ff2c1e166cdfb8c625bc3c254450af13c28426bc0dd646cb72cd853c8071f7d9",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.65,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "US20260062492A1"
+  ],
+  "study_id": "AB45_TL1A_cell_2026",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB45",
+  "expanded_bench_id": "AB45-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting receptor-cell ligand blockade from cross-species ligand binding",
+  "format": "ranking"
+}

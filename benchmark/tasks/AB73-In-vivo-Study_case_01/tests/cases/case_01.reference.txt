@@ -1,0 +1,1 @@
+{"affinity_weak_1": 0.38, "affinity_weak_2": 0.65}

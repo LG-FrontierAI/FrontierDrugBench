@@ -1,0 +1,17 @@
+{
+  "bench_id": "D-L2-21",
+  "answer": [
+    "PMM2",
+    "AP2M1"
+  ],
+  "scoring": {
+    "type": "top_k_overlap",
+    "metric": "top_k_overlap",
+    "k": 2,
+    "points": 100
+  },
+  "grading": {
+    "method": "top_k_overlap",
+    "scoring": "overlap01"
+  }
+}

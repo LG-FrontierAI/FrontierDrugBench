@@ -1,0 +1,17 @@
+{
+  "bench_id": "D-C2-05",
+  "answer": [
+    "TUFM",
+    "PDE12",
+    "BDH1"
+  ],
+  "scoring": {
+    "type": "ranking_concordant",
+    "metric": "concordant_pairs",
+    "points": 100
+  },
+  "grading": {
+    "method": "concordant_pairs",
+    "scoring": "concordant01"
+  }
+}

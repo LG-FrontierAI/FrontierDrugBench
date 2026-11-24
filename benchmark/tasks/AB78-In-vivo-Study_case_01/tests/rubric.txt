@@ -1,0 +1,30 @@
+RUBRIC: AB78 - Comparing PGRN brain fractions and cerebrospinal fluid
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: matrix
+    Points: 25
+    Description: Distinguish PBS/RIPA/CSF andcorrectunits.
+    Source: Tables8A/8B/9/10
+
+Criterion 2: BLQ
+    Points: 20
+    Description: Treat48hCSFbelowLLOQ as censored, not zero.
+    Source: Table9
+
+Criterion 3: schedule
+    Points: 15
+    Description: Preserve unequal schedules and olderPTV11 status.
+    Source: Example5
+
+Criterion 4: interpretation
+    Points: 20
+    Description: RejectKp,uu/intactactivity conclusions from these matrices alone.
+    Source: Example5
+
+Criterion 5: checks
+    Points: 20
+    Description: Propose recovery/purity andmatched intact/free-analyte checks.
+    Source: Example5

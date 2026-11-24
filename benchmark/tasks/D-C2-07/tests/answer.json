@@ -1,0 +1,17 @@
+{
+  "bench_id": "D-C2-07",
+  "answer": [
+    "COX5A",
+    "COX11"
+  ],
+  "scoring": {
+    "type": "top_k_overlap",
+    "metric": "top_k_overlap",
+    "k": 2,
+    "points": 100
+  },
+  "grading": {
+    "method": "top_k_overlap",
+    "scoring": "overlap01"
+  }
+}

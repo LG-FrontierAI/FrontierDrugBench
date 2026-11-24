@@ -1,0 +1,24 @@
+{
+  "target": "APLNR",
+  "context": {
+    "cells": "HEK293",
+    "readouts": [
+      "NanoBiT G-protein dissociation",
+      "BRET beta-arrestin recruitment"
+    ],
+    "comparison": "detectable response within the source study assay range; ND is not a numerical zero"
+  },
+  "candidates": [
+    {
+      "id": "candidate_01",
+      "sequence_modified": "C15-alkyl-CO-γGlu-Cys-Arg-Pro-Arg-Leu-Cys-His-Lys-Gly-Pro-DMet-Gly-Pro-Phe (Disulfide bridge:1-6)",
+      "definitions": {
+        "DMet": "D-methionine",
+        "γGlu": "gamma-glutamyl linker",
+        "C15-alkyl-CO": "hexadecanoyl group",
+        "disulfide 1-6": "between first and sixth residues of the Cys-initiated peptide core"
+      },
+      "terminal_cap": "not separately specified in source Table 4"
+    }
+  ]
+}

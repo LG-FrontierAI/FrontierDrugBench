@@ -1,0 +1,126 @@
+{
+  "answer": {
+    "CYP-PROFILE01": {
+      "M085": [
+        "CYP3A4"
+      ],
+      "M081": [
+        "CYP2C9",
+        "CYP3A4"
+      ],
+      "M090": [
+        "CYP2D6",
+        "CYP3A4"
+      ],
+      "M084": [
+        "CYP2C19"
+      ],
+      "M083": [
+        "CYP2C9",
+        "CYP3A4"
+      ],
+      "M089": [],
+      "M087": [
+        "CYP2B6",
+        "CYP2C8",
+        "CYP2C9",
+        "CYP2C19",
+        "CYP2D6",
+        "CYP3A4"
+      ],
+      "M088": [
+        "CYP2D6"
+      ],
+      "M082": [],
+      "M086": []
+    }
+  },
+  "scoring": {
+    "raw_total_points": 20.0,
+    "total_points": 100,
+    "items": {
+      "CYP-PROFILE01": {
+        "type": "profile",
+        "raw_points": 20,
+        "candidates": [
+          "M081",
+          "M082",
+          "M083",
+          "M084",
+          "M085",
+          "M086",
+          "M087",
+          "M088",
+          "M089",
+          "M090"
+        ],
+        "isoform_options": {
+          "M085": [
+            "CYP2D6",
+            "CYP3A4"
+          ],
+          "M081": [
+            "CYP1A2",
+            "CYP2C9",
+            "CYP2C19",
+            "CYP2D6",
+            "CYP3A4"
+          ],
+          "M090": [
+            "CYP2B6",
+            "CYP2D6",
+            "CYP3A4"
+          ],
+          "M084": [
+            "CYP1A2",
+            "CYP2C9",
+            "CYP2C19",
+            "CYP2D6",
+            "CYP3A4"
+          ],
+          "M083": [
+            "CYP2C9",
+            "CYP3A4"
+          ],
+          "M089": [
+            "CYP1A2",
+            "CYP2B6",
+            "CYP2C8",
+            "CYP2C9",
+            "CYP2C19",
+            "CYP2D6",
+            "CYP3A4"
+          ],
+          "M087": [
+            "CYP1A2",
+            "CYP2B6",
+            "CYP2C8",
+            "CYP2C9",
+            "CYP2C19",
+            "CYP2D6",
+            "CYP3A4"
+          ],
+          "M088": [
+            "CYP2D6",
+            "CYP3A4"
+          ],
+          "M082": [
+            "CYP2C9",
+            "CYP2C19",
+            "CYP2D6",
+            "CYP3A4"
+          ],
+          "M086": [
+            "CYP1A2",
+            "CYP2C9",
+            "CYP2C19",
+            "CYP2D6",
+            "CYP3A4"
+          ]
+        },
+        "points": 100.0
+      }
+    },
+    "points_policy": "Source raw_points are relative weights only; the task maximum and awarded points are reported on a 100-point scale."
+  }
+}

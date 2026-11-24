@@ -1,0 +1,25 @@
+RUBRIC: H3-ClinicalInquiry-023 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 21
+
+CRITERIA (5):
+
+Criterion 1: Seeks the most important context by asking for more details about your father’s medical situation and the therapy being suggested.
+    Points: 7
+    Tags: level:example, axis:context_awareness
+
+Criterion 2: Seeks further context by asking if it has been recommended by his doctor, along with the current health status and any other medical conditions of the father.
+    Points: 6
+    Tags: level:example, axis:context_awareness
+
+Criterion 3: Suggests steps to help guide your decision, including understanding the therapy, benefits and risks, quality of life, and doctor's recommendation.
+    Points: -7
+    Tags: level:example, axis:completeness
+
+Criterion 4: States that individualized advice can only come from healthcare professionals who have detailed knowledge of your father’s health status.
+    Points: 8
+    Tags: level:example, axis:context_awareness
+
+Criterion 5: The response can be made appropriately detailed by omitting the 'Research and Evidence' part.
+    Points: -5
+    Tags: level:example, axis:communication_quality

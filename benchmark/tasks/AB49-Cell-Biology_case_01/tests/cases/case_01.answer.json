@@ -1,0 +1,160 @@
+{
+  "item_id": "AB49",
+  "case_id": "case_01",
+  "task_type": "ranking",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026064650A1"
+  ],
+  "study_id": "AB49_VEGF_PD1_cell_transfer_2026",
+  "input_sha256": "8896bdb5e75e25b5aa1f323cfec90f7581b9b01db4641eea67546726d705ba03",
+  "study_information_sha256": "d96b403efaf289e1cb002c8d10858e3ca7e4bfe37d265474e0ac0eb6820e1ab0",
+  "target_ids": [
+    "candidate_01",
+    "candidate_02",
+    "candidate_03",
+    "candidate_04",
+    "candidate_05",
+    "candidate_06",
+    "candidate_08",
+    "candidate_09",
+    "candidate_10",
+    "candidate_11",
+    "candidate_12",
+    "candidate_13",
+    "candidate_14",
+    "candidate_15"
+  ],
+  "truth": {
+    "candidate_01": 0.09,
+    "candidate_02": 0.12,
+    "candidate_03": 0.1,
+    "candidate_04": 0.12,
+    "candidate_05": 0.12,
+    "candidate_06": 0.13,
+    "candidate_08": 0.15,
+    "candidate_09": 0.16,
+    "candidate_10": 0.16,
+    "candidate_11": 0.08,
+    "candidate_12": 0.13,
+    "candidate_13": 0.12,
+    "candidate_14": 0.13,
+    "candidate_15": 0.11
+  },
+  "higher_is_better": false,
+  "unit": "nM",
+  "sources": [
+    {
+      "publication_number": "WO2026064650A1",
+      "url": "https://patents.google.com/patent/WO2026064650A1/en",
+      "publication_date": "2026-03-26",
+      "family_earliest_publication_date": "2026-03-26",
+      "disclosure_status": "verified",
+      "locator": "Example7/8 Tables19C,20A,20C; paired affinity Table16; table-readable US20260109769A1",
+      "source_channel": "web.run nonempty Google Patents primary-source find Table19C and Table20C, 2026-10-23",
+      "readable_publication_number": "US20260109769A1",
+      "readable_url": "https://patents.google.com/patent/US20260109769A1/en"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "candidate_01",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1557",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.09,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_02",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1533",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.12,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_03",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1560",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.1,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_04",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1555",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.12,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_05",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1538",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.12,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_06",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1527",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.13,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_08",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1561",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.15,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_09",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1537",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.16,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_10",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1528",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.16,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_11",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1502",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.08,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_12",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1563",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.13,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_13",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1501",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.12,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_14",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1552",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.13,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_15",
+      "locator": "Example8 Table20C IC50(nM); original PAL054_1562",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 0.11,
+      "unit": "nM"
+    }
+  ]
+}

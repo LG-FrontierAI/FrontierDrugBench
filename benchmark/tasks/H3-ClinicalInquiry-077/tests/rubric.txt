@@ -1,0 +1,29 @@
+RUBRIC: H3-ClinicalInquiry-077 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 19
+
+CRITERIA (6):
+
+Criterion 1: States that ear infections are caused by bacterial, fungal, or viral agents and classifies ear infections into external (otitis externa), middle ear (otitis media), and inner ear (otitis interna), providing common symptoms and general approaches for each type.
+    Points: 6
+    Tags: level:example, axis:accuracy
+
+Criterion 2: States when to seek medical care, including fever in children, severe ear pain, discharge, and hearing loss.
+    Points: 6
+    Tags: level:example, axis:completeness
+
+Criterion 3: Clearly states in point form the risk factors for ear infection, including allergies, swimming, and sinus infections.
+    Points: 5
+    Tags: level:example, axis:completeness
+
+Criterion 4: Uses clear, non-technical language in the response. (Justification: Non-HCP requires easy-to-understand language for effectiveness.)
+    Points: 2
+    Tags: level:example, axis:communication_quality
+
+Criterion 5: Fails to provide the cause of ear infections, classification, symptoms, and treatment approaches.
+    Points: -6
+    Tags: level:example, axis:completeness
+
+Criterion 6: Uses technical medical language such as "otalgia" to mean ear pain. (Justification: Non-HCP needs clear, easy-to-understand language.)
+    Points: -2
+    Tags: level:example, axis:communication_quality

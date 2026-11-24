@@ -1,0 +1,42 @@
+{
+  "item_id": "AB73",
+  "parent_item_id": "AB73",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "6b2e0e079a16631afa90383482fe0a955fb00fb6004323a2eecbb170beb0fcf6",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "2789cbeb7544b1fa20172f9db99845f9e55791433507f84b591717332ddf49e4",
+      "study_information": "Predict day-7 brain BMP22:6, relative to the assay internal standard, for affinity_weak_1 and affinity_weak_2. The 10 nM TfR-binding parent is a visible PD anchor. Constructs have the same PGRN-fusion format and receive 5 mg/kg IV in Grn-knockout mice. This is affinity-engineering transfer at a fixed dose and endpoint. Weaker TfR affinity need not give a monotonic change in brain pharmacodynamics. BMP22:6 is not a percentage of healthy rescue.",
+      "study_information_sha256": "1a8c7bfba0620b733f679f0888c092ff7cf48cf47f45250da321012206ff8432",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.9,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2024263567A2"
+  ],
+  "study_id": "US20250000992A1 Example6Table11:single5mg/kgIVGrnKO,day7BMP22:6normalizedtointernalstandard. KD(M):1.0E-8,3.0E-7,1.0E-6. PBS.39,WT.74arecontrols.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB73",
+  "expanded_bench_id": "AB73-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting how TfR-affinity engineering changes brain pharmacodynamics",
+  "format": "regression"
+}

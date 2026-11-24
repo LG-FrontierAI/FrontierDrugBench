@@ -1,0 +1,7 @@
+name,assay,source_location,molecule_or_panel,endpoint,reported_value,reported_unit,status_or_condition
+record_01,sTREM2,Example6,antibodypanel,method,,,hiPSCTREM2HeterozygousorHomozygous;20ug/mL;72h;CD11bflow;secretedsTREM2ELISA;IncuCyte
+record_02,A_beta,Example7A,antibodypanel,method,,,BMDM5e4/well;preincubate20ug/mL30min;pHrodoA_beta1_42_1ug/mL;1to3h;acidfluorescence
+record_03,lipid,Example7B,antibodypanel,method,,,BMDM;20ug/mL;pHrodoPGPC/POPCfluorescentlipid1ug/mL;1to3h
+record_04,apoptotic_cells,Example7C,antibodypanel,method,,,BMDM;20ug/mL;pHrodoSHSY5Yapoptoticcellsratio5to1;1to3h
+record_05,mousebinding,Table2,02M10,status,,,no_binding
+record_06,mousebinding,Table2,22A17,status,,,not_tested

@@ -1,0 +1,42 @@
+{
+  "item_id": "AB23",
+  "parent_item_id": "AB23",
+  "category": "Molecular Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "3ec295243c18fda0669320850d16e717aaee97838cab77648be59b985e588d53",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "3e5aada1496ed9611dc13b1229593eca199ee6c01769e05346cda9a26a4bd0d7",
+      "study_information": "The antibodies are captured through goat anti-human IgG on a CM5 chip; soluble recombinant human IL-17A or IL-17F is the analyte. Multi-cycle SPR at 25 C uses HBS-P+ with 300 mM NaCl, 3 mM EDTA and 0.05% P20, with a 1:1 fit. Neutral SPR is displayed as pH7.5 by benchmark convention; the original report states pH7.4. Only the variable domains differ; the tested molecules are full-length antibodies, not Fab.",
+      "study_information_sha256": "ebb5ff25a162facb3667567ea7c25fda4703cc2fa1e9b69db9cac8605008481d",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "US20260070969_WO2026059945"
+  ],
+  "study_id": "US20260070969A1_Table4",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB23",
+  "expanded_bench_id": "AB23-Molecular-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting human IL-17A affinity after local antibody engineering",
+  "format": "ranking"
+}

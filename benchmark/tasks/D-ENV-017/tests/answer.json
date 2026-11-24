@@ -1,0 +1,17 @@
+{
+  "bench_id": "D-ENV-017",
+  "answer": [
+    "FOXRED1",
+    "MARCH5",
+    "ATP5J2-PTCD1"
+  ],
+  "scoring": {
+    "type": "ranking_concordant",
+    "metric": "concordant_pairs",
+    "points": 100
+  },
+  "grading": {
+    "method": "concordant_pairs",
+    "scoring": "concordant01"
+  }
+}

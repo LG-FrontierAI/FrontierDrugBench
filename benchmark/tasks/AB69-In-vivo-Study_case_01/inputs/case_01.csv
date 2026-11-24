@@ -1,0 +1,4 @@
+name,target,oligomer_count,charge_engineering,terminal_half_life_h
+HER2_monomer,HER2,1,unmodified,1.0
+HER2_trimer,HER2,3,unmodified,
+HER2_negative_trimer,HER2,3,negatively_charged_surface,

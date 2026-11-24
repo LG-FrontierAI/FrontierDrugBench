@@ -1,0 +1,42 @@
+{
+  "item_id": "AB57",
+  "parent_item_id": "AB57",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "5cefa20a308d4ee546012b3583c5ec8475d6d38224aa5b246afc4c4cea27f339",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "9cfe28914a635cbb17883134f87f15a115d88b2316370076e34ca85d4110f90d",
+      "study_information": "Example19 treats PBMCs from five donors with TAK-505 for seven days. The stated concentration series is1000,100,10,1,.1,.01pM, with triplicate wells on three plates. Table35 labels EC50 valuespM. The prose repeats summary numbers withuM, a source-unit inconsistency. Reported means Vδ1/Ki67/NKG2D/CD27 are1.73/.19/.38/14.25;SDs.80/.09/.22/30.61. The five donor identities are the biological units; technical wells and plates are not additional donors.",
+      "study_information_sha256": "08458c6658fba92113034c8e897591876821330d9e9159faae35906d60901f1f",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026115036A1"
+  ],
+  "study_id": "AB57_Vdelta1_cell_evidence_2026",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB57",
+  "expanded_bench_id": "AB57-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Auditing donor heterogeneity, units and replication",
+  "format": "open_rubric"
+}

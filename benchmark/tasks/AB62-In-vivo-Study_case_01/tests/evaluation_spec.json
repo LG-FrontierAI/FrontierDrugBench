@@ -1,0 +1,42 @@
+{
+  "item_id": "AB62",
+  "parent_item_id": "AB62",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "1982be45f81b922bad59e3d5009d868d14a6d9c4b1528b26665781f28d7ef0b2",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "e737b08f90c2da05093a7b428523523958f743801e2457a090e30ef3ab764522",
+      "study_information": "Rank all ten IL-17A/F IgG1-YTE antibodies from highest to lowest terminal half-life after IV dosing in cynomolgus monkeys. VH/VL sequences, human IL-17A/F binding and two functional assays are visible. The Fc is fixed with M252Y/S254T/T256E. The experiment used a single 50 mg/kg IV dose, four animals per group and sampling through day 49. The reference antibody had an IV half-life of 9.2 days. All target animal results are withheld; human allometric simulations are not the endpoint.",
+      "study_information_sha256": "5fac1a58d4219a19a61d3f27923cd75a21b45524714198e7414cc4c92ea173a4",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "US20260070969A1"
+  ],
+  "study_id": "US20260070969A1 Example6 Table10; real cynomolgus50mg/kgIV observedterminalhalf-life. FixedFcYTE; sequencevariable/target-mediatedeffects remain candidates. NoSCtargetmeasurements supplied.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB62",
+  "expanded_bench_id": "AB62-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting primate IV persistence among closely related IL-17A/F antibodies",
+  "format": "ranking"
+}

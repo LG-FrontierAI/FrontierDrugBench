@@ -1,0 +1,9 @@
+{
+  "schema_version": 1,
+  "name": "target_msa_fcac9774eb7efc4e",
+  "sequence_sha256": "fcac9774eb7efc4e373629e46745bac5e27f42d2f0fb1e84522e487076cebc5c",
+  "model_seeds": [
+    42
+  ],
+  "sequence_length": 425
+}

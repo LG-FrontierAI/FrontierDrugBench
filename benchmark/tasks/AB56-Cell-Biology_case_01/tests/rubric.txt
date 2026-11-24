@@ -1,0 +1,25 @@
+RUBRIC: AB56 - Separating antigen density from target-cell context
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: numbers
+    Points: 25
+    Description: Uses both donor A43120/18.4 versus A54911.7/7.1pM to reject a mandatory high-expression potency advantage.
+
+Criterion 2: confounding
+    Points: 20
+    Description: Explains that A431 versus A549 conflates density with cell-line context and lowPDL1 is not absentPDL1.
+
+Criterion 3: knockout
+    Points: 20
+    Description: Uses A549KO loss and control evidence to support assay-specific PD-L1 dependence without asserting universal independence.
+
+Criterion 4: censoring
+    Points: 15
+    Description: Keeps >1000pM right-censored rather than exactly1000 or zero.
+
+Criterion 5: time_checks
+    Points: 20
+    Description: Flags244h/24h source discrepancy and proposes isogenic density/rescue checks with explicit purpose.

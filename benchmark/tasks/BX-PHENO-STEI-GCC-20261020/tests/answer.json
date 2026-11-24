@@ -1,0 +1,45 @@
+{
+  "bench_id": "BX-PHENO-STEI-GCC-20261020",
+  "answer": [
+    0.34679,
+    0.34679,
+    0.34679,
+    0.34679,
+    0.34679,
+    0.34679,
+    0.34679
+  ],
+  "truth": 0.34679,
+  "metric": "Relative WIS",
+  "unit": "",
+  "scoring": {
+    "type": "relative_wis",
+    "metric": "Relative WIS",
+    "direction": "minimize",
+    "quantile_levels": [
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      0.95
+    ],
+    "interval_levels": [
+      0.1,
+      0.2,
+      0.5
+    ],
+    "wis_denominator": 3.5,
+    "reference": {
+      "kind": "uniform",
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "reference_wis": 0.0933157142857143
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "relative_wis"
+  }
+}

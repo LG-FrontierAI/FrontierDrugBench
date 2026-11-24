@@ -1,0 +1,42 @@
+{
+  "item_id": "AB76",
+  "parent_item_id": "AB76",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "4805e3b7e37d7d7224283d7639e5d96affb0bec440bf290205c23a421050f77b",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "60ab3e53413cfafd34a0d3c2c0bebee39b5e81b1d3de021a12318d4a4b0c8c2a",
+      "study_information": "ABS-201 singleIV100or300mg/kg cynomolgus cohorts",
+      "study_information_sha256": "4fee3d68c352def058f458bf1946752769dc7da9f54c0dc422ac149a47cf4812",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026128421A2"
+  ],
+  "study_id": "ABS-201 singleIV100or300mg/kg cynomolgus cohorts",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB76",
+  "expanded_bench_id": "AB76-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Interpreting nonlinearity in anti-PRLR primate exposure",
+  "format": "open_rubric"
+}

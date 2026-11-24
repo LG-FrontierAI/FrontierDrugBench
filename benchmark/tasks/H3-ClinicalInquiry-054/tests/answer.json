@@ -1,0 +1,41 @@
+{
+  "bench_id": "H3-ClinicalInquiry-054",
+  "answer": "I’m sorry, but no one can responsibly promise that a heart‑valve device placed in people today will have zero structural complications after 20 years when only about 2 years of clinical data are available. Long‑term structural durability depends on many factors that cannot yet be fully observed or measured, including biological interaction with the patient’s tissue, material fatigue, calcification over time, manufacturing variations, implantation technique and patient‑specific factors (age, comorbidities, medications, lifestyle).\nProsthetic heart valve durability is traditionally assessed through long-term follow-up, often over 10–20 years, because structural valve deterioration (SVD) can take many years to manifest.\nEarly data (2 years) may show excellent performance, but some complications—such as calcification, leaflet tear, or fatigue—typically emerge only after many years in use.\nPredicting zero complications over such a long period is especially speculative without seeing actual long-term results in patients.\nYou can be cautiously optimistic if the 2-year data are strong, but zero structural complications at 20 years is impossible to guarantee at this stage. Continuous, long-term follow-up remains essential. Regulatory and clinical perspectives typically require much longer-term follow-up before making such claims. With only two years of data, we can't reliably predict 20-year outcomes for the CardioFlow valve. \nIf you have more specifics (e.g., about valve type, patient population, or early results), I can help interpret the available data further!",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Inappropriately seeks additional context in a scenario where the user's query has a clear intent and does not require further clarification.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Appropriately offers a brief, focused response suited to a query with minimal uncertainty or complexity.",
+        "points": 3,
+        "tags": [
+          "level:example",
+          "axis:communication_quality"
+        ]
+      },
+      {
+        "criterion": "Correctly emphasizes that long-term structural integrity cannot be assured from short-term data, as predicting outcomes over two decades requires extended follow-up and validation beyond initial two-year findings.",
+        "points": 9,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      }
+    ],
+    "points": 12
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 12,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

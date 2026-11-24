@@ -1,0 +1,17 @@
+{
+  "item_id": "AB03-B",
+  "case_id": "case_01",
+  "parent_bench_id": "AB03-B",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": [
+    "M_94ec6406476bbfee",
+    "M_43556f14506acbdc",
+    "M_22fc23e01809c0ab",
+    "M_f0f050da0ce602ba",
+    "M_e48eccc6c71762e6"
+  ]
+}

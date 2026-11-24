@@ -1,0 +1,104 @@
+{
+  "item_id": "AB35",
+  "case_id": "case_01",
+  "task_type": "ranking",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026006698A1"
+  ],
+  "study_id": "TREM2_cell_characterization_Examples_3_4",
+  "input_sha256": "b2e91136fe8ae9408c0e5c277262d92831d4ae62beab8b48648ee68b5bb1da35",
+  "study_information_sha256": "074ae55daaaf220df588265e40874997adb25c2c3d391be12e1451f9daee15b4",
+  "target_ids": [
+    "candidate_01",
+    "candidate_02",
+    "candidate_03",
+    "candidate_04",
+    "candidate_05",
+    "candidate_06",
+    "candidate_07",
+    "candidate_08"
+  ],
+  "truth": {
+    "candidate_01": 0.6,
+    "candidate_02": 0.3,
+    "candidate_03": 1.2,
+    "candidate_04": 0.5,
+    "candidate_05": 0.1,
+    "candidate_06": 1.8,
+    "candidate_07": 0.9,
+    "candidate_08": 3.8
+  },
+  "higher_is_better": false,
+  "unit": "ug/mL",
+  "sources": [
+    {
+      "publication_number": "US20260001952A1",
+      "url": "https://patents.google.com/patent/US20260001952A1/en",
+      "publication_date": "2026-01-01",
+      "family_earliest_publication_date": "2026-01-01",
+      "disclosure_status": "verified",
+      "locator": "Table 1; Table 2; Examples 2 and 3; Figures 3 and 4",
+      "source_channel": "Google Patents HTML via web.run; US counterpart supplies textual tables unavailable in WO HTML"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "candidate_01",
+      "locator": "Table 1 sequences / Table 2 human cell EC50; Example 3 NFAT results; original antibody 08B23",
+      "sequence_locator": "Table 1, antibody 08B23",
+      "value": 0.6,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "candidate_02",
+      "locator": "Table 1 sequences / Table 2 human cell EC50; Example 3 NFAT results; original antibody 02M10",
+      "sequence_locator": "Table 1, antibody 02M10",
+      "value": 0.3,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "candidate_03",
+      "locator": "Table 1 sequences / Table 2 human cell EC50; Example 3 NFAT results; original antibody 23E21-2",
+      "sequence_locator": "Table 1, antibody 23E21-2",
+      "value": 1.2,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "candidate_04",
+      "locator": "Table 1 sequences / Table 2 human cell EC50; Example 3 NFAT results; original antibody 04H08",
+      "sequence_locator": "Table 1, antibody 04H08",
+      "value": 0.5,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "candidate_05",
+      "locator": "Table 1 sequences / Table 2 human cell EC50; Example 3 NFAT results; original antibody 22A17",
+      "sequence_locator": "Table 1, antibody 22A17",
+      "value": 0.1,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "candidate_06",
+      "locator": "Table 1 sequences / Table 2 human cell EC50; Example 3 NFAT results; original antibody 03O05",
+      "sequence_locator": "Table 1, antibody 03O05",
+      "value": 1.8,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "candidate_07",
+      "locator": "Table 1 sequences / Table 2 human cell EC50; Example 3 NFAT results; original antibody 14J17",
+      "sequence_locator": "Table 1, antibody 14J17",
+      "value": 0.9,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "candidate_08",
+      "locator": "Table 1 sequences / Table 2 human cell EC50; Example 3 NFAT results; original antibody 05O07",
+      "sequence_locator": "Table 1, antibody 05O07",
+      "value": 3.8,
+      "unit": "ug/mL"
+    }
+  ]
+}

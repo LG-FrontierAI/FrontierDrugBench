@@ -1,0 +1,47 @@
+{
+  "item_id": "AB49",
+  "case_id": "case_01",
+  "parent_bench_id": "AB49",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": [
+    "candidate_11",
+    "candidate_01",
+    "candidate_03",
+    "candidate_15",
+    "candidate_02",
+    "candidate_04",
+    "candidate_05",
+    "candidate_13",
+    "candidate_06",
+    "candidate_12",
+    "candidate_14",
+    "candidate_08",
+    "candidate_09",
+    "candidate_10"
+  ],
+  "reference": {
+    "answer": [
+      "candidate_11",
+      "candidate_01",
+      "candidate_03",
+      "candidate_15",
+      "candidate_02",
+      "candidate_04",
+      "candidate_05",
+      "candidate_13",
+      "candidate_06",
+      "candidate_12",
+      "candidate_14",
+      "candidate_08",
+      "candidate_09",
+      "candidate_10"
+    ],
+    "selfcheck": {
+      "skip": "frozen gold has tied values, so the Spearman ceiling for this case is 0.9834; a tie-respecting order reaches it and no submission can score 1.0"
+    }
+  }
+}

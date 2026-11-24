@@ -1,0 +1,135 @@
+{
+  "item_id": "AB54",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026006698A1"
+  ],
+  "study_id": "US20260001952A1_AB54",
+  "input_sha256": "c8bc060adfb6c50ff91d27d5a2903c49ff700f63b2f10cc5ca5fb5a791f43e31",
+  "study_information_sha256": "40c538d53937e63051c0dad704af4fe8f43c8a5694eda5f36ad4d2ff3dbbded6",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": true,
+  "unit": "rubric_fraction",
+  "sources": [
+    {
+      "publication_number": "US20260001952A1",
+      "url": "https://patents.google.com/patent/US20260001952A1/en",
+      "publication_date": "2026-01-01",
+      "family_earliest_publication_date": "2026-01-01",
+      "disclosure_status": "verified",
+      "locator": "Table1,Table2; Examples3,4,6,7; Figures3,4,7A-C",
+      "source_channel": "Actual nonempty web.run source1267lines; open625-700and755-775,2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "antibodypanel",
+      "locator": "Example6",
+      "sequence_locator": "not_required",
+      "value": "",
+      "unit": ""
+    },
+    {
+      "name": "antibodypanel",
+      "locator": "Example7A",
+      "sequence_locator": "not_required",
+      "value": "",
+      "unit": ""
+    },
+    {
+      "name": "antibodypanel",
+      "locator": "Example7B",
+      "sequence_locator": "not_required",
+      "value": "",
+      "unit": ""
+    },
+    {
+      "name": "antibodypanel",
+      "locator": "Example7C",
+      "sequence_locator": "not_required",
+      "value": "",
+      "unit": ""
+    },
+    {
+      "name": "02M10",
+      "locator": "Table2",
+      "sequence_locator": "not_required",
+      "value": "",
+      "unit": ""
+    },
+    {
+      "name": "22A17",
+      "locator": "Table2",
+      "sequence_locator": "not_required",
+      "value": "",
+      "unit": ""
+    }
+  ],
+  "rubric": [
+    {
+      "id": "readout",
+      "points": 25,
+      "source_locator": "Example7A-C",
+      "required_finding": "Explains acid-sensitivepHrodo reports acidiccompartment signal affected byuptake andacidification and does not directlyquantify intactcargomass."
+    },
+    {
+      "id": "species",
+      "points": 25,
+      "source_locator": "Table2;Example7",
+      "required_finding": "FlagsmurineBMDM targetengagement:02M10 has no mousebinding and22A17 mousebindingnot tested; doesnot assume everymAbengagesmouseTREM2."
+    },
+    {
+      "id": "mechanism",
+      "points": 20,
+      "source_locator": "Example7A-C",
+      "required_finding": "Doesnot inferTREM2-specificcausality fromantibodyassociation alone; Fc-receptors/otherpathways and cargo-specific effects remain possible."
+    },
+    {
+      "id": "transfer",
+      "points": 15,
+      "source_locator": "Example6/7",
+      "required_finding": "Keeps murineBMDM effectsdistinct fromhumanhiPSCmicroglia; sTREM2/confluence assaysdo notthemselvesmeasure thethreephagocytosis endpoints."
+    },
+    {
+      "id": "controls",
+      "points": 15,
+      "source_locator": "Table2;Example6/7",
+      "required_finding": "Proposes at leasttwo focuseddiscriminating controls andcausalreadout, including TREM2loss/blockade withvalidatedmouseengagement and uptake-versusacidification/Fccontrol orhumanmicrogliacargoassay."
+    }
+  ],
+  "reference_answer": "The three Example7 assays provide distinct cargo-dependent observations: pHrodo-labeledA-beta1-42, labeledPGPC/POPC lipids, and apoptoticSHSY5Y cells. Each uses murineBMDMs,20ug/mL antibody, and measurements over1–3h. pHrodo fluorescence depends on delivery to acidic compartments and their acidification. An increase is therefore not a direct measurement of the mass of internalized intact cargo, and effects on lysosomal pH or cargo degradation can contribute.\n\nA common TREM2-dependent mechanism is not established by an antibody-associated change alone. Species engagement is a specific limitation: Table2 reports no mouse binding for02M10, while22A17 and23E21-2 were not tested for mouse binding. Fc-receptor signaling and other pathways remain possible explanations. Validate mouse-target engagement, then compare the response in TREM2-deficient or blocked BMDMs using suitable matched antibody controls to test target dependence.\n\nUse pH-insensitive cargo imaging or an orthogonal internalization assay alongside an acidification control to separate uptake from compartment-pH changes; Fc-silent or matched isotype controls can assess Fc contributions. Finally, repeat the defined cargo endpoint in human microglia. Example6 measures solubleTREM2,CD11b and confluence in hiPSC-derived microglia after72h, not these three phagocytosis endpoints, so it does not establish cross-species functional equivalence.",
+  "review_validation_examples": [
+    {
+      "label": "complete_reference",
+      "response": "The three Example7 assays provide distinct cargo-dependent observations: pHrodo-labeledA-beta1-42, labeledPGPC/POPC lipids, and apoptoticSHSY5Y cells. Each uses murineBMDMs,20ug/mL antibody, and measurements over1–3h. pHrodo fluorescence depends on delivery to acidic compartments and their acidification. An increase is therefore not a direct measurement of the mass of internalized intact cargo, and effects on lysosomal pH or cargo degradation can contribute.\n\nA common TREM2-dependent mechanism is not established by an antibody-associated change alone. Species engagement is a specific limitation: Table2 reports no mouse binding for02M10, while22A17 and23E21-2 were not tested for mouse binding. Fc-receptor signaling and other pathways remain possible explanations. Validate mouse-target engagement, then compare the response in TREM2-deficient or blocked BMDMs using suitable matched antibody controls to test target dependence.\n\nUse pH-insensitive cargo imaging or an orthogonal internalization assay alongside an acidification control to separate uptake from compartment-pH changes; Fc-silent or matched isotype controls can assess Fc contributions. Finally, repeat the defined cargo endpoint in human microglia. Example6 measures solubleTREM2,CD11b and confluence in hiPSC-derived microglia after72h, not these three phagocytosis endpoints, so it does not establish cross-species functional equivalence.",
+      "expected_met_ids": [
+        "readout",
+        "species",
+        "mechanism",
+        "transfer",
+        "controls"
+      ]
+    },
+    {
+      "label": "generic_unsubstantiated_rejection",
+      "response": "All results are unreliable. Repeat every experiment and draw no conclusions.",
+      "expected_met_ids": []
+    },
+    {
+      "label": "unsupported_acceptance",
+      "response": "All claims are established because the patent reports them. No controls or data checks are necessary.",
+      "expected_met_ids": []
+    },
+    {
+      "label": "single_specific_finding",
+      "response": "pHrodo fluorescence reports acidic-compartment signal affected by both uptake and acidification, and does not directly measure intact cargo mass.",
+      "expected_met_ids": [
+        "readout"
+      ]
+    }
+  ]
+}

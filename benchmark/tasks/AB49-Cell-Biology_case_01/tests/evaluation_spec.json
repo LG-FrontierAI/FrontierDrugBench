@@ -1,0 +1,42 @@
+{
+  "item_id": "AB49",
+  "parent_item_id": "AB49",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "8896bdb5e75e25b5aa1f323cfec90f7581b9b01db4641eea67546726d705ba03",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "8fa0527a9bd246766cc7c5415c7a661249d8d4aa77db0d50fe05b6be3cc57d14",
+      "study_information": "Predict the antibody concentration inhibiting VEGF-driven proliferation of primary human umbilical-vein endothelial cells. HUVECs undergo5h serum starvation, then0.125nM humanVEGF-A165 stimulation,48h incubation and CCK-8 readout after3h. Visible reporter results come from VEGFR2-NFAT-RE-luc2 HEK293 cells exposed to0.125nM VEGF for6h; the Emaxcolumn is normalized to the reference in that reporter experiment. These readouts are not interchangeable. AK112 retains its observed HUVECIC50; new construct values are withheld. Reported ties reflect source precision and are preserved.",
+      "study_information_sha256": "d96b403efaf289e1cb002c8d10858e3ca7e4bfe37d265474e0ac0eb6820e1ab0",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026064650A1"
+  ],
+  "study_id": "AB49_VEGF_PD1_cell_transfer_2026",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB49",
+  "expanded_bench_id": "AB49-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Transferring VEGFR2 reporter inhibition to primary endothelial proliferation",
+  "format": "ranking"
+}

@@ -1,0 +1,60 @@
+{
+  "item_id": "Pocket-AbAg",
+  "case_id": "case-15",
+  "parent_bench_id": "Pocket-AbAg",
+  "answer": {
+    "cutoffs": {
+      "date": "2026-01-01",
+      "current_contact_distance_angstrom": 5.0,
+      "historical_sites": "source annotations; no uniform distance cutoff"
+    },
+    "historical_lookup_status": "FAILED",
+    "post_2026_sites": [
+      {
+        "entity_id": "3",
+        "protein_id": "protein_1",
+        "residues": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      }
+    ],
+    "historical_sites": [],
+    "combined_scoring_sites": [
+      {
+        "entity_id": "3",
+        "protein_id": "protein_1",
+        "residues": [
+          19,
+          20,
+          21,
+          22,
+          23,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ]
+      }
+    ]
+  }
+}

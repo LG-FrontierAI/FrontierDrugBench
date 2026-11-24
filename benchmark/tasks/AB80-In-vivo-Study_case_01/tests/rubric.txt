@@ -1,0 +1,25 @@
+RUBRIC: AB80 - Handling mortality and model transfer in TL1A/alpha4beta7 studies
+
+Total Points: 100/100
+
+CRITERIA (4):
+
+Criterion 1: model
+    Points: 20
+    Description: SeparateDSS/TNBS,regimens andcombination arms.
+    Source: Animalexamples
+
+Criterion 2: death
+    Points: 25
+    Description: Preserve reportedDay5mortality withoutinventingcounts ormechanism.
+    Source: TNBSnarrative
+
+Criterion 3: selection
+    Points: 25
+    Description: Recognize survivorselection; do notimputedeath asnormalPD ordiscardanimals.
+    Source: Survival/PDexamples
+
+Criterion 4: checks
+    Points: 30
+    Description: Propose prespecifiedsurvival/jointendpoint andmatched dosing/exposure/surrogate controls.
+    Source: Animalexamples

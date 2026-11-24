@@ -1,0 +1,81 @@
+{
+  "bench_id": "H3-ClinicalInquiry-049",
+  "answer": "Repeated rinsing of the mouth can dislodge the blood clot that should form after a tooth extraction, and that can lead to continued bleeding. After an extraction, slight oozing of blood or pinkish saliva is considered normal for up to 24 hours, but there are measures you can take to help the bleeding stop.\n\nRecommendations:\n1.\tUse Gauze: Place the pad given by the dentist, or a clean sterile gauze, over the extraction site and bite on it firmly with light pressure for about 30-45 minutes. This helps the blood to clot.\n2.\tAvoid Rinsing: For the first 24 hours avoid rinsing your mouth, spitting or sucking movements. Do not use a straw. These movements can dislodge the blood clot and cause the bleeding to continue.\n3.\tFood and Drink: Avoid hot, hard or crunchy foods. Prefer soft and lukewarm (not hot) food. Heat dilates blood vessels and can increase bleeding.\n4.\tKeep Your Head Raised: When sleeping or resting, try to keep your head raised by supporting it with a pillow. This position can reduce blood flow and help control the bleeding.\n5.\tDo Not Use Tobacco or Alcohol: If you use them, you should avoid smoking and alcohol for the first 24 hours. These substances can delay healing and increase bleeding.\n6.\tAvoid Physical Activity: Physical activities such as exercise or heavy lifting can raise blood pressure and cause bleeding. Try to rest for the first 24 hours.\n7.\tApply Cold: You can apply an ice pack to the outside of the chin at intervals. This reduces swelling while also helping to control the bleeding.\n\nIf the bleeding does not stop or becomes heavier, or if other worrying signs appear (increasing pain, swelling, fever), you should see your dentist as soon as possible. Your dentist can assess the situation and carry out any additional treatment that is needed.\n\nRemember that each person's healing process can be different, so it is best to follow the specific instructions your dentist gave you.",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Explains that mild oozing or blood-tinged saliva can normally continue for up to 24 hours after tooth extraction.",
+        "points": 5,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Lists specific activities to avoid after tooth extraction, such as hot foods/drinks, smoking, vigorous rinsing, and physical exertion.",
+        "points": 5,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Acknowledges the effects of blood-thinning medications on post-extraction bleeding.",
+        "points": 4,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Provides clear warning signs beyond continued bleeding, such as fever, severe swelling, and throbbing pain, that require dental attention.",
+        "points": 9,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Uses a single 24-hour timeframe for all bleeding without distinguishing between continuous active bleeding versus occasional oozing. (Justification: This oversimplification could delay care for concerning active bleeding that should diminish within 4-6 hours.)",
+        "points": -5,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Recommends waiting more than 6 hours before seeking help for continuous active bright red bleeding.",
+        "points": -10,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Does not explain how water rinsing specifically disrupts blood clot formation after tooth extraction.",
+        "points": -6,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Does not recommend vigorous rinsing or spitting within the first 24 hours after tooth extraction.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      }
+    ],
+    "points": 23
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 23,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

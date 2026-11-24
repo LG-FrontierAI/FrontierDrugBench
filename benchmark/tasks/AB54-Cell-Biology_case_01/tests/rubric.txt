@@ -1,0 +1,30 @@
+RUBRIC: AB54 - Separating uptake observations from TREM2-specific phagocytosis mechanism
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: readout
+    Points: 25
+    Description: Explains acid-sensitivepHrodo reports acidiccompartment signal affected byuptake andacidification and does not directlyquantify intactcargomass.
+    Source: Example7A-C
+
+Criterion 2: species
+    Points: 25
+    Description: FlagsmurineBMDM targetengagement:02M10 has no mousebinding and22A17 mousebindingnot tested; doesnot assume everymAbengagesmouseTREM2.
+    Source: Table2;Example7
+
+Criterion 3: mechanism
+    Points: 20
+    Description: Doesnot inferTREM2-specificcausality fromantibodyassociation alone; Fc-receptors/otherpathways and cargo-specific effects remain possible.
+    Source: Example7A-C
+
+Criterion 4: transfer
+    Points: 15
+    Description: Keeps murineBMDM effectsdistinct fromhumanhiPSCmicroglia; sTREM2/confluence assaysdo notthemselvesmeasure thethreephagocytosis endpoints.
+    Source: Example6/7
+
+Criterion 5: controls
+    Points: 15
+    Description: Proposes at leasttwo focuseddiscriminating controls andcausalreadout, including TREM2loss/blockade withvalidatedmouseengagement and uptake-versusacidification/Fccontrol orhumanmicrogliacargoassay.
+    Source: Table2;Example6/7

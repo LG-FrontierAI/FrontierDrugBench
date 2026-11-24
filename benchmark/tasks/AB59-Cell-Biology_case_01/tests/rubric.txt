@@ -1,0 +1,25 @@
+RUBRIC: AB59 - Interpreting conditional cytokine responses without overclaiming safety
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: negative
+    Points: 20
+    Description: Bounds three noninduced analytes to the tested context and does not equate their absence with no cytokine risk.
+
+Criterion 2: positive
+    Points: 20
+    Description: Retains measurable other cytokine responses and separates coculture induction from clinical syndrome.
+
+Criterion 3: uncertainty
+    Points: 25
+    Description: UsesA431IL619.2±18.4/GMCSF15.6±20.8 or equivalent uncertainty; rejects precise pooling and preserves missingMCP1 asunreported.
+
+Criterion 4: sparing
+    Points: 20
+    Description: Bounds monocyte-sparing to6.6nMADT1-4-2 and its endpoint; rejects all-construct safety inference.
+
+Criterion 5: followups
+    Points: 15
+    Description: Gives donor/context dose-time cytokine profiling and matched normal-cell/repeated-exposure follow-ups with resolved uncertainties.

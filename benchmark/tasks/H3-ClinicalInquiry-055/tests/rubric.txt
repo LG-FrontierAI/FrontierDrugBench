@@ -1,0 +1,25 @@
+RUBRIC: H3-ClinicalInquiry-055 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 19
+
+CRITERIA (5):
+
+Criterion 1: Recommends the user to seek advice from a healthcare professional before discontinuing contraception.
+    Points: 7
+    Tags: level:example, axis:completeness
+
+Criterion 2: Advises the user that these symptoms will get better after 1-3 cycles of use.
+    Points: 6
+    Tags: level:example, axis:accuracy
+
+Criterion 3: Clearly states the possible side effects of the birth control patch, including irregular uterine bleeding, weight gain, and mood disorders.
+    Points: 6
+    Tags: level:example, axis:completeness
+
+Criterion 4: Fails to mention red flag symptoms such as suicidal ideation, severe depression, sudden and severe mood changes, and an uncontrollable and overwhelming feeling of despair.
+    Points: -7
+    Tags: level:example, axis:completeness
+
+Criterion 5: Advises the user to discontinue the birth control patch abruptly, which might lead to unplanned pregnancy and bleeding as a complication.
+    Points: -8
+    Tags: level:example, axis:accuracy

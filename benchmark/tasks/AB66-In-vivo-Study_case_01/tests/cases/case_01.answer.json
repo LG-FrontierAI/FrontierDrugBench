@@ -1,0 +1,62 @@
+{
+  "item_id": "AB66",
+  "case_id": "case_01",
+  "task_type": "numeric",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2024263567A2"
+  ],
+  "study_id": "WO2024263567A2 Example5 Tables8A/8B/9/10. HumanTfRKI mice, enzymeimmunoassay. Actual dose for this exact concentration series is not specified in accessible methods; do not infer one from separate PDstudies. PTV11 is an older visible reference.",
+  "input_sha256": "47a24669ba2fa3c22f9f9129e5ee2b3215a864b3e2b8cc144eb65526b618eb46",
+  "study_information_sha256": "c2a04e07425d87fab496ef6236073e6665ebdf628d47e9760c313b066a993f87",
+  "target_ids": [
+    "sandwich1_h24",
+    "sandwich2_h24",
+    "kappa3_h24"
+  ],
+  "truth": {
+    "sandwich1_h24": 134.69,
+    "sandwich2_h24": 1346.26,
+    "kappa3_h24": 76.3
+  },
+  "higher_is_better": true,
+  "unit": "pg/mL",
+  "sources": [
+    {
+      "publication_number": "WO2024263567A2",
+      "url": "https://patents.google.com/patent/WO2024263567A2/en",
+      "publication_date": "2024-12-26",
+      "family_earliest_publication_date": "2024-12-26",
+      "disclosure_status": "verified",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "source_channel": "web.run Google Patents WO family metadata and US table transcription",
+      "readable_publication_number": "US20250000992A1",
+      "readable_url": "https://patents.google.com/patent/US20250000992A1/en",
+      "disclosure_check": "WO2024263567A2 first2024-12-26, priority2023-06-21; A3/A9 are later documents. OlderPTV11 reference explicitly attributed by patent to US20210284702/WO2019246071 and not scored as new candidate."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "sandwich1_h24",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 134.69,
+      "unit": "pg/mL"
+    },
+    {
+      "name": "sandwich2_h24",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 1346.26,
+      "unit": "pg/mL"
+    },
+    {
+      "name": "kappa3_h24",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 76.3,
+      "unit": "pg/mL"
+    }
+  ]
+}

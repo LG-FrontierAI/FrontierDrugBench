@@ -1,0 +1,45 @@
+{
+  "bench_id": "BX-UKHSA-RSV-U5-2026W43",
+  "answer": [
+    6.56,
+    6.56,
+    6.56,
+    6.56,
+    6.56,
+    6.56,
+    6.56
+  ],
+  "truth": 6.56,
+  "metric": "Relative WIS",
+  "unit": "",
+  "scoring": {
+    "type": "relative_wis",
+    "metric": "Relative WIS",
+    "direction": "minimize",
+    "quantile_levels": [
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      0.95
+    ],
+    "interval_levels": [
+      0.1,
+      0.2,
+      0.5
+    ],
+    "wis_denominator": 3.5,
+    "reference": {
+      "kind": "persistence",
+      "point": 3.6,
+      "note": "degenerate forecast at the last pre-cutoff observation"
+    },
+    "reference_wis": 2.9599999999999995
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "relative_wis"
+  }
+}

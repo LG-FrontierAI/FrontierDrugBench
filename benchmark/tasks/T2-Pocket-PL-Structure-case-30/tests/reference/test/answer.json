@@ -1,0 +1,292 @@
+{
+  "item_id": "Pocket-PL",
+  "case_id": "case-30",
+  "parent_bench_id": "Pocket-PL",
+  "answer": {
+    "cutoffs": {
+      "date": "2026-01-01",
+      "current_contact_distance_angstrom": 5.0,
+      "historical_sites": "source annotations; no uniform distance cutoff"
+    },
+    "historical_lookup_status": "SUCCESS",
+    "post_2026_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          171,
+          289,
+          290,
+          344,
+          350,
+          442,
+          443,
+          444,
+          446,
+          457,
+          461,
+          563,
+          653,
+          654,
+          655
+        ]
+      }
+    ],
+    "historical_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          171,
+          443,
+          444,
+          446
+        ],
+        "evidence_date": "2016-09-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          171,
+          443,
+          444,
+          446
+        ],
+        "evidence_date": "2016-09-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          171,
+          443,
+          444,
+          446
+        ],
+        "evidence_date": "2016-09-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          171,
+          443,
+          444,
+          446
+        ],
+        "evidence_date": "2016-09-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          171,
+          350,
+          443,
+          444,
+          446
+        ],
+        "evidence_date": "2016-09-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          171,
+          443,
+          444,
+          446
+        ],
+        "evidence_date": "2016-09-28",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          350,
+          444,
+          446,
+          457
+        ],
+        "evidence_date": "2019-01-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          350,
+          443,
+          444,
+          446
+        ],
+        "evidence_date": "2019-01-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          350,
+          443,
+          444,
+          446,
+          461
+        ],
+        "evidence_date": "2019-01-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          350,
+          443,
+          444,
+          446,
+          457,
+          461
+        ],
+        "evidence_date": "2019-01-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          350,
+          444,
+          446,
+          457
+        ],
+        "evidence_date": "2019-01-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          350,
+          443,
+          444,
+          446,
+          457,
+          461
+        ],
+        "evidence_date": "2019-01-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          350,
+          444,
+          446
+        ],
+        "evidence_date": "2019-01-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          350,
+          444,
+          446
+        ],
+        "evidence_date": "2019-01-16",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          171,
+          350,
+          444,
+          446,
+          457,
+          461,
+          655
+        ],
+        "evidence_date": "2020-11-04",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          171,
+          350,
+          444,
+          446,
+          457,
+          461,
+          655
+        ],
+        "evidence_date": "2020-11-04",
+        "source_database": "BioLiP_annotation_table"
+      }
+    ],
+    "combined_scoring_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          171,
+          289,
+          290,
+          344,
+          350,
+          442,
+          443,
+          444,
+          446,
+          457,
+          461,
+          563,
+          653,
+          654,
+          655
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          163,
+          350,
+          444,
+          446,
+          457
+        ]
+      }
+    ]
+  }
+}

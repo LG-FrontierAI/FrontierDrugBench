@@ -1,0 +1,18 @@
+{
+  "item_id": "AB48",
+  "case_id": "case_01",
+  "parent_bench_id": "AB48",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": [
+    "candidate_02",
+    "candidate_05",
+    "candidate_07",
+    "candidate_04",
+    "candidate_03",
+    "candidate_06"
+  ]
+}

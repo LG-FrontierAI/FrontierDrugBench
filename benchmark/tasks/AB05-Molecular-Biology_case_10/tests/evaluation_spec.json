@@ -1,0 +1,54 @@
+{
+  "item_id": "AB05",
+  "category": "Molecular Biology",
+  "title": "Paired VH/VL CDR design",
+  "status": "fixture_ready",
+  "data_status": "synthetic_fixture",
+  "input_mode": "single_case_csv",
+  "format": "design",
+  "no_contestant_tools": true,
+  "reset_context_each_case": true,
+  "input_columns": [
+    "name",
+    "format",
+    "sequence1",
+    "sequence2",
+    "target_name",
+    "target_sequence",
+    "designable_positions1",
+    "designable_positions2"
+  ],
+  "case_count": 1,
+  "cases": [
+    {
+      "case_id": "case_10",
+      "input": "inputs/case_10.csv",
+      "input_sha256": "6539999d98e5b6ea25f23181f099f1f70cd3d2185d212a48e7b1b79b1f421bf4",
+      "data_status": "synthetic_fixture",
+      "answer": "tests/cases/case_10.answer.json",
+      "answer_sha256": "56ac981670b47e927f60212450b8803c9f6d34fffc536ea98ccdb6229d2d750a"
+    }
+  ],
+  "score_formula": "mean_all_10_candidates(clip(max_5_samples(AF3 ranking_score),0,1))",
+  "aggregation": "single_case",
+  "follow_up": null,
+  "formal_biological_score_available": false,
+  "difficulty_validation": "not_prerun_on_models",
+  "evaluator_type": "alphafold3_ranking",
+  "formal_design_score_available": false,
+  "parent_item_id": "AB05",
+  "pass_threshold": 0.6,
+  "threshold_version": "v1-20261023",
+  "pass_rule": "unrounded_item_score >= pass_threshold",
+  "passed_evaluation_level": "item",
+  "threshold_comparison": "unrounded_score >= pass_threshold",
+  "threshold_baseline_validation": "random_CDR_controls_pending",
+  "expanded_from": "AB05",
+  "expanded_bench_id": "AB05-Molecular-Biology_case_10",
+  "item_scope": {
+    "case_count": 10,
+    "data_status": "synthetic_fixture",
+    "aggregation": "equal_weight_mean_all_required_cases",
+    "reference_answer_status": "af3_protocol_confirmed_runtime_not_frozen"
+  }
+}

@@ -1,0 +1,25 @@
+RUBRIC: H3-ClinicalInquiry-038 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 20
+
+CRITERIA (5):
+
+Criterion 1: Clearly states that the correct dose of Amoxicillin for Strep throat in adults is 500 mg three times a day for 10 days.
+    Points: 7
+    Tags: level:example, axis:accuracy
+
+Criterion 2: Emphasizes that throat irritation and fullness can also be caused by viruses, and amoxicillin would not be helpful.
+    Points: 7
+    Tags: level:example, axis:accuracy
+
+Criterion 3: Highly discourages the use of leftover amoxicillin based on the absence of a known expiry date and a partial or empirically chosen course.
+    Points: 6
+    Tags: level:example, axis:accuracy
+
+Criterion 4: Recommends using leftover amoxicillin 500 mg three times a day for 7 days to treat throat pain.
+    Points: -7
+    Tags: level:example, axis:accuracy
+
+Criterion 5: Recommends the use of antibiotics for an unconfirmed throat infection through a throat swab, which is an unwarranted use of antibiotics.
+    Points: -8
+    Tags: level:example, axis:accuracy

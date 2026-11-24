@@ -1,0 +1,89 @@
+{
+  "item_id": "AB64",
+  "case_id": "case_01",
+  "task_type": "ranking",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026064650A1"
+  ],
+  "study_id": "WO2026064650A1 / US20260109769A1 Example15 Table24. Male cynomolgus IV bolus; n=5 per group; 28-day sampling. In-vitro values explicitly match .1L constructs. AK112 is a prior reference, not a new 2026 candidate.",
+  "input_sha256": "98ca57beecafd027ab713871bf21d69f86fbbc03c2f597643db22fb2c61842f2",
+  "study_information_sha256": "8756e6e32d137d15db5df028a166600f454eaccf65a28b686fab0ae7e1bf33e0",
+  "target_ids": [
+    "PAL054_0157_1L",
+    "PAL054_0167_1L",
+    "PAL054_0168_1L",
+    "PAL054_0169_1L",
+    "PAL054_0170_1L",
+    "PAL054_0171_1L"
+  ],
+  "truth": {
+    "PAL054_0157_1L": 2.97,
+    "PAL054_0167_1L": 2.09,
+    "PAL054_0168_1L": 3.12,
+    "PAL054_0169_1L": 2.4,
+    "PAL054_0170_1L": 3.57,
+    "PAL054_0171_1L": 3.15
+  },
+  "higher_is_better": true,
+  "unit": "days",
+  "sources": [
+    {
+      "publication_number": "WO2026064650A1",
+      "url": "https://patents.google.com/patent/WO2026064650A1/en",
+      "publication_date": "2026-03-26",
+      "family_earliest_publication_date": "2026-03-26",
+      "disclosure_status": "verified",
+      "locator": "Examples 5-8,14-15; Tables16,17,19C,20A,23,24. Table-readable same-family US20260109769A1.",
+      "source_channel": "web.run Google Patents primary WO and same-family US publication",
+      "readable_publication_number": "US20260109769A1",
+      "readable_url": "https://patents.google.com/patent/US20260109769A1/en",
+      "disclosure_check": "Checked WO family priority 2024-09-20, PCT filing 2025-09-19 and first publication 2026-03-26; US continuation publication 2026-04-23. New engineered clone Table24 results belong to this family, not earlier marketed AK112 control."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "PAL054_0157_1L",
+      "locator": "Examples 5-8,14-15; Tables16,17,19C,20A,23,24. Table-readable same-family US20260109769A1.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 2.97,
+      "unit": "days"
+    },
+    {
+      "name": "PAL054_0167_1L",
+      "locator": "Examples 5-8,14-15; Tables16,17,19C,20A,23,24. Table-readable same-family US20260109769A1.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 2.09,
+      "unit": "days"
+    },
+    {
+      "name": "PAL054_0168_1L",
+      "locator": "Examples 5-8,14-15; Tables16,17,19C,20A,23,24. Table-readable same-family US20260109769A1.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 3.12,
+      "unit": "days"
+    },
+    {
+      "name": "PAL054_0169_1L",
+      "locator": "Examples 5-8,14-15; Tables16,17,19C,20A,23,24. Table-readable same-family US20260109769A1.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 2.4,
+      "unit": "days"
+    },
+    {
+      "name": "PAL054_0170_1L",
+      "locator": "Examples 5-8,14-15; Tables16,17,19C,20A,23,24. Table-readable same-family US20260109769A1.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 3.57,
+      "unit": "days"
+    },
+    {
+      "name": "PAL054_0171_1L",
+      "locator": "Examples 5-8,14-15; Tables16,17,19C,20A,23,24. Table-readable same-family US20260109769A1.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 3.15,
+      "unit": "days"
+    }
+  ]
+}

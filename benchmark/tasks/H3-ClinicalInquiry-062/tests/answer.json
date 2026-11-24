@@ -1,0 +1,73 @@
+{
+  "bench_id": "H3-ClinicalInquiry-062",
+  "answer": "(No reference ideal answer was provided in the source data; this item is graded by the judge model against the frozen rubric only.)",
+  "reference_available": false,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Offers accurate guidance on the use of muscle supplements, detailing appropriate timing, dosage, and method of administration.",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Provides general recommendations for weight gain, including regular exercise, the use of muscle supplements, sufficient rest, and a higher caloric intake.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Notes that taking muscle supplements without accompanying exercise may result in increased body fat rather than muscle gain.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Asks about the user’s sex, weight, height, and dietary intake to provide appropriate guidance for a weight gain plan.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Fails to ask for specific information, such as weight, height, dietary intake, and activity levels, to provide appropriate guidance for a weight gain plan.",
+        "points": -5,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Overstates the certainty of the effectiveness of muscle supplements, which should be used with caution.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Asserts that muscle supplements can promote weight gain without addressing the potential for increased body fat in the absence of exercise.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      }
+    ],
+    "points": 27
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 27,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

@@ -1,0 +1,93 @@
+---
+bench_id: Pep-072-Cell-Biology-cAMP-EC50-GLP1R
+category: "Cell-Biology"
+format: ranking
+---
+# Prompt
+
+Target: **human GLP-1R**  
+Assay: **HEK293 stable transfection; CisBio cAMP, 20 min**  
+Property to rank: **human GLP-1R cAMP EC50**
+
+Rank the listed candidates from lower to higher measured human GLP-1R cAMP EC50. Predict the ranking using the supplied candidate sequences, sequence-notation definitions, molecular annotations, and assay context. The measured values are withheld from the model and used only by the evaluator.
+
+{
+  "target": "human GLP-1R",
+  "assay": "HEK293 stable transfection; CisBio cAMP, 20 min",
+  "endpoint": "human GLP-1R cAMP EC50",
+  "direction_to_rank": "lower to higher",
+  "context": {
+    "target": "human GLP-1R",
+    "cell_system": "HEK293 stable transfection",
+    "readout": "CisBio cAMP",
+    "unit": "nM"
+  },
+  "candidates": [
+    {
+      "id": "SEQ ID NO:44",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-A-Q-B₁⁸-A-Z₉-VQWLI-A-GGPSSG-Z-PPPS-NH₂"
+    },
+    {
+      "id": "SEQ ID NO:1",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-Z-Q-B₁⁸-Z-F-VQWLI-Z-GGPSSGSPPPS-NH₂"
+    },
+    {
+      "id": "SEQ ID NO:45",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-A-Q-B₁⁸-A-Z₁₀-VQWLI-A-GGPSSG-Z-PPPS-NH₂"
+    },
+    {
+      "id": "SEQ ID NO:2",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-A-Q-B₁⁸-Z-F-VQWLI-A-GGPSSG-Z-PPPS-NH₂"
+    },
+    {
+      "id": "SEQ ID NO:46",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-A-Q-B₁⁸-A-Z₁₁-VQWLI-A-GGPSSG-Z-PPPS-NH₂"
+    },
+    {
+      "id": "SEQ ID NO:3",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-A-Q-B₁⁸-A-F-VQWLI-A-GGPSSG-Z-PPPS-NH₂"
+    },
+    {
+      "id": "SEQ ID NO:47",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-A-Q-B₁⁸-A-Z₁₂-VQWLI-A-GGPSSG-Z-PPPS-NH₂"
+    },
+    {
+      "id": "SEQ ID NO:4",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-A-Q-B₁⁸-Z₄-F-VQWLI-A-GGPSSG-Z-PPPS-NH₂"
+    },
+    {
+      "id": "SEQ ID NO:48",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-A-Q-B₁⁸-A-Z₁₃-VQWLI-A-GGPSSG-Z-PPPS-NH₂"
+    },
+    {
+      "id": "SEQ ID NO:5",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-A-Q-B₁⁸-Z₅-F-VQWLI-A-GGPSSG-Z-PPPS-NH₂"
+    },
+    {
+      "id": "SEQ ID NO:49",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-A-Q-B₁⁸-A-F-VQWLI-Z-GGPSSGSPPPS-NH₂"
+    },
+    {
+      "id": "SEQ ID NO:6",
+      "value_unit": "nM",
+      "sequence": "Y-Z-EGTFTSDYSI-Z-LDKI-A-Q-B₁⁸-Z-Z⁸-VQWLI-A-GGPSSGAPPPS-NH₂"
+    }
+  ],
+  "sequence_notation": {
+    "source": "WO2026011797, paragraph 0195",
+    "verbatim_definition": "[0195] In the above peptide sequences: Z is an α-aminoisobutyric acid residue; Z₁ is a 2-amino-3,3,3-trifluoro-2-methylpropanoic acid residue; Z₂ is a 1-aminocyclobutane carboxylic acid residue; Z₃ is an isovaline residue; Z₄ is a 2-aminobutyric acid residue; Z₅ is a norvaline residue; Z₆ is a 3-(1-naphthyl)-alanine residue; Z₇ is a 3-chlorophenylalanine residue; Z⁸ is a 3-trifluoromethylphenylalanine residue; Z₉ is a 3-fluorophenylalanine residue; Z₁₀ is a 2-fluorophenylalanine residue; Z₁₁ is a 2-chlorophenylalanine residue; Z₁₂ is a 2-trifluoromethylphenylalanine residue; Z₁₃ is a 3-(2-naphthyl)-alanine residue; Z₁₄ is a D-serine residue; B₁₆ is a lysine residue whose side-chain ε-amino group is modified with ([2-(2-amino-ethoxy)-ethoxy]-acetyl)₂ -(γGlu)₁ -CO-(CH₂)₁₆ -CO₂ H; B₁₇ is a lysine residue whose side-chain ε-amino group is modified with ([2-(2-amino-ethoxy)-ethoxy]-acetyl)₂ -(γGlu)₁ -CO-(CH₂)₁₇ -CO₂ H; B₁⁸ is a lysine residue whose side-chain ε-amino group is modified with ([2-(2-amino-ethoxy)-ethoxy]-acetyl)₂ -(γGlu)₁ -CO-(CH₂)₁⁸ -CO₂ H; B₁₉ is a lysine residue whose side-chain ε-amino group is modified with ([2-(2-amino-ethoxy)-ethoxy]-acetyl)₂ -(γGlu)₁ -CO-(CH₂)₁₉ -CO₂ H; B₂₀ is a lysine residue whose side-chain ε-amino group is modified with ([2-(2-amino-ethoxy)-ethoxy]-acetyl)₂ -(γGlu)₁ -CO-(CH₂)₂₀ -CO₂ H; B₂₁ is a lysine residue whose side-chain ε-amino group is modified with ([2-(2-amino-ethoxy)-ethoxy]-acetyl)₂ -(γGlu)₁ -CO-(CH₂)₂₁ -CO₂ H; B₂₂ is a lysine residue whose side-chain ε-amino group is modified with ([2-(2-amino-ethoxy)-ethoxy]-acetyl)₂ -(γGlu)₁ -CO-(CH₂)₂₂ -CO₂ H."
+  }
+}
+
+Return one JSON array of candidate IDs in the requested order. Do not include explanations. For equal values, sort IDs ascending.

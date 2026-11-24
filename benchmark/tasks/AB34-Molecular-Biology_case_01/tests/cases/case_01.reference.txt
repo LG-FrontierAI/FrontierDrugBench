@@ -1,0 +1,1 @@
+{"molecule_04": 1, "molecule_06": 0, "molecule_01": 0, "molecule_07": 0, "molecule_08": 1, "molecule_02": 0, "molecule_03": 0, "molecule_05": 1}

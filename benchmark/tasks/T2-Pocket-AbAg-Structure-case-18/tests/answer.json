@@ -1,0 +1,108 @@
+{
+  "bench_id": "T2-Pocket-AbAg-Structure-case-18",
+  "answer": {
+    "item_id": "Pocket-AbAg",
+    "task_family": "T2 epitope from antigen sequence",
+    "case_id": "case-18",
+    "site_count": 1,
+    "residue_count": 67,
+    "metric": "post2026_micro_f1",
+    "gold_source": "tests/reference/test/answer.json"
+  },
+  "reference": {
+    "mode": "structure_case",
+    "gold_source": "tests/reference/test/answer.json",
+    "example_model_answer": {
+      "epitopes": [
+        {
+          "rank": 1,
+          "protein_id": "protein_1",
+          "residues": [
+            21,
+            23,
+            25,
+            43,
+            44,
+            47,
+            49,
+            50,
+            54,
+            58,
+            60,
+            62,
+            64,
+            72,
+            73,
+            76,
+            80,
+            81,
+            82,
+            83,
+            94,
+            95,
+            96,
+            97,
+            98,
+            107,
+            113,
+            114,
+            117,
+            118,
+            125,
+            126,
+            127,
+            128,
+            130,
+            131,
+            132,
+            133,
+            134,
+            135,
+            136,
+            137,
+            138,
+            139,
+            140,
+            150,
+            151,
+            152,
+            153,
+            158,
+            161,
+            162,
+            166,
+            167,
+            168,
+            169,
+            170,
+            171,
+            172,
+            173,
+            174,
+            176,
+            182,
+            184,
+            185,
+            186,
+            187
+          ]
+        }
+      ]
+    }
+  },
+  "scoring": {
+    "type": "structure_case",
+    "module": "_scoring/pocket.py",
+    "metric": "post2026_micro_f1",
+    "range": [
+      0.0,
+      1.0
+    ]
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "structure_case",
+    "scorer": "tests/score.py",
+    "full_marks": 1.0
+  }
+}

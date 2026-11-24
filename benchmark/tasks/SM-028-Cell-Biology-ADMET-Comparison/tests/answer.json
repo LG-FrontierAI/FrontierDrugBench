@@ -1,0 +1,297 @@
+{
+  "answer": {
+    "ER-T01": [
+      "M014",
+      "M013"
+    ],
+    "ER-T02": [
+      "M019",
+      "M017"
+    ],
+    "ER-T03": [
+      "M023",
+      "M025"
+    ],
+    "ER-T04": [
+      "M030",
+      "M028"
+    ],
+    "ER-P01": "M031",
+    "ER-P02": "M034",
+    "ER-P03": "M036",
+    "ER-P04": "M038",
+    "ER-P05": "M040",
+    "ER-P06": "M042",
+    "ER-P07": "M043",
+    "ER-P08": "M045",
+    "ER-P09": "M047",
+    "ER-P10": "M050",
+    "ER-R01": [
+      "M055",
+      "M052",
+      "M054",
+      "M051",
+      "M053"
+    ],
+    "ER-R02": [
+      "M060",
+      "M058",
+      "M059",
+      "M057",
+      "M056"
+    ]
+  },
+  "scoring": {
+    "raw_total_points": 30.0,
+    "total_points": 100,
+    "items": {
+      "ER-T01": {
+        "type": "top2",
+        "raw_points": 2.5,
+        "candidates": [
+          "M011",
+          "M012",
+          "M013",
+          "M014",
+          "M015"
+        ],
+        "points": 8.333333333333334
+      },
+      "ER-T02": {
+        "type": "top2",
+        "raw_points": 2.5,
+        "candidates": [
+          "M016",
+          "M017",
+          "M018",
+          "M019",
+          "M020"
+        ],
+        "points": 8.333333333333334
+      },
+      "ER-T03": {
+        "type": "top2",
+        "raw_points": 2.5,
+        "candidates": [
+          "M021",
+          "M022",
+          "M023",
+          "M024",
+          "M025"
+        ],
+        "points": 8.333333333333334
+      },
+      "ER-T04": {
+        "type": "top2",
+        "raw_points": 2.5,
+        "candidates": [
+          "M026",
+          "M027",
+          "M028",
+          "M029",
+          "M030"
+        ],
+        "points": 8.333333333333334
+      },
+      "ER-P01": {
+        "type": "pair",
+        "raw_points": 1,
+        "candidates": [
+          "M031",
+          "M032"
+        ],
+        "points": 3.3333333333333335
+      },
+      "ER-P02": {
+        "type": "pair",
+        "raw_points": 1,
+        "candidates": [
+          "M033",
+          "M034"
+        ],
+        "points": 3.3333333333333335
+      },
+      "ER-P03": {
+        "type": "pair",
+        "raw_points": 1,
+        "candidates": [
+          "M035",
+          "M036"
+        ],
+        "points": 3.3333333333333335
+      },
+      "ER-P04": {
+        "type": "pair",
+        "raw_points": 1,
+        "candidates": [
+          "M037",
+          "M038"
+        ],
+        "points": 3.3333333333333335
+      },
+      "ER-P05": {
+        "type": "pair",
+        "raw_points": 1,
+        "candidates": [
+          "M039",
+          "M040"
+        ],
+        "points": 3.3333333333333335
+      },
+      "ER-P06": {
+        "type": "pair",
+        "raw_points": 1,
+        "candidates": [
+          "M041",
+          "M042"
+        ],
+        "points": 3.3333333333333335
+      },
+      "ER-P07": {
+        "type": "pair",
+        "raw_points": 1,
+        "candidates": [
+          "M043",
+          "M044"
+        ],
+        "points": 3.3333333333333335
+      },
+      "ER-P08": {
+        "type": "pair",
+        "raw_points": 1,
+        "candidates": [
+          "M045",
+          "M046"
+        ],
+        "points": 3.3333333333333335
+      },
+      "ER-P09": {
+        "type": "pair",
+        "raw_points": 1,
+        "candidates": [
+          "M047",
+          "M048"
+        ],
+        "points": 3.3333333333333335
+      },
+      "ER-P10": {
+        "type": "pair",
+        "raw_points": 1,
+        "candidates": [
+          "M049",
+          "M050"
+        ],
+        "points": 3.3333333333333335
+      },
+      "ER-R01": {
+        "type": "rank",
+        "raw_points": 5,
+        "candidates": [
+          "M051",
+          "M052",
+          "M053",
+          "M054",
+          "M055"
+        ],
+        "scored_relations": [
+          [
+            "M055",
+            "M052"
+          ],
+          [
+            "M055",
+            "M054"
+          ],
+          [
+            "M055",
+            "M051"
+          ],
+          [
+            "M055",
+            "M053"
+          ],
+          [
+            "M052",
+            "M054"
+          ],
+          [
+            "M052",
+            "M051"
+          ],
+          [
+            "M052",
+            "M053"
+          ],
+          [
+            "M054",
+            "M051"
+          ],
+          [
+            "M054",
+            "M053"
+          ],
+          [
+            "M051",
+            "M053"
+          ]
+        ],
+        "points": 16.666666666666668
+      },
+      "ER-R02": {
+        "type": "rank",
+        "raw_points": 5,
+        "candidates": [
+          "M056",
+          "M057",
+          "M058",
+          "M059",
+          "M060"
+        ],
+        "scored_relations": [
+          [
+            "M060",
+            "M058"
+          ],
+          [
+            "M060",
+            "M059"
+          ],
+          [
+            "M060",
+            "M057"
+          ],
+          [
+            "M060",
+            "M056"
+          ],
+          [
+            "M058",
+            "M059"
+          ],
+          [
+            "M058",
+            "M057"
+          ],
+          [
+            "M058",
+            "M056"
+          ],
+          [
+            "M059",
+            "M057"
+          ],
+          [
+            "M059",
+            "M056"
+          ],
+          [
+            "M057",
+            "M056"
+          ]
+        ],
+        "points": 16.666666666666668
+      }
+    },
+    "points_policy": "raw_points are source-derived relative weights only; awarded points are normalized to a 100-point task."
+  }
+}

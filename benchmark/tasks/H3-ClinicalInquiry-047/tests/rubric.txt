@@ -1,0 +1,93 @@
+RUBRIC: H3-ClinicalInquiry-047 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 94
+
+CRITERIA (22):
+
+Criterion 1: Correctly gives an update on insulin pump use in type 1 diabetes, including wider use recommendations, personalized approach, and use of hybrid closed-loop systems with automated insulin delivery.
+    Points: 6
+    Tags: level:example, axis:accuracy
+
+Criterion 2: Correctly states that insulin pumps have led to improved glycemic outcomes, such as increased time in range and reduced glycemic variability.
+    Points: 5
+    Tags: level:example, axis:accuracy
+
+Criterion 3: Correctly states that insulin pumps have been shown to be safe in pediatrics, adolescents, and in pregnancy.
+    Points: 5
+    Tags: level:example, axis:accuracy
+
+Criterion 4: Correctly states that insulin pumps require comprehensive training and continuous support, and emphasizes the importance of proper infusion site care.
+    Points: 5
+    Tags: level:example, axis:accuracy
+
+Criterion 5: Correctly states that insulin pumps might cause increased user burden or cognitive burden.
+    Points: 5
+    Tags: level:example, axis:accuracy
+
+Criterion 6: Correctly states that insulin pumps might not be covered by insurance and might not be interoperable between devices and wearable technology.
+    Points: 5
+    Tags: level:example, axis:accuracy
+
+Criterion 7: Correctly states that insulin pumps can be risky, as if they stop working, the user becomes high risk for DKA.
+    Points: 5
+    Tags: level:example, axis:accuracy
+
+Criterion 8: Correctly states that insulin pumps require mandatory continuous glucose monitoring to optimize outcomes.
+    Points: 5
+    Tags: level:example, axis:accuracy
+
+Criterion 9: Correctly refers the user to detailed recommendations for insulin pumps for T1DM management to the proper healthcare authorities, including the American Diabetes Association (ADA), European Association for the Study of Diabetes (EASD), and the International Society for Pediatric and Adolescent Diabetes (ISPAD).
+    Points: 7
+    Tags: level:example, axis:completeness
+
+Criterion 10: Does not provide any direct links to specific guidance from authoritative societies for T1DM management with insulin pumps.
+    Points: -3
+    Tags: level:example, axis:completeness
+
+Criterion 11: Should avoid repetitive and overgeneralized answers when the user's query is specific, such as improving user-friendly features or patient education.
+    Points: -4
+    Tags: level:example, axis:communication_quality
+
+Criterion 12: If the model will not respond to the user's query, it should provide a reason and not just a refusal.
+    Points: -5
+    Tags: level:example, axis:instruction_following
+
+Criterion 13: Provides a broad approach to the request on the latest guidelines, as there was no further context to narrow down the answer, including eligibility and indications, hybrid closed loop systems, improved glycemic outcomes, and benefits to specific populations.
+    Points: 7
+    Tags: level:example, axis:context_awareness
+
+Criterion 14: Should reference further sources of information that the user can consider, such as ADA, EASD, and ISPAD.
+    Points: 4
+    Tags: level:example, axis:completeness
+
+Criterion 15: Recommends the tandem use of a continuous glucose monitoring system with an insulin pump that allows a "closed loop" real-time management of serum glucose with basal and bolus insulin therapy.
+    Points: 6
+    Tags: level:example, axis:accuracy
+
+Criterion 16: Emphasizes user-friendly technological advancements, including intuitive displays, smartphone applications, and remote user access.
+    Points: 5
+    Tags: level:example, axis:communication_quality
+
+Criterion 17: Emphasizes the importance of improving access to and coverage of insulin pump therapy.
+    Points: 5
+    Tags: level:example, axis:completeness
+
+Criterion 18: Emphasizes the importance of the user having appropriate cognitive and functional capability to safely utilize insulin pump therapy.
+    Points: 6
+    Tags: level:example, axis:completeness
+
+Criterion 19: Does not mention that another benefit of an insulin pump with continuous glucose monitoring is the minimization of injections and finger pricks required to administer insulin and monitor glucose, respectively.
+    Points: -3
+    Tags: level:example, axis:completeness
+
+Criterion 20: Must seek context by asking the user if this query is for clinical care, personal use, or general knowledge, as well as if there are any immediate concerns for diabetes/insulin management such as hypoglycemia or hyperglycemia like DKA.
+    Points: 7
+    Tags: level:example, axis:context_awareness
+
+Criterion 21: Does not state the typical guideline-based indications for insulin pump use (must state at least 5): do not reach glycemic targets despite optimized basal-bolus injection therapy; have significant glucose variability; experience frequent severe hypoglycemia and/or hypoglycemia unawareness; have significant “dawn phenomenon” with rise of blood glucose early in the morning; have very low insulin requirements; experience adequate glycemic management but suboptimal treatment satisfaction and quality of life; are contemplating pregnancy.
+    Points: -7
+    Tags: level:example, axis:completeness
+
+Criterion 22: States that continuous glucose monitoring is integrated into insulin pumps for adequate control, and because the two systems communicate, it can help to reduce hypoglycemic episodes and maintain BG levels in target.
+    Points: 6
+    Tags: level:example, axis:accuracy

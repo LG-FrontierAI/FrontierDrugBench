@@ -1,0 +1,17 @@
+{
+  "answer": [
+    "8",
+    "3",
+    "4",
+    "2",
+    "7",
+    "1",
+    "9",
+    "5",
+    "6"
+  ],
+  "direction": "lower_is_better",
+  "source_patent": "WO2026006882",
+  "endpoint": "FXIa enzyme IC50",
+  "unit": "nM"
+}

@@ -1,0 +1,57 @@
+{
+  "bench_id": "H3-ClinicalInquiry-055",
+  "answer": "It's not uncommon to experience mood changes when you first start using hormonal birth control, including the patch. Your body might need some time to adjust to the new hormones. These symptoms sometimes improve after a few weeks.\nPsychiatric disorders, including anger, emotional disorders, irritability and frustration have been reported as part of postmarketing surveillance, but causality and frequency has not been stablished. Thus there are not clear impact in the use of hormonal birth control worsening mood disorders. \nBefore making any decisions about stopping the patch, it's a good idea to talk to a healthcare provider. They can help you determine whether the patch is likely to be the cause of your mood changes and discuss possible alternatives if necessary. Keep track of your symptoms so you can give your healthcare provider detailed information about what you're experiencing. If at any point your mood swings feel severe or you are concerned about your well-being, seek help immediately. Your health and peace of mind are important!",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Recommends the user to seek advice from a healthcare professional before discontinuing contraception.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Advises the user that these symptoms will get better after 1-3 cycles of use.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Clearly states the possible side effects of the birth control patch, including irregular uterine bleeding, weight gain, and mood disorders.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Fails to mention red flag symptoms such as suicidal ideation, severe depression, sudden and severe mood changes, and an uncontrollable and overwhelming feeling of despair.",
+        "points": -7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Advises the user to discontinue the birth control patch abruptly, which might lead to unplanned pregnancy and bleeding as a complication.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      }
+    ],
+    "points": 19
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 19,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

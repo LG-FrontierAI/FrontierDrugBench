@@ -1,0 +1,122 @@
+{
+  "item_id": "AB38",
+  "case_id": "case_01",
+  "task_type": "ranking",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026059945A2"
+  ],
+  "study_id": "IL17AF_cell_function_transfer_2026",
+  "input_sha256": "3773678673a1cd9dca35a91f1976192fce95ddb490cb7b03df456dc06bed24df",
+  "study_information_sha256": "d8945320e94d1284703bfc9a77f23067165a03dee964c890d4a0ea117acbaba5",
+  "target_ids": [
+    "candidate_01",
+    "candidate_02",
+    "candidate_03",
+    "candidate_04",
+    "candidate_05",
+    "candidate_06",
+    "candidate_07",
+    "candidate_08",
+    "candidate_09",
+    "candidate_10"
+  ],
+  "truth": {
+    "candidate_01": 11.6,
+    "candidate_02": 15,
+    "candidate_03": 15,
+    "candidate_04": 14.3,
+    "candidate_05": 12.5,
+    "candidate_06": 14.6,
+    "candidate_07": 15.6,
+    "candidate_08": 13.6,
+    "candidate_09": 14.9,
+    "candidate_10": 12.3
+  },
+  "higher_is_better": false,
+  "unit": "nM",
+  "sources": [
+    {
+      "publication_number": "US20260070969A1",
+      "url": "https://patents.google.com/patent/US20260070969A1/en",
+      "publication_date": "2026-03-12",
+      "family_earliest_publication_date": "2026-03-12",
+      "disclosure_status": "verified",
+      "locator": "Examples 1-5; Tables4,5,7,9; Related applications and Also Published As",
+      "source_channel": "Google Patents HTML retrieved with web.run response_length=long"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "candidate_01",
+      "locator": "Table7 IL17F absoluteIC50; Example4, original Clone 1182D",
+      "sequence_locator": "Not applicable: measured-assay transfer; clone identity matched by exact names across Tables4,5,7,9",
+      "value": 11.6,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_02",
+      "locator": "Table7 IL17F absoluteIC50; Example4, original Clone 1114D",
+      "sequence_locator": "Not applicable: measured-assay transfer; clone identity matched by exact names across Tables4,5,7,9",
+      "value": 15,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_03",
+      "locator": "Table7 IL17F absoluteIC50; Example4, original Clone 1011A",
+      "sequence_locator": "Not applicable: measured-assay transfer; clone identity matched by exact names across Tables4,5,7,9",
+      "value": 15,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_04",
+      "locator": "Table7 IL17F absoluteIC50; Example4, original Clone 2001D",
+      "sequence_locator": "Not applicable: measured-assay transfer; clone identity matched by exact names across Tables4,5,7,9",
+      "value": 14.3,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_05",
+      "locator": "Table7 IL17F absoluteIC50; Example4, original Clone 1161D",
+      "sequence_locator": "Not applicable: measured-assay transfer; clone identity matched by exact names across Tables4,5,7,9",
+      "value": 12.5,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_06",
+      "locator": "Table7 IL17F absoluteIC50; Example4, original Clone 2002D",
+      "sequence_locator": "Not applicable: measured-assay transfer; clone identity matched by exact names across Tables4,5,7,9",
+      "value": 14.6,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_07",
+      "locator": "Table7 IL17F absoluteIC50; Example4, original Clone 1011D",
+      "sequence_locator": "Not applicable: measured-assay transfer; clone identity matched by exact names across Tables4,5,7,9",
+      "value": 15.6,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_08",
+      "locator": "Table7 IL17F absoluteIC50; Example4, original Clone 1182A",
+      "sequence_locator": "Not applicable: measured-assay transfer; clone identity matched by exact names across Tables4,5,7,9",
+      "value": 13.6,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_09",
+      "locator": "Table7 IL17F absoluteIC50; Example4, original Clone 1161A",
+      "sequence_locator": "Not applicable: measured-assay transfer; clone identity matched by exact names across Tables4,5,7,9",
+      "value": 14.9,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_10",
+      "locator": "Table7 IL17F absoluteIC50; Example4, original Clone 1181D",
+      "sequence_locator": "Not applicable: measured-assay transfer; clone identity matched by exact names across Tables4,5,7,9",
+      "value": 12.3,
+      "unit": "nM"
+    }
+  ]
+}

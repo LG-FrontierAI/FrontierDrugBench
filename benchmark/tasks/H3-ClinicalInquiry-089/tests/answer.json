@@ -1,0 +1,196 @@
+{
+  "bench_id": "H3-ClinicalInquiry-089",
+  "answer": "Yes, the country you visit is very relevant when deciding whether to use prophylactic antibiotics for traveler’s diarrhea or not and which antibiotics are indicated. Here are the reasons:\n\n-Risk of Traveler’s Diarrhea: Some regions (e.g., parts of South and Southeast Asia, Africa, Latin America, the Middle East) have a higher risk due to food and water sanitation issues. In lower-risk regions (like much of North America, Western Europe, Australia, New Zealand), prophylactic antibiotics are almost never considered.\n-Antibiotic Resistance Patterns: Local prevalence of antibiotic-resistant bacteria varies greatly. For example, certain antibiotics (like fluoroquinolones) are less effective in parts of South and Southeast Asia because of high resistance rates among local bacteria (such as Campylobacter).\n-Guideline Adaptation: Health authorities (like CDC or WHO) base their recommendations partly on these regional patterns.\n\nWhy resistance matters:\n-Effectiveness: If bacteria in your destination are commonly resistant to a certain antibiotic, taking it won’t help prevent illness, but may still have side effects or promote resistance.\n-Risk of Superbugs: Unnecessary use of antibiotics promotes the emergence and spread of resistant bacteria globally.\n\nPractical advice:\nRoutine use not recommended: For most travelers, taking antibiotics to prevent diarrhea is not routinely recommended—focus is on good hand hygiene and careful food and water choices.\nException—Specific Medical Needs: Prophylactic antibiotics might be considered for a few individuals at very high risk (e.g., those with certain immune problems or serious underlying illnesses), where the benefit might outweigh the risks.\nIf needed—tailored to destination: If prophylaxis is warranted, antibiotic choice should be based on resistance patterns in your destination, which a travel medicine provider can help determine.\n\nAlternative Strategies\n-Food and Water Precautions\nMany guidelines emphasize safe food choices (“boil it, cook it, peel it, or forget it”) and hand hygiene instead of routine prophylaxis.\n-Stand‑By (“Self‑Treatment”) Antibiotics\nRather than taking antibiotics daily, some travelers carry an antibiotic to use only if they develop moderate to severe diarrhea—after consulting a clinician on when and how to do so.\n-Rehydration Plans: some anti-diarrhoea medicine, Oral rehydration solutions (ORS) and fluid replacement are first‑line treatments for most mild cases.\n\nKey Takeaways\n-Yes, the country (or even region within a country) you’re visiting is highly relevant—mainly because of differing incidence rates of traveler’s diarrhea and local antibiotic‑resistance patterns.\n-Current guidelines generally discourage routine prophylactic antibiotics for most healthy travelers, except in specific high‑risk situations or for certain immunocompromised individuals.\n-Consult a travel‑medicine clinician (or a primary‑care provider familiar with your health history) at least 4–6 weeks before your trip. They can review destination‑specific resistance data and your personal risk factors, then advise whether no antibiotics, stand‑by treatment, or prophylaxis makes sense in your case.\n\nFor the most up‑to‑date, region‑specific recommendations, you can check resources like the CDC’s “Travelers’ Health” website or comparable public‑health advisories in your home country",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Explicitly emphasizes the critical relevance of the specific travel destination and local antibiotic resistance patterns.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Provides specific examples of high-risk regions and common antibiotic resistance patterns found in those areas.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Accurately reflects current medical guidelines that generally discourage routine prophylactic antibiotic use for most travelers.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Offers strategies such as safe food and water practices, carrying standby antibiotics for treatment, and seeking travel health consultations.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Clearly explains the risks associated with prophylactic antibiotic use, including side effects, disruption of the gut microbiome, and contribution to antibiotic resistance.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Recommends consulting a travel medicine specialist or healthcare provider for personalized advice based on the user's destination and health status.",
+        "points": 5,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Recommends prophylactic antibiotics without strongly emphasizing the risks or the importance of considering the travel destination and antibiotic resistance patterns.",
+        "points": -10,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Fails to mention or downplays the importance of local antibiotic resistance patterns.",
+        "points": -9,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Shares with the user different categories of countries based on risk for traveler's diarrhea. (Justification: This helps the user assess personal risk when traveling to a specific region and institute appropriate measures, e.g., handwashing.)",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Hedges on the need for prophylactic antibiotics for traveler's diarrhea unless the user is immunocompromised or has comorbidities such as kidney disease, where prophylaxis may be considered.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Suggests checking with travel advisories to understand more about circulating strains of pathogens that can cause traveler's diarrhea. (Justification: This may not influence the need to take prophylactic antibiotics for traveler's diarrhea and thus not useful in answering the user's query.)",
+        "points": -6,
+        "tags": [
+          "level:example",
+          "axis:instruction_following"
+        ]
+      },
+      {
+        "criterion": "Uses the CDC Guidelines as the main source for providing a reliable answer based on evidence.",
+        "points": 9,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Pinpoints the most important factors to consider regarding traveler's diarrhea: the destination defines the risk level and local antibiotic resistance pattern, prophylactic antibiotics are not usually advised for most travelers, and a standby antibiotic is preferred (tailored for the patient and destination).",
+        "points": 9,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Advises adopting safe food and water practices, complemented with good hand hygiene, as preventive measures instead of prophylactic antibiotics.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "States that prophylactic antibiotics are not recommended for most travelers, following the CDC guidelines.",
+        "points": 9,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Explains that although prophylactic antibiotics might offer some benefits (e.g., shorter duration of illness and associated disability relief), the risks are greater (e.g., changes in the host microbiome and acquisition of multidrug-resistant bacteria), so their use is not recommended.",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Suggests standby antibiotics as a better practice, advising to reserve antibiotics only for moderate to severe diarrhea and using OTC medication (e.g., antimotility agents) for self-treatment of mild diarrhea.",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Lists the regions with a higher risk of traveler's diarrhea: South and Southeast Asia, Sub-Saharan Africa, Latin America, and the Middle East.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Implies that the destination country is likely relevant in the context of traveler's diarrhea. While prophylactic antibiotics are recommended against regardless of the destination, knowing the risk level, infection patterns, and antibiotic resistance patterns of the destination is crucial for understanding traveler's diarrhea.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "The response has no factually incorrect information.",
+        "points": 5,
+        "tags": [
+          "level:cluster",
+          "cluster:hedging_no-uncertainty_accurate",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Step 1. Does the response explicitly and directly answer the primary question or request? If not, fail. (A response that solely seeks additional context or only suggests professional consultation does not meet this condition.)\nStep 2: Does the response hedge unnecessarily by expressing uncertainty through linguistic uncertainty (e.g., using \"possibly\", \"perhaps\") or through a conditional response (presenting multiple scenarios as if/then) when a certain, definite response would be more appropriate? If not, fail.\nIf both steps pass, mark criteria_met = true.\nIf any of the steps fail, mark criteria_met = false.",
+        "points": 5,
+        "tags": [
+          "level:cluster",
+          "cluster:hedging_no-uncertainty_hedges",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Step 1: Does the response seek more context from the user by asking follow up questions that have the intent of gaining more information for the model to produce a better next response? If yes, fail.\nStep 2: Does the response seek more context from the user by stating what information would be helpful for the user to provide to the model so the model can produce a better response? If yes, fail.\nIf both steps pass, mark criteria_met = true.\nIf any of the steps fail, mark criteria_met = false.",
+        "points": 5,
+        "tags": [
+          "level:cluster",
+          "cluster:hedging_no-uncertainty_seeks_context",
+          "axis:context_awareness"
+        ]
+      }
+    ],
+    "points": 123
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 123,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

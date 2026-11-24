@@ -1,0 +1,397 @@
+{
+  "item_id": "AB03-A",
+  "case_id": "case_06",
+  "data_status": "patent_experimental",
+  "task_type": "ranking",
+  "ranking_metric": "spearman",
+  "known_ids": [
+    "M_3e185afa93552724",
+    "M_98ce2a84a5f23115",
+    "M_739f93106f81cde6",
+    "M_f28081c3691e2610",
+    "M_957ad08c06607453",
+    "M_5c072cde7729513b"
+  ],
+  "target_ids": [
+    "M_828dcef4e97fec6a",
+    "M_58b812f78ab6632b",
+    "M_68c2774148772743",
+    "M_5b31ec7a47f112a2"
+  ],
+  "truth": {
+    "M_828dcef4e97fec6a": 1070.1,
+    "M_58b812f78ab6632b": 1158.2,
+    "M_68c2774148772743": 1101.6,
+    "M_5b31ec7a47f112a2": 1212.7
+  },
+  "higher_is_better": true,
+  "input_sha256": "68fb5f7324c1802541c4a703dfbffc1d4658c87a146debffd597b6fa48c1fd48",
+  "complete_sha256": "4349c0dd40fd2242441c52159d7b7a10994db133cf5763f4d75e8172c3466d56",
+  "admission_sha256": "360a02ae5e06d06e90ce856bae51837ef6288719f79ae1e184faa6cd3d91a684",
+  "source_group_id": "AB03_LINEAGE_25_2026",
+  "source_group_context": {
+    "patent": "inputs/public/WO2026006458A1.pdf",
+    "shared_study_not_independent_experiments": true,
+    "source_evidence": "organizer/sequence_cases/patents/extracted/AB03/evidence.json"
+  },
+  "provenance": {
+    "status": "admitted",
+    "item_id": "AB03",
+    "case_id": "case_06",
+    "lineage_id": "25",
+    "source_group_id": "AB03_LINEAGE_25_2026",
+    "complete_csv": "organizer/sequence_cases/patents/extracted/AB03/lineage_25.complete.csv",
+    "complete_sha256": "af22dd527ab2b3cbb5a1d7658b482910bc9ba50eae6e2218e0619aad590c1e6d",
+    "known_ids": [
+      "25",
+      "25-h12",
+      "25-h17",
+      "25-h3",
+      "25-h5",
+      "25-h8"
+    ],
+    "target_ids": [
+      "25-h1",
+      "25-h2",
+      "25-h4",
+      "25-h10"
+    ],
+    "row_provenance": {
+      "25": {
+        "sample_id": "25",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "25",
+        "assay_group": "humanized_HCAb_jurkat_assay",
+        "fields": {
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25"
+          },
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25"
+          },
+          "Jurkat_CD3_positive_MFI": {
+            "source_id": "patent_pdf",
+            "locator": "Table 17, sample 25"
+          },
+          "IL2_response": {
+            "source_id": "patent_pdf",
+            "locator": "Table 15, sample 25"
+          }
+        }
+      },
+      "25-h1": {
+        "sample_id": "25-h1",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "25",
+        "assay_group": "humanized_HCAb_jurkat_assay",
+        "fields": {
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h1"
+          },
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h1"
+          },
+          "Jurkat_CD3_positive_MFI": {
+            "source_id": "patent_pdf",
+            "locator": "Table 17, sample 25-h1"
+          },
+          "IL2_response": {
+            "source_id": "patent_pdf",
+            "locator": "Table 15, sample 25-h1"
+          }
+        }
+      },
+      "25-h2": {
+        "sample_id": "25-h2",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "25",
+        "assay_group": "humanized_HCAb_jurkat_assay",
+        "fields": {
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h2"
+          },
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h2"
+          },
+          "Jurkat_CD3_positive_MFI": {
+            "source_id": "patent_pdf",
+            "locator": "Table 17, sample 25-h2"
+          },
+          "IL2_response": {
+            "source_id": "patent_pdf",
+            "locator": "Table 15, sample 25-h2"
+          }
+        }
+      },
+      "25-h3": {
+        "sample_id": "25-h3",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "25",
+        "assay_group": "humanized_HCAb_jurkat_assay",
+        "fields": {
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h3"
+          },
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h3"
+          },
+          "Jurkat_CD3_positive_MFI": {
+            "source_id": "patent_pdf",
+            "locator": "Table 17, sample 25-h3"
+          },
+          "IL2_response": {
+            "source_id": "patent_pdf",
+            "locator": "Table 15, sample 25-h3"
+          }
+        }
+      },
+      "25-h4": {
+        "sample_id": "25-h4",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "25",
+        "assay_group": "humanized_HCAb_jurkat_assay",
+        "fields": {
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h4"
+          },
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h4"
+          },
+          "Jurkat_CD3_positive_MFI": {
+            "source_id": "patent_pdf",
+            "locator": "Table 17, sample 25-h4"
+          },
+          "IL2_response": {
+            "source_id": "patent_pdf",
+            "locator": "Table 15, sample 25-h4"
+          }
+        }
+      },
+      "25-h5": {
+        "sample_id": "25-h5",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "25",
+        "assay_group": "humanized_HCAb_jurkat_assay",
+        "fields": {
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h5"
+          },
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h5"
+          },
+          "Jurkat_CD3_positive_MFI": {
+            "source_id": "patent_pdf",
+            "locator": "Table 17, sample 25-h5"
+          },
+          "IL2_response": {
+            "source_id": "patent_pdf",
+            "locator": "Table 15, sample 25-h5"
+          }
+        }
+      },
+      "25-h8": {
+        "sample_id": "25-h8",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "25",
+        "assay_group": "humanized_HCAb_jurkat_assay",
+        "fields": {
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h8"
+          },
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h8"
+          },
+          "Jurkat_CD3_positive_MFI": {
+            "source_id": "patent_pdf",
+            "locator": "Table 17, sample 25-h8"
+          },
+          "IL2_response": {
+            "source_id": "patent_pdf",
+            "locator": "Table 15, sample 25-h8"
+          }
+        }
+      },
+      "25-h10": {
+        "sample_id": "25-h10",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "25",
+        "assay_group": "humanized_HCAb_jurkat_assay",
+        "fields": {
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h10"
+          },
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h10"
+          },
+          "Jurkat_CD3_positive_MFI": {
+            "source_id": "patent_pdf",
+            "locator": "Table 17, sample 25-h10"
+          },
+          "IL2_response": {
+            "source_id": "patent_pdf",
+            "locator": "Table 15, sample 25-h10"
+          }
+        }
+      },
+      "25-h12": {
+        "sample_id": "25-h12",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "25",
+        "assay_group": "humanized_HCAb_jurkat_assay",
+        "fields": {
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h12"
+          },
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h12"
+          },
+          "Jurkat_CD3_positive_MFI": {
+            "source_id": "patent_pdf",
+            "locator": "Table 17, sample 25-h12"
+          },
+          "IL2_response": {
+            "source_id": "patent_pdf",
+            "locator": "Table 15, sample 25-h12"
+          }
+        }
+      },
+      "25-h17": {
+        "sample_id": "25-h17",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "25",
+        "assay_group": "humanized_HCAb_jurkat_assay",
+        "fields": {
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h17"
+          },
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Table 13A, sample 25-h17"
+          },
+          "Jurkat_CD3_positive_MFI": {
+            "source_id": "patent_pdf",
+            "locator": "Table 17, sample 25-h17"
+          },
+          "IL2_response": {
+            "source_id": "patent_pdf",
+            "locator": "Table 15, sample 25-h17"
+          }
+        }
+      }
+    },
+    "source_files": [
+      {
+        "id": "patent_pdf",
+        "path": "inputs/public/WO2026006458A1.pdf",
+        "sha256": "5bae4293fd1bfccbfaf0fd98a8ac51a05e427c0da997d021308493d9038c8c7c"
+      },
+      {
+        "id": "extraction_review",
+        "path": "organizer/sequence_cases/patents/extracted/AB03/evidence.json",
+        "sha256": "3c83d2fc6e407ea54082494963f5de5245fad8816097f4e65a098b9ccf148510"
+      },
+      {
+        "id": "disclosure_review",
+        "path": "research/sequence_patents/evidence/local_pdf_disclosure_review_20261014.md",
+        "sha256": "8ddc42b98647731e98b6c666466ab1a1b5486b9be127a1295cf94dfa76e0f1bb"
+      }
+    ],
+    "family_first_publication": {
+      "verified": true,
+      "date": "2026-01-02",
+      "source_id": "disclosure_review",
+      "locator": "WO2026006458A1 section; bounded known-first review",
+      "verification_scope": "Known first in reviewed family index and experiment/reference attribution; not exhaustive proof of no prior disclosure."
+    },
+    "data_first_disclosure": {
+      "verified": true,
+      "date": "2026-01-02",
+      "source_id": "disclosure_review",
+      "locator": "WO2026006458A1 section; bounded known-first review",
+      "verification_scope": "Known first in reviewed family index and experiment/reference attribution; not exhaustive proof of no prior disclosure."
+    },
+    "matched_assay_conditions_verified": true,
+    "assay_conditions": {
+      "format": "yeast-produced humanized HCAb",
+      "binding": "Jurkat CD3-positive MFI",
+      "activation": "plate-immobilized HCAb Jurkat IL-2 concentration",
+      "unit": "pg/mL",
+      "coating_concentration": "not reported",
+      "unit_applies_to": "activation",
+      "binding_unit": "MFI (arbitrary fluorescence units)"
+    },
+    "public_study_information": {
+      "text": "The source study describes humanized anti-CD3 HCAbs tested in plate-immobilized-antibody Jurkat activation and flow-cytometry binding assays. The variable-domain sequence is supplied for each candidate. Binding is reported as Jurkat CD3-positive fluorescence intensity (MFI); no CD3-negative measurement is supplied. The activation endpoint is IL-2 concentration in pg/mL. The humanized HCAbs were yeast-produced. The exact antibody coating concentration is not reported in the source. Predict the withheld IL-2 response under this source-described assay; this endpoint does not represent soluble-antibody autonomous activation or a clinical cytokine-release estimate.",
+      "source_id": "patent_pdf",
+      "locator": "Examples 10/11/13/15; Tables 13A/15/17",
+      "reviewed_for_leakage": true
+    },
+    "review": {
+      "reviewed": true,
+      "reviewer": "Codex source extraction plus independent review",
+      "notes": "Local PDF sequences and assay entries reviewed; source-supported rows only. See extracted evidence and disclosure review for uncertainty and omissions."
+    },
+    "source_group_context": {
+      "patent": "inputs/public/WO2026006458A1.pdf",
+      "shared_study_not_independent_experiments": true,
+      "source_evidence": "organizer/sequence_cases/patents/extracted/AB03/evidence.json"
+    },
+    "endpoint_unit": "MFI (arbitrary fluorescence units)"
+  },
+  "endpoint": "Jurkat_CD3_positive_MFI",
+  "unit": "MFI",
+  "target_order": [
+    "M_5b31ec7a47f112a2",
+    "M_58b812f78ab6632b",
+    "M_68c2774148772743",
+    "M_828dcef4e97fec6a"
+  ],
+  "study_information_sha256": "b4229a7d539c3b84c6ac69566ece77342782c610e55fcc14add22098780f9ef1",
+  "parent_item_id": "AB03",
+  "complete_csv": "organizer/sequence_cases/split_complete/AB03-A/case_06.csv",
+  "pass_threshold": 0.6,
+  "threshold_version": "v1-20261023",
+  "source_complete_path": "organizer/sequence_cases/split_complete/AB03-A/case_06.csv",
+  "source_complete_sha256": "4349c0dd40fd2242441c52159d7b7a10994db133cf5763f4d75e8172c3466d56",
+  "split_provenance": {
+    "version": "30-task-v1",
+    "source_item_id": "AB03",
+    "source_gold": "archive/pre_30_task_split/questions/AB03/tests/cases/case_06.answer.json",
+    "source_gold_sha256": "1c85d911315505b8fbec2bfcfd130f9e3aa1c3dec3672443419ca323e80404fd",
+    "source_complete_csv": "organizer/sequence_cases/patents/extracted/AB03/lineage_25.complete.csv",
+    "source_complete_sha256": "af22dd527ab2b3cbb5a1d7658b482910bc9ba50eae6e2218e0619aad590c1e6d",
+    "operation": "Exact sequence/value reuse and deterministic endpoint masking; ratios derived from recorded values only.",
+    "row_order": "SHA256(split-v1:item_id:case_id:name), independent of endpoint values"
+  },
+  "category": "Cell Biology",
+  "pass_rule": "unrounded_item_score >= pass_threshold"
+}

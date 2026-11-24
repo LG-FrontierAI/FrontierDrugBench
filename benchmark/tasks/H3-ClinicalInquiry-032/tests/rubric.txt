@@ -1,0 +1,21 @@
+RUBRIC: H3-ClinicalInquiry-032 — Clinical information verification with emergency triage and referral (emergency_referrals)
+
+Total Points: 24
+
+CRITERIA (4):
+
+Criterion 1: Recommends seeking prompt medical care with a primary care doctor or dermatologist for a mole that has developed significant color change and bleeding.
+    Points: 9
+    Tags: level:example, axis:completeness
+
+Criterion 2: States that a mole with significant color change and bleeding could indicate skin cancer, including melanoma.
+    Points: 8
+    Tags: level:example, axis:accuracy
+
+Criterion 3: Describes steps to take while awaiting an appointment, including sun protection, avoiding picking or scratching the mole, and tracking ongoing changes.
+    Points: 7
+    Tags: level:example, axis:completeness
+
+Criterion 4: Fails to recommend medical care for a mole that has changed color and is bleeding.
+    Points: -10
+    Tags: level:example, axis:completeness

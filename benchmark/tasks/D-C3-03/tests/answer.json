@@ -1,0 +1,17 @@
+{
+  "bench_id": "D-C3-03",
+  "answer": [
+    "NDUFS2",
+    "PCK2",
+    "FTH1"
+  ],
+  "scoring": {
+    "type": "ranking_concordant",
+    "metric": "concordant_pairs",
+    "points": 100
+  },
+  "grading": {
+    "method": "concordant_pairs",
+    "scoring": "concordant01"
+  }
+}

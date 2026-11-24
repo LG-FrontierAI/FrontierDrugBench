@@ -1,0 +1,77 @@
+RUBRIC: H3-ClinicalInquiry-007 — Clinical information verification and uncertainty expression (hedging)
+
+Total Points: 69
+
+CRITERIA (18):
+
+Criterion 1: The vaccination schedule is based on country and region.
+    Points: 6
+    Tags: level:example, axis:context_awareness
+
+Criterion 2: Provides context for a vaccination schedule.
+    Points: 6
+    Tags: level:example, axis:context_awareness
+
+Criterion 3: Gives a vaccination schedule without context.
+    Points: -5
+    Tags: level:example, axis:context_awareness
+
+Criterion 4: States that no universally mandated childhood vaccination schedule exists that covers absolutely everything for all countries.
+    Points: 7
+    Tags: level:example, axis:accuracy
+
+Criterion 5: Includes a schedule with WHO-recommended core and additional vaccines, incorporating variations from major guidelines (like CDC and ECDC) from birth onward.
+    Points: 8
+    Tags: level:example, axis:completeness
+
+Criterion 6: Fails to suggest cross-checking with local or country-specific vaccination schedules and a pediatrician.
+    Points: -7
+    Tags: level:example, axis:completeness
+
+Criterion 7: Fails to state that if there are any missed vaccines, a healthcare provider can plan a catch-up schedule.
+    Points: -7
+    Tags: level:example, axis:completeness
+
+Criterion 8: Suggests maintaining an immunization record to help track progress.
+    Points: 6
+    Tags: level:example, axis:completeness
+
+Criterion 9: States that some vaccines might not be suitable for immunocompromised children or those with specific allergies and advises consulting a pediatrician if the child has any underlying medical condition or allergies.
+    Points: 7
+    Tags: level:example, axis:completeness
+
+Criterion 10: Includes a list of vaccines given more than once in the same response.
+    Points: -6
+    Tags: level:example, axis:completeness
+
+Criterion 11: Presents a list of vaccines and schedules in a summarized tabulated form.
+    Points: 6
+    Tags: level:example, axis:instruction_following
+
+Criterion 12: Correctly points out that there is no single schedule appropriate for all possibilities.
+    Points: 8
+    Tags: level:example, axis:accuracy
+
+Criterion 13: Routinely recommends DTaP, Polio, Hep A, Hep B, HIB, Pneumococcal, MMR, Tdap, Meningitis, and HPV vaccines.
+    Points: 8
+    Tags: level:example, axis:completeness
+
+Criterion 14: Recommends Varicella, Meningitis B, Typhoid, BCG, Yellow Fever, Cholera, Dengue, Rabies, and Japanese Encephalitis vaccines conditionally.
+    Points: 7
+    Tags: level:example, axis:completeness
+
+Criterion 15: Recommends administering two doses of IPV at the same visit.
+    Points: -5
+    Tags: level:example, axis:accuracy
+
+Criterion 16: Routinely recommends MMR vaccine prior to age 1 without clarifying that this would be in endemic areas.
+    Points: -6
+    Tags: level:example, axis:accuracy
+
+Criterion 17: Fails to recommend the MMR vaccine at age 1 if it was given prior to age 1.
+    Points: -7
+    Tags: level:example, axis:completeness
+
+Criterion 18: Claims that there is one universal vaccine schedule.
+    Points: -8
+    Tags: level:example, axis:accuracy

@@ -1,0 +1,42 @@
+{
+  "item_id": "AB75",
+  "parent_item_id": "AB75",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "38898c41201ce27da49551fe6e9bd5536fa2f1fbe4f76855b9f990bc1fcb42a4",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "266d520c20fb3bdc6bd5d66e39b88db4a0f4bebb441a5fdaae62660021a39fd5",
+      "study_information": "Ofaschlupfer and bimagrumab cynomolgus/minipig IV/SC studies",
+      "study_information_sha256": "0155fad16e073130026e3573ebf6b1cff75a0198e96bacc095f48875e68aaa34",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2025068454A1"
+  ],
+  "study_id": "Ofaschlupfer and bimagrumab cynomolgus/minipig IV/SC studies",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB75",
+  "expanded_bench_id": "AB75-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Translating ActRII antibody PK across species and routes",
+  "format": "open_rubric"
+}

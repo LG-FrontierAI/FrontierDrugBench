@@ -1,0 +1,69 @@
+{
+  "item_id": "AB03-A",
+  "title": "Predicting Jurkat CD3-positive cell binding from HCAb sequence",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "format": "ranking",
+  "task_type": "ranking",
+  "ranking_metric": "spearman",
+  "higher_is_better": true,
+  "no_contestant_tools": true,
+  "reset_context_each_case": true,
+  "cases": [
+    {
+      "case_id": "case_04",
+      "input": "inputs/case_04.csv",
+      "input_sha256": "f526effc95f6dda745f851fe463cc5b58d5eaca96f03724abd4d4ebadd729e22",
+      "answer": "tests/cases/case_04.answer.json",
+      "answer_sha256": "6f0d1f0c8881b16c01eb7ba1520eb52fe3a0d4257fa52a4d7e284ec635721cbd",
+      "data_status": "patent_experimental",
+      "known_count": 10,
+      "target_count": 7,
+      "source_group_id": "AB03_LINEAGE_15_2026",
+      "study_information": "Humanized anti-CD3 HCAbs from one lineage were produced in yeast. The endpoint is the Table 17 flow-cytometry Jurkat CD3-positive fluorescence intensity (MFI). This readout is not an equilibrium KD or a normalized CD3-positive/CD3-negative ratio. No CD3-negative measurement is supplied. Measured-reference MFI values are provided; target MFI and all activation outcomes are withheld. Predict binding under the source-described matched assay, without assuming unreported assay conditions.",
+      "study_information_sha256": "b4229a7d539c3b84c6ac69566ece77342782c610e55fcc14add22098780f9ef1"
+    }
+  ],
+  "case_count": 1,
+  "input_columns": [
+    "name",
+    "format",
+    "sequence1",
+    "Jurkat_CD3_positive_MFI"
+  ],
+  "target_definition": "Jurkat_CD3_positive_MFI",
+  "score_formula": "max(0, Spearman rho)",
+  "score_definition": "max(0, Spearman rho)",
+  "diagnostics": [
+    "raw_spearman"
+  ],
+  "output_format": "One comma-separated line containing every target exactly once, in the requested order; no explanation.",
+  "blocking_requirements": [],
+  "formal_biological_score_available": true,
+  "aggregation": "single_case",
+  "follow_up": null,
+  "cohort_policy": {
+    "same_lineage": true,
+    "same_IL2_conditions": true,
+    "actual_complete_records_only": true,
+    "no_fabricated_rows_to_meet_preferred_count": true
+  },
+  "endpoint_unit": "MFI (arbitrary fluorescence units)",
+  "material_context": "Yeast-produced humanized HCAbs for both binding (Example15 exception to Example5) and activation (Examples13/7)",
+  "parent_item_id": "AB03",
+  "pass_threshold": 0.6,
+  "threshold_version": "v1-20261023",
+  "pass_rule": "unrounded_item_score >= pass_threshold",
+  "passed_evaluation_level": "item",
+  "threshold_comparison": "unrounded_score >= pass_threshold",
+  "expanded_from": "AB03-A",
+  "expanded_bench_id": "AB03-A-Cell-Biology_case_04",
+  "item_scope": {
+    "case_count": 6,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases",
+    "reference_answer_status": "experimental_truth"
+  }
+}

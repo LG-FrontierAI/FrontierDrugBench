@@ -1,0 +1,16 @@
+{
+  "bench_id": "PROT-V4-RETAIN-001",
+  "answer": {
+    "value": -5.754822338999992
+  },
+  "scoring": {
+    "type": "numeric_gaussian",
+    "metric": "exp(-|pred-gold|/tolerance)",
+    "tolerance": 2.8774111695,
+    "points": 100
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "case_eval"
+  }
+}

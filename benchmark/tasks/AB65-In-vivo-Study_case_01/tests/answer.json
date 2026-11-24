@@ -1,0 +1,18 @@
+{
+  "item_id": "AB65",
+  "case_id": "case_01",
+  "parent_bench_id": "AB65",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": [
+    "kappa6_15",
+    "kappa5_15",
+    "kappa6_1p5",
+    "kappa6_5",
+    "kappa5_5",
+    "kappa5_1p5"
+  ]
+}

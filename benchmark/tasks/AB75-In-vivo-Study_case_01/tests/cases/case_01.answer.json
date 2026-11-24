@@ -1,0 +1,93 @@
+{
+  "item_id": "AB75",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2025068454A1"
+  ],
+  "study_id": "Ofaschlupfer and bimagrumab cynomolgus/minipig IV/SC studies",
+  "input_sha256": "38898c41201ce27da49551fe6e9bd5536fa2f1fbe4f76855b9f990bc1fcb42a4",
+  "study_information_sha256": "0155fad16e073130026e3573ebf6b1cff75a0198e96bacc095f48875e68aaa34",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": true,
+  "unit": "rubric_score",
+  "sources": [
+    {
+      "publication_number": "WO2025068454A1",
+      "url": "https://patents.google.com/patent/WO2025068454A1/en",
+      "publication_date": "2025-04-03",
+      "family_earliest_publication_date": "2025-04-03",
+      "disclosure_status": "verified",
+      "locator": "Example9 Table18",
+      "source_channel": "web.run primaryHTML explicitresponse_length long, retrieved2026-10-23"
+    }
+  ],
+  "evidence": [],
+  "rubric": [
+    {
+      "id": "design",
+      "points": 20,
+      "requirement": "Preserve species,n2andactual30mg/kgcynoIVor12mg/kgminipigIV/SCdose.",
+      "required_finding": "Preserve species,n2andactual30mg/kgcynoIVor12mg/kgminipigIV/SCdose.",
+      "source_locator": "Example18"
+    },
+    {
+      "id": "F",
+      "points": 20,
+      "requirement": "Distinguish bioavailability from half-life and use dose-normalizedAUC.",
+      "required_finding": "Distinguish bioavailability from half-life and use dose-normalizedAUC.",
+      "source_locator": "Table18"
+    },
+    {
+      "id": "supported",
+      "points": 20,
+      "requirement": "Preserve minipig93vs45% andcynomolgusCL.16vs.467mL/h/kg observations;do notinventhalf-lives.",
+      "required_finding": "Preserve minipig93vs45% andcynomolgusCL.16vs.467mL/h/kg observations;do notinventhalf-lives.",
+      "source_locator": "Table18"
+    },
+    {
+      "id": "transfer",
+      "points": 20,
+      "requirement": "Identify species/dose/absorption uncertainty without assuming a mechanism.",
+      "required_finding": "Identify species/dose/absorption uncertainty without assuming a mechanism.",
+      "source_locator": "Table18"
+    },
+    {
+      "id": "checks",
+      "points": 20,
+      "requirement": "Propose larger matched route/dose and analyte/ADA or absorption checks.",
+      "required_finding": "Propose larger matched route/dose and analyte/ADA or absorption checks.",
+      "source_locator": "Example18"
+    }
+  ],
+  "reference_answer": "The comparison involves different species and routes and only two animals per group. In cynomolgus monkeys, the single IV dose was 30 mg/kg. The reported clearance was 0.16 mL/h/kg for ofaschlupfer and 0.467 mL/h/kg for bimagrumab. In minipigs, both IV and SC doses were 12 mg/kg. Reported SC bioavailability was 93% versus 45%. The IV AUCs were 25.9 and 24.2 million ng·h/mL, while SC AUCs were 24.1 and 10.9 million. With equal doses these yield the stated approximate bioavailability values. No terminal half-life should be invented from this table.\n\nHowever, lower systemic clearance and greater SC bioavailability describe distinct processes. The minipig absorption result cannot be inferred uniquely from monkey IV clearance or human receptor affinity. Target-mediated disposition, nonspecific interactions, absorption and assay behavior may vary across species. With n=2, these are finite-cohort observations and provide little basis for population certainty or a mechanistic attribution.\n\nFirst, repeat matched IV/SC studies with more animals and consistent dose normalization to assess the reproducibility of exposure and absorption. Second, check intact analyte and anti-drug antibodies alongside concentration-time profiles. These distinguish true disposition differences from assay interference or immunogenicity.",
+  "rubric_contrast_checks": {
+    "full_correct": {
+      "answer": "The comparison involves different species and routes and only two animals per group. In cynomolgus monkeys, the single IV dose was 30 mg/kg. The reported clearance was 0.16 mL/h/kg for ofaschlupfer and 0.467 mL/h/kg for bimagrumab. In minipigs, both IV and SC doses were 12 mg/kg. Reported SC bioavailability was 93% versus 45%. The IV AUCs were 25.9 and 24.2 million ng·h/mL, while SC AUCs were 24.1 and 10.9 million. With equal doses these yield the stated approximate bioavailability values. No terminal half-life should be invented from this table.\n\nHowever, lower systemic clearance and greater SC bioavailability describe distinct processes. The minipig absorption result cannot be inferred uniquely from monkey IV clearance or human receptor affinity. Target-mediated disposition, nonspecific interactions, absorption and assay behavior may vary across species. With n=2, these are finite-cohort observations and provide little basis for population certainty or a mechanistic attribution.\n\nFirst, repeat matched IV/SC studies with more animals and consistent dose normalization to assess the reproducibility of exposure and absorption. Second, check intact analyte and anti-drug antibodies alongside concentration-time profiles. These distinguish true disposition differences from assay interference or immunogenicity.",
+      "expected_score": 1.0,
+      "basis": "All criterion findings are explicitly present.",
+      "expected_points": 100
+    },
+    "all_yes": {
+      "answer": "Every proposed claim is supported; the study proves the mechanism and broad translation.",
+      "expected_score": 0.0,
+      "basis": "Unsupported blanket acceptance omits all required specific findings.",
+      "expected_points": 0
+    },
+    "all_no": {
+      "answer": "Nothing in the experiment is useful or supported. All results should be rejected.",
+      "expected_score": 0.0,
+      "basis": "Blanket dismissal omits supported observations and required specific findings.",
+      "expected_points": 0
+    },
+    "omitted_critical": {
+      "answer": "The comparison involves different species and routes and only two animals per group. In cynomolgus monkeys, the single IV dose was 30 mg/kg. The reported clearance was 0.16 mL/h/kg for ofaschlupfer and 0.467 mL/h/kg for bimagrumab. In minipigs, both IV and SC doses were 12 mg/kg. Reported SC bioavailability was 93% versus 45%. The IV AUCs were 25.9 and 24.2 million ng·h/mL, while SC AUCs were 24.1 and 10.9 million. With equal doses these yield the stated approximate bioavailability values. No terminal half-life should be invented from this table.",
+      "expected_score_upper_bound": 0.6,
+      "basis": "Missing central limitation and proposed checks cannot receive points for those criteria.",
+      "expected_points_upper_bound": 60
+    }
+  }
+}

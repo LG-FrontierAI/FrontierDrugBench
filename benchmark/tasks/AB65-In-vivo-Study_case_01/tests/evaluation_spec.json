@@ -1,0 +1,42 @@
+{
+  "item_id": "AB65",
+  "parent_item_id": "AB65",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "4b4590803b111c5f1ee0ee29a1ee892ed3ebc1bf38415713b4eb2375382ffefd",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "66cf12d85e322fa13b05623d24b8450fdb25879a2017e66b0bb71573cc8333a1",
+      "study_information": "WO2024263567A2 Example3 Table5; singleIV1.5/5/15mg/kg; GrnKO; day1/4/7/14 earlydata; hidden day63 experimental groupmeans. Table1 mapsKappaEx5 HC34/LC35 andEx6 HC34/LC36.",
+      "study_information_sha256": "13b5e3edd6167e82e52f1430c2c2396cebc992832a262f19a8be363213dcbcbb",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.85,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2024263567A2"
+  ],
+  "study_id": "WO2024263567A2 Example3 Table5; singleIV1.5/5/15mg/kg; GrnKO; day1/4/7/14 earlydata; hidden day63 experimental groupmeans. Table1 mapsKappaEx5 HC34/LC35 andEx6 HC34/LC36.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB65",
+  "expanded_bench_id": "AB65-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting long-term lysosomal biomarker durability",
+  "format": "ranking"
+}

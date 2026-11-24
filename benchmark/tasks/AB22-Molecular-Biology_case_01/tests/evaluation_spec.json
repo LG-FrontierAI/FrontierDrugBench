@@ -1,0 +1,42 @@
+{
+  "item_id": "AB22",
+  "parent_item_id": "AB22",
+  "category": "Molecular Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "8d4ec244277ef5089bcd9c2885637a4f7e6478957373bc9d34071c1c7f07d49d",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "d0a2a639e0261caa3bd1d2467f8cb1d49b34debf3c67f7a0bdaa4f283dfa6808",
+      "study_information": "All constructs are full-length human IgG1 anti-GCGR antibodies. DLS was performed at 25.0 C in 20 mM histidine acetate, pH 5.5, using approximately 2-10 mg/mL protein. Viscosity was measured by cone-and-plate rheometry at 180 mg/mL IgG1, 25.0 C, in the same formulation. The parent is a visible reference and must not be included in the answer. sequence1 and sequence2 are VH and VL; constant domains are shared.",
+      "study_information_sha256": "6975a04908adfbc2b14b4f1a3165b76ecd7ac0cf9b83581b6694443b61e6e609",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2024238332"
+  ],
+  "study_id": "WO2024238332A1_Example1A_Table2",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB22",
+  "expanded_bench_id": "AB22-Molecular-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting concentrated-formulation viscosity from dilute-solution evidence",
+  "format": "ranking"
+}

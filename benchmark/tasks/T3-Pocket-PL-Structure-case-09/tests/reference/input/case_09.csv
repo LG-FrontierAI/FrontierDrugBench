@@ -1,0 +1,2 @@
+name,antigen_entity_ids,antigen_entity_count,antigen_sequences,antibody_entity_ids,antibody_entity_count,antibody_sequences,ligand_entity_id,ligand_smiles,ligand_heavy_atom_count
+case_09,"[""1""]",1,"[{""entity_id"": ""1"", ""sequence"": ""PEKDLQGRLYINRVFHISAERMFELLFTSSHFMQRFANSRNIIDVVSTPWTVESGGNQLRTMTYTIVLSNPLTGKYTAATEKQTLYKESREAQFYLVDSEVLTHDVPYHDYFYTLNRYCIVRSAKQRCRLRVSTDLKYRKQPWGLIKSLIEKNSWSSLESYFKKLESDLLMEE"", ""length"": 173, ""copy_count"": 1}]",[],0,[],2,Cc1cc(cc(c1c2nc(c(s2)C(C)(C)O)C)C)c3cc4c(nc3)OCCO4,28

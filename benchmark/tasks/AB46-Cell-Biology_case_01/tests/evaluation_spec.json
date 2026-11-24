@@ -1,0 +1,42 @@
+{
+  "item_id": "AB46",
+  "parent_item_id": "AB46",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "89979bbea96f53b7a976a850f0a560355f88b65a5c5efe3c4d2d8714e0b6939e",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "4a98f384b98d43bc949d00f42a3121a47358365e714d5e11ee9a54e82d4f3e01",
+      "study_information": "Predict inhibition of TL1A-induced caspase3/7 activity in TF-1 cells (endogenousDR3) after6h with cycloheximide sensitization. The source uses Caspase-Glo3/7, not a direct proliferation endpoint. Table15 receptor-cell blockadeIC50 and fitted Bottom are visible. Table20 downstream caspaseIC50 values for eight humanized descendants are withheld; the parental antibody is a visible control. Do not treat receptor blockade potency or fitted Bottom as the target itself.",
+      "study_information_sha256": "77d17f71587bdf7dfb4b76e31fca8d12ac82645b1b98b36b9c12727b1e9b111f",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.65,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "US20260062492A1"
+  ],
+  "study_id": "AB46_TL1A_cell_2026",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB46",
+  "expanded_bench_id": "AB46-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting downstream apoptosis rescue after antibody humanization",
+  "format": "ranking"
+}

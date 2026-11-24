@@ -1,0 +1,17 @@
+{
+  "bench_id": "PROT-V4-MECH-024",
+  "answer": "C",
+  "scoring": {
+    "type": "option_letter",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "points": 100
+  },
+  "grading": {
+    "method": "exact_letter_match"
+  }
+}

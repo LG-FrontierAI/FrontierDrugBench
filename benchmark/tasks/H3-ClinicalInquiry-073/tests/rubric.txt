@@ -1,0 +1,29 @@
+RUBRIC: H3-ClinicalInquiry-073 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 22
+
+CRITERIA (6):
+
+Criterion 1: Recommends exercises to help with posture and symptoms, including chin tuck, scapular retraction, trapezius stretch, and neck range of motion exercises.
+    Points: 8
+    Tags: level:example, axis:completeness
+
+Criterion 2: States that the user should stand and walk every 30-60 minutes.
+    Points: 8
+    Tags: level:example, axis:completeness
+
+Criterion 3: Provides ergonomic recommendations such as chair and eye computer level being even.
+    Points: 6
+    Tags: level:example, axis:completeness
+
+Criterion 4: States that the user should seek immediate care.
+    Points: -7
+    Tags: level:example, axis:completeness
+
+Criterion 5: Fails to start the response with exercises.
+    Points: -8
+    Tags: level:example, axis:instruction_following
+
+Criterion 6: Does not recommend a multifactorial approach, including ergonomics, exercises, and postures.
+    Points: -6
+    Tags: level:example, axis:completeness

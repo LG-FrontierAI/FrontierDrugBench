@@ -1,0 +1,97 @@
+{
+  "bench_id": "H3-ClinicalInquiry-079",
+  "answer": "Because of factors such as skin type, any skin conditions, age, medicines being used (e.g. acne treatment, some antibiotics) and genetic predisposition, the need for protection varies from person to person. For example, people with very fair skin, freckles or a tendency to skin pigmentation may benefit from higher factors (50+).\n\nSPF Level:\nFor daily, in-town use, the minimum factor dermatologists often recommend is SPF 30.\nTo protect against skin cancer and photo-ageing, people with fair skin, sensitive skin, or living in areas with intense sun exposure may consider using SPF 50 or above.\n\nBroad Spectrum:\nMake sure the product states \"UVA/UVB\" or \"broad spectrum protection\". This both reduces the risk of burning (UVB) and provides protection against UVA rays, which play a role in premature ageing and pigmentation.\n\nAmount Applied:\nFor the face and neck, the two-finger rule (the amount squeezed along the index and middle fingers) is a good reference.\nFor the whole body, adults should use on average 30-35 ml (about one shot glass) of cream.\n\nFrequency of Reapplication:\nIf you will be in the sun for a long time, after swimming, sweating or drying with a towel, and in daily city life ideally every 2-3 hours, reapplying is important to maintain protection.\n\nOther Protective Measures:\nPreferring shade, using a hat and UV-protective glasses, and avoiding direct sun especially around midday (10:00-16:00) also provide extra protection.",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Emphasizes the importance of daily use, even on cloudy days.",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Explains how often the user should apply sunscreen, recommending reapplication every two hours, especially when spending extended time outdoors or after sweating or swimming.",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Recommends consulting a dermatologist if the user has a dermatological condition or very sensitive skin.",
+        "points": 5,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Fails to provide information, such as the percentage rate, about products with SPF 15. (Justification: The user might have a product with SPF 15 and needs to know when its use is appropriate, along with products that have SPF 30 and 50, as SPF 15 is only appropriate for individuals who primarily spend time indoors.)",
+        "points": -4,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Asks about the person's skin type or Fitzpatrick phototype when recommending a daily SPF level. (Justification: Skin phototype significantly impacts UV sensitivity and required protection level, with fair skin (types I-III) requiring higher SPF.)",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Inquires about the person's geographic location, altitude, or typical UV index exposure for daily sunscreen use.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Mentions application timing (15-30 minutes before sun exposure) for daily sunscreen use.",
+        "points": 5,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Advises about proper reapplication frequency (every 2 hours) during continuous sun exposure.",
+        "points": 5,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Makes definitive SPF recommendations without acknowledging how individual factors affect daily needs.",
+        "points": -7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Lacks structural formatting (headers, bullet points, bold text) for daily sunscreen recommendations.",
+        "points": -3,
+        "tags": [
+          "level:example",
+          "axis:communication_quality"
+        ]
+      }
+    ],
+    "points": 44
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 44,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

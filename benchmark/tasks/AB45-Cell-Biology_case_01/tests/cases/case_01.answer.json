@@ -1,0 +1,104 @@
+{
+  "item_id": "AB45",
+  "case_id": "case_01",
+  "task_type": "ranking",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "US20260062492A1"
+  ],
+  "study_id": "AB45_TL1A_cell_2026",
+  "input_sha256": "c0ccc79635dc9fc6848e2e30eff8e9d9d5995d3acdd18591e0443802aae74c64",
+  "study_information_sha256": "ff2c1e166cdfb8c625bc3c254450af13c28426bc0dd646cb72cd853c8071f7d9",
+  "target_ids": [
+    "candidate_01",
+    "candidate_02",
+    "candidate_05",
+    "candidate_06",
+    "candidate_07",
+    "candidate_08",
+    "candidate_09",
+    "candidate_10"
+  ],
+  "truth": {
+    "candidate_01": 17.27,
+    "candidate_02": 26.21,
+    "candidate_05": 28.08,
+    "candidate_06": 12.1,
+    "candidate_07": 35.79,
+    "candidate_08": 19.15,
+    "candidate_09": 38.48,
+    "candidate_10": 12.19
+  },
+  "higher_is_better": false,
+  "unit": "nM",
+  "sources": [
+    {
+      "publication_number": "US20260062492A1",
+      "url": "https://patents.google.com/patent/US20260062492A1/en",
+      "publication_date": "2026-03-05",
+      "family_earliest_publication_date": "2026-03-05",
+      "disclosure_status": "verified",
+      "locator": "Examples8,10,11,12; Tables12,14,15,18,20",
+      "source_channel": "web.run actual nonempty targeted find response turn0view0,turn1view0; retrieved2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "candidate_01",
+      "locator": "Example10 Table14 IC50; original TLA0162",
+      "sequence_locator": "Measured-assay transfer by exact original clone identity; no unprovided sequence is inferred",
+      "value": 17.27,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_02",
+      "locator": "Example10 Table14 IC50; original TLA0118",
+      "sequence_locator": "Measured-assay transfer by exact original clone identity; no unprovided sequence is inferred",
+      "value": 26.21,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_05",
+      "locator": "Example10 Table14 IC50; original TLA0148",
+      "sequence_locator": "Measured-assay transfer by exact original clone identity; no unprovided sequence is inferred",
+      "value": 28.08,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_06",
+      "locator": "Example10 Table14 IC50; original TLA0015",
+      "sequence_locator": "Measured-assay transfer by exact original clone identity; no unprovided sequence is inferred",
+      "value": 12.1,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_07",
+      "locator": "Example10 Table14 IC50; original TLA0140",
+      "sequence_locator": "Measured-assay transfer by exact original clone identity; no unprovided sequence is inferred",
+      "value": 35.79,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_08",
+      "locator": "Example10 Table14 IC50; original TLA0165",
+      "sequence_locator": "Measured-assay transfer by exact original clone identity; no unprovided sequence is inferred",
+      "value": 19.15,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_09",
+      "locator": "Example10 Table14 IC50; original TLA0167",
+      "sequence_locator": "Measured-assay transfer by exact original clone identity; no unprovided sequence is inferred",
+      "value": 38.48,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_10",
+      "locator": "Example10 Table14 IC50; original TLA0238",
+      "sequence_locator": "Measured-assay transfer by exact original clone identity; no unprovided sequence is inferred",
+      "value": 12.19,
+      "unit": "nM"
+    }
+  ]
+}

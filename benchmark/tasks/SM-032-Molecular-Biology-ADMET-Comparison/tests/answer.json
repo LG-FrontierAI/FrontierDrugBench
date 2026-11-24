@@ -1,0 +1,292 @@
+{
+  "answer": {
+    "HLM-TOP201": [
+      "M014",
+      "M012"
+    ],
+    "HLM-TOP202": [
+      "M016",
+      "M019"
+    ],
+    "HLM-TOP203": [
+      "M022",
+      "M021"
+    ],
+    "HLM-PAIR01": "M026",
+    "HLM-PAIR02": "M028",
+    "HLM-PAIR03": "M030",
+    "HLM-PAIR04": "M033",
+    "HLM-PAIR05": "M034",
+    "HLM-RANK01": [
+      "M036",
+      "M039",
+      "M037",
+      "M038",
+      "M040"
+    ],
+    "HLM-RANK02": [
+      "M041",
+      "M045",
+      "M042",
+      "M044",
+      "M043"
+    ],
+    "HLM-RANK03": [
+      "M050",
+      "M046",
+      "M047",
+      "M048",
+      "M049"
+    ]
+  },
+  "scoring": {
+    "raw_total_points": 40.0,
+    "total_points": 100,
+    "items": {
+      "HLM-TOP201": {
+        "type": "top2",
+        "raw_points": 5,
+        "candidates": [
+          "M011",
+          "M012",
+          "M013",
+          "M014",
+          "M015"
+        ],
+        "points": 12.5
+      },
+      "HLM-TOP202": {
+        "type": "top2",
+        "raw_points": 5,
+        "candidates": [
+          "M016",
+          "M017",
+          "M018",
+          "M019",
+          "M020"
+        ],
+        "points": 12.5
+      },
+      "HLM-TOP203": {
+        "type": "top2",
+        "raw_points": 5,
+        "candidates": [
+          "M021",
+          "M022",
+          "M023",
+          "M024",
+          "M025"
+        ],
+        "points": 12.5
+      },
+      "HLM-PAIR01": {
+        "type": "pair",
+        "raw_points": 2,
+        "candidates": [
+          "M026",
+          "M027"
+        ],
+        "points": 5.0
+      },
+      "HLM-PAIR02": {
+        "type": "pair",
+        "raw_points": 2,
+        "candidates": [
+          "M028",
+          "M029"
+        ],
+        "points": 5.0
+      },
+      "HLM-PAIR03": {
+        "type": "pair",
+        "raw_points": 2,
+        "candidates": [
+          "M030",
+          "M031"
+        ],
+        "points": 5.0
+      },
+      "HLM-PAIR04": {
+        "type": "pair",
+        "raw_points": 2,
+        "candidates": [
+          "M032",
+          "M033"
+        ],
+        "points": 5.0
+      },
+      "HLM-PAIR05": {
+        "type": "pair",
+        "raw_points": 2,
+        "candidates": [
+          "M034",
+          "M035"
+        ],
+        "points": 5.0
+      },
+      "HLM-RANK01": {
+        "type": "rank",
+        "raw_points": 5,
+        "candidates": [
+          "M036",
+          "M037",
+          "M038",
+          "M039",
+          "M040"
+        ],
+        "scored_relations": [
+          [
+            "M036",
+            "M039"
+          ],
+          [
+            "M036",
+            "M037"
+          ],
+          [
+            "M036",
+            "M038"
+          ],
+          [
+            "M036",
+            "M040"
+          ],
+          [
+            "M039",
+            "M037"
+          ],
+          [
+            "M039",
+            "M038"
+          ],
+          [
+            "M039",
+            "M040"
+          ],
+          [
+            "M037",
+            "M038"
+          ],
+          [
+            "M037",
+            "M040"
+          ],
+          [
+            "M038",
+            "M040"
+          ]
+        ],
+        "points": 12.5
+      },
+      "HLM-RANK02": {
+        "type": "rank",
+        "raw_points": 5,
+        "candidates": [
+          "M041",
+          "M042",
+          "M043",
+          "M044",
+          "M045"
+        ],
+        "scored_relations": [
+          [
+            "M041",
+            "M045"
+          ],
+          [
+            "M041",
+            "M042"
+          ],
+          [
+            "M041",
+            "M044"
+          ],
+          [
+            "M041",
+            "M043"
+          ],
+          [
+            "M045",
+            "M042"
+          ],
+          [
+            "M045",
+            "M044"
+          ],
+          [
+            "M045",
+            "M043"
+          ],
+          [
+            "M042",
+            "M044"
+          ],
+          [
+            "M042",
+            "M043"
+          ],
+          [
+            "M044",
+            "M043"
+          ]
+        ],
+        "points": 12.5
+      },
+      "HLM-RANK03": {
+        "type": "rank",
+        "raw_points": 5,
+        "candidates": [
+          "M046",
+          "M047",
+          "M048",
+          "M049",
+          "M050"
+        ],
+        "scored_relations": [
+          [
+            "M050",
+            "M046"
+          ],
+          [
+            "M050",
+            "M047"
+          ],
+          [
+            "M050",
+            "M048"
+          ],
+          [
+            "M050",
+            "M049"
+          ],
+          [
+            "M046",
+            "M047"
+          ],
+          [
+            "M046",
+            "M048"
+          ],
+          [
+            "M046",
+            "M049"
+          ],
+          [
+            "M047",
+            "M048"
+          ],
+          [
+            "M047",
+            "M049"
+          ],
+          [
+            "M048",
+            "M049"
+          ]
+        ],
+        "points": 12.5
+      }
+    },
+    "points_policy": "Source raw_points are relative weights only; the task maximum and awarded points are reported on a 100-point scale."
+  }
+}

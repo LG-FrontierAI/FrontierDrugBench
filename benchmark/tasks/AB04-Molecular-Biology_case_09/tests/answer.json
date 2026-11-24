@@ -1,0 +1,17 @@
+{
+  "item_id": "AB04",
+  "case_id": "case_09",
+  "parent_bench_id": "AB04",
+  "data_status": "synthetic_fixture",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": {
+    "method": "task_scorer",
+    "answer_mode": "single_case",
+    "item_id": "AB04",
+    "case_id": "case_09",
+    "reason": "Design case gold under tests/cases/; scored by task score.py."
+  }
+}

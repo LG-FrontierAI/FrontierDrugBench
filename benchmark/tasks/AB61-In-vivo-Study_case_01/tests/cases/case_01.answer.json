@@ -1,0 +1,62 @@
+{
+  "item_id": "AB61",
+  "case_id": "case_01",
+  "task_type": "numeric",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2025170982A2"
+  ],
+  "study_id": "WO2025170982A2 Example 7: single 50 mg/kg dose in male cynomolgus monkeys, serum follow-up through day 91. Route-specific beta-elimination half-life. The SC clearance column is apparent clearance (CL/F), not independently measured IV clearance. In-vitro values are matched human IL-23 experiments; relative IC50 uses reference_1=1. These are finite-cohort experimental estimates.",
+  "input_sha256": "fb0194a12b6d22bae3abf37dd3b7226b70f4b6d655b8110416700e4a1c583c42",
+  "study_information_sha256": "44e09b0202e89c3743dd5bff0dc9fffe748d1202d6c77054ac0835d535dfa3d4",
+  "target_ids": [
+    "clone_107",
+    "clone_202",
+    "clone_203"
+  ],
+  "truth": {
+    "clone_107": 5.1,
+    "clone_202": 2.9,
+    "clone_203": 3.3
+  },
+  "higher_is_better": true,
+  "unit": "mL/day/kg",
+  "sources": [
+    {
+      "publication_number": "WO2025170982A2",
+      "url": "https://patents.google.com/patent/WO2025170982A2/en",
+      "publication_date": "2025-08-14",
+      "family_earliest_publication_date": "2025-08-14",
+      "disclosure_status": "verified",
+      "locator": "Examples 3-7; Tables 5,6,8,10A. Textual same-family transcription: US20260193341A1, Tables 5,6,8,10A.",
+      "source_channel": "web.run Google Patents primary patent; national reprint used only for table readability",
+      "readable_publication_number": "US20260193341A1",
+      "readable_url": "https://patents.google.com/patent/US20260193341A1/en",
+      "disclosure_check": "Checked WO2025170982A2 firstpublication2025-08-14 and US20260193341A1 relatedPCT/priority records; provisionals2024-02-06/2024-09-24 are priorities, not publicdisclosure. PKTable10A is a completed50mg/kg dataset, distinct from oldReferenceAntibody1. No earlierpublicsamecloneTable10A record located in checkedfamily."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "clone_107",
+      "locator": "Examples 3-7; Tables 5,6,8,10A. Textual same-family transcription: US20260193341A1, Tables 5,6,8,10A.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 5.1,
+      "unit": "mL/day/kg"
+    },
+    {
+      "name": "clone_202",
+      "locator": "Examples 3-7; Tables 5,6,8,10A. Textual same-family transcription: US20260193341A1, Tables 5,6,8,10A.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 2.9,
+      "unit": "mL/day/kg"
+    },
+    {
+      "name": "clone_203",
+      "locator": "Examples 3-7; Tables 5,6,8,10A. Textual same-family transcription: US20260193341A1, Tables 5,6,8,10A.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 3.3,
+      "unit": "mL/day/kg"
+    }
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "bench_id": "DNA33-010",
+  "answer": {
+    "selected": [
+      "C",
+      "D"
+    ]
+  },
+  "scoring": {
+    "type": "option_set",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D"
+    ],
+    "points": 100
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "case_eval"
+  }
+}

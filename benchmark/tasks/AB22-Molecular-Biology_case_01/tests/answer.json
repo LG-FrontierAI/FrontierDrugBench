@@ -1,0 +1,37 @@
+{
+  "item_id": "AB22",
+  "case_id": "case_01",
+  "parent_bench_id": "AB22",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": [
+    "molecule_05",
+    "molecule_07",
+    "molecule_09",
+    "molecule_01",
+    "molecule_06",
+    "molecule_02",
+    "molecule_08",
+    "molecule_03",
+    "molecule_04"
+  ],
+  "reference": {
+    "answer": [
+      "molecule_05",
+      "molecule_07",
+      "molecule_09",
+      "molecule_01",
+      "molecule_06",
+      "molecule_02",
+      "molecule_08",
+      "molecule_03",
+      "molecule_04"
+    ],
+    "selfcheck": {
+      "skip": "frozen gold has tied values, so the Spearman ceiling for this case is 0.9958; a tie-respecting order reaches it and no submission can score 1.0"
+    }
+  }
+}

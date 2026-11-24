@@ -1,0 +1,40 @@
+{
+  "answer": {
+    "CYP-INTERVAL01": {
+      "M051": "I1",
+      "M052": "I3",
+      "M056": "I1",
+      "M059": "I2",
+      "M057": "I2",
+      "M055": "I3",
+      "M053": "I2",
+      "M058": "I1",
+      "M060": "I3",
+      "M054": "I3"
+    }
+  },
+  "scoring": {
+    "raw_total_points": 10.0,
+    "total_points": 100,
+    "items": {
+      "CYP-INTERVAL01": {
+        "type": "interval",
+        "raw_points": 10,
+        "candidates": [
+          "M051",
+          "M052",
+          "M053",
+          "M054",
+          "M055",
+          "M056",
+          "M057",
+          "M058",
+          "M059",
+          "M060"
+        ],
+        "points": 100.0
+      }
+    },
+    "points_policy": "Source raw_points are relative weights only; the task maximum and awarded points are reported on a 100-point scale."
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "answer": {
+    "id": "CB-007",
+    "mode": "evidence_single",
+    "score_total": 100,
+    "metric_keys": [
+      "order_targeted_T",
+      "order_untargeted_T",
+      "order_untargeted_HEK",
+      "CD7_HEK_targeting_gain"
+    ]
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "lnp_evidence_v2",
+    "scoring_version": "v2"
+  },
+  "reference": {
+    "id": "CB-007",
+    "mode": "evidence_single",
+    "candidate_ids": [
+      "DSPC",
+      "DPPC",
+      "DMPC",
+      "DAPC",
+      "DOPC",
+      "DOPE",
+      "EggPC",
+      "DSPE",
+      "DSPG"
+    ],
+    "sources": [
+      {
+        "patent": "WO2026099382A1",
+        "pdf_pages": [
+          73,
+          74,
+          86,
+          87,
+          88,
+          89,
+          90
+        ],
+        "locator": "Examples10–14;Figures11–15;helperchemicalidentitiespp73–74",
+        "quote": "the transfection efficacy showed a trend from DSPC>DPPC>DMPC. ... untargeted particles formulated using the unsaturated DOPC, DOPE and Egg-PC greatly outperformed the saturated PC lipids ... the transfection efficiencies of tLNPs with saturated PC lipids are greatly increased",
+        "kind": "patent",
+        "file": "WO2026099382A1.pdf",
+        "family_first_publication_date": "2026-05-15",
+        "family_id": "97598968",
+        "date_evidence_url": "https://patents.google.com/patent/WO2026099382A1/en",
+        "verification_scope": "AI review of current Google-indexed family/application/publication tables and local metadata; not exhaustive official worldwide family certification; human confirmation needed before final release."
+      }
+    ],
+    "issues": [
+      "Differentdoses/backgroundsnotpooledintooneabsoluteefficacyrank.",
+      "Endpointtimeandperpanelfullrecipeverificationpending;recordevidenceisoriginalbodyqualitative,notexactgraphmeans.",
+      "CD7-GFPbackgroundconfoundsGFPDNA;onlymCherryisusedforengineeredHEK.",
+      "EggPCisheterogeneouscommercialmixture;headgroupPCdoesnotmeanallsaturated."
+    ],
+    "metrics": [
+      {
+        "type": "ranking_constraints",
+        "key": "order_targeted_T",
+        "candidate_ids": [
+          "DSPC",
+          "DPPC",
+          "DMPC",
+          "DOPC",
+          "DSPE",
+          "DSPG"
+        ],
+        "expected_pairs": [
+          [
+            "DSPC",
+            "DPPC"
+          ],
+          [
+            "DPPC",
+            "DMPC"
+          ],
+          [
+            "DSPC",
+            "DMPC"
+          ],
+          [
+            "DSPC",
+            "DOPC"
+          ],
+          [
+            "DSPC",
+            "DSPE"
+          ],
+          [
+            "DSPC",
+            "DSPG"
+          ]
+        ],
+        "weight": 30
+      },
+      {
+        "type": "ranking_constraints",
+        "key": "order_untargeted_T",
+        "candidate_ids": [
+          "DSPC",
+          "DOPC",
+          "DOPE"
+        ],
+        "expected_pairs": [
+          [
+            "DOPC",
+            "DSPC"
+          ],
+          [
+            "DOPE",
+            "DSPC"
+          ]
+        ],
+        "weight": 20
+      },
+      {
+        "type": "ranking_constraints",
+        "key": "order_untargeted_HEK",
+        "candidate_ids": [
+          "DSPC",
+          "DPPC",
+          "DAPC",
+          "DOPC",
+          "DOPE",
+          "EggPC"
+        ],
+        "expected_pairs": [
+          [
+            "DOPC",
+            "DSPC"
+          ],
+          [
+            "DOPC",
+            "DPPC"
+          ],
+          [
+            "DOPC",
+            "DAPC"
+          ],
+          [
+            "DOPE",
+            "DSPC"
+          ],
+          [
+            "DOPE",
+            "DPPC"
+          ],
+          [
+            "DOPE",
+            "DAPC"
+          ],
+          [
+            "EggPC",
+            "DSPC"
+          ],
+          [
+            "EggPC",
+            "DPPC"
+          ],
+          [
+            "EggPC",
+            "DAPC"
+          ]
+        ],
+        "weight": 30
+      },
+      {
+        "type": "mapping_choice",
+        "key": "CD7_HEK_targeting_gain",
+        "candidate_ids": [
+          "DSPC",
+          "DOPC",
+          "DOPE"
+        ],
+        "choices": [
+          "large",
+          "modest"
+        ],
+        "expected": {
+          "DSPC": "large",
+          "DOPC": "modest",
+          "DOPE": "modest"
+        },
+        "weight": 20
+      }
+    ],
+    "category": "Cell-biology",
+    "source_type": "patent",
+    "source_ids": [
+      "WO2026099382A1"
+    ],
+    "experiment_group": "Examples10–14;helper x targeting x CD7 receptor context matrix",
+    "release_ready": true,
+    "validation_scope": "source-record alignment, scoring contract and payload checks; not an independent experimental replication",
+    "example_model_answer": {
+      "reason": "self-check: gold-derived submission used to verify the grading contract",
+      "order_targeted_T": [
+        "DSPC",
+        "DPPC",
+        "DMPC",
+        "DOPC",
+        "DSPE",
+        "DSPG"
+      ],
+      "order_untargeted_T": [
+        "DOPC",
+        "DOPE",
+        "DSPC"
+      ],
+      "order_untargeted_HEK": [
+        "DOPC",
+        "DOPE",
+        "EggPC",
+        "DSPC",
+        "DPPC",
+        "DAPC"
+      ],
+      "CD7_HEK_targeting_gain": {
+        "DSPC": "large",
+        "DOPC": "modest",
+        "DOPE": "modest"
+      }
+    }
+  }
+}

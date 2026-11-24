@@ -1,0 +1,42 @@
+{
+  "item_id": "AB42",
+  "parent_item_id": "AB42",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "binary",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "026fab3a0f7ceada969ad7967686cca9c17cccc8307f17e45e219e5e21d9e4cf",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "3c2dd7c306931a5168635027fbc73b8b62bf10cd68b0bdb7e014f29b8da1aba9",
+      "study_information": "Same anti-TNF binding site; full antibody heavy/light chain sequences. All targets experimentally tested. Source phenotype decisions use observed activity above background, not an invented EC50 threshold. The targets come from related but distinct effector mechanisms; tasks must run in independent contexts.",
+      "study_information_sha256": "4b48d6f8f709a42eecf3ddf60e36273533e925bcf1d3d28adc8e4ad34a996d79",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.75,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2025125545A1"
+  ],
+  "study_id": "Sanofi_effectorless_Fc_2025",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB42",
+  "expanded_bench_id": "AB42-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting FcRIIa signaling despite Fc-silencing substitutions",
+  "format": "structured_json"
+}

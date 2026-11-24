@@ -1,0 +1,51 @@
+{
+  "item_id": "AB69",
+  "case_id": "case_01",
+  "task_type": "numeric",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026076123A2"
+  ],
+  "study_id": "WO2026076123A2 Example8Table1;HER2constructs2Rs15D,3x2Rs15D,3x(-)2Rs15D. IPadministration,ELISA,noncompartmentalanalysis.",
+  "input_sha256": "9b842ce575315f45dc627e75276cb9c34e4aafbbdd5fc8d1779709ce6bff5bb0",
+  "study_information_sha256": "57d0dce60996bd87fae4a9bb8db682b83b15635f857e4f12890e12c98358c22c",
+  "target_ids": [
+    "HER2_trimer",
+    "HER2_negative_trimer"
+  ],
+  "truth": {
+    "HER2_trimer": 1.3,
+    "HER2_negative_trimer": 5.8
+  },
+  "higher_is_better": true,
+  "unit": "h",
+  "sources": [
+    {
+      "publication_number": "WO2026076123A2",
+      "url": "https://patents.google.com/patent/WO2026076123A2/en",
+      "publication_date": "2026-04-09",
+      "family_earliest_publication_date": "2026-04-09",
+      "disclosure_status": "verified",
+      "locator": "Example6 Figures6/7; Example8 Table1/Figures8C/9",
+      "source_channel": "web.run primaryHTML explicitresponse_lengthlong retrieved2026-10-23",
+      "disclosure_check": "Familyviewshows onlyWO2026076123A2,priority2024-10-01. Exacttitle andchargedHER2construct searchesfoundpatentpublication,notearliermatchingpublishedanimaldata. OnlyHER2constructsused; toxin-targetingconstructsexcluded."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "HER2_trimer",
+      "locator": "Example6 Figures6/7; Example8 Table1/Figures8C/9",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 1.3,
+      "unit": "h"
+    },
+    {
+      "name": "HER2_negative_trimer",
+      "locator": "Example6 Figures6/7; Example8 Table1/Figures8C/9",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 5.8,
+      "unit": "h"
+    }
+  ]
+}

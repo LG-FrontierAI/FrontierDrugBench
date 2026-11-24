@@ -1,0 +1,93 @@
+{
+  "item_id": "AB77",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026076123A2"
+  ],
+  "study_id": "HER2 nanobody monomer/trimer charge-engineering PK",
+  "input_sha256": "d74b7b24dd99024c3a76304442891f41b79cb93285a2e3a8c1dae4a4a6baa491",
+  "study_information_sha256": "74f78e7ca27532b733656e1629c02850b36ef6994c86c8ab7030f95b1ca9ef2e",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": true,
+  "unit": "rubric_score",
+  "sources": [
+    {
+      "publication_number": "WO2026076123A2",
+      "url": "https://patents.google.com/patent/WO2026076123A2/en",
+      "publication_date": "2026-04-09",
+      "family_earliest_publication_date": "2026-04-09",
+      "disclosure_status": "verified",
+      "locator": "Example6;Example8 Table1/Figures8C/9",
+      "source_channel": "web.run primaryHTML explicitresponse_length long, retrieved2026-10-23"
+    }
+  ],
+  "evidence": [],
+  "rubric": [
+    {
+      "id": "values",
+      "points": 20,
+      "requirement": "Correctly report1.0/1.3/5.8h and construct identities.",
+      "required_finding": "Correctly report1.0/1.3/5.8h and construct identities.",
+      "source_locator": "Table1"
+    },
+    {
+      "id": "design",
+      "points": 20,
+      "requirement": "Preserve IProute,sex/strain/dose andsampling; do not call this IVclearance.",
+      "required_finding": "Preserve IProute,sex/strain/dose andsampling; do not call this IVclearance.",
+      "source_locator": "Example8"
+    },
+    {
+      "id": "factor",
+      "points": 20,
+      "requirement": "Separate charge and multimerization; identify need for charge-only matchedcontrols.",
+      "required_finding": "Separate charge and multimerization; identify need for charge-only matchedcontrols.",
+      "source_locator": "Examples6/8"
+    },
+    {
+      "id": "limits",
+      "points": 15,
+      "requirement": "Avoid universal mechanism or clinical translation; recognize binding changes.",
+      "required_finding": "Avoid universal mechanism or clinical translation; recognize binding changes.",
+      "source_locator": "Example6"
+    },
+    {
+      "id": "checks",
+      "points": 25,
+      "requirement": "Propose matchedIVPK andfactorialcharge/architecture plusintact-analyte checks.",
+      "required_finding": "Propose matchedIVPK andfactorialcharge/architecture plusintact-analyte checks.",
+      "source_locator": "Example8"
+    }
+  ],
+  "reference_answer": "The observed terminal beta-phase half-lives were 1.0 hour for the HER2 monomer 2Rs15D, 1.3 hours for the unmodified trimer 3x2Rs15D, and 5.8 hours for the negatively charged trimer 3x(-)2Rs15D. Thus the negative trimer persisted longest in this experiment. All retained HER2 binding, although engineering changed the binding KD by approximately 1.8-fold relative to the unmodified trimer.\n\nHowever, the experiment used six-week-old female BALB/c mice and 100 µg intraperitoneal dosing, with terminal sampling from 30 minutes to 24 hours and selected trimer observations to 48 hours. These are assay-derived beta-phase estimates, not a direct measurement of IV clearance. Absorption after IP administration, construct-dependent immunoassay behavior and sampling may contribute. The tested negative trimer combines surface changes with multimeric architecture; the result cannot establish a universal charge-only mechanism or predict clinical exposure.\n\nFirst, compare charge-engineered and unmodified monomers and trimers in a matched factorial design to isolate charge and valency contributions. Second, obtain matched IV profiles using intact-analyte detection and the same sampling budget. These checks separate elimination from absorption and detect whether apparent persistence depends on assay recognition or degradation.",
+  "rubric_contrast_checks": {
+    "full_correct": {
+      "answer": "The observed terminal beta-phase half-lives were 1.0 hour for the HER2 monomer 2Rs15D, 1.3 hours for the unmodified trimer 3x2Rs15D, and 5.8 hours for the negatively charged trimer 3x(-)2Rs15D. Thus the negative trimer persisted longest in this experiment. All retained HER2 binding, although engineering changed the binding KD by approximately 1.8-fold relative to the unmodified trimer.\n\nHowever, the experiment used six-week-old female BALB/c mice and 100 µg intraperitoneal dosing, with terminal sampling from 30 minutes to 24 hours and selected trimer observations to 48 hours. These are assay-derived beta-phase estimates, not a direct measurement of IV clearance. Absorption after IP administration, construct-dependent immunoassay behavior and sampling may contribute. The tested negative trimer combines surface changes with multimeric architecture; the result cannot establish a universal charge-only mechanism or predict clinical exposure.\n\nFirst, compare charge-engineered and unmodified monomers and trimers in a matched factorial design to isolate charge and valency contributions. Second, obtain matched IV profiles using intact-analyte detection and the same sampling budget. These checks separate elimination from absorption and detect whether apparent persistence depends on assay recognition or degradation.",
+      "expected_score": 1.0,
+      "basis": "All criterion findings are explicitly present.",
+      "expected_points": 100
+    },
+    "all_yes": {
+      "answer": "Every proposed claim is supported; the study proves the mechanism and broad translation.",
+      "expected_score": 0.0,
+      "basis": "Unsupported blanket acceptance omits all required specific findings.",
+      "expected_points": 0
+    },
+    "all_no": {
+      "answer": "Nothing in the experiment is useful or supported. All results should be rejected.",
+      "expected_score": 0.0,
+      "basis": "Blanket dismissal omits supported observations and required specific findings.",
+      "expected_points": 0
+    },
+    "omitted_critical": {
+      "answer": "The observed terminal beta-phase half-lives were 1.0 hour for the HER2 monomer 2Rs15D, 1.3 hours for the unmodified trimer 3x2Rs15D, and 5.8 hours for the negatively charged trimer 3x(-)2Rs15D. Thus the negative trimer persisted longest in this experiment. All retained HER2 binding, although engineering changed the binding KD by approximately 1.8-fold relative to the unmodified trimer.",
+      "expected_score_upper_bound": 0.6,
+      "basis": "Missing central limitation and proposed checks cannot receive points for those criteria.",
+      "expected_points_upper_bound": 60
+    }
+  }
+}

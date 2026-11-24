@@ -1,0 +1,1 @@
+{"sandwich1_h48": 0.35, "sandwich2_h48": 0.63, "kappa3_h48": 0.11}

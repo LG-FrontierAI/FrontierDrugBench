@@ -1,0 +1,73 @@
+{
+  "bench_id": "H3-ClinicalInquiry-067",
+  "answer": "I am not a doctor. The following is general information only and cannot replace professional medical diagnosis and treatment. I can offer some suggestions; if needed, please seek medical care promptly.\nPeople with diabetes need to be especially careful about blisters on the foot, because they are prone to wound infection and poor healing. The correct approach is:\n\n1. **Do not pop the blister yourself.** A blister is a natural protective barrier that keeps bacteria out.\n\n2. **Keep the blister area clean and dry.** Clean the foot gently with warm water and mild soap, then pat it dry with a clean towel.\n\n3. **Cover and protect the blister.** Cover it gently with sterile gauze to avoid friction and pressure. If available, use a dedicated blister dressing.\n\n4. **Wear loose, well-fitting shoes and socks.** Avoid further pressure or friction on the blister.\n\n5. **Check the blister every day.**\n   - If the blister bursts, or redness, swelling, discharge, worsening pain or a bad smell appears, seek medical care promptly.\n   - Foot infections progress quickly in people with diabetes, so do not delay.\n\nSeek medical care immediately in the following situations:\n- The blister is more than 1 cm in diameter or has already burst\n- A red line spreads upward from the skin, with swelling, warmth or worsening pain\n- Fever, chills, or blood sugar that is difficult to control\n- A history of foot ulcer, amputation, or vascular or nerve disease\n\nPrevention:\n- Examine both feet daily: check skin colour, temperature and any breaks in the skin.\n- Wear suitable shoes and socks: avoid hard soles or shoes that are too tight, and choose seamless cotton socks.\n- Control blood sugar, blood pressure and blood lipids: follow prescribed medication and dietary management.\n- Keep regular foot and endocrinology follow-up: a foot assessment at least every 3–6 months.\n- Stop smoking and limit alcohol: this improves the microcirculation.\n\n**A reminder:** Foot problems in people with diabetes deserve particular attention; avoid self-medicating or mishandling them, which can lead to infection. Regular foot examinations are also very important.\n\nIf you have persistent numbness, pain or ulceration of the foot, please seek medical care as soon as possible. This allows early treatment and lowers the risk of serious complications.",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Seeks the most informative context by asking whether the user has fever, chills, local erythema, swelling, discharge, or pain. If any of these symptoms are present, suggests the user seek prompt medical evaluation as soon as possible; otherwise, an appointment with a doctor should be arranged.",
+        "points": 9,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Suggests that the user pop the blister on their feet themselves. (Justification: Blisters are the body's natural way of protecting the skin, and popping them can increase the risk of infection and delay healing.)",
+        "points": -10,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Reminds the user to pay attention to the protection of the blister, as diabetic neuropathy may cause numbness, making it difficult to sense pain and potentially leaving the affected area unprotected.",
+        "points": 3,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Recommends undergoing an evaluation for diabetic foot and screening for peripheral arterial disease.",
+        "points": 3,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Provides tips on general foot self-care: wash your feet daily with soap and warm water, pat them dry (especially between the toes), and apply lotion to the tops and bottoms while avoiding the areas between the toes. Check your feet daily for cuts, blisters, redness, swelling, or ulcers, using a mirror if necessary. Trim toenails straight across to prevent complications. Avoid walking barefoot, wear well-fitting shoes, and avoid footwear that exposes any part of the foot.",
+        "points": 2,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Suggests smoking cessation for smokers to improve overall health and enhance recovery. (Justification: Smoking impairs circulation and delays wound healing, significantly increasing the risk of complications, especially in conditions like diabetes or peripheral arterial disease.)",
+        "points": 3,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Reminds the user of the importance of glucose control, as maintaining optimal blood sugar levels helps prevent complications, supports wound healing, and reduces the risk of long-term damage to organs and blood vessels.",
+        "points": 3,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      }
+    ],
+    "points": 23
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 23,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

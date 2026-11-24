@@ -1,0 +1,11 @@
+name,format,human_TL1A_ELISA_EC50_nM,cyno_TL1A_ELISA_EC50_nM,DR3_cell_blocking_IC50_nM
+candidate_01,IgG,0.05,0.06,
+candidate_02,IgG,0.04,0.05,
+candidate_03,IgG,0.06,0.065,85.05
+candidate_04,IgG,0.04,0.05,16.68
+candidate_05,IgG,0.04,0.05,
+candidate_06,IgG,0.04,0.05,
+candidate_07,IgG,0.03,0.05,
+candidate_08,IgG,0.04,0.05,
+candidate_09,IgG,0.04,0.05,
+candidate_10,IgG,0.03,0.04,

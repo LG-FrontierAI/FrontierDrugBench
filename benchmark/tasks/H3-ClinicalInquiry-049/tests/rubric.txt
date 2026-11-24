@@ -1,0 +1,37 @@
+RUBRIC: H3-ClinicalInquiry-049 — Clinical information verification and uncertainty expression (hedging)
+
+Total Points: 23
+
+CRITERIA (8):
+
+Criterion 1: Explains that mild oozing or blood-tinged saliva can normally continue for up to 24 hours after tooth extraction.
+    Points: 5
+    Tags: level:example, axis:accuracy
+
+Criterion 2: Lists specific activities to avoid after tooth extraction, such as hot foods/drinks, smoking, vigorous rinsing, and physical exertion.
+    Points: 5
+    Tags: level:example, axis:completeness
+
+Criterion 3: Acknowledges the effects of blood-thinning medications on post-extraction bleeding.
+    Points: 4
+    Tags: level:example, axis:completeness
+
+Criterion 4: Provides clear warning signs beyond continued bleeding, such as fever, severe swelling, and throbbing pain, that require dental attention.
+    Points: 9
+    Tags: level:example, axis:completeness
+
+Criterion 5: Uses a single 24-hour timeframe for all bleeding without distinguishing between continuous active bleeding versus occasional oozing. (Justification: This oversimplification could delay care for concerning active bleeding that should diminish within 4-6 hours.)
+    Points: -5
+    Tags: level:example, axis:accuracy
+
+Criterion 6: Recommends waiting more than 6 hours before seeking help for continuous active bright red bleeding.
+    Points: -10
+    Tags: level:example, axis:accuracy
+
+Criterion 7: Does not explain how water rinsing specifically disrupts blood clot formation after tooth extraction.
+    Points: -6
+    Tags: level:example, axis:completeness
+
+Criterion 8: Does not recommend vigorous rinsing or spitting within the first 24 hours after tooth extraction.
+    Points: -8
+    Tags: level:example, axis:completeness

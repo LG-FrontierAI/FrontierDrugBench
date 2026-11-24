@@ -1,0 +1,42 @@
+{
+  "item_id": "AB70",
+  "parent_item_id": "AB70",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "395ef93e5f37009c72d7c08e15df715966c5e16d65ac3432a5757d897cbfd4d7",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "909b338d98cad84db84ecd5bd90a4a900f4f51b6c665e75a48420770342811f3",
+      "study_information": "Predict ofaschlupfer total clearance (mL/h/kg) after a single 30 mg/kg IV dose in cynomolgus monkeys. Matched human receptor-binding results, a qualitative HIC comparison and the bimagrumab clearance reference are visible. Target AUC, Vss, half-life and other algebraic clearance proxies are withheld. Each group contained two animals; predict the reported finite-cohort mean.",
+      "study_information_sha256": "02b458c82a1e999123dc4b9b6c4d61fbdedc2a2b1bd7343d061ec649accce329",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.9,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2025068454A1"
+  ],
+  "study_id": "WO2025068454A1 Example9Table18;twoanimals/group,cynomolgus30mg/kgIV;kineticsfromExample6Table5. Parentreferencebimagrumabnotnewgold.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB70",
+  "expanded_bench_id": "AB70-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting cynomolgus clearance of a dual ActRII antibody",
+  "format": "regression"
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "AB58",
+  "parent_item_id": "AB58",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "ec1dd4128266fb11c67370353c1d0f5e98102b4d5cb18238e902696bfc39001d",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "e3d18069e05316c1586bf06d8f17f742a4decf0e8f629cc5d6a0f4f0c858cc86",
+      "study_information": "Examples11/12 use skin-derived Vδ1 γδT cells at1:1 E:T for degranulation/lysis. Example13 first primes PBMCs for seven days, then uses40:1 totalPBMC:tumor. The reported PBMC composition is approximately83% αβT cells and8.6% Vδ1 cells. Source observations are not normalized to matched Vδ1-cell numbers, priming histories or accessory-cell composition.",
+      "study_information_sha256": "538c7773760e6fe240ab875adbdd66941eb54adac40753a57dffa1711af0d52e",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026115036A1"
+  ],
+  "study_id": "AB58_Vdelta1_cell_evidence_2026",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB58",
+  "expanded_bench_id": "AB58-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Attributing cytotoxicity in mixed and primed effector populations",
+  "format": "open_rubric"
+}

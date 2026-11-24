@@ -1,0 +1,14 @@
+{
+  "answer": [
+    "1",
+    "4",
+    "2",
+    "3",
+    "9",
+    "6"
+  ],
+  "direction": "lower_is_better",
+  "source_patent": "WO2026006882",
+  "endpoint": "FXIa binding Kd",
+  "unit": "nM"
+}

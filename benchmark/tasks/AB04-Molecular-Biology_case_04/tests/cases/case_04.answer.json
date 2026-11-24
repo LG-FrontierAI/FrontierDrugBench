@@ -1,0 +1,105 @@
+{
+  "item_id": "AB04",
+  "case_id": "case_04",
+  "data_status": "synthetic_fixture",
+  "task_type": "design",
+  "target_ids": [],
+  "expected_candidates": 10,
+  "sequence_columns": [
+    "sequence1"
+  ],
+  "templates": {
+    "sequence1": "QVQLVESGGGLVQAGGSLRLSCAASXXXXXXXXMGWFRQAPGKEREFVATXXCXXXXXYYADSLKGRFTISRDNAKNTVYLQMNSLKPEDTAVYFCXXXXXXCXXXXXXXXXXWGQGTQVTVSS"
+  },
+  "constraints": {
+    "designable_positions": {
+      "sequence1": [
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        51,
+        52,
+        54,
+        55,
+        56,
+        57,
+        58,
+        97,
+        98,
+        99,
+        100,
+        101,
+        102,
+        104,
+        105,
+        106,
+        107,
+        108,
+        109,
+        110,
+        111,
+        112,
+        113
+      ]
+    },
+    "allowed_alphabet": "ACDEFGHIKLMNPQRSTVWY",
+    "required_total_candidates": 10,
+    "unique_candidates": true
+  },
+  "source_seed_id": "US20230174669A1_VHH142",
+  "target": "human CD98hc extracellular domain",
+  "input_sha256": "4ab94ffd8682aa466eb9396b21d871c9ea40e65de5cfa6b94f3b58572af6f80b",
+  "external_config": {
+    "evaluator_type": "alphafold3_ranking",
+    "frozen": false,
+    "protocol_version": "ab_design_af3_ranking_v1",
+    "input_dialect": "alphafold3",
+    "input_version": 3,
+    "tool_versions": {},
+    "model_parameters_sha256": null,
+    "database_snapshot_sha256": null,
+    "container_image_digest": null,
+    "msa_policy": "standard_af3_pipeline",
+    "template_policy": "standard_af3_pipeline",
+    "max_template_date": null,
+    "protocol_basis": "User-approved antigen-antibody complex ranking_score protocol; runtime identities must be frozen before evaluated submissions.",
+    "model_seeds": [
+      20261023
+    ],
+    "samples_per_seed": 5,
+    "sample_selection": "max_raw_ranking_score",
+    "score_transform": "clip_0_1",
+    "candidate_aggregation": "mean_all_10",
+    "case_aggregation": "equal_weight_all_10",
+    "chain_order": [
+      "antigen",
+      "VHH"
+    ],
+    "copies_per_chain": [
+      1,
+      1
+    ],
+    "target_sequence_sha256": "fcac9774eb7efc4e373629e46745bac5e27f42d2f0fb1e84522e487076cebc5c"
+  },
+  "status": "design_runtime_pending",
+  "provenance": {
+    "source_url": "https://patents.google.com/patent/US20230174669A1/en",
+    "seed_is_public": true,
+    "designed_binding_is_unvalidated": true,
+    "target_sequence_accession": "P08195",
+    "target_range": "105-529"
+  },
+  "target_sequence": "RAPRCRELPAQKWWHTGALYRIGDLQAFQGHGAGNLAGLKGRLDYLSSLKVKGLVLGPIHKNQKDDVAQTDLLQIDPNFGSKEDFDSLLQSAKKKSIRVILDLTPNYRGENSWFSTQVDTVATKVKDALEFWLQAGVDGFQVRDIENLKDASSFLAEWQNITKGFSEDRLLIAGTNSSDLQQILSLLESNKDLLLTSSYLSDSGSTGEHTKSLVTQYLNATGNRWCSWSLSQARLLTSFLPAQLLRLYQLMLFTLPGTPVFSYGDEIGLDAAALPGQPMEAPVMLWDESSFPDIPGAVSANMTVKGQSEDPGSLLSLFRRLSDQRSKERSLLHGDFHAFSAGPGLFSYIRHWDQNERFLVVLNFGDVGLSAGLQASDLPASASLPAKADLLLSTQPGREEGSPLELERLKLEPHEGLLLRFPYAA",
+  "target_sequence_sha256": "fcac9774eb7efc4e373629e46745bac5e27f42d2f0fb1e84522e487076cebc5c",
+  "score_formula": "mean_all_10_candidates(clip(max_5_samples(AF3 ranking_score),0,1))",
+  "parent_item_id": "AB04",
+  "category": "Molecular Biology",
+  "pass_threshold": 0.7,
+  "threshold_version": "v1-20261023",
+  "pass_rule": "unrounded_item_score >= pass_threshold"
+}

@@ -1,0 +1,42 @@
+{
+  "item_id": "AB48",
+  "parent_item_id": "AB48",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "d7e55831bb07eb153c06edc5b3a2ca17c531990e5df0c04facf6058d66835075",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "17402a5e2e479f3d8311efa9efe159a51e725be41a0a7621055673f1699b6e58",
+      "study_information": "Predict the fold enhancement of PD1 reporter blockade produced by1.25nM humanVEGF-A165 in the source coculture bioassay. Define enhancement as IC50 withoutVEGF divided by IC50 withVEGF; larger values mean stronger conditional potency gain. Both conditions use antiCD3/PD-L1 aAPC CHO-K1 cells cocultured with PD1-effector cells for6h. Human/cynomolgus PD1SPR and cellularIC50 withoutVEGF are visible; the withVEGF values and all ratios for new constructs are withheld. AK112 is a visible reference. MissingSPR remainsblank. This is a context-effect prediction, not inference of clinical efficacy.",
+      "study_information_sha256": "602f25e423b41ccb85a6177c627bc427a00ba7c94eea17e22c4f99d61282b928",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026064650A1"
+  ],
+  "study_id": "AB48_VEGF_PD1_cell_transfer_2026",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB48",
+  "expanded_bench_id": "AB48-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting VEGF-dependent enhancement of cellular PD1 blockade",
+  "format": "ranking"
+}

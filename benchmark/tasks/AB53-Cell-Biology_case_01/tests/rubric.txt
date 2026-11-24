@@ -1,0 +1,30 @@
+RUBRIC: AB53 - Interpreting cell binding, avidity and engineered signaling evidence
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: FACS
+    Points: 25
+    Description: Rejects equating cellEC50 to intrinsic monovalentKD; mentions receptor density/format/assay-dependent avidity or detection.
+    Source: Table2;Example4
+
+Criterion 2: function
+    Points: 25
+    Description: Uses08B23 binding plusinverseagonism as concrete counterexample to binding→agonism; retains22A17 reporterpotency as assay-specific observation.
+    Source: Table2;Example3
+
+Criterion 3: model
+    Points: 20
+    Description: Notes capturedIgG andTREM2Fc multivalency can affect apparentkinetics; a1:1 fit is a model not proof of noavidity.
+    Source: Example4
+
+Criterion 4: transfer
+    Points: 15
+    Description: Limits NFAT conclusions to engineeredBW5147context and does not claim microglial efficacy solely fromreporterEC50.
+    Source: Example3
+
+Criterion 5: checks
+    Points: 15
+    Description: Proposes two relevant discriminating checks withwhatresolved, e.g.monovalentkinetics/densityseries and endogenousmicroglial TREM2dependent signaling or phenotype withgenetic/control perturbation.
+    Source: Examples3/4/6

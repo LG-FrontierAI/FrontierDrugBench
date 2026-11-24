@@ -1,0 +1,135 @@
+{
+  "item_id": "AB52",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026006698A1"
+  ],
+  "study_id": "US20260001952A1_AB52",
+  "input_sha256": "e77d3473ce7ad0ee6342499b4d2d29b6588af4082f457135e16198fc6e4015d0",
+  "study_information_sha256": "40c538d53937e63051c0dad704af4fe8f43c8a5694eda5f36ad4d2ff3dbbded6",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": true,
+  "unit": "rubric_fraction",
+  "sources": [
+    {
+      "publication_number": "US20260001952A1",
+      "url": "https://patents.google.com/patent/US20260001952A1/en",
+      "publication_date": "2026-01-01",
+      "family_earliest_publication_date": "2026-01-01",
+      "disclosure_status": "verified",
+      "locator": "Table1,Table2; Examples3,4,6,7; Figures3,4,7A-C",
+      "source_channel": "Actual nonempty web.run source1267lines; open625-700and755-775,2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "03O05",
+      "locator": "humanHEK293T FACS Table2",
+      "sequence_locator": "not_required",
+      "value": "1.8",
+      "unit": "ug/mL"
+    },
+    {
+      "name": "03O05",
+      "locator": "mouseHEK293T FACS Table2",
+      "sequence_locator": "not_required",
+      "value": "6.6",
+      "unit": "ug/mL"
+    },
+    {
+      "name": "02M10",
+      "locator": "mouseHEK293T FACS Table2",
+      "sequence_locator": "not_required",
+      "value": "",
+      "unit": "ug/mL"
+    },
+    {
+      "name": "22A17",
+      "locator": "mouseHEK293T FACS Table2",
+      "sequence_locator": "not_required",
+      "value": "",
+      "unit": "ug/mL"
+    },
+    {
+      "name": "23E21-2",
+      "locator": "mouseHEK293T FACS Table2",
+      "sequence_locator": "not_required",
+      "value": "",
+      "unit": "ug/mL"
+    },
+    {
+      "name": "03O05",
+      "locator": "Example3",
+      "sequence_locator": "not_required",
+      "value": "0.5",
+      "unit": "g/ml"
+    },
+    {
+      "name": "02M10",
+      "locator": "Example3",
+      "sequence_locator": "not_required",
+      "value": "0.5",
+      "unit": "ug/ml"
+    }
+  ],
+  "rubric": [
+    {
+      "id": "missing",
+      "points": 25,
+      "source_locator": "Table2",
+      "required_finding": "Distinguishes02M10 no-binding from22A17/23E21-2 not-tested; neither iszero; finite mouseEC50 values must not be invented."
+    },
+    {
+      "id": "unit",
+      "points": 30,
+      "source_locator": "Example3",
+      "required_finding": "Recognizes03O05 original functional0.5g/ml conflicts with serial concentrations; flags/quarantines until source clarification rather than silently changing to0.5ug/ml."
+    },
+    {
+      "id": "assays",
+      "points": 25,
+      "source_locator": "Examples2/3",
+      "required_finding": "SeparatesHEK293T bindingEC50 fromBW5147 NFAT functionalEC50 and rejects direct pooled-response interpretation."
+    },
+    {
+      "id": "ratio",
+      "points": 20,
+      "source_locator": "Table2;Example3",
+      "required_finding": "Does not endorse1.8/0.5=3.6 as verified potency gain because units unresolved and endpoints differ; preserves measured1.8ug/mL humanbinding and6.6ug/mL mousebinding as distinct endpoints."
+    }
+  ],
+  "reference_answer": "The proposed analysis merges three distinct data states and two different assays. Table2 reports human HEK293T binding EC50 of1.8ug/mL and mouse-cell binding EC50 of6.6ug/mL for03O05. Those finite observations can be retained in separate species-specific binding fields. For mouse binding,02M10 is reported as no binding, whereas22A17 and23E21-2 were not tested. Neither status is a numerical zero, and the source supplies no finite value or censoring threshold from which to impute one.\n\nExample3 reports03O05 functional EC50 as0.5g/ml, while its neighboring assay concentrations and other EC50 values useug/ml. This is a source-unit inconsistency requiring clarification. A likely typographical error is a hypothesis, not authorization to substitute0.5ug/ml. Preserve the literal record, flag it, and exclude it from quantitative fitting until resolved.\n\nThe human binding assay measures antibody association with HEK293T cells; the BW5147 NFAT-luciferase assay measures receptor-linked signaling after4h. Their EC50 values cannot be pooled as a single biological response. The claimed3.6-fold gain is therefore not verified: its denominator has unresolved units and the two quantities describe different endpoints. Analyze binding, species transfer, and functional potency separately, retaining the original units and missing-status codes.",
+  "review_validation_examples": [
+    {
+      "label": "complete_reference",
+      "response": "The proposed analysis merges three distinct data states and two different assays. Table2 reports human HEK293T binding EC50 of1.8ug/mL and mouse-cell binding EC50 of6.6ug/mL for03O05. Those finite observations can be retained in separate species-specific binding fields. For mouse binding,02M10 is reported as no binding, whereas22A17 and23E21-2 were not tested. Neither status is a numerical zero, and the source supplies no finite value or censoring threshold from which to impute one.\n\nExample3 reports03O05 functional EC50 as0.5g/ml, while its neighboring assay concentrations and other EC50 values useug/ml. This is a source-unit inconsistency requiring clarification. A likely typographical error is a hypothesis, not authorization to substitute0.5ug/ml. Preserve the literal record, flag it, and exclude it from quantitative fitting until resolved.\n\nThe human binding assay measures antibody association with HEK293T cells; the BW5147 NFAT-luciferase assay measures receptor-linked signaling after4h. Their EC50 values cannot be pooled as a single biological response. The claimed3.6-fold gain is therefore not verified: its denominator has unresolved units and the two quantities describe different endpoints. Analyze binding, species transfer, and functional potency separately, retaining the original units and missing-status codes.",
+      "expected_met_ids": [
+        "missing",
+        "unit",
+        "assays",
+        "ratio"
+      ]
+    },
+    {
+      "label": "generic_unsubstantiated_rejection",
+      "response": "All results are unreliable. Repeat every experiment and draw no conclusions.",
+      "expected_met_ids": []
+    },
+    {
+      "label": "unsupported_acceptance",
+      "response": "All claims are established because the patent reports them. No controls or data checks are necessary.",
+      "expected_met_ids": []
+    },
+    {
+      "label": "single_specific_finding",
+      "response": "Table2 distinguishes02M10 no mouse binding from22A17 and23E21-2 not tested. Neither state is zero and no finite mouse EC50 should be invented.",
+      "expected_met_ids": [
+        "missing"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "item_id": "AB21",
+  "case_id": "case_01",
+  "task_type": "ranking",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2024238332"
+  ],
+  "study_id": "WO2024238332A1_Example1A_Table2",
+  "input_sha256": "7b71e2229a7966e35ebd0cf2cb61f11a635a8e7e70a3a81b0742cc9258e3237d",
+  "study_information_sha256": "6975a04908adfbc2b14b4f1a3165b76ecd7ac0cf9b83581b6694443b61e6e609",
+  "target_ids": [
+    "molecule_07",
+    "molecule_02",
+    "molecule_08",
+    "molecule_04",
+    "molecule_06",
+    "molecule_09",
+    "molecule_01",
+    "molecule_05",
+    "molecule_03"
+  ],
+  "truth": {
+    "molecule_04": 12.6,
+    "molecule_06": 19.03,
+    "molecule_01": 13.45,
+    "molecule_03": 13.7,
+    "molecule_08": 15.7,
+    "molecule_02": 13.94,
+    "molecule_07": 14.51,
+    "molecule_09": 13.81,
+    "molecule_05": 15.14
+  },
+  "higher_is_better": true,
+  "unit": "mL/g",
+  "sources": [
+    {
+      "publication_number": "WO2024238332A1",
+      "url": "https://patents.google.com/patent/WO2024238332A1/en",
+      "publication_date": "2024-11-21",
+      "family_earliest_publication_date": "2024-11-21",
+      "disclosure_status": "verified",
+      "locator": "Example 1A, Table 2, printed pp.63-64; paragraphs 0146-0149, 0159-0163",
+      "source_channel": "Google Patents HTML and patent PDF screenshots"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "parent",
+      "locator": "Table 2, printed p.63",
+      "sequence_locator": "paragraphs 0146-0149; VH SEQ ID NO:1; VL SEQ ID NO:2",
+      "value": 8.03,
+      "unit": "mL/g"
+    },
+    {
+      "name": "molecule_04",
+      "locator": "Table 2, printed p.63",
+      "sequence_locator": "paragraphs 0146-0149; VH SEQ ID NO:10; VL SEQ ID NO:2",
+      "value": 12.6,
+      "unit": "mL/g"
+    },
+    {
+      "name": "molecule_06",
+      "locator": "Table 2, printed p.63",
+      "sequence_locator": "paragraphs 0146-0149; VH SEQ ID NO:17; VL SEQ ID NO:2",
+      "value": 19.03,
+      "unit": "mL/g"
+    },
+    {
+      "name": "molecule_01",
+      "locator": "Table 2, printed p.63",
+      "sequence_locator": "paragraphs 0146-0149; VH SEQ ID NO:6; VL SEQ ID NO:2",
+      "value": 13.45,
+      "unit": "mL/g"
+    },
+    {
+      "name": "molecule_03",
+      "locator": "Table 2, printed p.63",
+      "sequence_locator": "paragraphs 0146-0149; VH SEQ ID NO:4; VL SEQ ID NO:2",
+      "value": 13.7,
+      "unit": "mL/g"
+    },
+    {
+      "name": "molecule_08",
+      "locator": "Table 2, printed p.63",
+      "sequence_locator": "paragraphs 0146-0149; VH SEQ ID NO:12; VL SEQ ID NO:2",
+      "value": 15.7,
+      "unit": "mL/g"
+    },
+    {
+      "name": "molecule_02",
+      "locator": "Table 2 continued, printed p.64",
+      "sequence_locator": "paragraphs 0146-0149; VH SEQ ID NO:16; VL SEQ ID NO:2",
+      "value": 13.94,
+      "unit": "mL/g"
+    },
+    {
+      "name": "molecule_07",
+      "locator": "Table 2 continued, printed p.64",
+      "sequence_locator": "paragraphs 0146-0149; VH SEQ ID NO:5; VL SEQ ID NO:2",
+      "value": 14.51,
+      "unit": "mL/g"
+    },
+    {
+      "name": "molecule_09",
+      "locator": "Table 2 continued, printed p.64",
+      "sequence_locator": "paragraphs 0146-0149; VH SEQ ID NO:11; VL SEQ ID NO:2",
+      "value": 13.81,
+      "unit": "mL/g"
+    },
+    {
+      "name": "molecule_05",
+      "locator": "Table 2 continued, printed p.64",
+      "sequence_locator": "paragraphs 0146-0149; VH SEQ ID NO:1; VL SEQ ID NO:18",
+      "value": 15.14,
+      "unit": "mL/g"
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "item_id": "AB03-B",
+  "title": "Predicting immobilized-HCAb IL-2 response from sequence and binding",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "format": "ranking",
+  "task_type": "ranking",
+  "ranking_metric": "spearman",
+  "higher_is_better": true,
+  "no_contestant_tools": true,
+  "reset_context_each_case": true,
+  "cases": [
+    {
+      "case_id": "case_03",
+      "input": "inputs/case_03.csv",
+      "input_sha256": "708f73553941d8f01332da34b28664bf1dc7070548b4536fb045bb4a77eb81e5",
+      "answer": "tests/cases/case_03.answer.json",
+      "answer_sha256": "2ca3514c7ae335dcbf1fbacd6efddfa8216f48ec5c10710c28a030127dca1504",
+      "data_status": "patent_experimental",
+      "known_count": 8,
+      "target_count": 5,
+      "source_group_id": "AB03_LINEAGE_14_2026",
+      "study_information": "The source study describes humanized anti-CD3 HCAbs tested in plate-immobilized-antibody Jurkat activation and flow-cytometry binding assays. The variable-domain sequence is supplied for each candidate. Binding is reported as Jurkat CD3-positive fluorescence intensity (MFI); no CD3-negative measurement is supplied. The activation endpoint is IL-2 concentration in pg/mL. The humanized HCAbs were yeast-produced. The exact antibody coating concentration is not reported in the source. Predict the withheld IL-2 response under this source-described assay; this endpoint does not represent soluble-antibody autonomous activation or a clinical cytokine-release estimate.",
+      "study_information_sha256": "c86feafd64e619da871e2a81f60f1d496aa1d03d8887eabbc5ca7e0dd3c6b662"
+    }
+  ],
+  "case_count": 1,
+  "input_columns": [
+    "name",
+    "format",
+    "sequence1",
+    "Jurkat_CD3_positive_MFI",
+    "IL2_response"
+  ],
+  "target_definition": "IL2_response",
+  "score_formula": "max(0, Spearman rho)",
+  "score_definition": "max(0, Spearman rho)",
+  "diagnostics": [
+    "raw_spearman"
+  ],
+  "output_format": "One comma-separated line containing every target exactly once, in the requested order; no explanation.",
+  "blocking_requirements": [],
+  "formal_biological_score_available": true,
+  "aggregation": "single_case",
+  "follow_up": null,
+  "cohort_policy": {
+    "same_lineage": true,
+    "same_IL2_conditions": true,
+    "actual_complete_records_only": true,
+    "no_fabricated_rows_to_meet_preferred_count": true
+  },
+  "endpoint_unit": "pg/mL",
+  "material_context": "Yeast-produced humanized HCAbs for both binding (Example15 exception to Example5) and activation (Examples13/7)",
+  "parent_item_id": "AB03",
+  "pass_threshold": 0.6,
+  "threshold_version": "v1-20261023",
+  "pass_rule": "unrounded_item_score >= pass_threshold",
+  "passed_evaluation_level": "item",
+  "threshold_comparison": "unrounded_score >= pass_threshold",
+  "expanded_from": "AB03-B",
+  "expanded_bench_id": "AB03-B-Cell-Biology_case_03",
+  "item_scope": {
+    "case_count": 6,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases",
+    "reference_answer_status": "experimental_truth"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "item_id": "AB01-A",
+  "title": "Predicting human IL-2Rbeta affinity from humanized VHH sequences",
+  "category": "Molecular Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "format": "ranking",
+  "task_type": "ranking",
+  "ranking_metric": "spearman",
+  "higher_is_better": false,
+  "no_contestant_tools": true,
+  "reset_context_each_case": true,
+  "cases": [
+    {
+      "case_id": "case_02",
+      "input": "inputs/case_02.csv",
+      "input_sha256": "30363429c7b1a50c1d0ed9e21bc44c806c35e1d9a90353cdeef0ed28e8662a76",
+      "answer": "tests/cases/case_02.answer.json",
+      "answer_sha256": "468424a1c280bf667f5d7a8e6c3f41549a0f67658ef5a32a2d482937a71239cb",
+      "data_status": "patent_experimental",
+      "known_count": 0,
+      "target_count": 9,
+      "source_group_id": "AB01_FV042794_2026",
+      "study_information": "Each molecule is an anti-IL-2Rbeta VHH in the same one-armed VHH-Fc format. The VHH-Fc molecules were captured on an anti-PGLALA CM3 surface. Recombinant human or cynomolgus IL-2Rbeta-gamma extracellular-domain constructs were injected as analytes in a Biacore T200 assay at 25 C, using PBS-P+ buffer, a top receptor concentration of 150 nM and threefold serial dilutions. Association and dissociation were monitored for 240 s and 600 s, respectively; KD values were reported from a 1:1 Langmuir fit and are in nM. Predict the reported human SPR KD values of the target variants. All human affinity measurements, including the parent reference, are withheld. The parent is a sequence reference only and is not a ranking target. The source does not provide replicate-level uncertainty for these table entries.",
+      "study_information_sha256": "7cedb57dd4081cbd1f0b14e26098313eaf3984fbe222fc7a1600af00d05a5255"
+    }
+  ],
+  "case_count": 1,
+  "input_columns": [
+    "name",
+    "format",
+    "sequence1",
+    "human_KD_nM"
+  ],
+  "target_definition": "human_KD_nM",
+  "score_formula": "max(0, Spearman rho)",
+  "score_definition": "max(0, Spearman rho)",
+  "diagnostics": [
+    "raw_spearman"
+  ],
+  "output_format": "One comma-separated line containing every target exactly once, in the requested order; no explanation.",
+  "blocking_requirements": [],
+  "formal_biological_score_available": true,
+  "aggregation": "single_case",
+  "follow_up": null,
+  "target_antigen": "anti-IL-2Rbeta specificity; matched human/cynomolgus IL-2Rbeta-gamma ECD analytes",
+  "parent_item_id": "AB01",
+  "pass_threshold": 0.6,
+  "threshold_version": "v1-20261023",
+  "pass_rule": "unrounded_item_score >= pass_threshold",
+  "passed_evaluation_level": "item",
+  "threshold_comparison": "unrounded_score >= pass_threshold",
+  "expanded_from": "AB01-A",
+  "expanded_bench_id": "AB01-A-Molecular-Biology_case_02",
+  "item_scope": {
+    "case_count": 2,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases",
+    "reference_answer_status": "experimental_truth"
+  }
+}

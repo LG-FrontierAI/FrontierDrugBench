@@ -1,0 +1,17 @@
+{
+  "bench_id": "D-L2-13",
+  "answer": [
+    "PFAS",
+    "ERCC4",
+    "PSIP1"
+  ],
+  "scoring": {
+    "type": "ranking_concordant",
+    "metric": "concordant_pairs",
+    "points": 100
+  },
+  "grading": {
+    "method": "concordant_pairs",
+    "scoring": "concordant01"
+  }
+}

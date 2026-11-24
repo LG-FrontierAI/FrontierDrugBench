@@ -1,0 +1,152 @@
+{
+  "item_id": "AB59",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026115036A1"
+  ],
+  "study_id": "AB59_Vdelta1_cell_evidence_2026",
+  "input_sha256": "7efbd006018889f03c4b510bc243bb9d18f568e34ceecc9c0e2e1767f11320a0",
+  "study_information_sha256": "9e0ab1685d73f1f88e37b1d66f8f8659645263920b6c3d2ad3aafbff3f5a1593",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": null,
+  "unit": null,
+  "sources": [
+    {
+      "publication_number": "US20260152558A1",
+      "url": "https://patents.google.com/patent/US20260152558A1/en",
+      "publication_date": "2026-06-04",
+      "family_earliest_publication_date": "2026-06-04",
+      "disclosure_status": "verified",
+      "locator": "Tables6,34,35; Examples10-15,19,20; WO2026115036A1 same-day family first",
+      "source_channel": "Nonempty Google Patents targeted long output; independent root recheck 2026-10-23",
+      "disclosure_check": "Earliest publication of this family is2026-06-04. Earlier cited parental/control reagents are treated only as visible controls, not new hidden measurements. The task audits current-family experiments and does not claim exhaustive absence of all earlier related articles."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "IFNg",
+      "locator": "Example20 cytokine tables; Example19 healthy-cell-sparing experiment",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "IL6",
+      "locator": "Example20 cytokine tables; Example19 healthy-cell-sparing experiment",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "IL8",
+      "locator": "Example20 cytokine tables; Example19 healthy-cell-sparing experiment",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "TNFa",
+      "locator": "Example20 cytokine tables; Example19 healthy-cell-sparing experiment",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "GMCSF",
+      "locator": "Example20 cytokine tables; Example19 healthy-cell-sparing experiment",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "MIP1b",
+      "locator": "Example20 cytokine tables; Example19 healthy-cell-sparing experiment",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "IP10",
+      "locator": "Example20 cytokine tables; Example19 healthy-cell-sparing experiment",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "MIP1a",
+      "locator": "Example20 cytokine tables; Example19 healthy-cell-sparing experiment",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "MCP1",
+      "locator": "Example20 cytokine tables; Example19 healthy-cell-sparing experiment",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    }
+  ],
+  "rubric": [
+    {
+      "id": "negative",
+      "points": 20,
+      "required_finding": "Bounds three noninduced analytes to the tested context and does not equate their absence with no cytokine risk."
+    },
+    {
+      "id": "positive",
+      "points": 20,
+      "required_finding": "Retains measurable other cytokine responses and separates coculture induction from clinical syndrome."
+    },
+    {
+      "id": "uncertainty",
+      "points": 25,
+      "required_finding": "UsesA431IL619.2±18.4/GMCSF15.6±20.8 or equivalent uncertainty; rejects precise pooling and preserves missingMCP1 asunreported."
+    },
+    {
+      "id": "sparing",
+      "points": 20,
+      "required_finding": "Bounds monocyte-sparing to6.6nMADT1-4-2 and its endpoint; rejects all-construct safety inference."
+    },
+    {
+      "id": "followups",
+      "points": 15,
+      "required_finding": "Gives donor/context dose-time cytokine profiling and matched normal-cell/repeated-exposure follow-ups with resolved uncertainties."
+    }
+  ],
+  "reference_answer": "The supplied results support cytokine induction that depends on the tested coculture context, not an absence of cytokine-release risk. The lack of an increase above1.2fold for IL17A, IL10 and IL1β is a bounded negative observation for those analytes and conditions. It does not negate the measurable IFNγ, IL6, TNFα and other responses or establish clinical safety. A375 and A431 values should remain separate because the target-cell contexts differ and uncertainty is substantial: A431 IL6 is19.2±18.4pM and GM-CSF is15.6±20.8pM. These estimates do not justify pooling into one precise clinical potency. Missing A431 MCP1 is unreported, not zero and not evidence of no response. The separate monocyte experiment at6.6nM ADT1-4-2 supports only its tested cellular endpoint, construct and exposure; it cannot establish safety for all constructs or exclude cytokine effects. The corrected conclusion is selective, context-dependent in-vitro cytokine activity with unresolved translation and safety questions. Follow-up dose/time cytokine profiling across donors and antigen-expression contexts would quantify context and donor variability. Matched normal-cell and repeated-exposure studies, with exposure-relevant controls and multiple constructs, would test whether the limited sparing observation generalizes.",
+  "validation_examples": {
+    "full_correct": {
+      "text": "The supplied results support cytokine induction that depends on the tested coculture context, not an absence of cytokine-release risk. The lack of an increase above1.2fold for IL17A, IL10 and IL1β is a bounded negative observation for those analytes and conditions. It does not negate the measurable IFNγ, IL6, TNFα and other responses or establish clinical safety. A375 and A431 values should remain separate because the target-cell contexts differ and uncertainty is substantial: A431 IL6 is19.2±18.4pM and GM-CSF is15.6±20.8pM. These estimates do not justify pooling into one precise clinical potency. Missing A431 MCP1 is unreported, not zero and not evidence of no response. The separate monocyte experiment at6.6nM ADT1-4-2 supports only its tested cellular endpoint, construct and exposure; it cannot establish safety for all constructs or exclude cytokine effects. The corrected conclusion is selective, context-dependent in-vitro cytokine activity with unresolved translation and safety questions. Follow-up dose/time cytokine profiling across donors and antigen-expression contexts would quantify context and donor variability. Matched normal-cell and repeated-exposure studies, with exposure-relevant controls and multiple constructs, would test whether the limited sparing observation generalizes.",
+      "expected_met_ids": [
+        "negative",
+        "positive",
+        "uncertainty",
+        "sparing",
+        "followups"
+      ]
+    },
+    "all_yes": {
+      "text": "All project claims are supported. The experiments establish clinical safety, equal function and universal transfer across contexts.",
+      "expected_met_ids": []
+    },
+    "all_no": {
+      "text": "Every project claim is false. None of the supplied measurements supports any assay-specific conclusion.",
+      "expected_met_ids": []
+    },
+    "omitted_critical": {
+      "text": "The lack ofIL17A,IL10 andIL1beta induction above1.2fold applies only to those analytes and the tested context. MeasurableIFNg,IL6,TNFa and other responses remain, and coculture cytokine induction is distinct from clinical syndrome. The monocyte-sparing result concerns6.6nMADT1-4-2 and does not prove all-construct safety. Use multi-donor dose-time cytokine profiling plus exposure-matched normal-cell and repeated-exposure assays to examine context and safety transfer.",
+      "expected_met_ids": [
+        "negative",
+        "positive",
+        "sparing",
+        "followups"
+      ],
+      "omitted_criterion": "uncertainty"
+    }
+  }
+}

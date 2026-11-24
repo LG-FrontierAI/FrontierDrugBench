@@ -1,0 +1,6 @@
+name,assay,source_location,molecule_or_panel,endpoint,reported_value,reported_unit,status_or_condition
+record_01,cellbinding,Table2,22A17,FACS_EC50,0.1,ug/mL,humanHEK293T
+record_02,signaling,Example3,22A17,NFAT_EC50,0.04,ug/mL,humanTREM2_reporter
+record_03,cellbinding,Table2,08B23,FACS_EC50,0.6,ug/mL,humanHEK293T
+record_04,signaling,Example3,08B23,functional_class,,,inverse_agonist
+record_05,BLI,Example4,panel,assay_method,,,AHC_capture60s;humanTREM2_Fc100to6.25nM;association200s;dissociation200s;global1to1

@@ -1,0 +1,42 @@
+{
+  "item_id": "AB70",
+  "case_id": "case_01",
+  "task_type": "numeric",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2025068454A1"
+  ],
+  "study_id": "WO2025068454A1 Example9Table18;twoanimals/group,cynomolgus30mg/kgIV;kineticsfromExample6Table5. Parentreferencebimagrumabnotnewgold.",
+  "input_sha256": "395ef93e5f37009c72d7c08e15df715966c5e16d65ac3432a5757d897cbfd4d7",
+  "study_information_sha256": "02b458c82a1e999123dc4b9b6c4d61fbdedc2a2b1bd7343d061ec649accce329",
+  "target_ids": [
+    "ofaschlupfer"
+  ],
+  "truth": {
+    "ofaschlupfer": 0.16
+  },
+  "higher_is_better": true,
+  "unit": "mL/h/kg",
+  "sources": [
+    {
+      "publication_number": "WO2025068454A1",
+      "url": "https://patents.google.com/patent/WO2025068454A1/en",
+      "publication_date": "2025-04-03",
+      "family_earliest_publication_date": "2025-04-03",
+      "disclosure_status": "verified",
+      "locator": "Example7Table14A;Example7.4HIC;Example9Table18",
+      "source_channel": "web.run primaryHTML explicitresponse_lengthlong retrieved2026-10-23",
+      "disclosure_check": "FamilyonlyWO2025068454A1 priority2023-09-28;first2025-04-03. Bimagrumabolderreferenceonly. CompletedOfaschlupfernewantibodycohorts,notcopiedbimagrumabreference."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "ofaschlupfer",
+      "locator": "Example7Table14A;Example7.4HIC;Example9Table18",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 0.16,
+      "unit": "mL/h/kg"
+    }
+  ]
+}

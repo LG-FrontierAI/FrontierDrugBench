@@ -1,0 +1,18 @@
+{
+  "bench_id": "DNA33-030",
+  "answer": "B",
+  "scoring": {
+    "type": "option_letter",
+    "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+    ],
+    "points": 100
+  },
+  "grading": {
+    "method": "exact_letter_match"
+  }
+}

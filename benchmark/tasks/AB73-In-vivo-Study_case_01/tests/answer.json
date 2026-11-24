@@ -1,0 +1,19 @@
+{
+  "item_id": "AB73",
+  "case_id": "case_01",
+  "parent_bench_id": "AB73",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": {
+    "affinity_weak_1": 0.38,
+    "affinity_weak_2": 0.65
+  },
+  "unit": "relative_to_internal_standard",
+  "target_ids": [
+    "affinity_weak_1",
+    "affinity_weak_2"
+  ]
+}

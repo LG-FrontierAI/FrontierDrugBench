@@ -1,0 +1,13 @@
+{
+  "item_id": "AB74",
+  "case_id": "case_01",
+  "parent_bench_id": "AB74",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": "The directly measured endpoint is anti-human-IgG sandwich-ELISA signal in a perfused, capillary-depleted brain fraction. The narrative reports approximately 10–20-fold greater parenchymal signal and about 10% of control plasma signal for the tested anti-TfR antibodies at 24 hours. These are approximate comparisons, not exact values for each named candidate. Doses were equimolar: 1.8 mg/kg anti-TfR versus 1.7 mg/kg anti-BACE1. In the paired valency experiment, monoVHH at 5.5 mg/kg exceeded biVHH at 6 mg/kg under the tested conditions.\n\nHowever, an Fc-directed ELISA does not by itself prove intact, active cargo. Perfusion and capillary depletion reduce vascular signal but do not establish fraction purity or recovery. Free interstitial concentrations and unbound fractions were not measured, so neither Kp,uu nor complete active BBB transport is established. The Figure 6 western blot shows no depletion of brain TfR, with GAPDH as loading control; this does not establish transport mechanism or comprehensive safety. The valency observation also cannot establish a universal monovalent advantage.\n\nFirst, quantify vascular markers, fraction recovery and spike recovery to test carryover and extraction bias. Second, measure intact cargo with orthogonal epitope detection and a functional assay, together with free/interstitial exposure where feasible. These checks distinguish assay-qualified signal from intact functional delivery.",
+  "rubric_sha256": "2f2dee73a7bebf7509a6b4b45bdd930b8d360bff3a02e67118508b406cbcbe5f",
+  "reference_source": "gold.reference_answer"
+}

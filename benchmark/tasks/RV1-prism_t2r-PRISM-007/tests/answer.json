@@ -1,0 +1,15 @@
+{
+  "bench_id": "RV1-prism_t2r-PRISM-007",
+  "answer": "A",
+  "scoring": {
+    "type": "option_letter",
+    "options": [
+      "A",
+      "B"
+    ],
+    "points": 100
+  },
+  "grading": {
+    "method": "exact_letter_match"
+  }
+}

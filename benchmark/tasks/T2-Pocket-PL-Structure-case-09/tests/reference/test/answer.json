@@ -1,0 +1,136 @@
+{
+  "item_id": "Pocket-PL",
+  "case_id": "case-09",
+  "parent_bench_id": "Pocket-PL",
+  "answer": {
+    "cutoffs": {
+      "date": "2026-01-01",
+      "current_contact_distance_angstrom": 5.0,
+      "historical_sites": "source annotations; no uniform distance cutoff"
+    },
+    "historical_lookup_status": "SUCCESS",
+    "post_2026_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          42,
+          64,
+          66,
+          68,
+          73,
+          77,
+          79,
+          81,
+          101,
+          103,
+          106,
+          107,
+          108,
+          112,
+          114,
+          116,
+          136,
+          149,
+          150,
+          153,
+          154,
+          157,
+          158,
+          161
+        ]
+      }
+    ],
+    "historical_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          64,
+          66,
+          106,
+          107,
+          114,
+          150,
+          153,
+          158,
+          161
+        ],
+        "evidence_date": "2021-01-13",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          33,
+          37,
+          42,
+          62,
+          64,
+          66,
+          81,
+          101,
+          103,
+          114,
+          116,
+          158,
+          161
+        ],
+        "evidence_date": "2023-09-13",
+        "source_database": "BioLiP_annotation_table"
+      }
+    ],
+    "combined_scoring_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          42,
+          64,
+          66,
+          68,
+          73,
+          77,
+          79,
+          81,
+          101,
+          103,
+          106,
+          107,
+          108,
+          112,
+          114,
+          116,
+          136,
+          149,
+          150,
+          153,
+          154,
+          157,
+          158,
+          161
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          33,
+          37,
+          42,
+          62,
+          64,
+          66,
+          81,
+          101,
+          103,
+          114,
+          116,
+          158,
+          161
+        ]
+      }
+    ]
+  }
+}

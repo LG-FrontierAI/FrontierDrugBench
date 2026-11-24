@@ -1,0 +1,5 @@
+token,residue_or_modification_name,smiles,formula,molecular_weight_g_mol,size_class,logP,hydrophilicity,charge_at_pH7,aromatic_rings,H_bond_donors,H_bond_acceptors,TPSA_A2,property_basis_and_notes
+Aib,2-aminoisobutyric acid,NC(C)(C)C(=O)O,,,,,,,,,,,Achiral free amino acid.
+Dab,"L-2,4-diaminobutyric acid",N[C@@H](CCN)C(=O)O,,,,,,,,,,,Free amino acid; uppercase L convention in WO2026012336A1.
+Tle,L-tert-leucine,N[C@@H](C(C)(C)C)C(=O)O,,,,,,,,,,,Free amino acid; uppercase L convention in WO2026012336A1.
+r,D-arginine,N=C(N)NCCC[C@@H](N)C(=O)O,,,,,,,,,,,"Free D-arginine; lowercase r in WO2026012336A1 body/claims, SEQ ID NO.01."

@@ -1,0 +1,1 @@
+{"candidate_01": 0, "candidate_02": 1, "candidate_03": 1, "candidate_04": 1, "candidate_05": 1, "candidate_06": 1, "candidate_07": 0, "candidate_08": 1}

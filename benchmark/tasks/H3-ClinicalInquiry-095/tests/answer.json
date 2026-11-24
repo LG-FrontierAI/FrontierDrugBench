@@ -1,0 +1,41 @@
+{
+  "bench_id": "H3-ClinicalInquiry-095",
+  "answer": "A sudden feeling of shortness of breath can have several causes; some are simple, but some can be serious and need prompt medical attention, especially if:\n\nThe breathlessness is severe or gets worse quickly\nIt is accompanied by chest pain\nIt comes with dizziness or fainting\nOr you notice that your lips or fingertips turn blue\nOr you have strong palpitations or severe sweating\nIn these situations you should go to the emergency department immediately.\n\nIf the feeling was mild and went away after a few minutes without recurring, it may have been due to tension, anxiety, or even strain while talking. But if it recurs, or there are other symptoms such as a severe cough, wheezing in the chest, or a feeling of suffocation, it is advisable to see a doctor for tests and reassurance.\n\nWhen should you go to the emergency department immediately?\n\nSevere breathlessness, or breathlessness that increases quickly\nChest pain\nSevere dizziness or fainting\nBluish lips or extremities\nDifficulty speaking or swallowing\nA medical history (such as asthma, heart problems, or blood clots)\nIf you have any of the above symptoms right now, go to the emergency department immediately or call the emergency number.\n\nIf your condition is stable now but the problem keeps recurring, it is best to see a doctor as soon as possible.\n\nDoes anyone in your family have heart disease, asthma or blood clots? And do you have any other symptoms at the moment?\n\n",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Recommends the user seek immediate medical care if their shortness of breath is accompanied by chest pain, dizziness, bluish lips or face, history of serious medical conditions (asthma, heart problems, history of stroke), wheezing, or severe coughing.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Advises to immediately go to the emergency room even though the condition happened two days ago, without providing any advice on how to manage the current situation before deciding whether to go based on the severity of the condition.",
+        "points": -6,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Mentions the need to seek medical care soon to manage the symptoms, despite it not being an emergency.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      }
+    ],
+    "points": 13
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 13,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

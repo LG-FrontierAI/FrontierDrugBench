@@ -1,0 +1,49 @@
+{
+  "bench_id": "H3-ClinicalInquiry-032",
+  "answer": "Given that your mole has changed color significantly and sometimes bleeds, you should see a doctor as soon as possible. These changes can be signs of something serious, such as skin cancer (including melanoma), and it’s important to get it evaluated promptly.\n\nWhat you should do:\n\nSchedule an appointment with a dermatologist or your primary care doctor as soon as possible.\nIf the mole starts bleeding heavily, becomes very painful, or you feel unwell, seek urgent medical attention.\nIn the meantime:\nTry not to pick at or irritate the mole.\nKeep the area clean and covered if it’s bleeding.\nNote any other changes (size, shape, texture, itching, pain) so you can report them accurately.\nProtect the area from sun exposure.\n\nEarly evaluation makes a big difference, so please don’t wait to get it checked.",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Recommends seeking prompt medical care with a primary care doctor or dermatologist for a mole that has developed significant color change and bleeding.",
+        "points": 9,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "States that a mole with significant color change and bleeding could indicate skin cancer, including melanoma.",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Describes steps to take while awaiting an appointment, including sun protection, avoiding picking or scratching the mole, and tracking ongoing changes.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Fails to recommend medical care for a mole that has changed color and is bleeding.",
+        "points": -10,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      }
+    ],
+    "points": 24
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 24,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

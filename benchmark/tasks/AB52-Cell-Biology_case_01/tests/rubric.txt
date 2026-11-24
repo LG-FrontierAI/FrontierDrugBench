@@ -1,0 +1,25 @@
+RUBRIC: AB52 - Auditing units and censored endpoints before cell-potency modeling
+
+Total Points: 100/100
+
+CRITERIA (4):
+
+Criterion 1: missing
+    Points: 25
+    Description: Distinguishes02M10 no-binding from22A17/23E21-2 not-tested; neither iszero; finite mouseEC50 values must not be invented.
+    Source: Table2
+
+Criterion 2: unit
+    Points: 30
+    Description: Recognizes03O05 original functional0.5g/ml conflicts with serial concentrations; flags/quarantines until source clarification rather than silently changing to0.5ug/ml.
+    Source: Example3
+
+Criterion 3: assays
+    Points: 25
+    Description: SeparatesHEK293T bindingEC50 fromBW5147 NFAT functionalEC50 and rejects direct pooled-response interpretation.
+    Source: Examples2/3
+
+Criterion 4: ratio
+    Points: 20
+    Description: Does not endorse1.8/0.5=3.6 as verified potency gain because units unresolved and endpoints differ; preserves measured1.8ug/mL humanbinding and6.6ug/mL mousebinding as distinct endpoints.
+    Source: Table2;Example3

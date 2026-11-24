@@ -1,0 +1,137 @@
+{
+  "item_id": "Pocket-PL",
+  "case_id": "case-42",
+  "parent_bench_id": "Pocket-PL",
+  "answer": {
+    "cutoffs": {
+      "date": "2026-01-01",
+      "current_contact_distance_angstrom": 5.0,
+      "historical_sites": "source annotations; no uniform distance cutoff"
+    },
+    "historical_lookup_status": "SUCCESS",
+    "post_2026_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          31,
+          36,
+          56,
+          83,
+          85,
+          86,
+          87,
+          88,
+          148,
+          167,
+          170,
+          171,
+          173,
+          174,
+          175,
+          176,
+          178,
+          179,
+          209
+        ]
+      }
+    ],
+    "historical_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          56,
+          85,
+          87,
+          148,
+          167,
+          179,
+          209
+        ],
+        "evidence_date": "2018-10-03",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          56,
+          85,
+          87,
+          148,
+          167,
+          179,
+          209
+        ],
+        "evidence_date": "2018-10-03",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          31,
+          36,
+          56,
+          85,
+          87,
+          148,
+          167,
+          174,
+          179,
+          209,
+          230,
+          231
+        ],
+        "evidence_date": "2021-03-31",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          31,
+          36,
+          56,
+          85,
+          87,
+          148,
+          167,
+          174,
+          179,
+          209
+        ],
+        "evidence_date": "2021-03-31",
+        "source_database": "BioLiP_annotation_table"
+      }
+    ],
+    "combined_scoring_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          31,
+          36,
+          56,
+          83,
+          85,
+          86,
+          87,
+          88,
+          148,
+          167,
+          170,
+          171,
+          173,
+          174,
+          175,
+          176,
+          178,
+          179,
+          209
+        ]
+      }
+    ]
+  }
+}

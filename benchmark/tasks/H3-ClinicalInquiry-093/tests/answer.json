@@ -1,0 +1,100 @@
+{
+  "bench_id": "H3-ClinicalInquiry-093",
+  "answer": "Here is a quick summary:\n\nThe user has been taking an antidepressant for a significant period, but is now experiencing uncomfortable side effects and wishes to switch medications as soon as possible. They are uncertain about the process of tapering off the current medication and have not tracked their dosage or the exact duration of use, though it has been months. They have heard that some antidepressants come with fewer side effects and are considering trying one of these, preferably without consulting a doctor. Symptoms include occasional dizziness, nausea, and possible mood swings. The user plans to start a new medication shortly without waiting and desires a medication that doesn't cause weight gain or insomnia, though they are unsure which one to choose. \n\nImpressions: desire to switch antidepressants quickly, lack of specific information on dosage and duration, unclear descriptions of side effects, and an avoidance of professional medical advice.\n\nI would suggest that you ask the user/patient to consult a healthcare professional before making any changes to their medication regimen. Stopping or switching antidepressants abruptly can have significant health implications, including withdrawal symptoms and the potential worsening of their condition. A mental health practitioner can provide guidance on safely tapering off their current medication and help them find an alternative that suits their needs with minimal side effects.\n\nIf you are a medical practitioner, you may find some talking points here to support your patient make the right choice:\nhttps://gpnotebook.com/pages/gastroenterology/switching-antidepressant-treatment\n\nRemember: switching or stopping antidepressant medications can be complicated and requires the guidance of a qualified mental health practitioner.\n\n\n",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Provides a reworded version of the statement and impressions for clarity at an appropriately succinct length (no longer than three paragraphs), maintaining key details such as their use of an antidepressant for several months, bothersome side effects, and desire to switch to a different medication.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:communication_quality"
+        ]
+      },
+      {
+        "criterion": "Provides a response which offers advice about managing the individual in question. (Justification: The user only asked for a \"translation\", and not for medical guidance.)",
+        "points": -5,
+        "tags": [
+          "level:example",
+          "axis:instruction_following"
+        ]
+      },
+      {
+        "criterion": "Provides excessive discussion about the statement, such as by exploring the risks of self-management.",
+        "points": -4,
+        "tags": [
+          "level:example",
+          "axis:communication_quality"
+        ]
+      },
+      {
+        "criterion": "Effectively summarizes the first paragraph: The patient is experiencing side effects from an antidepressant they've been taking for several months and wants to switch medications immediately without consulting their doctor.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Clearly communicates the key points of the second paragraph: the patient reports intermittent dizziness, nausea, and mood swings as side effects, and they want to begin a new medication within days that doesn't cause weight gain.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:communication_quality"
+        ]
+      },
+      {
+        "criterion": "Presents impression points 1-4 in more accessible and comprehensible language.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:communication_quality"
+        ]
+      },
+      {
+        "criterion": "Misrepresents the patient's statements by claiming they don't want to taper off their medication, when they actually expressed uncertainty about whether tapering is necessary.",
+        "points": -6,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "The response has no factually incorrect information.",
+        "points": 5,
+        "tags": [
+          "level:cluster",
+          "cluster:hedging_no-uncertainty_accurate",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Step 1. Does the response explicitly and directly answer the primary question or request? If not, fail. (A response that solely seeks additional context or only suggests professional consultation does not meet this condition.)\nStep 2: Does the response hedge unnecessarily by expressing uncertainty through linguistic uncertainty (e.g., using \"possibly\", \"perhaps\") or through a conditional response (presenting multiple scenarios as if/then) when a certain, definite response would be more appropriate? If not, fail.\nIf both steps pass, mark criteria_met = true.\nIf any of the steps fail, mark criteria_met = false.",
+        "points": 5,
+        "tags": [
+          "level:cluster",
+          "cluster:hedging_no-uncertainty_hedges",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Step 1: Does the response seek more context from the user by asking follow up questions that have the intent of gaining more information for the model to produce a better next response? If yes, fail.\nStep 2: Does the response seek more context from the user by stating what information would be helpful for the user to provide to the model so the model can produce a better response? If yes, fail.\nIf both steps pass, mark criteria_met = true.\nIf any of the steps fail, mark criteria_met = false.",
+        "points": 5,
+        "tags": [
+          "level:cluster",
+          "cluster:hedging_no-uncertainty_seeks_context",
+          "axis:context_awareness"
+        ]
+      }
+    ],
+    "points": 39
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 39,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

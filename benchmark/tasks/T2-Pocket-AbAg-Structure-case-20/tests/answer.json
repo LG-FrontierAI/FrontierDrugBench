@@ -1,0 +1,82 @@
+{
+  "bench_id": "T2-Pocket-AbAg-Structure-case-20",
+  "answer": {
+    "item_id": "Pocket-AbAg",
+    "task_family": "T2 epitope from antigen sequence",
+    "case_id": "case-20",
+    "site_count": 1,
+    "residue_count": 41,
+    "metric": "post2026_micro_f1",
+    "gold_source": "tests/reference/test/answer.json"
+  },
+  "reference": {
+    "mode": "structure_case",
+    "gold_source": "tests/reference/test/answer.json",
+    "example_model_answer": {
+      "epitopes": [
+        {
+          "rank": 1,
+          "protein_id": "protein_1",
+          "residues": [
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            49,
+            50,
+            51,
+            52,
+            56,
+            58,
+            60,
+            61,
+            84,
+            168,
+            198,
+            199,
+            200,
+            201,
+            205,
+            206,
+            207,
+            208,
+            209,
+            210,
+            211,
+            212,
+            213,
+            214,
+            215,
+            249,
+            250,
+            252,
+            303
+          ]
+        }
+      ]
+    }
+  },
+  "scoring": {
+    "type": "structure_case",
+    "module": "_scoring/pocket.py",
+    "metric": "post2026_micro_f1",
+    "range": [
+      0.0,
+      1.0
+    ]
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "structure_case",
+    "scorer": "tests/score.py",
+    "full_marks": 1.0
+  }
+}

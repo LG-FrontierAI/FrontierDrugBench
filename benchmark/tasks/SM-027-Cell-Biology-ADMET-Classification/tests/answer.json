@@ -1,0 +1,40 @@
+{
+  "answer": {
+    "ER-I01": {
+      "M003": "B3",
+      "M009": "B2",
+      "M004": "B1",
+      "M006": "B2",
+      "M005": "B1",
+      "M008": "B4",
+      "M002": "B3",
+      "M007": "B1",
+      "M010": "B4",
+      "M001": "B2"
+    }
+  },
+  "scoring": {
+    "raw_total_points": 20.0,
+    "total_points": 100,
+    "items": {
+      "ER-I01": {
+        "type": "interval",
+        "raw_points": 20,
+        "candidates": [
+          "M001",
+          "M002",
+          "M003",
+          "M004",
+          "M005",
+          "M006",
+          "M007",
+          "M008",
+          "M009",
+          "M010"
+        ],
+        "points": 100.0
+      }
+    },
+    "points_policy": "raw_points are source-derived relative weights only; awarded points are normalized to a 100-point task."
+  }
+}

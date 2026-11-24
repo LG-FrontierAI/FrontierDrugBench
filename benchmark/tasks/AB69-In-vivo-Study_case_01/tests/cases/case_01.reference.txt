@@ -1,0 +1,1 @@
+{"HER2_trimer": 1.3, "HER2_negative_trimer": 5.8}

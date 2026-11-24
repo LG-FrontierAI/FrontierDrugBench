@@ -1,0 +1,42 @@
+{
+  "item_id": "AB47",
+  "parent_item_id": "AB47",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "61f3c7f088c43a6e387eb3f2fba88a035c1350c28901749364bca93a4f21de92",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "b6b8dd29100192c0259bbd8bb99f64f347971864e2becc9184270f0ee01fb11b",
+      "study_information": "Predict the reported half-maximal concentration (nM; Table18 labels thisEC50) inhibiting membrane-bound humanTL1A-driven NF-kB-luciferase in TF1 cells cocultured with CHO-K1-TL1A for6h. It is a functional inhibition endpoint, notSPR KD. Antibody dilution covers100nM maximum with5-fold dilutions. Table11 monomer/trimerSPR and Table13 cell-binding values are visible; no-binding monomer control remains blank, notzero. Both analogue references retain their measured Table18 values. Two new antibodies are targets.",
+      "study_information_sha256": "b66e1011c7965410ae9bc96eb84426a73928239349b7146c77ed0d37e0c9c1df",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "US20260062492A1"
+  ],
+  "study_id": "AB47_TL1A_cell_2026",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB47",
+  "expanded_bench_id": "AB47-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Quantitative prediction of membrane-ligand neutralization",
+  "format": "regression"
+}

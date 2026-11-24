@@ -1,0 +1,42 @@
+{
+  "item_id": "AB78",
+  "parent_item_id": "AB78",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "866a8e8338539322f170e3657d823d5235af01c9b2755e5c9c5b7d2185ef7f25",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "8b071ce7145e7cb25aa07783074c98dc81735735bfd35eebf05763f546a702c1",
+      "study_information": "PGRN/TfR brainPBS,RIPA andCSF exposure",
+      "study_information_sha256": "b4988fcfd0bc831b89d2e7bd6c4f47aa68ee995e1240d674e96310623d72b3d2",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2024263567A2"
+  ],
+  "study_id": "PGRN/TfR brainPBS,RIPA andCSF exposure",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB78",
+  "expanded_bench_id": "AB78-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Comparing PGRN brain fractions and cerebrospinal fluid",
+  "format": "open_rubric"
+}

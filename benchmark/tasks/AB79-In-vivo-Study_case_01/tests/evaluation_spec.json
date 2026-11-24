@@ -1,0 +1,42 @@
+{
+  "item_id": "AB79",
+  "parent_item_id": "AB79",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "2893749f72d758a49006e3be28bd358017400300d14fb4a8aadf979f874ad510",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "23396a172a93574e1fc6f77c98c0bc913b946f905cb4d31d32e0965aaf969bcb",
+      "study_information": "FcRn-antagonist antibody noncompartmental PK analysis",
+      "study_information_sha256": "99006a056b691223180dfa259d609f08d598d8de7c735ccdbddb7a3b6e86166c",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2025260124A1"
+  ],
+  "study_id": "FcRn-antagonist antibody noncompartmental PK analysis",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB79",
+  "expanded_bench_id": "AB79-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Assessing NCA and BLQ rules in FcRn-antagonist animal studies",
+  "format": "open_rubric"
+}

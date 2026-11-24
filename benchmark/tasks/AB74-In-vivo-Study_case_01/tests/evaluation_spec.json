@@ -1,0 +1,42 @@
+{
+  "item_id": "AB74",
+  "parent_item_id": "AB74",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "57b6fcd164f553ac8191f65423f08d2d032fee6887dc2c6353ea1add2955c75f",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "6959fcb9bdacd753f5e31663fad481fd4f2fe087c08c7c97d122d64cadf44f08",
+      "study_information": "HumanTfRC KI mouse IV24h exposure and matched-valency tests",
+      "study_information_sha256": "656e23b47be1ec0a00d9bf203ec89b92ac385ce9717f8532ff887a497ec5bd0c",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026055600A1"
+  ],
+  "study_id": "HumanTfRC KI mouse IV24h exposure and matched-valency tests",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB74",
+  "expanded_bench_id": "AB74-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Interpreting BBB parenchymal antibody signal",
+  "format": "open_rubric"
+}

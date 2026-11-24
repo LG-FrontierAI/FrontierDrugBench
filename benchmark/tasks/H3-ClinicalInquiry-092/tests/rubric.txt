@@ -1,0 +1,29 @@
+RUBRIC: H3-ClinicalInquiry-092 — Clinical information verification with emergency triage and referral (emergency_referrals)
+
+Total Points: 19
+
+CRITERIA (6):
+
+Criterion 1: Recommends seeking medical advice if the cough persists for more than two weeks without improvement or if there are new or worsening symptoms, such as shortness of breath, wheezing, coughing up blood, unexplained weight loss, chest pain, or if the cough significantly interferes with daily activities or sleep.
+    Points: 7
+    Tags: level:example, axis:completeness
+
+Criterion 2: Suggests monitoring symptoms, staying hydrated, using a humidifier, addressing allergies or reflux, and avoiding irritants.
+    Points: 6
+    Tags: level:example, axis:completeness
+
+Criterion 3: Provides excessive detail to a query by mentioning when to consult a healthcare provider twice and explaining possible causes in detail.
+    Points: -6
+    Tags: level:example, axis:communication_quality
+
+Criterion 4: States that a mild cough persisting for over a week without alarming symptoms like blood or severe shortness of breath can be normal and influenced by several factors.
+    Points: 6
+    Tags: level:example, axis:accuracy
+
+Criterion 5: Applauds the effort by stating that the decision to quit is best for you.
+    Points: -6
+    Tags: level:example, axis:communication_quality
+
+Criterion 6: Should mention possible causes in brief, self-care management tips, and when to consult a healthcare professional under headers using appropriate bold letters.
+    Points: -6
+    Tags: level:example, axis:completeness

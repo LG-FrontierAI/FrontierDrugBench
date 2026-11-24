@@ -1,0 +1,71 @@
+{
+  "answer": {
+    "id": "MB-022",
+    "mode": "generation",
+    "score_total": 100,
+    "design_count": 10,
+    "target_pka_range": [
+      6.5,
+      7.5
+    ],
+    "required_urea": false,
+    "forbidden_urea": true,
+    "head_scaffold_min": 5
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "lnp_generation_proxy"
+  },
+  "reference": {
+    "id": "MB-022",
+    "mode": "generation",
+    "answer": null,
+    "design_count": 10,
+    "target_pka_range": [
+      6.5,
+      7.5
+    ],
+    "inspiration_smiles": [],
+    "required_urea": false,
+    "forbidden_urea": true,
+    "head_scaffold_min": 5,
+    "pka_design_weight": 8,
+    "il_design_weight": 2,
+    "pka_outside_tolerance": 0.5,
+    "head_signature_mode": "amine_local_2_bonds",
+    "rubric": "Each compliant distinct molecule scores 8×max(0,1-d/0.5)+2×IL classification probability, with d=max(6.5-pKa, pKa-7.5, 0). The total is multiplied by min(1, amine-local head-group signature count/5). At most 10 molecules, total score 100.",
+    "sources": [
+      {
+        "patent": "WO2026161444A1",
+        "pdf_pages": [
+          110,
+          111
+        ],
+        "locator": "Module design rationale; not experimental validation of submissions",
+        "quote": "Design, synthesis, and screening of plug and play biodegradable ionizable lipids",
+        "kind": "patent",
+        "file": "WO2026161444A1.pdf",
+        "family_first_publication_date": "2026-07-30",
+        "family_id": "100684853",
+        "date_evidence_url": "https://patents.google.com/patent/WO2026161444A1/en",
+        "verification_scope": "AI checked fetched Google Patents Family Applications, Country Status, priority application and publication tables, and local family field; not an official exhaustive worldwide-family certificate; human review remains required"
+      }
+    ],
+    "issues": [
+      "There is no fixed experimental gold; scoring a real model answer requires actually running the pre-registered Linux reference model.",
+      "The QupKake free-molecule basic micro-pKa and the TNS-LNP apparent pKa must not be conflated.",
+      "The IL classification probability is neither a Tanimoto similarity nor an experimental transfection probability.",
+      "The source supports the design direction; forbidding or requiring a urea is a design constraint of this task and does not claim that the authors experimentally validated every new molecule.",
+      "Patent novelty, synthetic accessibility and actual biosafety are not evaluated."
+    ],
+    "reference_label_type": "computational_proxy_not_experimental",
+    "category": "molecular-biology",
+    "source_type": "patent",
+    "source_ids": [
+      "WO2026161444A1"
+    ],
+    "experiment_group": "WO2026161444A1:modular-design-migration",
+    "release_ready": true,
+    "validation_scope": "source-record alignment, scoring contract and payload checks; not an independent experimental replication"
+  }
+}

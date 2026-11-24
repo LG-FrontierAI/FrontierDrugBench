@@ -1,0 +1,42 @@
+{
+  "item_id": "AB72",
+  "parent_item_id": "AB72",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "c4aff56dfad06f2e5323ae03db74e0df8ca29c35c592de22c5df97b1dbf16b92",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "10ae1638465fc9181ba45c52a4135d6884c4d70ac6ed365125ba0ba7aa75852e",
+      "study_information": "Predict total serum AUCinf (h·µg/mL) for ABS_201_300 after a single 300 mg/kg IV dose in cynomolgus monkeys. The matched 100 mg/kg cohort is visible. Target 300 mg/kg Cmax, clearance, half-life and all derived exposure parameters are withheld. Dose proportionality is a baseline assumption to test, not an observed answer. Each cohort contained two male and two female animals. Preserve the source label ABS-201 without assuming every AB001 alias identifies the same construct.",
+      "study_information_sha256": "27b8e3ae04ca4e19bc673f2169bbafb503e8d63756e0b9ac0008f001601a253a",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.95,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026128421A2"
+  ],
+  "study_id": "US20260226182A1 Table20:singleIV100or300mg/kg,cynomolgus2M2Fgroup;AUCinfh*ug/mL. FinitecohortexperimentalAUCinf.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB72",
+  "expanded_bench_id": "AB72-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Extrapolating high-dose primate exposure of an anti-PRLR antibody",
+  "format": "regression"
+}

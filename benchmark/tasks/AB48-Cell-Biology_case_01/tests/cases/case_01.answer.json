@@ -1,0 +1,88 @@
+{
+  "item_id": "AB48",
+  "case_id": "case_01",
+  "task_type": "ranking",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026064650A1"
+  ],
+  "study_id": "AB48_VEGF_PD1_cell_transfer_2026",
+  "input_sha256": "d7e55831bb07eb153c06edc5b3a2ca17c531990e5df0c04facf6058d66835075",
+  "study_information_sha256": "602f25e423b41ccb85a6177c627bc427a00ba7c94eea17e22c4f99d61282b928",
+  "target_ids": [
+    "candidate_02",
+    "candidate_03",
+    "candidate_04",
+    "candidate_05",
+    "candidate_06",
+    "candidate_07"
+  ],
+  "truth": {
+    "candidate_02": 5.769230769230769,
+    "candidate_03": 3.08695652173913,
+    "candidate_04": 3.8333333333333335,
+    "candidate_05": 5.6521739130434785,
+    "candidate_06": 2.75,
+    "candidate_07": 4.782608695652174
+  },
+  "higher_is_better": true,
+  "unit": "fold",
+  "sources": [
+    {
+      "publication_number": "WO2026064650A1",
+      "url": "https://patents.google.com/patent/WO2026064650A1/en",
+      "publication_date": "2026-03-26",
+      "family_earliest_publication_date": "2026-03-26",
+      "disclosure_status": "verified",
+      "locator": "Example7/8 Tables19C,20A,20C; paired affinity Table16; table-readable US20260109769A1",
+      "source_channel": "web.run nonempty Google Patents primary-source find Table19C and Table20C, 2026-10-23",
+      "readable_publication_number": "US20260109769A1",
+      "readable_url": "https://patents.google.com/patent/US20260109769A1/en"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "candidate_02",
+      "locator": "Derived from Table19C withoutVEGF/withVEGF IC50; no other fitted value supplied; original PAL054_0167_1L",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 5.769230769230769,
+      "unit": "fold"
+    },
+    {
+      "name": "candidate_03",
+      "locator": "Derived from Table19C withoutVEGF/withVEGF IC50; no other fitted value supplied; original PAL054_0157_1L",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 3.08695652173913,
+      "unit": "fold"
+    },
+    {
+      "name": "candidate_04",
+      "locator": "Derived from Table19C withoutVEGF/withVEGF IC50; no other fitted value supplied; original PAL054_0169_1L",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 3.8333333333333335,
+      "unit": "fold"
+    },
+    {
+      "name": "candidate_05",
+      "locator": "Derived from Table19C withoutVEGF/withVEGF IC50; no other fitted value supplied; original PAL054_0171_1L",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 5.6521739130434785,
+      "unit": "fold"
+    },
+    {
+      "name": "candidate_06",
+      "locator": "Derived from Table19C withoutVEGF/withVEGF IC50; no other fitted value supplied; original PAL054_0170_1L",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 2.75,
+      "unit": "fold"
+    },
+    {
+      "name": "candidate_07",
+      "locator": "Derived from Table19C withoutVEGF/withVEGF IC50; no other fitted value supplied; original PAL054_0168_1L",
+      "sequence_locator": "Measured-assay transfer by exact construct identity; variable sequences not asserted",
+      "value": 4.782608695652174,
+      "unit": "fold"
+    }
+  ]
+}

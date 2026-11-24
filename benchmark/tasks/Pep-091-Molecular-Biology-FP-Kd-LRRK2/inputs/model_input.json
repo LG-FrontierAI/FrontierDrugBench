@@ -1,0 +1,63 @@
+{
+  "target_reference_file": "target_reference.fasta",
+  "target_reference_note": "Canonical human LRRK2 sequence provides residue numbering; experimental protein was the RocCOR fragment, whose exact construct termini are not specified in the local source.",
+  "assay": "fluorescence-polarization binding to purified RocCOR; both supplied labeled peptides evaluated",
+  "candidates": [
+    {
+      "id": "construct_01",
+      "protein": "human LRRK2 RocCOR",
+      "variant": "wild type"
+    },
+    {
+      "id": "construct_02",
+      "protein": "human LRRK2 RocCOR",
+      "variant": "R1441C relative to the supplied reference"
+    }
+  ],
+  "ligands": [
+    {
+      "id": "ligand_01",
+      "sequence": "KGEGE*LLK*WALYSFNDGEKH*KKL*KL",
+      "N_terminus": "5/6-carboxyfluorescein-PEG3",
+      "C_terminus": "CONH2",
+      "asterisk": "(S)-2-(4-pentenyl)alanine",
+      "crosslinks": "Two intramolecular olefin metathesis staples joining first-to-second and third-to-fourth starred residues; no measured affinity supplied.",
+      "staple_residue_positions": [
+        [
+          6,
+          10
+        ],
+        [
+          23,
+          27
+        ]
+      ],
+      "sequence_length": 29,
+      "residue_11": "W (tryptophan), unchanged in both ligands",
+      "residue_12": "A (alanine)",
+      "pairwise_difference": "Only A12G differs between ligand_01 and ligand_02; each asterisk is one noncanonical residue"
+    },
+    {
+      "id": "ligand_02",
+      "sequence": "KGEGE*LLK*WGLYSFNDGEKH*KKL*KL",
+      "N_terminus": "5/6-carboxyfluorescein-PEG3",
+      "C_terminus": "CONH2",
+      "asterisk": "(S)-2-(4-pentenyl)alanine",
+      "crosslinks": "Two intramolecular olefin metathesis staples joining first-to-second and third-to-fourth starred residues; no measured affinity supplied.",
+      "staple_residue_positions": [
+        [
+          6,
+          10
+        ],
+        [
+          23,
+          27
+        ]
+      ],
+      "sequence_length": 29,
+      "residue_11": "W (tryptophan), unchanged in both ligands",
+      "residue_12": "G (glycine)",
+      "pairwise_difference": "Only A12G differs between ligand_01 and ligand_02; each asterisk is one noncanonical residue"
+    }
+  ]
+}

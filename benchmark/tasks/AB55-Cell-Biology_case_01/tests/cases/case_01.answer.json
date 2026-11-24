@@ -1,0 +1,117 @@
+{
+  "item_id": "AB55",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026115036A1"
+  ],
+  "study_id": "AB55_Vdelta1_cell_evidence_2026",
+  "input_sha256": "dc579ccd16c1d6e9be85dc75a0baa7c6e70e0b741f02cefdc77aae5cecd1e7da",
+  "study_information_sha256": "5e334534f5548752903ec965459c5f5515cfb684a46f205d7c600966c64a53ec",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": null,
+  "unit": null,
+  "sources": [
+    {
+      "publication_number": "US20260152558A1",
+      "url": "https://patents.google.com/patent/US20260152558A1/en",
+      "publication_date": "2026-06-04",
+      "family_earliest_publication_date": "2026-06-04",
+      "disclosure_status": "verified",
+      "locator": "Tables6,34,35; Examples10-15,19,20; WO2026115036A1 same-day family first",
+      "source_channel": "Nonempty Google Patents targeted long output; independent root recheck 2026-10-23",
+      "disclosure_check": "Earliest publication of this family is2026-06-04. Earlier cited parental/control reagents are treated only as visible controls, not new hidden measurements. The task audits current-family experiments and does not claim exhaustive absence of all earlier related articles."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "ADT1-4-2/ADT5-1n",
+      "locator": "Table6; Examples11-12",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ADT1-4-1/ADT5-1n",
+      "locator": "Table6; Examples11-12",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ADT1-4-6/ADT5-1n",
+      "locator": "Table6; Examples11-12",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ADT1-4-138/ADT5-1n",
+      "locator": "Table6; Examples11-12",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    }
+  ],
+  "rubric": [
+    {
+      "id": "panel",
+      "points": 25,
+      "required_finding": "Uses the reported similar degranulation over <1–60nM to reject a mandatory weakest60nM conclusion without inventing figure values."
+    },
+    {
+      "id": "scope",
+      "points": 25,
+      "required_finding": "Rejects a universal affinity-does-not-matter conclusion; considers matched format/epitope/target density or assay window."
+    },
+    {
+      "id": "equivalence",
+      "points": 20,
+      "required_finding": "Distinguishes no statistically significant difference from demonstrated biological equivalence and states an equivalence/precision requirement."
+    },
+    {
+      "id": "readout",
+      "points": 15,
+      "required_finding": "Separates4h CD107a degranulation from24h live-GFP A375 lysis."
+    },
+    {
+      "id": "checks",
+      "points": 15,
+      "required_finding": "Gives two discriminating checks with resolved uncertainties, including matched affinity/context series and powered functional comparison."
+    }
+  ],
+  "reference_answer": "The supplied observations contradict the simple claim that the60nM Vδ1 binder must produce the weakest degranulation in these experiments: the source describes similar CD107a responses across a panel spanning below1 to60nM Vδ1 affinity. However, this does not establish that affinity never matters. The paired PD-L1 affinities, format, epitope, receptor density and assay window can all affect the observed relationship, and a restricted panel cannot define a universal affinity rule. The report of no statistically significant difference in A375 lysis also does not prove biological equivalence; that would require a predefined equivalence margin, adequate precision and an appropriate analysis. CD107a is an effector degranulation marker, whereas live-GFP target loss is a distinct24h cytotoxicity readout. The corrected conclusion is that the tested constructs show similar functional responses under the specified conditions despite different measured Vδ1 affinities. One immediate check is a matched-format affinity series with fixed PD-L1 arm and controlled target density, which tests affinity dependence. A second is a powered equivalence or dose-response comparison of both CD107a and target lysis, which tests whether the apparent similarity is biologically meaningful and whether the endpoints agree.",
+  "validation_examples": {
+    "full_correct": {
+      "text": "The supplied observations contradict the simple claim that the60nM Vδ1 binder must produce the weakest degranulation in these experiments: the source describes similar CD107a responses across a panel spanning below1 to60nM Vδ1 affinity. However, this does not establish that affinity never matters. The paired PD-L1 affinities, format, epitope, receptor density and assay window can all affect the observed relationship, and a restricted panel cannot define a universal affinity rule. The report of no statistically significant difference in A375 lysis also does not prove biological equivalence; that would require a predefined equivalence margin, adequate precision and an appropriate analysis. CD107a is an effector degranulation marker, whereas live-GFP target loss is a distinct24h cytotoxicity readout. The corrected conclusion is that the tested constructs show similar functional responses under the specified conditions despite different measured Vδ1 affinities. One immediate check is a matched-format affinity series with fixed PD-L1 arm and controlled target density, which tests affinity dependence. A second is a powered equivalence or dose-response comparison of both CD107a and target lysis, which tests whether the apparent similarity is biologically meaningful and whether the endpoints agree.",
+      "expected_met_ids": [
+        "panel",
+        "scope",
+        "equivalence",
+        "readout",
+        "checks"
+      ]
+    },
+    "all_yes": {
+      "text": "All project claims are supported. The experiments establish clinical safety, equal function and universal transfer across contexts.",
+      "expected_met_ids": []
+    },
+    "all_no": {
+      "text": "Every project claim is false. None of the supplied measurements supports any assay-specific conclusion.",
+      "expected_met_ids": []
+    },
+    "omitted_critical": {
+      "text": "The source reports similar degranulation across Vdelta1 affinities below1 to60nM, so the60nM construct need not be weakest. This restricted panel cannot establish a universal affinity rule because format, epitope and target context can matter. Four-hour CD107a degranulation and24h live-GFP target-cell lysis are different endpoints. Compare a matched affinity series at controlled PD-L1 density, then repeat dose-response comparisons of both functional endpoints with adequate precision.",
+      "expected_met_ids": [
+        "panel",
+        "scope",
+        "readout",
+        "checks"
+      ],
+      "omitted_criterion": "equivalence"
+    }
+  }
+}

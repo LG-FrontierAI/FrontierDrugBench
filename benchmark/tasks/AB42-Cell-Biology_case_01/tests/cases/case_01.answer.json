@@ -1,0 +1,95 @@
+{
+  "item_id": "AB42",
+  "case_id": "case_01",
+  "task_type": "binary",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2025125545A1"
+  ],
+  "study_id": "Sanofi_effectorless_Fc_2025",
+  "input_sha256": "026fab3a0f7ceada969ad7967686cca9c17cccc8307f17e45e219e5e21d9e4cf",
+  "study_information_sha256": "4b48d6f8f709a42eecf3ddf60e36273533e925bcf1d3d28adc8e4ad34a996d79",
+  "target_ids": [
+    "candidate_01",
+    "candidate_02",
+    "candidate_03",
+    "candidate_04",
+    "candidate_05",
+    "candidate_06",
+    "candidate_07"
+  ],
+  "truth": {
+    "candidate_01": 0,
+    "candidate_02": 1,
+    "candidate_03": 0,
+    "candidate_04": 1,
+    "candidate_05": 1,
+    "candidate_06": 1,
+    "candidate_07": 0
+  },
+  "higher_is_better": true,
+  "unit": "binary",
+  "sources": [
+    {
+      "publication_number": "WO2025125545A1",
+      "url": "https://patents.google.com/patent/WO2025125545A1/en",
+      "publication_date": "2025-06-19",
+      "family_earliest_publication_date": "2025-06-19",
+      "disclosure_status": "verified",
+      "locator": "Example3-6; Table8; Figure4/5 legends; sequence list SEQID2,5-11",
+      "source_channel": "Google Patents HTML, web.run actual visible turn1view0/turn3view0/turn7view0"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "candidate_01",
+      "locator": "Example4 first Results paragraph; original Ab5 NNAS",
+      "sequence_locator": "Sequence list SEQID2 lightchain and SEQID9 heavychain",
+      "value": 0,
+      "unit": "binary"
+    },
+    {
+      "name": "candidate_02",
+      "locator": "Example4 first Results paragraph; original Ab3 PE",
+      "sequence_locator": "Sequence list SEQID2 lightchain and SEQID7 heavychain",
+      "value": 1,
+      "unit": "binary"
+    },
+    {
+      "name": "candidate_03",
+      "locator": "Example4 first Results paragraph; original Ab8 LALA_GASS",
+      "sequence_locator": "Sequence list SEQID2 lightchain and SEQID11 heavychain",
+      "value": 0,
+      "unit": "binary"
+    },
+    {
+      "name": "candidate_04",
+      "locator": "Example4 first Results paragraph; original Ab2 LALA",
+      "sequence_locator": "Sequence list SEQID2 lightchain and SEQID6 heavychain",
+      "value": 1,
+      "unit": "binary"
+    },
+    {
+      "name": "candidate_05",
+      "locator": "Example4 first Results paragraph; original Ab4 P-FALA",
+      "sequence_locator": "Sequence list SEQID2 lightchain and SEQID8 heavychain",
+      "value": 1,
+      "unit": "binary"
+    },
+    {
+      "name": "candidate_06",
+      "locator": "Example4 first Results paragraph; original Ab1 wildtype",
+      "sequence_locator": "Sequence list SEQID2 lightchain and SEQID5 heavychain",
+      "value": 1,
+      "unit": "binary"
+    },
+    {
+      "name": "candidate_07",
+      "locator": "Example4 first Results paragraph; original Ab6 LALA_P329G",
+      "sequence_locator": "Sequence list SEQID2 lightchain and SEQID10 heavychain",
+      "value": 0,
+      "unit": "binary"
+    }
+  ]
+}

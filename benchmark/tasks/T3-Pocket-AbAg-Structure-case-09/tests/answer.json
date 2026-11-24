@@ -1,0 +1,67 @@
+{
+  "bench_id": "T3-Pocket-AbAg-Structure-case-09",
+  "answer": {
+    "item_id": "Pocket-Induce-AbAg",
+    "task_family": "T3 epitope (induce)",
+    "case_id": "case-09",
+    "entity_count": 1,
+    "residue_count": 25,
+    "metric": "best_f1",
+    "gold_source": "tests/reference/test/answer.json"
+  },
+  "reference": {
+    "mode": "structure_case",
+    "gold_source": "tests/reference/test/answer.json",
+    "example_model_answer": {
+      "epitopes": [
+        {
+          "rank": 1,
+          "entities": {
+            "2": [
+              23,
+              24,
+              25,
+              61,
+              62,
+              64,
+              94,
+              96,
+              130,
+              131,
+              132,
+              133,
+              134,
+              135,
+              136,
+              137,
+              138,
+              139,
+              145,
+              146,
+              147,
+              181,
+              183,
+              185,
+              187
+            ]
+          }
+        }
+      ]
+    }
+  },
+  "scoring": {
+    "type": "structure_case",
+    "module": "_scoring/induce.py",
+    "metric": "best_f1",
+    "range": [
+      0.0,
+      1.0
+    ]
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "structure_case",
+    "scorer": "tests/score.py",
+    "full_marks": 1.0
+  }
+}

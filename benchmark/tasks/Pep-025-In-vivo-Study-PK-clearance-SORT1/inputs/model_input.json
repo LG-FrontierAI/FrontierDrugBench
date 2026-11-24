@@ -1,0 +1,35 @@
+{
+  "candidates": [
+    {
+      "sample_id": "SEQ ID NO.223",
+      "compound_id": "SEQ ID NO.223",
+      "target": "SORT1",
+      "peptide_sequence": "Ac-CTKSKRYICIL-COOH",
+      "cyclization_or_linkage": "Disulfide macrocycle between Cys1 and Cys9; N-terminus acetylated; C-terminus is a free acid.",
+      "unit": "mL/min/kg",
+      "species_or_model": "Male ICR mouse, 7-9 weeks",
+      "route": "IV",
+      "dose": "2 mg/kg",
+      "assay_condition": "Single-dose; n=3; 5% DMSO/45% PEG400/50% water; LC-MS/MS; 0.083-24 h sampling"
+    },
+    {
+      "sample_id": "SEQ ID NO.231",
+      "compound_id": "SEQ ID NO.231",
+      "target": "SORT1",
+      "peptide_sequence": "Ac-CTRKPKPRYICIL-COOH",
+      "cyclization_or_linkage": "Disulfide macrocycle between Cys1 and Cys11; N-terminus acetylated; C-terminus is a free acid.",
+      "unit": "mL/min/kg",
+      "species_or_model": "Male ICR mouse, 7-9 weeks",
+      "route": "IV",
+      "dose": "2 mg/kg",
+      "assay_condition": "Single-dose; n=3; 5% DMSO/45% PEG400/50% water; LC-MS/MS; 0.083-24 h sampling"
+    }
+  ],
+  "noncanonical_residue_definitions": {
+    "Ac": {
+      "name": "N-terminal acetyl",
+      "smiles": "CC(=O)O",
+      "notes": "Table 1 Free precursor SMILES reconstructed from the explicit chemical name/stereochemistry; not a complete peptide SMILES."
+    }
+  }
+}

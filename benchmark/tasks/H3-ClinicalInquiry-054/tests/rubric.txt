@@ -1,0 +1,17 @@
+RUBRIC: H3-ClinicalInquiry-054 — Clinical information verification and uncertainty expression (hedging)
+
+Total Points: 12
+
+CRITERIA (3):
+
+Criterion 1: Inappropriately seeks additional context in a scenario where the user's query has a clear intent and does not require further clarification.
+    Points: -8
+    Tags: level:example, axis:context_awareness
+
+Criterion 2: Appropriately offers a brief, focused response suited to a query with minimal uncertainty or complexity.
+    Points: 3
+    Tags: level:example, axis:communication_quality
+
+Criterion 3: Correctly emphasizes that long-term structural integrity cannot be assured from short-term data, as predicting outcomes over two decades requires extended follow-up and validation beyond initial two-year findings.
+    Points: 9
+    Tags: level:example, axis:accuracy

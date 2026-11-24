@@ -1,0 +1,30 @@
+RUBRIC: AB76 - Interpreting nonlinearity in anti-PRLR primate exposure
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: design
+    Points: 15
+    Description: Preserve route,doses,N4 andsex composition.
+    Source: Table20
+
+Criterion 2: ratio
+    Points: 20
+    Description: Distinguish3.62foldAUCinf fromapproximately3.04foldAUC0–336 at3folddose.
+    Source: Table20
+
+Criterion 3: extrapolation
+    Points: 25
+    Description: Notice large extrapolated contribution and avoid inferringmechanism fromAUC alone.
+    Source: Table20
+
+Criterion 4: mapping
+    Points: 15
+    Description: Do not silently equate ABS-201/AB001 without construct mapping.
+    Source: Tables20/22
+
+Criterion 5: checks
+    Points: 25
+    Description: Propose terminal sampling plus ADA/assay/additional-dose checks with interpretation.
+    Source: Examples6/7

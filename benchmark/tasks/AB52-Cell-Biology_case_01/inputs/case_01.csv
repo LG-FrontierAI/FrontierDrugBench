@@ -1,0 +1,8 @@
+name,assay,source_location,molecule_or_panel,endpoint,reported_value,reported_unit,status_or_condition
+record_01,binding_human,humanHEK293T FACS Table2,03O05,humanEC50,1.8,ug/mL,measured
+record_02,binding_mouse,mouseHEK293T FACS Table2,03O05,mouseEC50,6.6,ug/mL,measured
+record_03,binding_mouse,mouseHEK293T FACS Table2,02M10,mouseEC50,,ug/mL,no_binding
+record_04,binding_mouse,mouseHEK293T FACS Table2,22A17,mouseEC50,,ug/mL,not_tested
+record_05,binding_mouse,mouseHEK293T FACS Table2,23E21-2,mouseEC50,,ug/mL,not_tested
+record_06,NFAT_reporter,Example3,03O05,functionalEC50,0.5,g/ml,reported_unit_conflict
+record_07,NFAT_reporter,Example3,02M10,functionalEC50,0.5,ug/ml,measured

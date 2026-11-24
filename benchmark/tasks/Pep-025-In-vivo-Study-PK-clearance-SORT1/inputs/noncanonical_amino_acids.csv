@@ -1,0 +1,2 @@
+token,residue_or_modification_name,smiles,formula,molecular_weight_g_mol,size_class,logP,hydrophilicity,charge_at_pH7,aromatic_rings,H_bond_donors,H_bond_acceptors,TPSA_A2,property_basis_and_notes
+Ac,N-terminal acetyl,CC(=O)O,,,,,,,,,,,Table 1 Free precursor SMILES reconstructed from the explicit chemical name/stereochemistry; not a complete peptide SMILES.

@@ -1,0 +1,25 @@
+RUBRIC: AB55 - Testing the limits of an affinity-to-function conclusion
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: panel
+    Points: 25
+    Description: Uses the reported similar degranulation over <1–60nM to reject a mandatory weakest60nM conclusion without inventing figure values.
+
+Criterion 2: scope
+    Points: 25
+    Description: Rejects a universal affinity-does-not-matter conclusion; considers matched format/epitope/target density or assay window.
+
+Criterion 3: equivalence
+    Points: 20
+    Description: Distinguishes no statistically significant difference from demonstrated biological equivalence and states an equivalence/precision requirement.
+
+Criterion 4: readout
+    Points: 15
+    Description: Separates4h CD107a degranulation from24h live-GFP A375 lysis.
+
+Criterion 5: checks
+    Points: 15
+    Description: Gives two discriminating checks with resolved uncertainties, including matched affinity/context series and powered functional comparison.

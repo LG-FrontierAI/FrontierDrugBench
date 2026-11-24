@@ -1,0 +1,33 @@
+RUBRIC: H3-ClinicalInquiry-062 — Clinical information verification and uncertainty expression (hedging)
+
+Total Points: 27
+
+CRITERIA (7):
+
+Criterion 1: Offers accurate guidance on the use of muscle supplements, detailing appropriate timing, dosage, and method of administration.
+    Points: 8
+    Tags: level:example, axis:accuracy
+
+Criterion 2: Provides general recommendations for weight gain, including regular exercise, the use of muscle supplements, sufficient rest, and a higher caloric intake.
+    Points: 7
+    Tags: level:example, axis:completeness
+
+Criterion 3: Notes that taking muscle supplements without accompanying exercise may result in increased body fat rather than muscle gain.
+    Points: 6
+    Tags: level:example, axis:accuracy
+
+Criterion 4: Asks about the user’s sex, weight, height, and dietary intake to provide appropriate guidance for a weight gain plan.
+    Points: 6
+    Tags: level:example, axis:context_awareness
+
+Criterion 5: Fails to ask for specific information, such as weight, height, dietary intake, and activity levels, to provide appropriate guidance for a weight gain plan.
+    Points: -5
+    Tags: level:example, axis:context_awareness
+
+Criterion 6: Overstates the certainty of the effectiveness of muscle supplements, which should be used with caution.
+    Points: -8
+    Tags: level:example, axis:accuracy
+
+Criterion 7: Asserts that muscle supplements can promote weight gain without addressing the potential for increased body fat in the absence of exercise.
+    Points: -8
+    Tags: level:example, axis:accuracy

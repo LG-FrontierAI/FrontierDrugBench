@@ -1,0 +1,49 @@
+{
+  "bench_id": "H3-ClinicalInquiry-005",
+  "answer": "(No reference ideal answer was provided in the source data; this item is graded by the judge model against the frozen rubric only.)",
+  "reference_available": false,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Covers the scheduled children's vaccinations in Japan, including MR, DPT-IPV, Hib, BCG, Pneumococcal, Japanese encephalitis, HPV, and Hepatitis B.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Explains that the vaccination schedule differs depending on age, medical condition, and local authorities.",
+        "points": 4,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Fails to explain that the answers listed are only part of the vaccination offered and fail to include HPV and Hepatitis B vaccination.",
+        "points": -2,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Fails to mention that vaccinations may differ depending on age and locality.",
+        "points": -3,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      }
+    ],
+    "points": 11
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 11,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

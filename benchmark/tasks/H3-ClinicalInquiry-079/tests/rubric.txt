@@ -1,0 +1,45 @@
+RUBRIC: H3-ClinicalInquiry-079 — Clinical information verification and uncertainty expression (hedging)
+
+Total Points: 44
+
+CRITERIA (10):
+
+Criterion 1: Emphasizes the importance of daily use, even on cloudy days.
+    Points: 8
+    Tags: level:example, axis:completeness
+
+Criterion 2: Explains how often the user should apply sunscreen, recommending reapplication every two hours, especially when spending extended time outdoors or after sweating or swimming.
+    Points: 8
+    Tags: level:example, axis:completeness
+
+Criterion 3: Recommends consulting a dermatologist if the user has a dermatological condition or very sensitive skin.
+    Points: 5
+    Tags: level:example, axis:completeness
+
+Criterion 4: Fails to provide information, such as the percentage rate, about products with SPF 15. (Justification: The user might have a product with SPF 15 and needs to know when its use is appropriate, along with products that have SPF 30 and 50, as SPF 15 is only appropriate for individuals who primarily spend time indoors.)
+    Points: -4
+    Tags: level:example, axis:completeness
+
+Criterion 5: Asks about the person's skin type or Fitzpatrick phototype when recommending a daily SPF level. (Justification: Skin phototype significantly impacts UV sensitivity and required protection level, with fair skin (types I-III) requiring higher SPF.)
+    Points: 6
+    Tags: level:example, axis:context_awareness
+
+Criterion 6: Inquires about the person's geographic location, altitude, or typical UV index exposure for daily sunscreen use.
+    Points: 7
+    Tags: level:example, axis:context_awareness
+
+Criterion 7: Mentions application timing (15-30 minutes before sun exposure) for daily sunscreen use.
+    Points: 5
+    Tags: level:example, axis:completeness
+
+Criterion 8: Advises about proper reapplication frequency (every 2 hours) during continuous sun exposure.
+    Points: 5
+    Tags: level:example, axis:completeness
+
+Criterion 9: Makes definitive SPF recommendations without acknowledging how individual factors affect daily needs.
+    Points: -7
+    Tags: level:example, axis:accuracy
+
+Criterion 10: Lacks structural formatting (headers, bullet points, bold text) for daily sunscreen recommendations.
+    Points: -3
+    Tags: level:example, axis:communication_quality

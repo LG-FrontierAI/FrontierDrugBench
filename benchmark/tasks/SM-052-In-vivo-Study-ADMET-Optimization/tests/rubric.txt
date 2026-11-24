@@ -1,0 +1,44 @@
+RUBRIC: SM-052-In-vivo-Study-ADMET-Optimization — ADMET Risk Assessment, Structural Optimization and Efflux Interpretation
+
+Total Points: 100/100
+
+Notes: Apply only the original scoring conditions below. Score each criterion independently. The source does not specify partial-credit allocations within individual criteria; do not invent subcomponent point allocations. Do not award extra points for fluency, length, or confidence, and do not infer information that is not explicitly stated in the response. Sum the awarded points, clamp to [0, 100], and normalize by 100.
+
+CRITERIA (9):
+
+Criterion 1: Low Aqueous Solubility
+    Points: 10
+    Description: Identifies the thermodynamic solubility of only 20.6 µM at pH 7.4 (approximately 7.4 µg/mL) as low and notes that it may adversely affect in vivo absorption.
+
+Criterion 2: Lattice-Energy-Limited Solubility
+    Points: 10
+    Description: Identifies the solubility limitation as primarily lattice-energy-driven (a "brick dust" profile). Explains that conventional strategies based solely on lowering LogP offer limited benefit and that optimization should target crystal lattice energy or molecular planarity.
+
+Criterion 3: Disruption of Molecular Coplanarity
+    Points: 10
+    Description: Proposes a specific structural modification: introducing an ortho substituent adjacent to the biaryl bond connecting the phenyl ring to C5 of the azaindole core to increase the dihedral angle and disrupt coplanarity; or replacing the phenyl ring with a saturated or partially saturated linker to increase Fsp³.
+
+Criterion 4: Distal Piperazine Modification
+    Points: 10
+    Description: Proposes a specific modification to introduce polar or ionizable groups in the distal piperazine region, such as replacing the N-methyl group with N-hydroxyethyl, N-(2-methoxyethyl), or N-(oxetan-3-yl).
+
+Criterion 5: Metabolic Stability and QD Dosing
+    Points: 10
+    Description: Notes that the RLM and MLM half-lives of 2.5 min and 4.3 min are well below commonly accepted levels, and that the HLM half-life of 23 min is also below the commonly used > 30 min threshold. Connects insufficient metabolic stability to the TPP requirements for QD oral dosing and long-term treatment of a chronic disease.
+
+Criterion 6: Identification of Metabolic Soft Spots
+    Points: 10
+    Description: Proposes using metabolite identification to establish the actual metabolic soft spots before undertaking targeted structural modifications.
+
+Criterion 7: Blocking Piperazine Metabolic Sites
+    Points: 20
+    Description: Provides reasonable examples of structural modifications to block potential metabolic sites at the piperazine alpha-carbons and the N-methyl group, thereby improving metabolic stability.
+
+Criterion 8: Interpretation of Efflux Model Differences
+    Points: 10
+    Description: Explains that MDCK-MDR1 artificially overexpresses human MDR1 at levels far above physiological expression, while MDCK cells have relatively tight junctions and low background passive permeability. These factors jointly elevate the efflux ratio. Notes that transporter expression in Caco-2 is endogenous and closer to physiological conditions.
+
+Criterion 9: Oral Absorption Prediction and Tissue Distribution
+    Points: 10
+    Description: Uses Caco-2 as the primary basis for absorption prediction: Papp A→B = 15 × 10⁻⁶ cm/s indicates high permeability, and ER = 2.2 indicates limited efflux. Together, these results suggest good passive absorption, with P-gp unlikely to be the rate-limiting factor for oral absorption.
+                 Retains the high MDCK-MDR1 ER as qualitative evidence of P-gp substrate characteristics relevant to tissue distribution at barriers such as the blood-brain barrier and placenta, rather than to quantitative prediction of intestinal absorption.

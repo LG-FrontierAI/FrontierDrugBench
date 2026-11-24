@@ -1,0 +1,25 @@
+RUBRIC: AB57 - Auditing donor heterogeneity, units and replication
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: heterogeneity
+    Points: 25
+    Description: Identifies ALK056 CD27 68.99pM versus0.10–1.84 in other donors and rejects homogeneous marker potency.
+
+Criterion 2: summary
+    Points: 20
+    Description: Preserves mean14.25/SD30.61 as reported but explains atypicality/outlier influence; gives donor-level or robust summary.
+
+Criterion 3: units
+    Points: 25
+    Description: FlagspM Table/dose versusuM prose conflict without silently converting; calls for source clarification.
+
+Criterion 4: replication
+    Points: 15
+    Description: Distinguishes five biological donors from technical wells/plates.
+
+Criterion 5: checks
+    Points: 15
+    Description: Proposes dilution/export verification and donor-specific curve/fit replication with what each resolves.

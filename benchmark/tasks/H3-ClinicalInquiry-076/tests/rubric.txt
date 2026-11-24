@@ -1,0 +1,25 @@
+RUBRIC: H3-ClinicalInquiry-076 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 17
+
+CRITERIA (5):
+
+Criterion 1: Suggests Valerian root as an herbal remedy for anxiety, even though it has proven not effective.
+    Points: -6
+    Tags: level:example, axis:accuracy
+
+Criterion 2: Mentions that herbal supplements are not 100% without side effects and should be taken cautiously.
+    Points: 7
+    Tags: level:example, axis:accuracy
+
+Criterion 3: Mentions other methods to relieve anxiety besides supplements, such as relaxation techniques like deep breathing or meditation to quickly calm anxiety, engaging in light physical activity like taking a short walk to reduce stress, avoiding stimulants such as coffee and tea, especially at night, and recreating a comfortable sleep environment by using dim lighting and reducing screen time before sleep.
+    Points: 5
+    Tags: level:example, axis:completeness
+
+Criterion 4: Mentions when to seek medical attention: If anxiety persists and significantly impacts your daily life, or if you experience severe symptoms such as shortness of breath or harmful thoughts, it’s important to reach out to emergency services or consult a mental health professional.
+    Points: 5
+    Tags: level:example, axis:completeness
+
+Criterion 5: Mentions a drug name that is incorrect or does not exist, "Sedopic."
+    Points: -4
+    Tags: level:example, axis:accuracy

@@ -1,0 +1,73 @@
+{
+  "bench_id": "H3-ClinicalInquiry-052",
+  "answer": "Got it, let's focus on practical tips for keeping your eyes healthy when using a screen all day:\n\n1. **20-20-20 Rule**: Every 20 minutes, take a 20-second break and look at something that is at least 20 feet away. This helps your eyes refocus and reduces strain. You can put a timer or use apps to remind you to do that.\n\n2. **Blink Often**: Blinking keeps your eyes moist and prevents dryness. Try to consciously blink more often to keep your eyes lubricated.\n\n3. **Lubricate Your Eyes**: Use artificial tears to keep your eyes moist. If you're using artificial tears more than 4 times a day, consider getting drops that are preservative-free. If your environment is dry, consider getting a humidifier.\n\n4. **Adjust Your Workspace**: \n   - Keep your screen about an arm's length (20-24 inches) away from your eyes.\n   - Position the screen so the top is slightly below eye level. \n   - Ensure good lighting to reduce glare, and use an anti-glare filter for your screen.\n\n5. **Use the Right Computer Settings**: \n   - Match your screen brightness to the lighting around you. If your screen looks like a light source, it's too bright. \n   - Adjust text size and contrast to a comfortable level for easier reading.\n\n6. **Use Glasses for Intermediate Vision (\"Computer Glasses\")***: If you're above the age of 40, consider getting a prescription for computer glasses. These are designed to help you see at an \"intermediate\" distance (as opposed to reading glasses which help you see at \"near\" distances). You could also consider getting a pair of progressive glasses, which allow you to shift from near, intermediate and far distances quickly.\n\nGive these strategies a try and adjust them to see which work best for you. ",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Asks for the user's age. (Justification: Presbyopia is a common cause of eye strain in people over 40 years, if that is the user's case, any recommendation given won't be enough to relieve eye strain until a proper lens prescription is adapted.)",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Asks if the user wears glasses, and if so, when their last refraction was. (Justification: If the lens prescription is out of date or incorrect, that could be the cause of eye strain.)",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Describes how to apply the 20-20-20 rule: Every 20 minutes, look away from the screen and focus on something at least 20 feet away for 20 seconds.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Provides helpful advice that is not harmful in any scenario: Follow the 20-20-20 rule, blink more often, stay hydrated and apply artificial tears if needed, adjust environment and screen lighting, ensure proper posture, and take breaks.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Includes a disclaimer that information provided does not substitute a medical consult. (Justification: In this case, the user's query specifically stated that they did not want disclaimers about liability.)",
+        "points": -5,
+        "tags": [
+          "level:example",
+          "axis:instruction_following"
+        ]
+      },
+      {
+        "criterion": "States that the 20-20-20 rule means taking a 20-second break from the screen every 20 minutes of work, while looking at something 20 feet away during the break.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Provides harmful advice that could increase eye strain, such as maximizing screen brightness, staring at overhead lights after extended work, and not blinking often.",
+        "points": -7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      }
+    ],
+    "points": 29
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 29,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "bench_id": "PROT-V4-QUANT-028",
+  "answer": {
+    "value": -3.81
+  },
+  "scoring": {
+    "type": "numeric_gaussian",
+    "metric": "exp(-|pred-gold|/tolerance)",
+    "tolerance": 1.905,
+    "points": 100
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "case_eval"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "answer": [
+    "SEQ ID NO.231",
+    "SEQ ID NO.92",
+    "SEQ ID NO.228",
+    "SEQ ID NO.229",
+    "SEQ ID NO.230",
+    "SEQ ID NO.223",
+    "SEQ ID NO.232"
+  ],
+  "direction": "lower_is_better",
+  "source_patent": "WO2026021512",
+  "endpoint": "Sortilin SPR KD",
+  "unit": "nM"
+}

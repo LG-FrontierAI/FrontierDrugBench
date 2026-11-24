@@ -1,0 +1,20 @@
+{
+  "answer": [
+    "SEQ ID NO:2",
+    "SEQ ID NO:4",
+    "SEQ ID NO:1",
+    "SEQ ID NO:12",
+    "SEQ ID NO:8",
+    "SEQ ID NO:3",
+    "SEQ ID NO:6",
+    "SEQ ID NO:5",
+    "SEQ ID NO:7",
+    "SEQ ID NO:10",
+    "SEQ ID NO:11",
+    "SEQ ID NO:9"
+  ],
+  "direction": "lower_is_better",
+  "source_patent": "WO2026011797",
+  "endpoint": "liver triglycerides",
+  "unit": "mg/g"
+}

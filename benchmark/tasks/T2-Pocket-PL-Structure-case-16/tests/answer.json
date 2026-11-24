@@ -1,0 +1,63 @@
+{
+  "bench_id": "T2-Pocket-PL-Structure-case-16",
+  "answer": {
+    "item_id": "Pocket-PL",
+    "task_family": "T2 ligand pocket from sequence",
+    "case_id": "case-16",
+    "site_count": 1,
+    "residue_count": 23,
+    "metric": "post2026_micro_f1",
+    "gold_source": "tests/reference/test/answer.json"
+  },
+  "reference": {
+    "mode": "structure_case",
+    "gold_source": "tests/reference/test/answer.json",
+    "example_model_answer": {
+      "pockets": [
+        {
+          "rank": 1,
+          "residues": [
+            87,
+            91,
+            104,
+            106,
+            183,
+            185,
+            187,
+            189,
+            211,
+            214,
+            216,
+            223,
+            225,
+            231,
+            270,
+            272,
+            281,
+            283,
+            285,
+            287,
+            321,
+            324,
+            331
+          ]
+        }
+      ]
+    }
+  },
+  "scoring": {
+    "type": "structure_case",
+    "module": "_scoring/pocket.py",
+    "metric": "post2026_micro_f1",
+    "range": [
+      0.0,
+      1.0
+    ]
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "structure_case",
+    "scorer": "tests/score.py",
+    "full_marks": 1.0
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "item_id": "AB74",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026055600A1"
+  ],
+  "study_id": "HumanTfRC KI mouse IV24h exposure and matched-valency tests",
+  "input_sha256": "57b6fcd164f553ac8191f65423f08d2d032fee6887dc2c6353ea1add2955c75f",
+  "study_information_sha256": "656e23b47be1ec0a00d9bf203ec89b92ac385ce9717f8532ff887a497ec5bd0c",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": true,
+  "unit": "rubric_score",
+  "sources": [
+    {
+      "publication_number": "WO2026055600A1",
+      "url": "https://patents.google.com/patent/WO2026055600A1/en",
+      "publication_date": "2026-03-12",
+      "family_earliest_publication_date": "2026-03-12",
+      "disclosure_status": "verified",
+      "locator": "Examples1–3, Figures4/6/7",
+      "source_channel": "Bundled rendered-browser transcript retrieved2026-09-30; family publication metadata checked2026-10-23"
+    }
+  ],
+  "evidence": [],
+  "rubric": [
+    {
+      "id": "endpoint",
+      "points": 20,
+      "requirement": "Identify the assay-qualified brain-fraction endpoint without equating it to intact active cargo.",
+      "required_finding": "Identify the assay-qualified brain-fraction endpoint without equating it to intact active cargo.",
+      "source_locator": "Examples1/2"
+    },
+    {
+      "id": "observation",
+      "points": 20,
+      "requirement": "Preserve approximate10–20fold/10% and equimolar paired-valency observations without inventing exact candidate values.",
+      "required_finding": "Preserve approximate10–20fold/10% and equimolar paired-valency observations without inventing exact candidate values.",
+      "source_locator": "Figures4/7"
+    },
+    {
+      "id": "partition",
+      "points": 20,
+      "requirement": "Reject Kp,uu or free-brain claims without unbound/interstitial measurements.",
+      "required_finding": "Reject Kp,uu or free-brain claims without unbound/interstitial measurements.",
+      "source_locator": "Example2"
+    },
+    {
+      "id": "receptor",
+      "points": 15,
+      "requirement": "Separate non-depletedTfR westernblot from mechanism and safety claims.",
+      "required_finding": "Separate non-depletedTfR westernblot from mechanism and safety claims.",
+      "source_locator": "Figure6"
+    },
+    {
+      "id": "checks",
+      "points": 25,
+      "requirement": "Propose fraction purity/recovery plus intact/free-exposure checks and explain resolutions.",
+      "required_finding": "Propose fraction purity/recovery plus intact/free-exposure checks and explain resolutions.",
+      "source_locator": "Examples1–3"
+    }
+  ],
+  "reference_answer": "The directly measured endpoint is anti-human-IgG sandwich-ELISA signal in a perfused, capillary-depleted brain fraction. The narrative reports approximately 10–20-fold greater parenchymal signal and about 10% of control plasma signal for the tested anti-TfR antibodies at 24 hours. These are approximate comparisons, not exact values for each named candidate. Doses were equimolar: 1.8 mg/kg anti-TfR versus 1.7 mg/kg anti-BACE1. In the paired valency experiment, monoVHH at 5.5 mg/kg exceeded biVHH at 6 mg/kg under the tested conditions.\n\nHowever, an Fc-directed ELISA does not by itself prove intact, active cargo. Perfusion and capillary depletion reduce vascular signal but do not establish fraction purity or recovery. Free interstitial concentrations and unbound fractions were not measured, so neither Kp,uu nor complete active BBB transport is established. The Figure 6 western blot shows no depletion of brain TfR, with GAPDH as loading control; this does not establish transport mechanism or comprehensive safety. The valency observation also cannot establish a universal monovalent advantage.\n\nFirst, quantify vascular markers, fraction recovery and spike recovery to test carryover and extraction bias. Second, measure intact cargo with orthogonal epitope detection and a functional assay, together with free/interstitial exposure where feasible. These checks distinguish assay-qualified signal from intact functional delivery.",
+  "rubric_contrast_checks": {
+    "full_correct": {
+      "answer": "The directly measured endpoint is anti-human-IgG sandwich-ELISA signal in a perfused, capillary-depleted brain fraction. The narrative reports approximately 10–20-fold greater parenchymal signal and about 10% of control plasma signal for the tested anti-TfR antibodies at 24 hours. These are approximate comparisons, not exact values for each named candidate. Doses were equimolar: 1.8 mg/kg anti-TfR versus 1.7 mg/kg anti-BACE1. In the paired valency experiment, monoVHH at 5.5 mg/kg exceeded biVHH at 6 mg/kg under the tested conditions.\n\nHowever, an Fc-directed ELISA does not by itself prove intact, active cargo. Perfusion and capillary depletion reduce vascular signal but do not establish fraction purity or recovery. Free interstitial concentrations and unbound fractions were not measured, so neither Kp,uu nor complete active BBB transport is established. The Figure 6 western blot shows no depletion of brain TfR, with GAPDH as loading control; this does not establish transport mechanism or comprehensive safety. The valency observation also cannot establish a universal monovalent advantage.\n\nFirst, quantify vascular markers, fraction recovery and spike recovery to test carryover and extraction bias. Second, measure intact cargo with orthogonal epitope detection and a functional assay, together with free/interstitial exposure where feasible. These checks distinguish assay-qualified signal from intact functional delivery.",
+      "expected_score": 1.0,
+      "basis": "All criterion findings are explicitly present.",
+      "expected_points": 100
+    },
+    "all_yes": {
+      "answer": "Every proposed claim is supported; the study proves the mechanism and broad translation.",
+      "expected_score": 0.0,
+      "basis": "Unsupported blanket acceptance omits all required specific findings.",
+      "expected_points": 0
+    },
+    "all_no": {
+      "answer": "Nothing in the experiment is useful or supported. All results should be rejected.",
+      "expected_score": 0.0,
+      "basis": "Blanket dismissal omits supported observations and required specific findings.",
+      "expected_points": 0
+    },
+    "omitted_critical": {
+      "answer": "The directly measured endpoint is anti-human-IgG sandwich-ELISA signal in a perfused, capillary-depleted brain fraction. The narrative reports approximately 10–20-fold greater parenchymal signal and about 10% of control plasma signal for the tested anti-TfR antibodies at 24 hours. These are approximate comparisons, not exact values for each named candidate. Doses were equimolar: 1.8 mg/kg anti-TfR versus 1.7 mg/kg anti-BACE1. In the paired valency experiment, monoVHH at 5.5 mg/kg exceeded biVHH at 6 mg/kg under the tested conditions.",
+      "expected_score_upper_bound": 0.6,
+      "basis": "Missing central limitation and proposed checks cannot receive points for those criteria.",
+      "expected_points_upper_bound": 60
+    }
+  }
+}

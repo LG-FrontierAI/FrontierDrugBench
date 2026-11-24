@@ -1,0 +1,93 @@
+{
+  "answer": {
+    "CYP-TOP201": [
+      "M063",
+      "M062"
+    ],
+    "CYP-TOP202": [
+      "M067",
+      "M066"
+    ],
+    "CYP-PAIR01": "M072",
+    "CYP-PAIR02": "M074",
+    "CYP-PAIR03": "M076",
+    "CYP-PAIR04": "M078",
+    "CYP-PAIR05": "M079"
+  },
+  "scoring": {
+    "raw_total_points": 20.0,
+    "total_points": 100,
+    "items": {
+      "CYP-TOP201": {
+        "type": "top2",
+        "raw_points": 5,
+        "candidates": [
+          "M061",
+          "M062",
+          "M063",
+          "M064",
+          "M065"
+        ],
+        "points": 25.0
+      },
+      "CYP-TOP202": {
+        "type": "top2",
+        "raw_points": 5,
+        "candidates": [
+          "M066",
+          "M067",
+          "M068",
+          "M069",
+          "M070"
+        ],
+        "points": 25.0
+      },
+      "CYP-PAIR01": {
+        "type": "pair",
+        "raw_points": 2,
+        "candidates": [
+          "M071",
+          "M072"
+        ],
+        "points": 10.0
+      },
+      "CYP-PAIR02": {
+        "type": "pair",
+        "raw_points": 2,
+        "candidates": [
+          "M073",
+          "M074"
+        ],
+        "points": 10.0
+      },
+      "CYP-PAIR03": {
+        "type": "pair",
+        "raw_points": 2,
+        "candidates": [
+          "M075",
+          "M076"
+        ],
+        "points": 10.0
+      },
+      "CYP-PAIR04": {
+        "type": "pair",
+        "raw_points": 2,
+        "candidates": [
+          "M077",
+          "M078"
+        ],
+        "points": 10.0
+      },
+      "CYP-PAIR05": {
+        "type": "pair",
+        "raw_points": 2,
+        "candidates": [
+          "M079",
+          "M080"
+        ],
+        "points": 10.0
+      }
+    },
+    "points_policy": "Source raw_points are relative weights only; the task maximum and awarded points are reported on a 100-point scale."
+  }
+}

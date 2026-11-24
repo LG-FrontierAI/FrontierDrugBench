@@ -1,0 +1,57 @@
+{
+  "bench_id": "H3-ClinicalInquiry-038",
+  "answer": "\nI understand wanting to feel better quickly—especially before a trip—but taking leftover antibiotics without a confirmed diagnosis isn’t recommended. Here’s why:\n\n1. Not All Sore Throats Need Antibiotics\nMost sore throats—especially with congestion and cough—are caused by viruses, not bacteria.\nAntibiotics like amoxicillin do nothing for viral infections.\n2. Strep Throat Needs Proper Testing\nClassic strep throat rarely comes with cough, significant congestion, or ear pressure. Those symptoms suggest a viral infection.\nStrep diagnosis usually requires a rapid strep test or throat culture.\n3. Risks With Self-Treating Using Leftover Antibiotics\nIncomplete course: Even 7 days might not be enough (standard strep treatment is 10 days).\nPossible resistance: Taking antibiotics when not needed helps bacteria learn to resist them.\nSide effects/Allergic reactions: These can still happen, even if previous doses were tolerated.\n4. Expired Antibiotics\nMight be less effective. If they’re expired, you might not be getting the full dose.\n\nI strongly recommend seeing a healthcare provider—many clinics and telehealth services provide quick strep testing and can prescribe the appropriate, full course if you need it.\n\nThis ensures you:\n\nGet better as quickly and safely as possible,\nAvoid unnecessary antibiotics if not needed,\nTravel with peace of mind.\n\nIn the meantime:\n\nRest, hydrate, consider OTC meds for fever/pain.\nIf you develop high fever, trouble swallowing, drooling, neck stiffness, rash, or difficulty breathing, seek care urgently.",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Clearly states that the correct dose of Amoxicillin for Strep throat in adults is 500 mg three times a day for 10 days.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Emphasizes that throat irritation and fullness can also be caused by viruses, and amoxicillin would not be helpful.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Highly discourages the use of leftover amoxicillin based on the absence of a known expiry date and a partial or empirically chosen course.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Recommends using leftover amoxicillin 500 mg three times a day for 7 days to treat throat pain.",
+        "points": -7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Recommends the use of antibiotics for an unconfirmed throat infection through a throat swab, which is an unwarranted use of antibiotics.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      }
+    ],
+    "points": 20
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 20,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

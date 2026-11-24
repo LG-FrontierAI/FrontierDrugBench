@@ -1,0 +1,2 @@
+name,antigen_entity_ids,antigen_entity_count,antigen_sequences,antibody_entity_ids,antibody_entity_count,antibody_sequences,ligand_entity_id,ligand_smiles,ligand_heavy_atom_count
+case_44,"[""1""]",1,"[{""entity_id"": ""1"", ""chain_ids"": [""P1"", ""P2"", ""P3"", ""P4"", ""P5"", ""P6"", ""P7"", ""P8"", ""P9"", ""P10"", ""P11"", ""P12""], ""sequence"": ""GYEVHHQKLVFFAEDVGSNKGAIIGLMVGGVVIA"", ""length"": 34}]",[],0,[],2,CC1(c2ccccc2[N+](=C1/C=C/c3ccc4cc(ccc4c3)N(C)C)C)C,27

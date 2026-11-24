@@ -1,0 +1,16 @@
+{
+  "bench_id": "DNA-NUM-30-030",
+  "answer": {
+    "value": -0.06199579141895738
+  },
+  "scoring": {
+    "type": "numeric_gaussian",
+    "metric": "exp(-|pred-gold|/tolerance)",
+    "tolerance": 0.1,
+    "points": 100
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "case_eval"
+  }
+}

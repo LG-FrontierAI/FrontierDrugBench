@@ -1,0 +1,29 @@
+RUBRIC: H3-ClinicalInquiry-060 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 29
+
+CRITERIA (6):
+
+Criterion 1: States that it is preferable to leave a small blister intact or unpopped.
+    Points: 8
+    Tags: level:example, axis:accuracy
+
+Criterion 2: Recommends applying a non-stick bandage or blister pad to prevent friction, popping, and infection.
+    Points: 8
+    Tags: level:example, axis:completeness
+
+Criterion 3: Suggests seeking medical care if signs of infection develop, including redness, swelling, worsening pain, or pus discharge.
+    Points: 7
+    Tags: level:example, axis:completeness
+
+Criterion 4: States that draining a blister can be considered if it is large or causing significant pain.
+    Points: 6
+    Tags: level:example, axis:accuracy
+
+Criterion 5: Seeks unnecessary context by asking for information the user has already provided, including the size of the blister, signs of infection, and whether the blister has already been popped.
+    Points: -7
+    Tags: level:example, axis:context_awareness
+
+Criterion 6: Should not include detailed instructions on the proper technique of blister drainage.
+    Points: -5
+    Tags: level:example, axis:instruction_following

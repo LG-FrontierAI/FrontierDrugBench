@@ -1,0 +1,86 @@
+{
+  "item_id": "AB80",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026050466A2"
+  ],
+  "study_id": "TL1A/alpha4beta7 combination colitis-model evidence",
+  "input_sha256": "15f454807e281714b356dd3b57b67f0f27a4cccdaf11b8b277a4d034954dedc7",
+  "study_information_sha256": "6affcfe765bf0d3fb78f8d9c43d7b19e70a40c7a7f6477cd09c2dc9ac6f4b2b3",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": true,
+  "unit": "rubric_score",
+  "sources": [
+    {
+      "publication_number": "WO2026050466A2",
+      "url": "https://patents.google.com/patent/WO2026050466A2/en",
+      "publication_date": "2026-03-05",
+      "family_earliest_publication_date": "2026-03-05",
+      "disclosure_status": "verified",
+      "locator": "Examples23/24,Figures45–53,Tables13/14",
+      "source_channel": "web.run primaryHTML explicitresponse_length long, retrieved2026-10-23"
+    }
+  ],
+  "evidence": [],
+  "rubric": [
+    {
+      "id": "model",
+      "points": 20,
+      "requirement": "SeparateDSS/TNBS,regimens andcombination arms.",
+      "required_finding": "SeparateDSS/TNBS,regimens andcombination arms.",
+      "source_locator": "Animalexamples"
+    },
+    {
+      "id": "death",
+      "points": 25,
+      "requirement": "Preserve reportedDay5mortality withoutinventingcounts ormechanism.",
+      "required_finding": "Preserve reportedDay5mortality withoutinventingcounts ormechanism.",
+      "source_locator": "TNBSnarrative"
+    },
+    {
+      "id": "selection",
+      "points": 25,
+      "requirement": "Recognize survivorselection; do notimputedeath asnormalPD ordiscardanimals.",
+      "required_finding": "Recognize survivorselection; do notimputedeath asnormalPD ordiscardanimals.",
+      "source_locator": "Survival/PDexamples"
+    },
+    {
+      "id": "checks",
+      "points": 30,
+      "requirement": "Propose prespecifiedsurvival/jointendpoint andmatched dosing/exposure/surrogate controls.",
+      "required_finding": "Propose prespecifiedsurvival/jointendpoint andmatched dosing/exposure/surrogate controls.",
+      "source_locator": "Animalexamples"
+    }
+  ],
+  "reference_answer": "DSS and TNBS colitis experiments differ in model induction, treatment regimens and biological context. In the reported TNBS experiment, both the model group and the combination group, each with five animals, had died by day 5. The DSS experiment reported all animals alive at day 9. These are model-specific observations; they cannot be combined into a single cross-model efficacy ranking or interpreted as proof of one toxic mechanism.\n\nHowever, later weight, cytokine or histology measurements among survivors are conditional on survival. Death is not a normal missing PD value. Removing animals who died, or imputing their subsequent measurements as normal, can create an apparent treatment benefit through survivor selection. Likewise, a combination regimen cannot be attributed to a single antibody without appropriate matched arms, dosing and exposure information.\n\nFirst, analyze prespecified survival or a joint survival/PD endpoint for all randomized animals, retaining deaths and reasons for missingness. Second, verify surrogate identity, dose schedule, single-agent controls and exposure within each model. These checks distinguish reproducible model-specific efficacy or harm from selection, regimen differences and unequal exposure. No exact figure coordinates or mortality rates beyond the supplied narrative should be invented.",
+  "rubric_contrast_checks": {
+    "full_correct": {
+      "answer": "DSS and TNBS colitis experiments differ in model induction, treatment regimens and biological context. In the reported TNBS experiment, both the model group and the combination group, each with five animals, had died by day 5. The DSS experiment reported all animals alive at day 9. These are model-specific observations; they cannot be combined into a single cross-model efficacy ranking or interpreted as proof of one toxic mechanism.\n\nHowever, later weight, cytokine or histology measurements among survivors are conditional on survival. Death is not a normal missing PD value. Removing animals who died, or imputing their subsequent measurements as normal, can create an apparent treatment benefit through survivor selection. Likewise, a combination regimen cannot be attributed to a single antibody without appropriate matched arms, dosing and exposure information.\n\nFirst, analyze prespecified survival or a joint survival/PD endpoint for all randomized animals, retaining deaths and reasons for missingness. Second, verify surrogate identity, dose schedule, single-agent controls and exposure within each model. These checks distinguish reproducible model-specific efficacy or harm from selection, regimen differences and unequal exposure. No exact figure coordinates or mortality rates beyond the supplied narrative should be invented.",
+      "expected_score": 1.0,
+      "basis": "All criterion findings are explicitly present.",
+      "expected_points": 100
+    },
+    "all_yes": {
+      "answer": "Every proposed claim is supported; the study proves the mechanism and broad translation.",
+      "expected_score": 0.0,
+      "basis": "Unsupported blanket acceptance omits all required specific findings.",
+      "expected_points": 0
+    },
+    "all_no": {
+      "answer": "Nothing in the experiment is useful or supported. All results should be rejected.",
+      "expected_score": 0.0,
+      "basis": "Blanket dismissal omits supported observations and required specific findings.",
+      "expected_points": 0
+    },
+    "omitted_critical": {
+      "answer": "DSS and TNBS colitis experiments differ in model induction, treatment regimens and biological context. In the reported TNBS experiment, both the model group and the combination group, each with five animals, had died by day 5. The DSS experiment reported all animals alive at day 9. These are model-specific observations; they cannot be combined into a single cross-model efficacy ranking or interpreted as proof of one toxic mechanism.",
+      "expected_score_upper_bound": 0.6,
+      "basis": "Missing central limitation and proposed checks cannot receive points for those criteria.",
+      "expected_points_upper_bound": 60
+    }
+  }
+}

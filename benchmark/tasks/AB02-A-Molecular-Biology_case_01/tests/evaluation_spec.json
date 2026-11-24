@@ -1,0 +1,63 @@
+{
+  "item_id": "AB02-A",
+  "title": "Predicting relative human affinity after developability repair",
+  "category": "Molecular Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "format": "ranking",
+  "task_type": "ranking",
+  "ranking_metric": "spearman",
+  "higher_is_better": false,
+  "no_contestant_tools": true,
+  "reset_context_each_case": true,
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "17f4f5af94f8479f6d296fa2331c196ef49b0fea899fc66d5d99e6cfa3984286",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "48710a87588fa8c01f32c5ece861b136523ad644f68522e850fcaaa98ff9e126",
+      "data_status": "patent_experimental",
+      "known_count": 3,
+      "target_count": 12,
+      "source_group_id": "WO2026052654_Example10_anti_IL2Rgamma_repair",
+      "study_information": "All molecules are anti-IL-2Rgamma VHHs in the same monovalent VHH-Fc format. The endpoint is the Table 23 human KD divided by the KD of the matched parent in the same CSV. SPR used recombinant human IL-2Rbeta-gamma extracellular-domain reagent P1AE2657, a Biacore 8K at 25 C, VHH-Fc capture on an anti-PGLALA CM3 surface, receptor as analyte and a 1:1 Langmuir fit. The benchmark neutral-pH label is 7.5. KD is in nM; the target ratio is dimensionless. Only parent KD measurements are supplied; variant affinity and cell-binding results are withheld.",
+      "study_information_sha256": "3990a5946f2acaec150096133f665980d7c228d3bc9a572cf6cc7dffb0a037fb"
+    }
+  ],
+  "case_count": 1,
+  "input_columns": [
+    "name",
+    "parent",
+    "format",
+    "sequence1",
+    "human_KD_nM"
+  ],
+  "target_definition": "human_KD_to_parent_ratio",
+  "score_formula": "max(0, Spearman rho)",
+  "score_definition": "max(0, Spearman rho)",
+  "diagnostics": [
+    "raw_spearman"
+  ],
+  "output_format": "One comma-separated line containing every target exactly once, in the requested order; no explanation.",
+  "blocking_requirements": [],
+  "formal_biological_score_available": true,
+  "aggregation": "single_case",
+  "follow_up": null,
+  "target_antigen": "anti-IL-2Rgamma VHH-Fc; human IL-2Rbeta/gamma-expressing cells; species-matched IL-2Rbeta/gamma ECD for SPR",
+  "parent_item_id": "AB02",
+  "pass_threshold": 0.6,
+  "threshold_version": "v1-20261023",
+  "pass_rule": "unrounded_item_score >= pass_threshold",
+  "passed_evaluation_level": "item",
+  "threshold_comparison": "unrounded_score >= pass_threshold",
+  "expanded_from": "AB02-A",
+  "expanded_bench_id": "AB02-A-Molecular-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases",
+    "reference_answer_status": "experimental_truth"
+  }
+}

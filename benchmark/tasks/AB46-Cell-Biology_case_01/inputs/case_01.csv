@@ -1,0 +1,10 @@
+name,format,DR3_cell_blocking_IC50_nM,DR3_cell_blocking_bottom_MFI,TF1_caspase_inhibition_IC50_nM
+candidate_01,IgG,10.76,519,
+candidate_02,IgG,11.01,642,
+candidate_03,IgG,11.92,916,
+candidate_04,IgG,10.33,363,
+candidate_05,IgG,11.89,1059,
+candidate_06,IgG,11.29,605,
+candidate_07,IgG,11.83,300,
+candidate_08,IgG,12.03,327,
+candidate_09,IgG,10.52,263,1.16

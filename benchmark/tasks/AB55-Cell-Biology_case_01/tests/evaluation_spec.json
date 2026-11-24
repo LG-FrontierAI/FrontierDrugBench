@@ -1,0 +1,42 @@
+{
+  "item_id": "AB55",
+  "parent_item_id": "AB55",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "dc579ccd16c1d6e9be85dc75a0baa7c6e70e0b741f02cefdc77aae5cecd1e7da",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "e9e9be769516c95857acd5ca9186c6e5e7847ba9c4ca81fb4357ad5fd1801ef5",
+      "study_information": "Table6 reports four dual-binding ADT1-4-x/ADT5-1n constructs; the n suffix is retained and is not silently equated with the nonsuffixed TAK-505/ADT1-4-2/ADT5-1 used in the PBMC experiment. Example11 compares4h CD107a degranulation by skin-derived Vδ1 γδT cells with tumor targets at1:1 E:T,37C. Example12 measures24h live-GFP A375 target-cell lysis at1:1 E:T with a top antibody concentration of100nM. The source states similar degranulation across <1–60nM Vδ1 affinities and no significant lysis differences in the tested panel; individual figure-derived potency values are not supplied.",
+      "study_information_sha256": "5e334534f5548752903ec965459c5f5515cfb684a46f205d7c600966c64a53ec",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026115036A1"
+  ],
+  "study_id": "AB55_Vdelta1_cell_evidence_2026",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB55",
+  "expanded_bench_id": "AB55-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Testing the limits of an affinity-to-function conclusion",
+  "format": "open_rubric"
+}

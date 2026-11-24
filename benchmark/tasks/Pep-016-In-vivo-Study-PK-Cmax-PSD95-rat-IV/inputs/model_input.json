@@ -1,0 +1,71 @@
+{
+  "candidates": [
+    {
+      "sample_id": "Formula-I",
+      "compound_id": "Formula (I), SEQ ID NO. 01",
+      "target": "PSD-95",
+      "peptide_sequence": "r-K-K-R-r-Q-R-R-r-G-Aib-Dab-T-Tle-Tle-T-D-V",
+      "cyclization_or_linkage": "Linear; ordinary backbone amides; no ring closure. Uppercase residues are L, lowercase r is D-Arg; Gly and Aib are achiral.",
+      "unit": "ng/mL",
+      "species_or_model": "Male SD rat plasma, n=3/group",
+      "route": "IV bolus",
+      "dose": "3 nmol/g",
+      "assay_condition": "Single IV bolus over 10 min; plasma PK; both compounds dosed at 3 nmol/g",
+      "sequence_tokens": [
+        "r",
+        "K",
+        "K",
+        "R",
+        "r",
+        "Q",
+        "R",
+        "R",
+        "r",
+        "G",
+        "Aib",
+        "Dab",
+        "T",
+        "Tle",
+        "Tle",
+        "T",
+        "D",
+        "V"
+      ],
+      "sequence_source": "WO2026012336A1 body/claims, SEQ ID NO.01, MD lines 86, 271, 772. Lowercase r = D-Arg, not d-R or D-Asp. Abstract OCR has an extra Tle and is not used."
+    },
+    {
+      "sample_id": "NA-1",
+      "compound_id": "Nerinetide / NA-1",
+      "target": "PSD-95",
+      "peptide_sequence": "YGRKKRRQRRRKLSSIESDV",
+      "cyclization_or_linkage": "Linear 20-residue peptide; standard backbone amides",
+      "unit": "ng/mL",
+      "species_or_model": "Male SD rat plasma, n=3/group",
+      "route": "IV bolus",
+      "dose": "3 nmol/g",
+      "assay_condition": "Single IV bolus over 10 min; plasma PK; both compounds dosed at 3 nmol/g"
+    }
+  ],
+  "noncanonical_residue_definitions": {
+    "Aib": {
+      "name": "2-aminoisobutyric acid",
+      "smiles": "NC(C)(C)C(=O)O",
+      "notes": "Achiral free amino acid."
+    },
+    "Dab": {
+      "name": "L-2,4-diaminobutyric acid",
+      "smiles": "N[C@@H](CCN)C(=O)O",
+      "notes": "Free amino acid; uppercase L convention in WO2026012336A1."
+    },
+    "Tle": {
+      "name": "L-tert-leucine",
+      "smiles": "N[C@@H](C(C)(C)C)C(=O)O",
+      "notes": "Free amino acid; uppercase L convention in WO2026012336A1."
+    },
+    "r": {
+      "name": "D-arginine",
+      "smiles": "N=C(N)NCCC[C@@H](N)C(=O)O",
+      "notes": "Free D-arginine; lowercase r in WO2026012336A1 body/claims, SEQ ID NO.01."
+    }
+  }
+}

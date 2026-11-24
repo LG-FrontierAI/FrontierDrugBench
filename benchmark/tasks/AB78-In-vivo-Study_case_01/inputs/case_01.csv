@@ -1,0 +1,4 @@
+name,evidence
+record_01,"Brain PBS-soluble and RIPA-extracted values use pg/mg wet tissue. CSF uses pg/mL. Sandwich1, sandwich2 and kappa3 have different early sampling schedules."
+record_02,"At 48 hours, kappa3 had PBS signal 0.11 pg/mg and RIPA signal 1.87 pg/mg; CSF was below LLOQ. PTV11 is an older literature reference."
+record_03,"The supplied immunoassay measurements do not include unbound fractions, intact-protein activity or free brain-interstitial concentrations."

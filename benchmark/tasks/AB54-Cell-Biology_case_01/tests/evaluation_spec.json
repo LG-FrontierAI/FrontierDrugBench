@@ -1,0 +1,42 @@
+{
+  "item_id": "AB54",
+  "parent_item_id": "AB54",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "c8bc060adfb6c50ff91d27d5a2903c49ff700f63b2f10cc5ca5fb5a791f43e31",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "4ccd66a413cae911038cbc24665779d2ff16399d83a19c34581b95cbf183acb6",
+      "study_information": "The rows are final reported results or explicitly stated assay methods; absent quantitative outcomes are not fabricated. Source units and missing statuses are preserved.",
+      "study_information_sha256": "40c538d53937e63051c0dad704af4fe8f43c8a5694eda5f36ad4d2ff3dbbded6",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026006698A1"
+  ],
+  "study_id": "US20260001952A1_AB54",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB54",
+  "expanded_bench_id": "AB54-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Separating uptake observations from TREM2-specific phagocytosis mechanism",
+  "format": "open_rubric"
+}

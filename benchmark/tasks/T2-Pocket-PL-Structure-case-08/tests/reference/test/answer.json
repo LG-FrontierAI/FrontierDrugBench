@@ -1,0 +1,95 @@
+{
+  "item_id": "Pocket-PL",
+  "case_id": "case-08",
+  "parent_bench_id": "Pocket-PL",
+  "answer": {
+    "cutoffs": {
+      "date": "2026-01-01",
+      "current_contact_distance_angstrom": 5.0,
+      "historical_sites": "source annotations; no uniform distance cutoff"
+    },
+    "historical_lookup_status": "SUCCESS",
+    "post_2026_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          41,
+          44,
+          45,
+          48,
+          52,
+          67,
+          88,
+          90,
+          103,
+          104,
+          105,
+          107,
+          116
+        ]
+      }
+    ],
+    "historical_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          90,
+          103
+        ],
+        "evidence_date": "2016-06-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          90
+        ],
+        "evidence_date": "2016-06-29",
+        "source_database": "BioLiP_annotation_table"
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          90,
+          103
+        ],
+        "evidence_date": "2016-06-29",
+        "source_database": "BioLiP_annotation_table"
+      }
+    ],
+    "combined_scoring_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          41,
+          44,
+          45,
+          48,
+          52,
+          67,
+          88,
+          90,
+          103,
+          104,
+          105,
+          107,
+          116
+        ]
+      },
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          52,
+          90
+        ]
+      }
+    ]
+  }
+}

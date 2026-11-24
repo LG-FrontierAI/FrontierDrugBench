@@ -1,0 +1,19 @@
+{
+  "bench_id": "H1-ClinicalTrialMatch-100",
+  "answer": {
+    "label": 1
+  },
+  "scoring": {
+    "type": "label_exact",
+    "labels": [
+      0,
+      1,
+      2
+    ],
+    "points": 100
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "case_eval"
+  }
+}

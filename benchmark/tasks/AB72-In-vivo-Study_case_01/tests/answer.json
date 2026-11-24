@@ -1,0 +1,17 @@
+{
+  "item_id": "AB72",
+  "case_id": "case_01",
+  "parent_bench_id": "AB72",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": {
+    "ABS_201_300": 1540000
+  },
+  "unit": "h*ug/mL",
+  "target_ids": [
+    "ABS_201_300"
+  ]
+}

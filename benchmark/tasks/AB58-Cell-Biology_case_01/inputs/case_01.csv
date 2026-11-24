@@ -1,0 +1,3 @@
+name,cell_source,culture,effector_target_ratio,alpha_beta_fraction_percent,Vdelta1_fraction_percent,readout,interpretation
+skin_Vdelta1,skin-derived Vdelta1 cells,skin-derived,1:1,,,CD107a4h or A375liveGFP24h,enriched effector preparation
+PBMC_primed,PBMC after7dayTAK505 priming,7dayTAK505,40:1,83,8.6,tumorlysis after priming,mixed effector preparation

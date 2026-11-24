@@ -1,0 +1,42 @@
+{
+  "item_id": "AB28",
+  "parent_item_id": "AB28",
+  "category": "Molecular Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "d4ffbc2b93af654e77dfb3fa4f03745e6f6512fae7819f7a5878c6646e7f7d9c",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "b448f292da3ce217535f2b106fff24161a1009435550b0a66b7beaddebe39ac1",
+      "study_information": "All molecules are the VHH-Fc constructs listed in Table9; sequence1 contains the complete tested fusion chain. Molecular names have been anonymized. The row reference is a measured reference and is not a target. All eight other rows must be predicted. SPR uses anti-human-Fc capture of the VHH-Fc on CM5, albumin as analyte at0,31.25,62.5,125,250,500nM, Biacore8K,25C,120s analyte injections at30uL/min and1:1 fitting; HBS-EP+ running buffer. The source neutral pH7.4 label is displayed as pH7.5 under the benchmark convention; acid pH6 is unchanged. ",
+      "study_information_sha256": "51585166b8b37931a3fa0811eabfbf8cac9bbb9e9bf700d0002901cdd3220ee1",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.65,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2025217497"
+  ],
+  "study_id": "US20250320285A1_Table11A",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB28",
+  "expanded_bench_id": "AB28-Molecular-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting human-to-cynomolgus albumin affinity transfer",
+  "format": "ranking"
+}

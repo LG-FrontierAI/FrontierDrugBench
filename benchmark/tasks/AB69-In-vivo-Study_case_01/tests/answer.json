@@ -1,0 +1,19 @@
+{
+  "item_id": "AB69",
+  "case_id": "case_01",
+  "parent_bench_id": "AB69",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": {
+    "HER2_trimer": 1.3,
+    "HER2_negative_trimer": 5.8
+  },
+  "unit": "h",
+  "target_ids": [
+    "HER2_trimer",
+    "HER2_negative_trimer"
+  ]
+}

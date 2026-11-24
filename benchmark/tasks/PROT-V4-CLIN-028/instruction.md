@@ -1,0 +1,32 @@
+---
+bench_id: "PROT-V4-CLIN-028"
+category: "Disease-Biology"
+title: "MYO7A variant function prediction (position 302 R→H)"
+format: "mcq"
+input_mode: "inline_prompt"
+---
+
+# Prompt
+
+## Context
+
+```json
+{
+  "protein": "MYO7A",
+  "reference_protein": "Q13402",
+  "wild_type_sequence": "MVILQQGDHVWMDLRLGQEFDVPIGAVVKLCDSGQVQVVDDEDNEHWISPQNATHIKPMHPTSVHGVEDMIRLGDLNEAGILRNLLIRYRDHLIYTYTGSILVAVNPYQLLSIYSPEHIRQYTNKKIGEMPPHIFAIADNCYFNMKRNSRDQCCIISGESGAGKTESTKLILQFLAAISGQHSWIEQQVLEATPILEAFGNAKTIRNDNSSRFGKYIDIHFNKRGAIEGAKIEQYLLEKSRVCRQALDERNYHVFYCMLEGMSEDQKKKLGLGQASDYNYLAMGNCITCEGRVDSQEYANIRSAMKVLMFTDTENWEISKLLAAILHLGNLQYEARTFENLDACEVLFSPSLATAASLLEVNPPDLMSCLTSRTLITRGETVSTPLSREQALDVRDAFVKGIYGRLFVWIVDKINAAIYKPPSQDVKNSRRSIGLLDIFGFENFAVNSFEQLCINFANEHLQQFFVRHVFKLEQEEYDLESIDWLHIEFTDNQDALDMIANKPMNIISLIDEESKFPKGTDTTMLHKLNSQHKLNANYIPPKNNHETQFGINHFAGIVYYETQGFLEKNRDTLHGDIIQLVHSSRNKFIKQIFQADVAMGAETRKRSPTLSSQFKRSLELLMRTLGACQPFFVRCIKPNEFKKPMLFDRHLCVRQLRYSGMMETIRIRRAGYPIRYSFVEFVERYRVLLPGVKPAYKQGDLRGTCQRMAEAVLGTHDDWQIGKTKIFLKDHHDMLLEVERDKAITDRVILLQKVIRGFKDRSNFLKLKNAATLIQRHWRGHNCRKNYGLMRLGFLR",
+  "variant": "position 302 R→H",
+  "experiment": "Coexpress MYO7A residues 1–796 (the motor domain and two IQ motifs) with calmodulin in Sf9 cells. After purification and surface immobilization, measure ATP-driven actin gliding velocity in vitro at 25°C and pH 7.5, using WT of the same construct as the control.",
+  "sequence_region": "MYO7A residues 1–796 in full-length numbering; the experimental construct"
+}
+```
+
+## Question
+
+How will this substitution affect actin gliding velocity? Output only the letter(s) corresponding to your answer.
+
+## Options
+
+A. Nearly complete loss
+B. Markedly increased relative to WT
+C. Generally near WT, with only a small change

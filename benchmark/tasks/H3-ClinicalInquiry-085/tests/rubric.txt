@@ -1,0 +1,25 @@
+RUBRIC: H3-ClinicalInquiry-085 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 27
+
+CRITERIA (5):
+
+Criterion 1: Clearly states that assessing a child’s growth should be based on their overall growth pattern over time rather than a single measurement, emphasizing the importance of comparing the child to their historical growth trends.
+    Points: 10
+    Tags: level:example, axis:completeness
+
+Criterion 2: Appropriately recommends visiting a pediatrician for accurate measurements and using standardized growth charts to track development.
+    Points: 8
+    Tags: level:example, axis:completeness
+
+Criterion 3: Correctly highlights that a child consistently tracking along a low percentile is generally less concerning than one who drops significantly in percentile, which may indicate an underlying issue.
+    Points: 9
+    Tags: level:example, axis:accuracy
+
+Criterion 4: Fails to mention the limitations of using BMI in children, such as its inability to account for differences in muscle mass, body composition, or ethnic background.
+    Points: -5
+    Tags: level:example, axis:accuracy
+
+Criterion 5: Does not seek important context, such as genetic disorders, prematurity, or relevant medical history. For example, different growth charts are used for children with Down syndrome.
+    Points: -7
+    Tags: level:example, axis:context_awareness

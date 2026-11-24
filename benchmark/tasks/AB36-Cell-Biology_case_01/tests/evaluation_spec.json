@@ -1,0 +1,42 @@
+{
+  "item_id": "AB36",
+  "parent_item_id": "AB36",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "binary",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "f645f254baedb22ea404f194d203e8c2a88b9c286716f8f6a6ede4f510c6f294",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "b7c966c799e8b426813efd0c269c705a40af28fd20060d8f51ce793e0c6cff4e",
+      "study_information": "Human TREM2/DAP12 reporter system. The same eight experimentally selected antibodies are assayed. Absence of NFAT agonism is distinct from absent cell-surface binding. Fixed antibody scaffold used in the source; sequence1/sequence2 are full VH/VL. No mouse results are substituted for the human-cell endpoint.",
+      "study_information_sha256": "074ae55daaaf220df588265e40874997adb25c2c3d391be12e1451f9daee15b4",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026006698A1"
+  ],
+  "study_id": "TREM2_cell_characterization_Examples_3_4",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB36",
+  "expanded_bench_id": "AB36-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Separating TREM2 agonists from inverse agonists despite measurable binding",
+  "format": "structured_json"
+}

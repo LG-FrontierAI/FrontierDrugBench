@@ -1,0 +1,13 @@
+{
+  "item_id": "AB77",
+  "case_id": "case_01",
+  "parent_bench_id": "AB77",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": "The observed terminal beta-phase half-lives were 1.0 hour for the HER2 monomer 2Rs15D, 1.3 hours for the unmodified trimer 3x2Rs15D, and 5.8 hours for the negatively charged trimer 3x(-)2Rs15D. Thus the negative trimer persisted longest in this experiment. All retained HER2 binding, although engineering changed the binding KD by approximately 1.8-fold relative to the unmodified trimer.\n\nHowever, the experiment used six-week-old female BALB/c mice and 100 µg intraperitoneal dosing, with terminal sampling from 30 minutes to 24 hours and selected trimer observations to 48 hours. These are assay-derived beta-phase estimates, not a direct measurement of IV clearance. Absorption after IP administration, construct-dependent immunoassay behavior and sampling may contribute. The tested negative trimer combines surface changes with multimeric architecture; the result cannot establish a universal charge-only mechanism or predict clinical exposure.\n\nFirst, compare charge-engineered and unmodified monomers and trimers in a matched factorial design to isolate charge and valency contributions. Second, obtain matched IV profiles using intact-analyte detection and the same sampling budget. These checks separate elimination from absorption and detect whether apparent persistence depends on assay recognition or degradation.",
+  "rubric_sha256": "707525d24a54ef59d1aeeee0adbe7d5b60c52f7716edff8eb7bb3d893e32b546",
+  "reference_source": "gold.reference_answer"
+}

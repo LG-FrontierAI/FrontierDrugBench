@@ -1,0 +1,4 @@
+name,TfR_KD_nM,format,dose_mg_kg,day7_BMP22_6
+affinity_parent,10,10E10_PGRN_fusion,5,0.78
+affinity_weak_1,300,10E10_PGRN_fusion,5,
+affinity_weak_2,1000,10E10_PGRN_fusion,5,

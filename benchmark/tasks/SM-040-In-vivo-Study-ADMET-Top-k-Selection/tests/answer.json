@@ -1,0 +1,75 @@
+{
+  "answer": {
+    "TOP-01": [
+      "M045",
+      "M041"
+    ],
+    "TOP-02": [
+      "M049",
+      "M048"
+    ],
+    "TOP-03": [
+      "M052",
+      "M054"
+    ],
+    "TOP-04": [
+      "M059",
+      "M058"
+    ]
+  },
+  "scoring": {
+    "raw_total_points": 20.0,
+    "total_points": 100,
+    "items": {
+      "TOP-01": {
+        "type": "top2",
+        "raw_points": 5,
+        "candidates": [
+          "M041",
+          "M042",
+          "M043",
+          "M044",
+          "M045"
+        ],
+        "points": 25.0
+      },
+      "TOP-02": {
+        "type": "top2",
+        "raw_points": 5,
+        "candidates": [
+          "M046",
+          "M047",
+          "M048",
+          "M049",
+          "M050"
+        ],
+        "points": 25.0
+      },
+      "TOP-03": {
+        "type": "top2",
+        "raw_points": 5,
+        "candidates": [
+          "M051",
+          "M052",
+          "M053",
+          "M054",
+          "M055"
+        ],
+        "points": 25.0
+      },
+      "TOP-04": {
+        "type": "top2",
+        "raw_points": 5,
+        "candidates": [
+          "M056",
+          "M057",
+          "M058",
+          "M059",
+          "M060"
+        ],
+        "points": 25.0
+      }
+    },
+    "points_policy": "Source raw_points are relative weights only; awarded points and total_points are on a 100-point scale."
+  }
+}

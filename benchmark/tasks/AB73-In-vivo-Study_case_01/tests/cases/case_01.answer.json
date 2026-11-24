@@ -1,0 +1,53 @@
+{
+  "item_id": "AB73",
+  "case_id": "case_01",
+  "task_type": "numeric",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2024263567A2"
+  ],
+  "study_id": "US20250000992A1 Example6Table11:single5mg/kgIVGrnKO,day7BMP22:6normalizedtointernalstandard. KD(M):1.0E-8,3.0E-7,1.0E-6. PBS.39,WT.74arecontrols.",
+  "input_sha256": "6b2e0e079a16631afa90383482fe0a955fb00fb6004323a2eecbb170beb0fcf6",
+  "study_information_sha256": "1a8c7bfba0620b733f679f0888c092ff7cf48cf47f45250da321012206ff8432",
+  "target_ids": [
+    "affinity_weak_1",
+    "affinity_weak_2"
+  ],
+  "truth": {
+    "affinity_weak_1": 0.38,
+    "affinity_weak_2": 0.65
+  },
+  "higher_is_better": true,
+  "unit": "relative_to_internal_standard",
+  "sources": [
+    {
+      "publication_number": "WO2024263567A2",
+      "url": "https://patents.google.com/patent/WO2024263567A2/en",
+      "publication_date": "2024-12-26",
+      "family_earliest_publication_date": "2024-12-26",
+      "disclosure_status": "verified",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "source_channel": "web.run Google Patents WO family metadata and US table transcription",
+      "readable_publication_number": "US20250000992A1",
+      "readable_url": "https://patents.google.com/patent/US20250000992A1/en",
+      "disclosure_check": "WO2024263567A2 first2024-12-26, priority2023-06-21; A3/A9 are later documents. OlderPTV11 reference explicitly attributed by patent to US20210284702/WO2019246071 and not scored as new candidate."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "affinity_weak_1",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 0.38,
+      "unit": "relative_to_internal_standard"
+    },
+    {
+      "name": "affinity_weak_2",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 0.65,
+      "unit": "relative_to_internal_standard"
+    }
+  ]
+}

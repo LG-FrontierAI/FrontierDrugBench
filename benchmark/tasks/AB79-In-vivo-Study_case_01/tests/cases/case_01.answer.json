@@ -1,0 +1,86 @@
+{
+  "item_id": "AB79",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2025260124A1"
+  ],
+  "study_id": "FcRn-antagonist antibody noncompartmental PK analysis",
+  "input_sha256": "2893749f72d758a49006e3be28bd358017400300d14fb4a8aadf979f874ad510",
+  "study_information_sha256": "99006a056b691223180dfa259d609f08d598d8de7c735ccdbddb7a3b6e86166c",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": true,
+  "unit": "rubric_score",
+  "sources": [
+    {
+      "publication_number": "WO2025260124A1",
+      "url": "https://patents.google.com/patent/WO2025260124A1/en",
+      "publication_date": "2025-12-26",
+      "family_earliest_publication_date": "2025-12-26",
+      "disclosure_status": "verified",
+      "locator": "Example12 PKanalysis andTable10–13 narrative",
+      "source_channel": "web.run primaryHTML explicitresponse_length long, retrieved2026-10-23"
+    }
+  ],
+  "evidence": [],
+  "rubric": [
+    {
+      "id": "BLQ",
+      "points": 25,
+      "requirement": "Distinguish study-specific firstBLQ=LLOQ/2 versuslaterallBLQmissing sensitivity;neverinventzeroBLQ.",
+      "required_finding": "Distinguish study-specific firstBLQ=LLOQ/2 versuslaterallBLQmissing sensitivity;neverinventzeroBLQ.",
+      "source_locator": "Example12"
+    },
+    {
+      "id": "terminal",
+      "points": 25,
+      "requirement": "IdentifyadjustedR2>.85,extrapolatedAUC<20%,span>1.5half-lives andtheanti-IL6zigzagR2<.60issue.",
+      "required_finding": "IdentifyadjustedR2>.85,extrapolatedAUC<20%,span>1.5half-lives andtheanti-IL6zigzagR2<.60issue.",
+      "source_locator": "Example12"
+    },
+    {
+      "id": "mechanism",
+      "points": 20,
+      "requirement": "Separate antibody ownPK fromendogenousIgG-loweringPD.",
+      "required_finding": "Separate antibody ownPK fromendogenousIgG-loweringPD.",
+      "source_locator": "FcRnexamples"
+    },
+    {
+      "id": "checks",
+      "points": 30,
+      "requirement": "Request rawterminalpoints/ADA/assay andexposure-matchedIgGPD comparisons.",
+      "required_finding": "Request rawterminalpoints/ADA/assay andexposure-matchedIgGPD comparisons.",
+      "source_locator": "Example12/Table10–13"
+    }
+  ],
+  "reference_answer": "The patent describes study-specific BLQ handling rather than one universal rule. In the anti-FXII study, the first BLQ after the last quantified observation was replaced by LLOQ/2 and other BLQs were missing. Later anti-uPA/YEY analyses treated BLQ values as missing and examined a first-BLQ=LLOQ/2 sensitivity analysis. It would be incorrect to replace every BLQ with zero or silently impose one rule across all cohorts.\n\nTerminal-parameter reliability criteria included adjusted R-squared above 0.85, extrapolated AUC below 20%, and a terminal span exceeding 1.5 half-lives. The interleaved anti-IL6 WT cohorts produced a zigzag profile with adjusted R-squared below 0.60, so only nonterminal parameters were reported. Those terminal values should not be reconstructed as reliable ranking gold.\n\nHowever, an FcRn antagonist's own persistence is not equivalent to its ability to lower endogenous IgG. First, inspect actual sampling times, individual terminal concentrations, BLQ sensitivity and ADA/assay quality to determine which NCA estimates are defensible. Second, compare exposure-matched endogenous-IgG time courses across constructs. That separates antibody disposition from the distinct pharmacodynamic mechanism and avoids interpreting a short half-life as either efficacy or failure by itself.",
+  "rubric_contrast_checks": {
+    "full_correct": {
+      "answer": "The patent describes study-specific BLQ handling rather than one universal rule. In the anti-FXII study, the first BLQ after the last quantified observation was replaced by LLOQ/2 and other BLQs were missing. Later anti-uPA/YEY analyses treated BLQ values as missing and examined a first-BLQ=LLOQ/2 sensitivity analysis. It would be incorrect to replace every BLQ with zero or silently impose one rule across all cohorts.\n\nTerminal-parameter reliability criteria included adjusted R-squared above 0.85, extrapolated AUC below 20%, and a terminal span exceeding 1.5 half-lives. The interleaved anti-IL6 WT cohorts produced a zigzag profile with adjusted R-squared below 0.60, so only nonterminal parameters were reported. Those terminal values should not be reconstructed as reliable ranking gold.\n\nHowever, an FcRn antagonist's own persistence is not equivalent to its ability to lower endogenous IgG. First, inspect actual sampling times, individual terminal concentrations, BLQ sensitivity and ADA/assay quality to determine which NCA estimates are defensible. Second, compare exposure-matched endogenous-IgG time courses across constructs. That separates antibody disposition from the distinct pharmacodynamic mechanism and avoids interpreting a short half-life as either efficacy or failure by itself.",
+      "expected_score": 1.0,
+      "basis": "All criterion findings are explicitly present.",
+      "expected_points": 100
+    },
+    "all_yes": {
+      "answer": "Every proposed claim is supported; the study proves the mechanism and broad translation.",
+      "expected_score": 0.0,
+      "basis": "Unsupported blanket acceptance omits all required specific findings.",
+      "expected_points": 0
+    },
+    "all_no": {
+      "answer": "Nothing in the experiment is useful or supported. All results should be rejected.",
+      "expected_score": 0.0,
+      "basis": "Blanket dismissal omits supported observations and required specific findings.",
+      "expected_points": 0
+    },
+    "omitted_critical": {
+      "answer": "The patent describes study-specific BLQ handling rather than one universal rule. In the anti-FXII study, the first BLQ after the last quantified observation was replaced by LLOQ/2 and other BLQs were missing. Later anti-uPA/YEY analyses treated BLQ values as missing and examined a first-BLQ=LLOQ/2 sensitivity analysis. It would be incorrect to replace every BLQ with zero or silently impose one rule across all cohorts.\n\nTerminal-parameter reliability criteria included adjusted R-squared above 0.85, extrapolated AUC below 20%, and a terminal span exceeding 1.5 half-lives. The interleaved anti-IL6 WT cohorts produced a zigzag profile with adjusted R-squared below 0.60, so only nonterminal parameters were reported. Those terminal values should not be reconstructed as reliable ranking gold.",
+      "expected_score_upper_bound": 0.6,
+      "basis": "Missing central limitation and proposed checks cannot receive points for those criteria.",
+      "expected_points_upper_bound": 60
+    }
+  }
+}

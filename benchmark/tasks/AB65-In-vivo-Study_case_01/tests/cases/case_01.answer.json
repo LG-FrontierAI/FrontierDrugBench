@@ -1,0 +1,167 @@
+{
+  "item_id": "AB65",
+  "case_id": "case_01",
+  "task_type": "ranking",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2024263567A2"
+  ],
+  "study_id": "WO2024263567A2 Example3 Table5; singleIV1.5/5/15mg/kg; GrnKO; day1/4/7/14 earlydata; hidden day63 experimental groupmeans. Table1 mapsKappaEx5 HC34/LC35 andEx6 HC34/LC36.",
+  "input_sha256": "4b4590803b111c5f1ee0ee29a1ee892ed3ebc1bf38415713b4eb2375382ffefd",
+  "study_information_sha256": "13b5e3edd6167e82e52f1430c2c2396cebc992832a262f19a8be363213dcbcbb",
+  "target_ids": [
+    "kappa5_1p5",
+    "kappa5_5",
+    "kappa5_15",
+    "kappa6_1p5",
+    "kappa6_5",
+    "kappa6_15"
+  ],
+  "truth": {
+    "kappa5_1p5": 0.6,
+    "kappa5_5": 0.67,
+    "kappa5_15": 0.77,
+    "kappa6_1p5": 0.75,
+    "kappa6_5": 0.74,
+    "kappa6_15": 0.82
+  },
+  "higher_is_better": true,
+  "unit": "relative_to_internal_standard",
+  "sources": [
+    {
+      "publication_number": "WO2024263567A2",
+      "url": "https://patents.google.com/patent/WO2024263567A2/en",
+      "publication_date": "2024-12-26",
+      "family_earliest_publication_date": "2024-12-26",
+      "disclosure_status": "verified",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "source_channel": "web.run Google Patents WO family metadata and US table transcription",
+      "readable_publication_number": "US20250000992A1",
+      "readable_url": "https://patents.google.com/patent/US20250000992A1/en",
+      "disclosure_check": "WO2024263567A2 first2024-12-26, priority2023-06-21; A3/A9 are later documents. OlderPTV11 reference explicitly attributed by patent to US20210284702/WO2019246071 and not scored as new candidate."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "kappa5_1p5",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 0.6,
+      "unit": "relative_to_internal_standard"
+    },
+    {
+      "name": "kappa5_5",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 0.67,
+      "unit": "relative_to_internal_standard"
+    },
+    {
+      "name": "kappa5_15",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 0.77,
+      "unit": "relative_to_internal_standard"
+    },
+    {
+      "name": "kappa6_1p5",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 0.75,
+      "unit": "relative_to_internal_standard"
+    },
+    {
+      "name": "kappa6_5",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 0.74,
+      "unit": "relative_to_internal_standard"
+    },
+    {
+      "name": "kappa6_15",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 0.82,
+      "unit": "relative_to_internal_standard"
+    }
+  ],
+  "ranking_metric": "resolvable_pair_concordance",
+  "resolvable_pairs": [
+    {
+      "winner": "kappa5_5",
+      "loser": "kappa5_1p5"
+    },
+    {
+      "winner": "kappa5_15",
+      "loser": "kappa5_1p5"
+    },
+    {
+      "winner": "kappa5_15",
+      "loser": "kappa5_5"
+    },
+    {
+      "winner": "kappa6_1p5",
+      "loser": "kappa5_1p5"
+    },
+    {
+      "winner": "kappa6_5",
+      "loser": "kappa5_1p5"
+    },
+    {
+      "winner": "kappa6_5",
+      "loser": "kappa5_5"
+    },
+    {
+      "winner": "kappa6_15",
+      "loser": "kappa5_1p5"
+    },
+    {
+      "winner": "kappa6_15",
+      "loser": "kappa5_5"
+    },
+    {
+      "winner": "kappa6_15",
+      "loser": "kappa5_15"
+    },
+    {
+      "winner": "kappa6_15",
+      "loser": "kappa6_5"
+    }
+  ],
+  "measurement_intervals": {
+    "kappa5_1p5": [
+      0.57,
+      0.63
+    ],
+    "kappa5_5": [
+      0.65,
+      0.6900000000000001
+    ],
+    "kappa5_15": [
+      0.74,
+      0.8
+    ],
+    "kappa6_1p5": [
+      0.69,
+      0.81
+    ],
+    "kappa6_5": [
+      0.736,
+      0.744
+    ],
+    "kappa6_15": [
+      0.8099999999999999,
+      0.83
+    ]
+  },
+  "reported_sd": {
+    "kappa5_1p5": 0.03,
+    "kappa5_5": 0.02,
+    "kappa5_15": 0.03,
+    "kappa6_1p5": 0.06,
+    "kappa6_5": 0.004,
+    "kappa6_15": 0.01
+  },
+  "uncertainty_policy": "Intervals are mean +/- one reported SD, not confidence intervals or proof of biological separation. Only strictly nonoverlapping pairs are scored; overlapping candidates are not forced into an exact order."
+}

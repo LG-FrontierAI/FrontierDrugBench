@@ -1,0 +1,25 @@
+RUBRIC: AB58 - Attributing cytotoxicity in mixed and primed effector populations
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: denominator
+    Points: 25
+    Description: Distinguishes40:1 totalPBMC:tumor from1:1 enrichedVδ1:tumor and rejects an intrinsic potency comparison.
+
+Criterion 2: composition
+    Points: 25
+    Description: Uses83%αβ and8.6%Vδ1 to explain mixed-effector contribution and rejects exclusiveVδ1 attribution.
+
+Criterion 3: priming
+    Points: 15
+    Description: Recognizes seven-day priming/activation history as a confounder rather than interchangeable exposure.
+
+Criterion 4: no_fabrication
+    Points: 15
+    Description: Preserves only context-specific observations and does not invent normalized potency/lysis percentages.
+
+Criterion 5: causal_checks
+    Points: 20
+    Description: Proposes matched purifiedVδ1 input/activation and selective depletion/add-back or lineage controls with causal interpretation.

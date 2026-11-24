@@ -1,0 +1,21 @@
+{
+  "item_id": "AB61",
+  "case_id": "case_01",
+  "parent_bench_id": "AB61",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": {
+    "clone_107": 5.1,
+    "clone_202": 2.9,
+    "clone_203": 3.3
+  },
+  "unit": "mL/day/kg",
+  "target_ids": [
+    "clone_107",
+    "clone_202",
+    "clone_203"
+  ]
+}

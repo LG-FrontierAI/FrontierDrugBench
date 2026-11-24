@@ -1,0 +1,156 @@
+{
+  "bench_id": "H3-ClinicalInquiry-030",
+  "answer": "No, coconut oil on its own does not provide adequate sun protection. Although coconut oil is a natural oil, it offers a very low level of protection against the sun's harmful ultraviolet (UV) rays. Its SPF (Sun Protection Factor) value is very low — it is usually said to be around 4-7. Protection at that level is insufficient to protect your skin from sunburn and, in the long term, skin damage, and on its own it does not provide effective protection for reducing skin cancer risk.\nTo prevent skin cancer and protect your skin effectively from UV rays, you could consider the following natural approaches:\n\n1. Use Mineral-Based Sunscreens: Sunscreens containing natural minerals such as zinc oxide or titanium dioxide form a barrier on your skin and reflect UV rays. These products contain no chemical filters and are generally suitable for sensitive skin.\n\n2. Wear Protective Clothing: You can physically protect your skin by using wide-brimmed hats, lightweight long-sleeved clothing and UV-protective sunglasses.\n\n3. Eat a Diet Rich in Antioxidants: Eating foods rich in antioxidants, such as fruit and vegetables, can help support your skin from the inside.\n\n4. Seek Shade During the Sun's Peak Hours: Try to stay in the shade where possible between 10:00 and 16:00, when the sun's rays are strongest.\n\n5. Increase Exposure Gradually: Rather than exposing your skin to intense sunlight all at once, you can accustom your skin by increasing your sun exposure time gradually.\n\nRemember that using an effective sunscreen matters for protecting your skin health. By choosing products with natural ingredients or organic certification you can adopt a natural approach and still protect your skin.",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "States that coconut oil alone is not enough for sun protection. (Justification: Coconut oil's SPF is 2-12 with evidence, which is not as effective as SPF 50.)",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Claims coconut oil has SPF 30 protection. (Justification: Evidence is not enough for this claim.)",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Recommends alternative and supportive uses for coconut oil.",
+        "points": 5,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Warns about using remedies and information from trustworthy sources. (Justification: Not every information and product is safe, especially when it's about our health.)",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "States specific SPF value range for coconut oil with explicit \"tek başına\" (alone) usage context. (Justification: Directly answers the core question about standalone efficacy.)",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:instruction_following"
+        ]
+      },
+      {
+        "criterion": "Quantifies the \"tam koruma\" (full protection) gap between coconut oil's SPF and required protection levels.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Distinguishes coconut oil's specific UV protection limitations when used alone.",
+        "points": 5,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Provides specific alternative uses for coconut oil beyond standalone SPF protection.",
+        "points": 4,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Explains why coconut oil alone cannot provide \"tam koruma\" (full protection).",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Details the specific UVA/UVB protection limitations of standalone coconut oil use.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "States that coconut oil provides \"tam koruma\" (full protection) when used alone.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Suggests that coconut oil's standalone SPF is sufficient for extended sun exposure.",
+        "points": -7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Recommends coconut oil as the sole UV protection without addressing protection gaps.",
+        "points": -6,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Uses vague terms about coconut oil's protective ability without specifying SPF values.",
+        "points": -5,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "The response has no factually incorrect information.",
+        "points": 5,
+        "tags": [
+          "level:cluster",
+          "cluster:hedging_no-uncertainty_accurate",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Step 1. Does the response explicitly and directly answer the primary question or request? If not, fail. (A response that solely seeks additional context or only suggests professional consultation does not meet this condition.)\nStep 2: Does the response hedge unnecessarily by expressing uncertainty through linguistic uncertainty (e.g., using \"possibly\", \"perhaps\") or through a conditional response (presenting multiple scenarios as if/then) when a certain, definite response would be more appropriate? If not, fail.\nIf both steps pass, mark criteria_met = true.\nIf any of the steps fail, mark criteria_met = false.",
+        "points": 5,
+        "tags": [
+          "level:cluster",
+          "cluster:hedging_no-uncertainty_hedges",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Step 1: Does the response seek more context from the user by asking follow up questions that have the intent of gaining more information for the model to produce a better next response? If yes, fail.\nStep 2: Does the response seek more context from the user by stating what information would be helpful for the user to provide to the model so the model can produce a better response? If yes, fail.\nIf both steps pass, mark criteria_met = true.\nIf any of the steps fail, mark criteria_met = false.",
+        "points": 5,
+        "tags": [
+          "level:cluster",
+          "cluster:hedging_no-uncertainty_seeks_context",
+          "axis:context_awareness"
+        ]
+      }
+    ],
+    "points": 71
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 71,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

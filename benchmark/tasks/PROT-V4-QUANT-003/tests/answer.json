@@ -1,0 +1,18 @@
+{
+  "bench_id": "PROT-V4-QUANT-003",
+  "answer": [
+    "A",
+    "D",
+    "B",
+    "C"
+  ],
+  "scoring": {
+    "type": "ranking_concordant",
+    "metric": "concordant_pairs",
+    "points": 100
+  },
+  "grading": {
+    "method": "concordant_pairs",
+    "scoring": "concordant01"
+  }
+}

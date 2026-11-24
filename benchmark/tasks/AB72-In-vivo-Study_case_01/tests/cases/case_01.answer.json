@@ -1,0 +1,44 @@
+{
+  "item_id": "AB72",
+  "case_id": "case_01",
+  "task_type": "numeric",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026128421A2"
+  ],
+  "study_id": "US20260226182A1 Table20:singleIV100or300mg/kg,cynomolgus2M2Fgroup;AUCinfh*ug/mL. FinitecohortexperimentalAUCinf.",
+  "input_sha256": "c4aff56dfad06f2e5323ae03db74e0df8ca29c35c592de22c5df97b1dbf16b92",
+  "study_information_sha256": "27b8e3ae04ca4e19bc673f2169bbafb503e8d63756e0b9ac0008f001601a253a",
+  "target_ids": [
+    "ABS_201_300"
+  ],
+  "truth": {
+    "ABS_201_300": 1540000
+  },
+  "higher_is_better": true,
+  "unit": "h*ug/mL",
+  "sources": [
+    {
+      "publication_number": "WO2026128421A2",
+      "url": "https://patents.google.com/patent/WO2026128421A2/en",
+      "publication_date": "2026-06-18",
+      "family_earliest_publication_date": "2026-06-18",
+      "disclosure_status": "verified",
+      "locator": "US20260226182A1 Table20/Table21 and Example7/Table22; samefamilyWO2026128421A2",
+      "source_channel": "web.run same-familyUSprimaryHTML explicitresponse_lengthlong retrieved2026-10-23",
+      "readable_publication_number": "US20260226182A1",
+      "readable_url": "https://patents.google.com/patent/US20260226182A1/en",
+      "disclosure_check": "USmemberfirst2026-08-13,WO2026128421A2earlier2026-06-18;priority2024-12-12. AB000andhH1/H2areoldercontrols,notnewcandidategold."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "ABS_201_300",
+      "locator": "US20260226182A1 Table20/Table21 and Example7/Table22; samefamilyWO2026128421A2",
+      "sequence_locator": "Not required for measured-condition transfer; original clone identifiers preserved",
+      "value": 1540000,
+      "unit": "h*ug/mL"
+    }
+  ]
+}

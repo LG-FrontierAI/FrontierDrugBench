@@ -1,0 +1,25 @@
+{
+  "item_id": "AB34",
+  "case_id": "case_01",
+  "parent_bench_id": "AB34",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": {
+    "answer_mode": "single_case",
+    "item_id": "AB34",
+    "case_id": "case_01",
+    "truth": {
+      "molecule_04": 1,
+      "molecule_06": 0,
+      "molecule_01": 0,
+      "molecule_07": 0,
+      "molecule_08": 1,
+      "molecule_02": 0,
+      "molecule_03": 0,
+      "molecule_05": 1
+    }
+  }
+}

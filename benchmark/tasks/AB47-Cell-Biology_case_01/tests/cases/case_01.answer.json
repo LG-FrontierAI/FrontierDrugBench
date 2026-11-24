@@ -1,0 +1,50 @@
+{
+  "item_id": "AB47",
+  "case_id": "case_01",
+  "task_type": "numeric",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "US20260062492A1"
+  ],
+  "study_id": "AB47_TL1A_cell_2026",
+  "input_sha256": "61f3c7f088c43a6e387eb3f2fba88a035c1350c28901749364bca93a4f21de92",
+  "study_information_sha256": "b66e1011c7965410ae9bc96eb84426a73928239349b7146c77ed0d37e0c9c1df",
+  "target_ids": [
+    "candidate_01",
+    "candidate_03"
+  ],
+  "truth": {
+    "candidate_01": 0.401,
+    "candidate_03": 0.363
+  },
+  "higher_is_better": false,
+  "unit": "nM",
+  "sources": [
+    {
+      "publication_number": "US20260062492A1",
+      "url": "https://patents.google.com/patent/US20260062492A1/en",
+      "publication_date": "2026-03-05",
+      "family_earliest_publication_date": "2026-03-05",
+      "disclosure_status": "verified",
+      "locator": "Examples8,10,11,12; Tables12,14,15,18,20",
+      "source_channel": "web.run actual nonempty targeted find response turn0view0,turn1view0; retrieved2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "candidate_01",
+      "locator": "Example11 Table18; original TLA0238-5",
+      "sequence_locator": "Measured-assay transfer by exact original clone identity; no unprovided sequence is inferred",
+      "value": 0.401,
+      "unit": "nM"
+    },
+    {
+      "name": "candidate_03",
+      "locator": "Example11 Table18; original TLA0015-11",
+      "sequence_locator": "Measured-assay transfer by exact original clone identity; no unprovided sequence is inferred",
+      "value": 0.363,
+      "unit": "nM"
+    }
+  ]
+}

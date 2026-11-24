@@ -1,0 +1,42 @@
+{
+  "item_id": "AB63",
+  "parent_item_id": "AB63",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "ranking",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "8a7a367f52fe7795ae8d6ba9f40e2b488793092eacdd9d244ff26944f78f9ef8",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "7643d8f34664cb0f944130baa2e7a8b1c681c04ea56ff6658d783f68e9ec2376",
+      "study_information": "Rank all ten IL-17A/F IgG1-YTE antibodies from highest to lowest terminal half-life after SC dosing in cynomolgus monkeys. Matched IV half-lives, human binding and functional results are visible. The experiment used a single 50 mg/kg dose, four animals per group and sampling through day 49. The reference antibody had IV/SC half-lives of 9.2/9.8 days. Predict the observed route-dependent outcome; target SC values are withheld and true experimental ties are retained in organizer scoring.",
+      "study_information_sha256": "12f15cec2e77a68a8aec6d3c4792035c35fefdb648fbdfc687a33742beab1c87",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "US20260070969A1"
+  ],
+  "study_id": "US20260070969A1 Example6 Table10: single50mg/kgIVorSC, cynomolgus n4/group, throughDay49. SharedIgG1YTE budget; targetSCvalueswithheld. Humanallometricsimulationsnotgold.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB63",
+  "expanded_bench_id": "AB63-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting subcutaneous persistence from matched primate IV data",
+  "format": "ranking"
+}

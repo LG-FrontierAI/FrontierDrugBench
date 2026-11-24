@@ -1,0 +1,20 @@
+{
+  "item_id": "AB30",
+  "case_id": "case_01",
+  "parent_bench_id": "AB30",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": [
+    "molecule_02",
+    "molecule_03",
+    "molecule_08",
+    "molecule_05",
+    "molecule_06",
+    "molecule_04",
+    "molecule_01",
+    "molecule_07"
+  ]
+}

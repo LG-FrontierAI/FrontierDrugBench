@@ -1,0 +1,17 @@
+{
+  "item_id": "AB70",
+  "case_id": "case_01",
+  "parent_bench_id": "AB70",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": {
+    "ofaschlupfer": 0.16
+  },
+  "unit": "mL/h/kg",
+  "target_ids": [
+    "ofaschlupfer"
+  ]
+}

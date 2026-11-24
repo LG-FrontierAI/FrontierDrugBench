@@ -1,0 +1,1799 @@
+{
+  "bench_id": "T1-Ca-Monomer-Structure-case-37",
+  "answer": {
+    "item_id": "Ca-Monomer",
+    "task_family": "T1 CA trace from sequence",
+    "case_id": "case-37",
+    "sequence_length": 196,
+    "gold_ca_count": 188,
+    "metric": "lddt_ca",
+    "gold_source": "tests/reference/test/answer.json"
+  },
+  "reference": {
+    "mode": "structure_case",
+    "gold_source": "tests/reference/test/answer.json",
+    "example_model_answer": {
+      "result": [
+        {
+          "residue_index": 1,
+          "residue_name": "S",
+          "ca": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "residue_index": 2,
+          "residue_name": "G",
+          "ca": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "residue_index": 3,
+          "residue_name": "N",
+          "ca": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "residue_index": 4,
+          "residue_name": "A",
+          "ca": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "residue_index": 5,
+          "residue_name": "M",
+          "ca": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "residue_index": 6,
+          "residue_name": "I",
+          "ca": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "residue_index": 7,
+          "residue_name": "R",
+          "ca": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "residue_index": 8,
+          "residue_name": "D",
+          "ca": [
+            0.0,
+            0.0,
+            0.0
+          ]
+        },
+        {
+          "residue_index": 9,
+          "residue_name": "D",
+          "ca": [
+            29.701,
+            29.055,
+            -1.298
+          ]
+        },
+        {
+          "residue_index": 10,
+          "residue_name": "E",
+          "ca": [
+            27.915,
+            26.084,
+            0.289
+          ]
+        },
+        {
+          "residue_index": 11,
+          "residue_name": "E",
+          "ca": [
+            29.589,
+            23.336,
+            2.327
+          ]
+        },
+        {
+          "residue_index": 12,
+          "residue_name": "T",
+          "ca": [
+            28.243,
+            19.792,
+            2.552
+          ]
+        },
+        {
+          "residue_index": 13,
+          "residue_name": "P",
+          "ca": [
+            28.327,
+            17.736,
+            5.778
+          ]
+        },
+        {
+          "residue_index": 14,
+          "residue_name": "V",
+          "ca": [
+            29.068,
+            14.022,
+            5.412
+          ]
+        },
+        {
+          "residue_index": 15,
+          "residue_name": "F",
+          "ca": [
+            28.243,
+            11.883,
+            8.457
+          ]
+        },
+        {
+          "residue_index": 16,
+          "residue_name": "F",
+          "ca": [
+            30.386,
+            8.801,
+            9.058
+          ]
+        },
+        {
+          "residue_index": 17,
+          "residue_name": "D",
+          "ca": [
+            30.924,
+            6.092,
+            11.661
+          ]
+        },
+        {
+          "residue_index": 18,
+          "residue_name": "L",
+          "ca": [
+            33.564,
+            3.399,
+            12.061
+          ]
+        },
+        {
+          "residue_index": 19,
+          "residue_name": "E",
+          "ca": [
+            33.774,
+            -0.179,
+            13.292
+          ]
+        },
+        {
+          "residue_index": 20,
+          "residue_name": "T",
+          "ca": [
+            37.14,
+            -1.408,
+            14.543
+          ]
+        },
+        {
+          "residue_index": 21,
+          "residue_name": "T",
+          "ca": [
+            38.725,
+            -4.606,
+            15.833
+          ]
+        },
+        {
+          "residue_index": 22,
+          "residue_name": "G",
+          "ca": [
+            39.476,
+            -2.995,
+            19.186
+          ]
+        },
+        {
+          "residue_index": 23,
+          "residue_name": "L",
+          "ca": [
+            39.779,
+            0.097,
+            21.34
+          ]
+        },
+        {
+          "residue_index": 24,
+          "residue_name": "D",
+          "ca": [
+            43.486,
+            0.87,
+            20.779
+          ]
+        },
+        {
+          "residue_index": 25,
+          "residue_name": "T",
+          "ca": [
+            43.554,
+            3.784,
+            18.332
+          ]
+        },
+        {
+          "residue_index": 26,
+          "residue_name": "S",
+          "ca": [
+            47.177,
+            3.121,
+            17.374
+          ]
+        },
+        {
+          "residue_index": 27,
+          "residue_name": "A",
+          "ca": [
+            46.835,
+            -0.588,
+            16.551
+          ]
+        },
+        {
+          "residue_index": 28,
+          "residue_name": "C",
+          "ca": [
+            43.232,
+            -1.318,
+            15.492
+          ]
+        },
+        {
+          "residue_index": 29,
+          "residue_name": "D",
+          "ca": [
+            41.813,
+            -1.888,
+            12.013
+          ]
+        },
+        {
+          "residue_index": 30,
+          "residue_name": "I",
+          "ca": [
+            38.622,
+            -0.641,
+            10.364
+          ]
+        },
+        {
+          "residue_index": 31,
+          "residue_name": "V",
+          "ca": [
+            36.216,
+            -3.517,
+            9.724
+          ]
+        },
+        {
+          "residue_index": 32,
+          "residue_name": "Q",
+          "ca": [
+            33.427,
+            -1.228,
+            8.462
+          ]
+        },
+        {
+          "residue_index": 33,
+          "residue_name": "L",
+          "ca": [
+            33.358,
+            2.348,
+            7.146
+          ]
+        },
+        {
+          "residue_index": 34,
+          "residue_name": "S",
+          "ca": [
+            29.935,
+            3.881,
+            6.501
+          ]
+        },
+        {
+          "residue_index": 35,
+          "residue_name": "A",
+          "ca": [
+            28.831,
+            7.392,
+            5.594
+          ]
+        },
+        {
+          "residue_index": 36,
+          "residue_name": "V",
+          "ca": [
+            25.638,
+            9.163,
+            4.538
+          ]
+        },
+        {
+          "residue_index": 37,
+          "residue_name": "S",
+          "ca": [
+            24.97,
+            12.611,
+            3.078
+          ]
+        },
+        {
+          "residue_index": 38,
+          "residue_name": "G",
+          "ca": [
+            21.44,
+            13.461,
+            2.033
+          ]
+        },
+        {
+          "residue_index": 39,
+          "residue_name": "D",
+          "ca": [
+            20.207,
+            10.402,
+            0.144
+          ]
+        },
+        {
+          "residue_index": 40,
+          "residue_name": "R",
+          "ca": [
+            23.676,
+            9.101,
+            -0.791
+          ]
+        },
+        {
+          "residue_index": 41,
+          "residue_name": "T",
+          "ca": [
+            25.29,
+            6.272,
+            1.16
+          ]
+        },
+        {
+          "residue_index": 42,
+          "residue_name": "F",
+          "ca": [
+            28.802,
+            4.824,
+            1.242
+          ]
+        },
+        {
+          "residue_index": 43,
+          "residue_name": "N",
+          "ca": [
+            29.44,
+            1.527,
+            3.015
+          ]
+        },
+        {
+          "residue_index": 44,
+          "residue_name": "A",
+          "ca": [
+            32.373,
+            -0.873,
+            2.897
+          ]
+        },
+        {
+          "residue_index": 45,
+          "residue_name": "Y",
+          "ca": [
+            33.312,
+            -4.005,
+            4.821
+          ]
+        },
+        {
+          "residue_index": 46,
+          "residue_name": "L",
+          "ca": [
+            37.04,
+            -4.634,
+            5.201
+          ]
+        },
+        {
+          "residue_index": 47,
+          "residue_name": "L",
+          "ca": [
+            38.859,
+            -7.848,
+            6.074
+          ]
+        },
+        {
+          "residue_index": 48,
+          "residue_name": "P",
+          "ca": [
+            40.821,
+            -6.832,
+            9.189
+          ]
+        },
+        {
+          "residue_index": 49,
+          "residue_name": "R",
+          "ca": [
+            44.599,
+            -7.177,
+            9.147
+          ]
+        },
+        {
+          "residue_index": 50,
+          "residue_name": "C",
+          "ca": [
+            44.767,
+            -8.03,
+            12.868
+          ]
+        },
+        {
+          "residue_index": 51,
+          "residue_name": "T",
+          "ca": [
+            42.923,
+            -10.113,
+            15.444
+          ]
+        },
+        {
+          "residue_index": 52,
+          "residue_name": "M",
+          "ca": [
+            39.405,
+            -8.91,
+            16.258
+          ]
+        },
+        {
+          "residue_index": 53,
+          "residue_name": "T",
+          "ca": [
+            38.816,
+            -8.745,
+            20.004
+          ]
+        },
+        {
+          "residue_index": 54,
+          "residue_name": "D",
+          "ca": [
+            35.876,
+            -10.402,
+            21.747
+          ]
+        },
+        {
+          "residue_index": 55,
+          "residue_name": "G",
+          "ca": [
+            34.538,
+            -7.011,
+            22.82
+          ]
+        },
+        {
+          "residue_index": 56,
+          "residue_name": "A",
+          "ca": [
+            34.606,
+            -5.876,
+            19.197
+          ]
+        },
+        {
+          "residue_index": 57,
+          "residue_name": "S",
+          "ca": [
+            32.754,
+            -8.99,
+            18.032
+          ]
+        },
+        {
+          "residue_index": 58,
+          "residue_name": "R",
+          "ca": [
+            30.383,
+            -8.588,
+            20.987
+          ]
+        },
+        {
+          "residue_index": 59,
+          "residue_name": "V",
+          "ca": [
+            29.549,
+            -4.939,
+            20.26
+          ]
+        },
+        {
+          "residue_index": 60,
+          "residue_name": "T",
+          "ca": [
+            29.332,
+            -5.092,
+            16.463
+          ]
+        },
+        {
+          "residue_index": 61,
+          "residue_name": "G",
+          "ca": [
+            28.046,
+            -8.612,
+            15.915
+          ]
+        },
+        {
+          "residue_index": 62,
+          "residue_name": "L",
+          "ca": [
+            30.743,
+            -9.013,
+            13.266
+          ]
+        },
+        {
+          "residue_index": 63,
+          "residue_name": "T",
+          "ca": [
+            33.114,
+            -11.978,
+            13.387
+          ]
+        },
+        {
+          "residue_index": 64,
+          "residue_name": "V",
+          "ca": [
+            36.121,
+            -13.026,
+            11.312
+          ]
+        },
+        {
+          "residue_index": 65,
+          "residue_name": "D",
+          "ca": [
+            36.33,
+            -16.694,
+            10.302
+          ]
+        },
+        {
+          "residue_index": 66,
+          "residue_name": "G",
+          "ca": [
+            39.007,
+            -17.732,
+            7.827
+          ]
+        },
+        {
+          "residue_index": 67,
+          "residue_name": "P",
+          "ca": [
+            38.627,
+            -15.783,
+            4.586
+          ]
+        },
+        {
+          "residue_index": 68,
+          "residue_name": "D",
+          "ca": [
+            35.378,
+            -13.97,
+            5.41
+          ]
+        },
+        {
+          "residue_index": 69,
+          "residue_name": "L",
+          "ca": [
+            33.715,
+            -11.487,
+            7.751
+          ]
+        },
+        {
+          "residue_index": 70,
+          "residue_name": "L",
+          "ca": [
+            30.315,
+            -12.365,
+            9.242
+          ]
+        },
+        {
+          "residue_index": 71,
+          "residue_name": "F",
+          "ca": [
+            27.834,
+            -9.632,
+            10.189
+          ]
+        },
+        {
+          "residue_index": 72,
+          "residue_name": "K",
+          "ca": [
+            25.389,
+            -11.191,
+            12.668
+          ]
+        },
+        {
+          "residue_index": 73,
+          "residue_name": "R",
+          "ca": [
+            26.511,
+            -14.651,
+            11.495
+          ]
+        },
+        {
+          "residue_index": 74,
+          "residue_name": "R",
+          "ca": [
+            26.033,
+            -13.803,
+            7.795
+          ]
+        },
+        {
+          "residue_index": 75,
+          "residue_name": "R",
+          "ca": [
+            28.914,
+            -13.525,
+            5.337
+          ]
+        },
+        {
+          "residue_index": 76,
+          "residue_name": "V",
+          "ca": [
+            29.311,
+            -9.992,
+            3.985
+          ]
+        },
+        {
+          "residue_index": 77,
+          "residue_name": "Q",
+          "ca": [
+            31.23,
+            -8.958,
+            0.894
+          ]
+        },
+        {
+          "residue_index": 78,
+          "residue_name": "T",
+          "ca": [
+            34.539,
+            -7.411,
+            1.948
+          ]
+        },
+        {
+          "residue_index": 79,
+          "residue_name": "V",
+          "ca": [
+            36.592,
+            -4.869,
+            0.009
+          ]
+        },
+        {
+          "residue_index": 80,
+          "residue_name": "P",
+          "ca": [
+            40.41,
+            -4.677,
+            0.155
+          ]
+        },
+        {
+          "residue_index": 81,
+          "residue_name": "H",
+          "ca": [
+            41.662,
+            -1.738,
+            2.198
+          ]
+        },
+        {
+          "residue_index": 82,
+          "residue_name": "A",
+          "ca": [
+            43.29,
+            0.232,
+            -0.63
+          ]
+        },
+        {
+          "residue_index": 83,
+          "residue_name": "R",
+          "ca": [
+            40.206,
+            -0.154,
+            -2.831
+          ]
+        },
+        {
+          "residue_index": 84,
+          "residue_name": "A",
+          "ca": [
+            37.687,
+            0.848,
+            -0.146
+          ]
+        },
+        {
+          "residue_index": 85,
+          "residue_name": "L",
+          "ca": [
+            39.599,
+            3.909,
+            1.085
+          ]
+        },
+        {
+          "residue_index": 86,
+          "residue_name": "S",
+          "ca": [
+            39.997,
+            5.125,
+            -2.504
+          ]
+        },
+        {
+          "residue_index": 87,
+          "residue_name": "D",
+          "ca": [
+            36.284,
+            4.635,
+            -3.202
+          ]
+        },
+        {
+          "residue_index": 88,
+          "residue_name": "F",
+          "ca": [
+            35.533,
+            6.538,
+            0.011
+          ]
+        },
+        {
+          "residue_index": 89,
+          "residue_name": "I",
+          "ca": [
+            37.705,
+            9.452,
+            -1.144
+          ]
+        },
+        {
+          "residue_index": 90,
+          "residue_name": "L",
+          "ca": [
+            36.073,
+            9.467,
+            -4.582
+          ]
+        },
+        {
+          "residue_index": 91,
+          "residue_name": "F",
+          "ca": [
+            32.689,
+            9.28,
+            -2.847
+          ]
+        },
+        {
+          "residue_index": 92,
+          "residue_name": "L",
+          "ca": [
+            33.622,
+            12.357,
+            -0.804
+          ]
+        },
+        {
+          "residue_index": 93,
+          "residue_name": "K",
+          "ca": [
+            34.872,
+            14.239,
+            -3.878
+          ]
+        },
+        {
+          "residue_index": 94,
+          "residue_name": "T",
+          "ca": [
+            31.341,
+            14.139,
+            -5.324
+          ]
+        },
+        {
+          "residue_index": 95,
+          "residue_name": "F",
+          "ca": [
+            30.16,
+            16.845,
+            -2.896
+          ]
+        },
+        {
+          "residue_index": 96,
+          "residue_name": "N",
+          "ca": [
+            30.727,
+            20.608,
+            -2.742
+          ]
+        },
+        {
+          "residue_index": 97,
+          "residue_name": "R",
+          "ca": [
+            33.401,
+            21.546,
+            -0.179
+          ]
+        },
+        {
+          "residue_index": 98,
+          "residue_name": "P",
+          "ca": [
+            32.421,
+            18.68,
+            2.144
+          ]
+        },
+        {
+          "residue_index": 99,
+          "residue_name": "F",
+          "ca": [
+            33.433,
+            17.957,
+            5.723
+          ]
+        },
+        {
+          "residue_index": 100,
+          "residue_name": "L",
+          "ca": [
+            33.108,
+            14.86,
+            7.884
+          ]
+        },
+        {
+          "residue_index": 101,
+          "residue_name": "V",
+          "ca": [
+            30.71,
+            14.674,
+            10.832
+          ]
+        },
+        {
+          "residue_index": 102,
+          "residue_name": "G",
+          "ca": [
+            31.007,
+            12.044,
+            13.539
+          ]
+        },
+        {
+          "residue_index": 103,
+          "residue_name": "H",
+          "ca": [
+            29.887,
+            11.469,
+            17.117
+          ]
+        },
+        {
+          "residue_index": 104,
+          "residue_name": "N",
+          "ca": [
+            33.048,
+            11.338,
+            19.254
+          ]
+        },
+        {
+          "residue_index": 105,
+          "residue_name": "S",
+          "ca": [
+            35.084,
+            11.247,
+            16.047
+          ]
+        },
+        {
+          "residue_index": 106,
+          "residue_name": "K",
+          "ca": [
+            37.756,
+            13.58,
+            17.453
+          ]
+        },
+        {
+          "residue_index": 107,
+          "residue_name": "R",
+          "ca": [
+            38.961,
+            11.05,
+            20.044
+          ]
+        },
+        {
+          "residue_index": 108,
+          "residue_name": "F",
+          "ca": [
+            38.385,
+            7.835,
+            18.077
+          ]
+        },
+        {
+          "residue_index": 109,
+          "residue_name": "D",
+          "ca": [
+            37.023,
+            7.608,
+            14.521
+          ]
+        },
+        {
+          "residue_index": 110,
+          "residue_name": "W",
+          "ca": [
+            39.015,
+            10.517,
+            13.092
+          ]
+        },
+        {
+          "residue_index": 111,
+          "residue_name": "P",
+          "ca": [
+            42.437,
+            9.34,
+            14.406
+          ]
+        },
+        {
+          "residue_index": 112,
+          "residue_name": "I",
+          "ca": [
+            41.867,
+            5.775,
+            13.16
+          ]
+        },
+        {
+          "residue_index": 113,
+          "residue_name": "L",
+          "ca": [
+            40.805,
+            6.821,
+            9.655
+          ]
+        },
+        {
+          "residue_index": 114,
+          "residue_name": "T",
+          "ca": [
+            43.839,
+            9.127,
+            9.435
+          ]
+        },
+        {
+          "residue_index": 115,
+          "residue_name": "R",
+          "ca": [
+            46.25,
+            6.385,
+            10.53
+          ]
+        },
+        {
+          "residue_index": 116,
+          "residue_name": "V",
+          "ca": [
+            44.811,
+            3.761,
+            8.164
+          ]
+        },
+        {
+          "residue_index": 117,
+          "residue_name": "L",
+          "ca": [
+            44.611,
+            6.26,
+            5.289
+          ]
+        },
+        {
+          "residue_index": 118,
+          "residue_name": "E",
+          "ca": [
+            48.314,
+            7.094,
+            5.513
+          ]
+        },
+        {
+          "residue_index": 119,
+          "residue_name": "Q",
+          "ca": [
+            49.125,
+            3.381,
+            5.847
+          ]
+        },
+        {
+          "residue_index": 120,
+          "residue_name": "F",
+          "ca": [
+            48.015,
+            3.332,
+            2.176
+          ]
+        },
+        {
+          "residue_index": 121,
+          "residue_name": "D",
+          "ca": [
+            49.324,
+            6.774,
+            1.112
+          ]
+        },
+        {
+          "residue_index": 122,
+          "residue_name": "L",
+          "ca": [
+            45.783,
+            8.064,
+            0.56
+          ]
+        },
+        {
+          "residue_index": 123,
+          "residue_name": "L",
+          "ca": [
+            45.928,
+            10.589,
+            3.415
+          ]
+        },
+        {
+          "residue_index": 124,
+          "residue_name": "E",
+          "ca": [
+            47.173,
+            13.183,
+            0.922
+          ]
+        },
+        {
+          "residue_index": 125,
+          "residue_name": "E",
+          "ca": [
+            44.151,
+            12.671,
+            -1.339
+          ]
+        },
+        {
+          "residue_index": 126,
+          "residue_name": "F",
+          "ca": [
+            41.871,
+            12.764,
+            1.709
+          ]
+        },
+        {
+          "residue_index": 127,
+          "residue_name": "E",
+          "ca": [
+            43.429,
+            16.102,
+            2.734
+          ]
+        },
+        {
+          "residue_index": 128,
+          "residue_name": "G",
+          "ca": [
+            42.039,
+            17.924,
+            -0.291
+          ]
+        },
+        {
+          "residue_index": 129,
+          "residue_name": "A",
+          "ca": [
+            38.649,
+            16.221,
+            -0.312
+          ]
+        },
+        {
+          "residue_index": 130,
+          "residue_name": "V",
+          "ca": [
+            37.378,
+            17.415,
+            3.082
+          ]
+        },
+        {
+          "residue_index": 131,
+          "residue_name": "S",
+          "ca": [
+            37.541,
+            20.663,
+            5.033
+          ]
+        },
+        {
+          "residue_index": 132,
+          "residue_name": "G",
+          "ca": [
+            37.779,
+            18.793,
+            8.329
+          ]
+        },
+        {
+          "residue_index": 133,
+          "residue_name": "C",
+          "ca": [
+            35.878,
+            16.694,
+            10.844
+          ]
+        },
+        {
+          "residue_index": 134,
+          "residue_name": "V",
+          "ca": [
+            33.029,
+            17.957,
+            13.025
+          ]
+        },
+        {
+          "residue_index": 135,
+          "residue_name": "D",
+          "ca": [
+            32.545,
+            16.128,
+            16.328
+          ]
+        },
+        {
+          "residue_index": 136,
+          "residue_name": "T",
+          "ca": [
+            28.918,
+            16.122,
+            17.48
+          ]
+        },
+        {
+          "residue_index": 137,
+          "residue_name": "L",
+          "ca": [
+            29.766,
+            14.956,
+            21.005
+          ]
+        },
+        {
+          "residue_index": 138,
+          "residue_name": "G",
+          "ca": [
+            31.344,
+            18.326,
+            21.746
+          ]
+        },
+        {
+          "residue_index": 139,
+          "residue_name": "L",
+          "ca": [
+            28.817,
+            20.101,
+            19.53
+          ]
+        },
+        {
+          "residue_index": 140,
+          "residue_name": "S",
+          "ca": [
+            25.761,
+            18.52,
+            21.17
+          ]
+        },
+        {
+          "residue_index": 141,
+          "residue_name": "R",
+          "ca": [
+            27.358,
+            19.063,
+            24.587
+          ]
+        },
+        {
+          "residue_index": 142,
+          "residue_name": "E",
+          "ca": [
+            27.655,
+            22.817,
+            24.04
+          ]
+        },
+        {
+          "residue_index": 143,
+          "residue_name": "M",
+          "ca": [
+            24.144,
+            23.065,
+            22.581
+          ]
+        },
+        {
+          "residue_index": 144,
+          "residue_name": "F",
+          "ca": [
+            22.079,
+            21.337,
+            25.279
+          ]
+        },
+        {
+          "residue_index": 145,
+          "residue_name": "R",
+          "ca": [
+            22.179,
+            20.619,
+            29.004
+          ]
+        },
+        {
+          "residue_index": 146,
+          "residue_name": "L",
+          "ca": [
+            21.499,
+            16.877,
+            29.195
+          ]
+        },
+        {
+          "residue_index": 147,
+          "residue_name": "P",
+          "ca": [
+            22.328,
+            14.059,
+            31.63
+          ]
+        },
+        {
+          "residue_index": 148,
+          "residue_name": "K",
+          "ca": [
+            23.821,
+            11.891,
+            28.873
+          ]
+        },
+        {
+          "residue_index": 149,
+          "residue_name": "Y",
+          "ca": [
+            25.322,
+            12.706,
+            25.48
+          ]
+        },
+        {
+          "residue_index": 150,
+          "residue_name": "S",
+          "ca": [
+            25.718,
+            9.223,
+            24.001
+          ]
+        },
+        {
+          "residue_index": 151,
+          "residue_name": "Q",
+          "ca": [
+            24.121,
+            9.011,
+            20.568
+          ]
+        },
+        {
+          "residue_index": 152,
+          "residue_name": "P",
+          "ca": [
+            21.535,
+            6.355,
+            21.629
+          ]
+        },
+        {
+          "residue_index": 153,
+          "residue_name": "F",
+          "ca": [
+            20.127,
+            8.676,
+            24.309
+          ]
+        },
+        {
+          "residue_index": 154,
+          "residue_name": "L",
+          "ca": [
+            20.289,
+            11.723,
+            22.024
+          ]
+        },
+        {
+          "residue_index": 155,
+          "residue_name": "V",
+          "ca": [
+            18.312,
+            9.907,
+            19.318
+          ]
+        },
+        {
+          "residue_index": 156,
+          "residue_name": "Q",
+          "ca": [
+            15.631,
+            8.617,
+            21.701
+          ]
+        },
+        {
+          "residue_index": 157,
+          "residue_name": "H",
+          "ca": [
+            15.239,
+            12.105,
+            23.164
+          ]
+        },
+        {
+          "residue_index": 158,
+          "residue_name": "F",
+          "ca": [
+            15.412,
+            14.124,
+            19.944
+          ]
+        },
+        {
+          "residue_index": 159,
+          "residue_name": "L",
+          "ca": [
+            14.014,
+            11.548,
+            17.489
+          ]
+        },
+        {
+          "residue_index": 160,
+          "residue_name": "Q",
+          "ca": [
+            11.958,
+            9.286,
+            19.816
+          ]
+        },
+        {
+          "residue_index": 161,
+          "residue_name": "E",
+          "ca": [
+            13.384,
+            6.133,
+            18.219
+          ]
+        },
+        {
+          "residue_index": 162,
+          "residue_name": "S",
+          "ca": [
+            14.472,
+            2.993,
+            20.082
+          ]
+        },
+        {
+          "residue_index": 163,
+          "residue_name": "Y",
+          "ca": [
+            16.776,
+            0.758,
+            18.03
+          ]
+        },
+        {
+          "residue_index": 164,
+          "residue_name": "G",
+          "ca": [
+            19.279,
+            -2.072,
+            18.443
+          ]
+        },
+        {
+          "residue_index": 165,
+          "residue_name": "A",
+          "ca": [
+            22.982,
+            -1.914,
+            19.128
+          ]
+        },
+        {
+          "residue_index": 166,
+          "residue_name": "H",
+          "ca": [
+            25.648,
+            -0.767,
+            16.649
+          ]
+        },
+        {
+          "residue_index": 167,
+          "residue_name": "D",
+          "ca": [
+            24.462,
+            -0.845,
+            13.084
+          ]
+        },
+        {
+          "residue_index": 168,
+          "residue_name": "A",
+          "ca": [
+            27.052,
+            1.529,
+            11.64
+          ]
+        },
+        {
+          "residue_index": 169,
+          "residue_name": "T",
+          "ca": [
+            24.958,
+            2.272,
+            8.542
+          ]
+        },
+        {
+          "residue_index": 170,
+          "residue_name": "E",
+          "ca": [
+            21.881,
+            2.979,
+            10.675
+          ]
+        },
+        {
+          "residue_index": 171,
+          "residue_name": "D",
+          "ca": [
+            23.797,
+            5.119,
+            13.18
+          ]
+        },
+        {
+          "residue_index": 172,
+          "residue_name": "V",
+          "ca": [
+            25.109,
+            7.499,
+            10.511
+          ]
+        },
+        {
+          "residue_index": 173,
+          "residue_name": "R",
+          "ca": [
+            21.566,
+            8.042,
+            9.218
+          ]
+        },
+        {
+          "residue_index": 174,
+          "residue_name": "T",
+          "ca": [
+            20.221,
+            8.926,
+            12.674
+          ]
+        },
+        {
+          "residue_index": 175,
+          "residue_name": "L",
+          "ca": [
+            23.145,
+            11.271,
+            13.367
+          ]
+        },
+        {
+          "residue_index": 176,
+          "residue_name": "Q",
+          "ca": [
+            22.241,
+            13.144,
+            10.177
+          ]
+        },
+        {
+          "residue_index": 177,
+          "residue_name": "D",
+          "ca": [
+            18.619,
+            13.483,
+            11.317
+          ]
+        },
+        {
+          "residue_index": 178,
+          "residue_name": "L",
+          "ca": [
+            19.884,
+            14.739,
+            14.689
+          ]
+        },
+        {
+          "residue_index": 179,
+          "residue_name": "Y",
+          "ca": [
+            22.126,
+            17.253,
+            12.908
+          ]
+        },
+        {
+          "residue_index": 180,
+          "residue_name": "R",
+          "ca": [
+            19.134,
+            18.559,
+            10.949
+          ]
+        },
+        {
+          "residue_index": 181,
+          "residue_name": "V",
+          "ca": [
+            16.937,
+            18.785,
+            14.058
+          ]
+        },
+        {
+          "residue_index": 182,
+          "residue_name": "W",
+          "ca": [
+            19.661,
+            20.604,
+            16.0
+          ]
+        },
+        {
+          "residue_index": 183,
+          "residue_name": "K",
+          "ca": [
+            20.063,
+            23.229,
+            13.232
+          ]
+        },
+        {
+          "residue_index": 184,
+          "residue_name": "P",
+          "ca": [
+            23.518,
+            24.192,
+            14.569
+          ]
+        },
+        {
+          "residue_index": 185,
+          "residue_name": "S",
+          "ca": [
+            24.57,
+            27.736,
+            13.743
+          ]
+        },
+        {
+          "residue_index": 186,
+          "residue_name": "E",
+          "ca": [
+            27.427,
+            28.065,
+            11.273
+          ]
+        },
+        {
+          "residue_index": 187,
+          "residue_name": "E",
+          "ca": [
+            29.685,
+            29.557,
+            13.953
+          ]
+        },
+        {
+          "residue_index": 188,
+          "residue_name": "L",
+          "ca": [
+            29.134,
+            26.63,
+            16.323
+          ]
+        },
+        {
+          "residue_index": 189,
+          "residue_name": "V",
+          "ca": [
+            29.858,
+            24.157,
+            13.505
+          ]
+        },
+        {
+          "residue_index": 190,
+          "residue_name": "K",
+          "ca": [
+            33.207,
+            25.796,
+            12.754
+          ]
+        },
+        {
+          "residue_index": 191,
+          "residue_name": "K",
+          "ca": [
+            33.898,
+            25.786,
+            16.5
+          ]
+        },
+        {
+          "residue_index": 192,
+          "residue_name": "H",
+          "ca": [
+            33.746,
+            21.973,
+            16.667
+          ]
+        },
+        {
+          "residue_index": 193,
+          "residue_name": "K",
+          "ca": [
+            35.687,
+            21.137,
+            13.489
+          ]
+        },
+        {
+          "residue_index": 194,
+          "residue_name": "V",
+          "ca": [
+            39.155,
+            19.564,
+            13.608
+          ]
+        },
+        {
+          "residue_index": 195,
+          "residue_name": "I",
+          "ca": [
+            41.585,
+            20.031,
+            10.714
+          ]
+        },
+        {
+          "residue_index": 196,
+          "residue_name": "L",
+          "ca": [
+            44.541,
+            17.899,
+            9.566
+          ]
+        }
+      ]
+    }
+  },
+  "scoring": {
+    "type": "structure_case",
+    "module": "_scoring/ca.py",
+    "metric": "lddt_ca",
+    "range": [
+      0.0,
+      1.0
+    ]
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "structure_case",
+    "scorer": "tests/score.py",
+    "full_marks": 1.0
+  }
+}

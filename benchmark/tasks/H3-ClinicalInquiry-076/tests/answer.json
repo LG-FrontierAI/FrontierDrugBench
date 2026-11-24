@@ -1,0 +1,57 @@
+{
+  "bench_id": "H3-ClinicalInquiry-076",
+  "answer": "Although some herbal supplements may help, it is important to understand that their effect may not be as immediate as you hope, and it can take time to notice any benefit; they can also cause side effects or interact with other medicines. Supplements you might consider include:\n\n1. **Valerian:** known for its calming effect and may help improve sleep.\n2. **Magnesium:** this mineral is important for normal body functions, and a deficiency can cause anxiety and tension.\n3. **Chamomile:** available as capsules or tea, and it helps with relaxation.\n4. **Calming herbal blends:** products containing chamomile, lavender and passionflower. Some herbal infusions (such as chamomile tea) can be calming as well.\nBefore you start using any new product, you must consult the pharmacist to make sure it is suitable for you and that there is no interaction with your health condition or any other medicines you may be taking.\n\nBesides supplements, try some techniques to calm yourself, such as:\n\n- **Deep breathing**: breathe in deeply through the nose and breathe out slowly through the mouth. Repeat several times to help calm the nervous system.\n\n- **Progressive muscle relaxation**: tense and then release the muscle groups in your body, starting from the toes and working up to the head.\n\n- **Meditation or listening to calm music**: this may help you clear your mind and feel relaxed.\n\n- **Avoid stimulants before sleep**: try to avoid caffeine and electronic devices before bed to help improve sleep quality.\n\n\nRemember that these tips may help temporarily, and they do not replace talking to a specialist to get support and guidance suited to your situation. If the symptoms continue or get worse, it is important to actually consider consulting a psychiatrist or a mental health specialist, who can help you effectively and more safely. Your health matters most, and there is no problem with asking specialists for help when you need it.",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Suggests Valerian root as an herbal remedy for anxiety, even though it has proven not effective.",
+        "points": -6,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Mentions that herbal supplements are not 100% without side effects and should be taken cautiously.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Mentions other methods to relieve anxiety besides supplements, such as relaxation techniques like deep breathing or meditation to quickly calm anxiety, engaging in light physical activity like taking a short walk to reduce stress, avoiding stimulants such as coffee and tea, especially at night, and recreating a comfortable sleep environment by using dim lighting and reducing screen time before sleep.",
+        "points": 5,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Mentions when to seek medical attention: If anxiety persists and significantly impacts your daily life, or if you experience severe symptoms such as shortness of breath or harmful thoughts, it’s important to reach out to emergency services or consult a mental health professional.",
+        "points": 5,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Mentions a drug name that is incorrect or does not exist, \"Sedopic.\"",
+        "points": -4,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      }
+    ],
+    "points": 17
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 17,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

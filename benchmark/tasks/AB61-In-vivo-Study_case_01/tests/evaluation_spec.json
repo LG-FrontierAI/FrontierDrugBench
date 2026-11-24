@@ -1,0 +1,42 @@
+{
+  "item_id": "AB61",
+  "parent_item_id": "AB61",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "fb0194a12b6d22bae3abf37dd3b7226b70f4b6d655b8110416700e4a1c583c42",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "1c69d7629ccbf1bf54ce1ac25c7154a7545070bd5c528dd3693e8003e2839b83",
+      "study_information": "Predict apparent SC clearance CL/F (mL/day/kg) for clone_107, clone_202 and clone_203 after a single 50 mg/kg SC dose in male cynomolgus monkeys. Matched IV clearance and half-life, antibody sequences and the reference route pair are visible. Target SC half-lives are withheld together with target CL/F. Distinguish incomplete absorption from systemic elimination; do not identify CL/F with IV clearance.",
+      "study_information_sha256": "44e09b0202e89c3743dd5bff0dc9fffe748d1202d6c77054ac0835d535dfa3d4",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.75,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2025170982A2"
+  ],
+  "study_id": "WO2025170982A2 Example 7: single 50 mg/kg dose in male cynomolgus monkeys, serum follow-up through day 91. Route-specific beta-elimination half-life. The SC clearance column is apparent clearance (CL/F), not independently measured IV clearance. In-vitro values are matched human IL-23 experiments; relative IC50 uses reference_1=1. These are finite-cohort experimental estimates.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB61",
+  "expanded_bench_id": "AB61-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Transferring cynomolgus IV pharmacokinetics to subcutaneous dosing",
+  "format": "regression"
+}

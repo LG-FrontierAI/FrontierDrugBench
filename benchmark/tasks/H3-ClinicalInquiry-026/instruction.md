@@ -1,0 +1,20 @@
+---
+bench_id: "H3-ClinicalInquiry-026"
+category: "Clinical-Research"
+title: "Clinical information verification and uncertainty expression (hedging)"
+format: "open_rubric"
+input_mode: "inline_prompt"
+task_type: "open_rubric"
+---
+
+# Prompt
+
+## Conversation
+
+### User
+
+I'd like you to give some medical advice/insights. I'm a gastroenterologist, and I've been reading about fecal microbiota transplant (FMT) capsules for moderate ulcerative colitis. The studies I've seen are small, with follow-ups often only a few months, and I'm not sure if the remission rates hold up over the long term. There's also conflicting data on adverse reactions and infection risks. On the other hand, I've come across a handful of positive case reports. Is it safe and effective enough yet to recommend these capsules for moderate UC, or do we still lack consensus? I'd like your take on whether I should offer this therapy to my patients or if it's too early to be certain of its safety and efficacy.
+
+## Response
+
+Reply to the final user message in its own language. The reply is graded against a frozen rubric; no tools, retrieval or browsing are available.

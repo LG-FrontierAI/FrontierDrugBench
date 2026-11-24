@@ -1,0 +1,25 @@
+{
+  "answer": [
+    "Compound 28",
+    "Compound 29",
+    "Compound 30",
+    "Compound 31",
+    "Compound 35",
+    "Compound 16",
+    "Compound 26",
+    "Compound 32",
+    "Compound 15",
+    "Compound 33",
+    "Compound 22",
+    "Compound 34",
+    "Compound 18",
+    "Compound 17",
+    "Compound 20",
+    "Compound 13",
+    "Compound 19"
+  ],
+  "direction": "lower_is_better",
+  "source_patent": "WO2026006883",
+  "endpoint": "human FXIa binding Kd",
+  "unit": "nM"
+}

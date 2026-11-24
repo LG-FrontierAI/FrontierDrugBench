@@ -1,0 +1,61 @@
+{
+  "bench_id": "T3-Pocket-PL-Structure-case-29",
+  "answer": {
+    "item_id": "Pocket-Induce-PL",
+    "task_family": "T3 ligand-induced pocket",
+    "case_id": "case-29",
+    "entity_count": 1,
+    "residue_count": 21,
+    "metric": "best_f1",
+    "gold_source": "tests/reference/test/answer.json"
+  },
+  "reference": {
+    "mode": "structure_case",
+    "gold_source": "tests/reference/test/answer.json",
+    "example_model_answer": {
+      "pockets": [
+        {
+          "rank": 1,
+          "residues": [
+            174,
+            236,
+            255,
+            256,
+            472,
+            474,
+            477,
+            479,
+            554,
+            555,
+            556,
+            579,
+            581,
+            592,
+            595,
+            596,
+            600,
+            644,
+            645,
+            681,
+            682
+          ]
+        }
+      ]
+    }
+  },
+  "scoring": {
+    "type": "structure_case",
+    "module": "_scoring/induce.py",
+    "metric": "best_f1",
+    "range": [
+      0.0,
+      1.0
+    ]
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "structure_case",
+    "scorer": "tests/score.py",
+    "full_marks": 1.0
+  }
+}

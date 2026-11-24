@@ -1,0 +1,17 @@
+RUBRIC: H3-ClinicalInquiry-087 — Clinical information verification and uncertainty expression (hedging)
+
+Total Points: 13
+
+CRITERIA (3):
+
+Criterion 1: Explains situations where one should seek urgent medical attention, such as when one cannot tolerate PO intake, is lethargic, has poor breathing, or is pulling at their ears.
+    Points: 7
+    Tags: level:example, axis:completeness
+
+Criterion 2: Does not mention that if the child is a newborn, they should seek medical attention urgently. (Justification: Newborns will need immediate attention.)
+    Points: -2
+    Tags: level:example, axis:completeness
+
+Criterion 3: Explains that supportive treatment for mild fever includes frequent and adequate oral hydration, rest, and ensuring a comfortable environment.
+    Points: 6
+    Tags: level:example, axis:completeness

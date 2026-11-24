@@ -1,0 +1,13 @@
+{
+  "item_id": "AB79",
+  "case_id": "case_01",
+  "parent_bench_id": "AB79",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": "The patent describes study-specific BLQ handling rather than one universal rule. In the anti-FXII study, the first BLQ after the last quantified observation was replaced by LLOQ/2 and other BLQs were missing. Later anti-uPA/YEY analyses treated BLQ values as missing and examined a first-BLQ=LLOQ/2 sensitivity analysis. It would be incorrect to replace every BLQ with zero or silently impose one rule across all cohorts.\n\nTerminal-parameter reliability criteria included adjusted R-squared above 0.85, extrapolated AUC below 20%, and a terminal span exceeding 1.5 half-lives. The interleaved anti-IL6 WT cohorts produced a zigzag profile with adjusted R-squared below 0.60, so only nonterminal parameters were reported. Those terminal values should not be reconstructed as reliable ranking gold.\n\nHowever, an FcRn antagonist's own persistence is not equivalent to its ability to lower endogenous IgG. First, inspect actual sampling times, individual terminal concentrations, BLQ sensitivity and ADA/assay quality to determine which NCA estimates are defensible. Second, compare exposure-matched endogenous-IgG time courses across constructs. That separates antibody disposition from the distinct pharmacodynamic mechanism and avoids interpreting a short half-life as either efficacy or failure by itself.",
+  "rubric_sha256": "c2cb2d76d41642d5c1acd9332d7ddc3d91a68d00e8556548d817215a85f2fe7e",
+  "reference_source": "gold.reference_answer"
+}

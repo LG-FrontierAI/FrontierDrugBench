@@ -1,0 +1,26 @@
+{
+  "item_id": "AB03-A",
+  "case_id": "case_02",
+  "parent_bench_id": "AB03-A",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": [
+    "M_54ba34c3599feffe",
+    "M_0f4d075087171d14",
+    "M_7ce60657fb122d96",
+    "M_8bfd1892fd486e0e",
+    "M_b94fa0ebe93969b7",
+    "M_18b8c3b4cad9d73b",
+    "M_d5a7fd1a9aeb833c",
+    "M_ebb48f452f859a65",
+    "M_dc9ecf885f9b25d3",
+    "M_c0248a482c3e2616",
+    "M_75493e75b3160d67",
+    "M_631630f602df9f08",
+    "M_45b1553cef252d2e",
+    "M_6a6228b71c913521"
+  ]
+}

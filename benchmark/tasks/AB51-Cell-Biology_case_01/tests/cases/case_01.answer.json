@@ -1,0 +1,77 @@
+{
+  "item_id": "AB51",
+  "case_id": "case_01",
+  "task_type": "numeric",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026006698A1"
+  ],
+  "study_id": "US20260001952A1_AB51",
+  "input_sha256": "a19ce4eb5b8e5986c509b44ff6f3423f37d12486e8bc5b2831abfeaf1ce19cde",
+  "study_information_sha256": "2f7810749328dcd90a015ed76dfcdfd72b7e29b43ba3f7325162340c6cbb856a",
+  "target_ids": [
+    "molecule_05",
+    "molecule_04",
+    "molecule_01",
+    "molecule_02",
+    "molecule_03"
+  ],
+  "truth": {
+    "molecule_04": 0.5,
+    "molecule_02": 6.9,
+    "molecule_01": 0.2,
+    "molecule_05": 0.04,
+    "molecule_03": 0.7
+  },
+  "higher_is_better": false,
+  "unit": "ug/mL",
+  "sources": [
+    {
+      "publication_number": "US20260001952A1",
+      "url": "https://patents.google.com/patent/US20260001952A1/en",
+      "publication_date": "2026-01-01",
+      "family_earliest_publication_date": "2026-01-01",
+      "disclosure_status": "verified",
+      "locator": "Table1,Table2; Examples3,4,6,7; Figures3,4,7A-C",
+      "source_channel": "Actual nonempty web.run source1267lines; open625-700and755-775,2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "molecule_04",
+      "locator": "Example3 agonistEC50;Figure4B;antibody02M10",
+      "sequence_locator": "Table1;antibody02M10",
+      "value": 0.5,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "molecule_02",
+      "locator": "Example3 agonistEC50;Figure4B;antibody04H08",
+      "sequence_locator": "Table1;antibody04H08",
+      "value": 6.9,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "molecule_01",
+      "locator": "Example3 agonistEC50;Figure4B;antibody05O07",
+      "sequence_locator": "Table1;antibody05O07",
+      "value": 0.2,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "molecule_05",
+      "locator": "Example3 agonistEC50;Figure4B;antibody22A17",
+      "sequence_locator": "Table1;antibody22A17",
+      "value": 0.04,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "molecule_03",
+      "locator": "Example3 agonistEC50;Figure4B;antibody23E21-2",
+      "sequence_locator": "Table1;antibody23E21-2",
+      "value": 0.7,
+      "unit": "ug/mL"
+    }
+  ]
+}

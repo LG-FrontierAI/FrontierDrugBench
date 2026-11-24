@@ -1,0 +1,17 @@
+{
+  "item_id": "AB71",
+  "case_id": "case_01",
+  "parent_bench_id": "AB71",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": {
+    "ofaschlupfer": 0.93
+  },
+  "unit": "fraction",
+  "target_ids": [
+    "ofaschlupfer"
+  ]
+}

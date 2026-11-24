@@ -1,0 +1,722 @@
+{
+  "item_id": "AB02-A",
+  "case_id": "case_01",
+  "data_status": "patent_experimental",
+  "task_type": "ranking",
+  "ranking_metric": "spearman",
+  "known_ids": [
+    "M_35bc2fb1c7968965",
+    "M_5b812563aead9b90",
+    "M_45edc9838001954a"
+  ],
+  "target_ids": [
+    "M_45c5db3b0832c3a8",
+    "M_f1b0f79445e47ac1",
+    "M_d1626a0bdd500b6f",
+    "M_9a59852efe898a4f",
+    "M_1a2795e21cb21218",
+    "M_392d77d4e91913ca",
+    "M_1924494cab7ed3ff",
+    "M_6a5907eb3a180330",
+    "M_0a5e41e28146b777",
+    "M_f88420a49ee89b39",
+    "M_0d7fbca4b855bbcc",
+    "M_1760cc48565fdaed"
+  ],
+  "truth": {
+    "M_45c5db3b0832c3a8": 0.27865612648221344,
+    "M_f1b0f79445e47ac1": 0.7430830039525692,
+    "M_d1626a0bdd500b6f": 1.3463751438434983,
+    "M_9a59852efe898a4f": 0.9159953970080553,
+    "M_1a2795e21cb21218": 0.7307249712313003,
+    "M_392d77d4e91913ca": 1.9562715765247412,
+    "M_1924494cab7ed3ff": 1.0225225225225225,
+    "M_6a5907eb3a180330": 1.0135135135135134,
+    "M_0a5e41e28146b777": 0.3513513513513513,
+    "M_f88420a49ee89b39": 0.8198198198198198,
+    "M_0d7fbca4b855bbcc": 2.1216216216216215,
+    "M_1760cc48565fdaed": 1.3243243243243241
+  },
+  "higher_is_better": false,
+  "input_sha256": "17f4f5af94f8479f6d296fa2331c196ef49b0fea899fc66d5d99e6cfa3984286",
+  "complete_sha256": "8215ef2c65549769e0b1799ba9a829a7c5658d80a946917483f406f167b87f03",
+  "admission_sha256": "7892dc3dbc34238dbd1bf81f632816c5688409058efed6a6b52ae79b81c6b506",
+  "source_group_id": "WO2026052654_Example10_anti_IL2Rgamma_repair",
+  "source_group_context": {
+    "patent": "inputs/public/WO2026052654A1.pdf",
+    "shared_study_not_independent_experiments": true,
+    "source_evidence": "organizer/sequence_cases/patents/extracted/AB02/evidence.json"
+  },
+  "provenance": {
+    "status": "admitted",
+    "item_id": "AB02",
+    "case_id": "case_01",
+    "complete_csv": "organizer/sequence_cases/patents/extracted/AB02/case_01.complete.csv",
+    "complete_sha256": "cb8f3dbf59c387e7acfd605146cd6756bfad4afcd098369c2970fd6861d85b22",
+    "known_ids": [
+      "P1AK9661",
+      "P1AK9662",
+      "P1AK9665"
+    ],
+    "target_ids": [
+      "P1AN9638",
+      "P1AN9639",
+      "P1AN9640",
+      "P1AN9641",
+      "P1AN9642",
+      "P1AN9643",
+      "P1AN9644",
+      "P1AN9645",
+      "P1AN9646",
+      "P1AN9647",
+      "P1AN9648",
+      "P1AN9649"
+    ],
+    "source_group_id": "WO2026052654_Example10_anti_IL2Rgamma_repair",
+    "row_provenance": {
+      "P1AK9661": {
+        "sample_id": "P1AK9661",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9661",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:395; VHH prefix through VTVSS before linker; PDF pages [229]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AK9661"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80C PDFpage387; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9661; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "2f967d91b00b1a542106d3c1cdb5efc2e97950152faf74263e8adc1056123133",
+        "sequence_length": 117
+      },
+      "P1AK9662": {
+        "sample_id": "P1AK9662",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9662",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:396; VHH prefix through VTVSS before linker; PDF pages [229]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AK9662"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80B PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9662; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "b0775208eb4adcec376819766741e2b1bc96be40d22ab201a56f08efc6f68370",
+        "sequence_length": 117
+      },
+      "P1AK9665": {
+        "sample_id": "P1AK9665",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9665",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:401; VHH prefix through VTVSS before linker; PDF pages [230]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158, 159]; printed KD[nM] column, rowP1AK9665"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80A PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9665; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "6c1218ce9512204505905cd6a209ff06f9e5ff467764d723d701c5bd03146794",
+        "sequence_length": 117
+      },
+      "P1AN9638": {
+        "sample_id": "P1AN9638",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9661",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:145; VHH prefix through VTVSS before linker; PDF pages [200]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9638"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80C PDFpage387; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9661; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "1917def5c8ecafe00777267ce01a9b6740b9933ffc261c983c9029e0c9fc28ed",
+        "sequence_length": 117
+      },
+      "P1AN9639": {
+        "sample_id": "P1AN9639",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9661",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:146; VHH prefix through VTVSS before linker; PDF pages [200]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9639"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80C PDFpage387; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9661; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "8ab78e9067f68b1bc9a04e9a3c0f3dc0536780d7125ccccbbb3b2221af11bae5",
+        "sequence_length": 117
+      },
+      "P1AN9640": {
+        "sample_id": "P1AN9640",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9662",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:147; VHH prefix through VTVSS before linker; PDF pages [200]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9640"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80B PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9662; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "b7d65549520f010ecba1e1d9f84110995068d56414ef56b64b952659ca85000c",
+        "sequence_length": 117
+      },
+      "P1AN9641": {
+        "sample_id": "P1AN9641",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9662",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:148; VHH prefix through VTVSS before linker; PDF pages [200]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9641"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80B PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9662; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "82317ab3ad807abaf45fd04fb2dea8707e3baea8f1fabb08827cbac2faea0a56",
+        "sequence_length": 117
+      },
+      "P1AN9642": {
+        "sample_id": "P1AN9642",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9662",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:149; VHH prefix through VTVSS before linker; PDF pages [200, 201]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9642"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80B PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9662; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "581d8a0bc5594fc8533ba82eda2cdff908874c145365d2bd17617adad44fca28",
+        "sequence_length": 117
+      },
+      "P1AN9643": {
+        "sample_id": "P1AN9643",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9662",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:150; VHH prefix through VTVSS before linker; PDF pages [201]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9643"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80B PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9662; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "e13db102e888b04ed3edf12b600ec8ec85a9d4642bb1ba138c50318028c6c6c7",
+        "sequence_length": 117
+      },
+      "P1AN9644": {
+        "sample_id": "P1AN9644",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9665",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:151; VHH prefix through VTVSS before linker; PDF pages [201]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9644"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80A PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9665; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "1de6afe23527438426a3d2dc38db92e8001aa8dd81957636775c1a4b97d862ba",
+        "sequence_length": 117
+      },
+      "P1AN9645": {
+        "sample_id": "P1AN9645",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9665",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:152; VHH prefix through VTVSS before linker; PDF pages [201]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9645"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80A PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9665; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "42661d2d8c5f2c1e0c0abfc3c05a53caab51835c2f5d4288f28b63aba8434435",
+        "sequence_length": 117
+      },
+      "P1AN9646": {
+        "sample_id": "P1AN9646",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9665",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:153; VHH prefix through VTVSS before linker; PDF pages [201, 202]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9646"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80A PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9665; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "428b9060d8cd2c0e5bd66ad78def8e0bcd932b1c8e5c236ecea434b594edbc0a",
+        "sequence_length": 117
+      },
+      "P1AN9647": {
+        "sample_id": "P1AN9647",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9665",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:154; VHH prefix through VTVSS before linker; PDF pages [202]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9647"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80A PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9665; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "49cf6f80ed0eeb5a1266b9e5edb66bc644ffc23b3db3f35d52fc4774178cd88c",
+        "sequence_length": 117
+      },
+      "P1AN9648": {
+        "sample_id": "P1AN9648",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9665",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:155; VHH prefix through VTVSS before linker; PDF pages [202]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9648"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80A PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9665; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "3ae9fec6ab47284421ef68c2cb2c6522266f26fbe92c2a80d131113545edf112",
+        "sequence_length": 117
+      },
+      "P1AN9649": {
+        "sample_id": "P1AN9649",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "P1AK9665",
+        "assay_group": "Example10.1.2_IL2Rbeta_gamma_Bioassay_cells_4C",
+        "fields": {
+          "sequence1": {
+            "source_id": "wo2026052654",
+            "locator": "Appendix sequence table SEQ ID NO:156; VHH prefix through VTVSS before linker; PDF pages [202]; Figure75 PDF381 corroboration"
+          },
+          "format": {
+            "source_id": "wo2026052654",
+            "locator": "Figure76A PDF382; sequence table knob chains and shared hole chain SEQ144 PDF199"
+          },
+          "human_KD_nM": {
+            "source_id": "wo2026052654",
+            "locator": "Table23 PDFpages[158]; printed KD[nM] column, rowP1AN9649"
+          },
+          "cell_binding_retention": {
+            "source_id": "wo2026052654",
+            "locator": "Figure80A PDFpage386; full11positivepoint log-dose AUC minus same-panel DP47, normalized to P1AK9665; digitized and independently reviewed"
+          }
+        },
+        "sequence_sha256": "cff6a51ccab7c21a51caf919c2192b4c3ef8d88f957a3bffb38a05ab0e7631b7",
+        "sequence_length": 117
+      }
+    },
+    "cell_binding_curves_file": "organizer/sequence_cases/patents/extracted/AB02/curves.json",
+    "cell_binding_curves_sha256": "2de6af87e5d8aaefae3517387002246a2ce754dd4cb38e0c5184f4c1b0bbcb12",
+    "curve_provenance": {
+      "P1AK9665": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80A, PDFpage386",
+        "panel_id": "Figure80A"
+      },
+      "P1AN9644": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80A, PDFpage386",
+        "panel_id": "Figure80A"
+      },
+      "P1AN9645": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80A, PDFpage386",
+        "panel_id": "Figure80A"
+      },
+      "P1AN9646": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80A, PDFpage386",
+        "panel_id": "Figure80A"
+      },
+      "P1AN9647": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80A, PDFpage386",
+        "panel_id": "Figure80A"
+      },
+      "P1AN9648": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80A, PDFpage386",
+        "panel_id": "Figure80A"
+      },
+      "P1AN9649": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80A, PDFpage386",
+        "panel_id": "Figure80A"
+      },
+      "DP47_A": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80A, PDFpage386",
+        "panel_id": "Figure80A"
+      },
+      "P1AK9662": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80B, PDFpage386",
+        "panel_id": "Figure80B"
+      },
+      "P1AN9640": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80B, PDFpage386",
+        "panel_id": "Figure80B"
+      },
+      "P1AN9641": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80B, PDFpage386",
+        "panel_id": "Figure80B"
+      },
+      "P1AN9642": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80B, PDFpage386",
+        "panel_id": "Figure80B"
+      },
+      "P1AN9643": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80B, PDFpage386",
+        "panel_id": "Figure80B"
+      },
+      "DP47_B": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80B, PDFpage386",
+        "panel_id": "Figure80B"
+      },
+      "P1AK9661": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80C, PDFpage387",
+        "panel_id": "Figure80C"
+      },
+      "P1AN9638": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80C, PDFpage387",
+        "panel_id": "Figure80C"
+      },
+      "P1AN9639": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80C, PDFpage387",
+        "panel_id": "Figure80C"
+      },
+      "DP47_C": {
+        "source_id": "wo2026052654",
+        "locator": "Figure80C, PDFpage387",
+        "panel_id": "Figure80C"
+      }
+    },
+    "dp47_by_molecule": {
+      "P1AK9661": "DP47_C",
+      "P1AK9662": "DP47_B",
+      "P1AK9665": "DP47_A",
+      "P1AN9638": "DP47_C",
+      "P1AN9639": "DP47_C",
+      "P1AN9640": "DP47_B",
+      "P1AN9641": "DP47_B",
+      "P1AN9642": "DP47_B",
+      "P1AN9643": "DP47_B",
+      "P1AN9644": "DP47_A",
+      "P1AN9645": "DP47_A",
+      "P1AN9646": "DP47_A",
+      "P1AN9647": "DP47_A",
+      "P1AN9648": "DP47_A",
+      "P1AN9649": "DP47_A"
+    },
+    "log10_coordinate_error": 0.05,
+    "pair_uncertainty_policy": "shared_parent_covariance",
+    "review": {
+      "reviewed": true,
+      "reviewer": "Independent Codex AB01 extraction agent",
+      "notes": "Independent visual overlays verified conservative curve bounds and common11positivepoint grid; only two robust same-parent candidate pairs survive correlated-background cancellation and x-coordinate uncertainty. Remaining64pairs unresolved."
+    },
+    "resolved_pair_count": 2,
+    "resolved_pairs": [
+      {
+        "winner": "P1AN9645",
+        "loser": "P1AN9648"
+      },
+      {
+        "winner": "P1AN9646",
+        "loser": "P1AN9648"
+      }
+    ],
+    "source_files": [
+      {
+        "id": "wo2026052654",
+        "path": "inputs/public/WO2026052654A1.pdf",
+        "sha256": "b758ce390fd52761b97e158a6af7ba22005a563546b8e60092c92bada03180ae"
+      },
+      {
+        "id": "extraction_review",
+        "path": "organizer/sequence_cases/patents/extracted/AB02/evidence.json",
+        "sha256": "0f0aa98cacaa46fff77d2dbd2aa1e1f45606a0116ea958805cc0f54ed9855124"
+      },
+      {
+        "id": "disclosure_review",
+        "path": "research/sequence_patents/evidence/local_pdf_disclosure_review_20261014.md",
+        "sha256": "8ddc42b98647731e98b6c666466ab1a1b5486b9be127a1295cf94dfa76e0f1bb"
+      },
+      {
+        "id": "independent_curve_review",
+        "path": "organizer/sequence_cases/patents/extracted/AB02_review/review.json",
+        "sha256": "e845a31e4ae59cfdbd83c2eedc1c51193ac1411241ccdef0813fd78dc39de895"
+      }
+    ],
+    "family_first_publication": {
+      "verified": true,
+      "date": "2026-03-12",
+      "source_id": "disclosure_review",
+      "locator": "WO2026052654A1 section; bounded known-first review",
+      "verification_scope": "Known first in reviewed family index and experiment/reference attribution; not exhaustive proof of no prior disclosure."
+    },
+    "data_first_disclosure": {
+      "verified": true,
+      "date": "2026-03-12",
+      "source_id": "disclosure_review",
+      "locator": "WO2026052654A1 section; bounded known-first review",
+      "verification_scope": "Known first in reviewed family index and experiment/reference attribution; not exhaustive proof of no prior disclosure."
+    },
+    "matched_assay_conditions_verified": true,
+    "assay_conditions": {
+      "SPR": {
+        "temperature_C": 25,
+        "pH_reported": 7.4,
+        "pH_benchmark_normalized": 7.5,
+        "instrument": "Biacore8K",
+        "capture": "anti-PGLALA onCM3; VHH-Fc captured",
+        "analyte": "human IL2Rbeta/gamma ECD P1AE2657",
+        "association_s": 240,
+        "dissociation_s": 1000,
+        "model": "1:1 Langmuir"
+      },
+      "cell": {
+        "cells": "human IL2Rbeta/gamma Bioassay cells, Promega CS2018K02",
+        "antibody_incubation_C": 4,
+        "antibody_incubation_min": 60,
+        "readout": "anti-human-Fc PE median fluorescence intensity",
+        "source_pdf_page": 159,
+        "reported_concentration_range_pM": [
+          3.9,
+          180000
+        ]
+      },
+      "binding_target": "IL2Rgamma",
+      "format": "monovalent VHH-Fc"
+    },
+    "public_study_information": {
+      "text": "All molecules are anti-IL-2Rgamma VHHs in the same monovalent VHH-Fc format. Human KD values are the printed Table 23 values against recombinant human IL-2Rbeta-gamma extracellular-domain reagent P1AE2657. These were measured on a Biacore 8K at 25 C, capturing VHH-Fc on an anti-PGLALA CM3 surface, using receptor as analyte and a 1:1 Langmuir fit. The benchmark neutral-pH label is 7.5. No numerical cynomolgus results are printed in this table; those fields remain unavailable. Cell binding was measured on human IL-2Rbeta-gamma Bioassay cells with antibody incubation for 60 min at 4 C and anti-human-Fc PE median-fluorescence detection. The hidden retention endpoint uses all 11 positive observed concentration columns from the published figure, excluding the separately plotted zero-dose control. Concentrations are digitized approximate chart coordinates rather than an asserted exact serial-dilution recipe. Parent, variant and DP47 curves are always matched within the same panel. Ranking is scored only on differences robust to conservative curve-reading and log-dose-coordinate uncertainty; unresolved pairs are not forced into an experimental total order.",
+      "source_id": "wo2026052654",
+      "locator": "Example10.1 printed156–158/PDF157–159; Figure76A PDF382; Figure80 PDF386–387",
+      "reviewed_for_leakage": true
+    },
+    "source_group_context": {
+      "patent": "inputs/public/WO2026052654A1.pdf",
+      "shared_study_not_independent_experiments": true,
+      "source_evidence": "organizer/sequence_cases/patents/extracted/AB02/evidence.json"
+    }
+  },
+  "endpoint": "human_KD_to_parent_ratio",
+  "unit": "dimensionless",
+  "target_order": [
+    "M_45c5db3b0832c3a8",
+    "M_0a5e41e28146b777",
+    "M_1a2795e21cb21218",
+    "M_f1b0f79445e47ac1",
+    "M_f88420a49ee89b39",
+    "M_9a59852efe898a4f",
+    "M_6a5907eb3a180330",
+    "M_1924494cab7ed3ff",
+    "M_1760cc48565fdaed",
+    "M_d1626a0bdd500b6f",
+    "M_392d77d4e91913ca",
+    "M_0d7fbca4b855bbcc"
+  ],
+  "study_information_sha256": "3990a5946f2acaec150096133f665980d7c228d3bc9a572cf6cc7dffb0a037fb",
+  "parent_item_id": "AB02",
+  "complete_csv": "organizer/sequence_cases/split_complete/AB02-A/case_01.csv",
+  "pass_threshold": 0.6,
+  "threshold_version": "v1-20261023",
+  "source_complete_path": "organizer/sequence_cases/split_complete/AB02-A/case_01.csv",
+  "source_complete_sha256": "8215ef2c65549769e0b1799ba9a829a7c5658d80a946917483f406f167b87f03",
+  "split_provenance": {
+    "version": "30-task-v1",
+    "source_item_id": "AB02",
+    "source_gold": "archive/pre_30_task_split/questions/AB02/tests/cases/case_01.answer.json",
+    "source_gold_sha256": "57fb107f762a3e912585dee9f0cb3353ced3dfaba228d89693c8fc12a4e9dcfe",
+    "source_complete_csv": "organizer/sequence_cases/patents/extracted/AB02/case_01.complete.csv",
+    "source_complete_sha256": "cb8f3dbf59c387e7acfd605146cd6756bfad4afcd098369c2970fd6861d85b22",
+    "operation": "Exact sequence/value reuse and deterministic endpoint masking; ratios derived from recorded values only.",
+    "row_order": "SHA256(split-v1:item_id:case_id:name), independent of endpoint values"
+  },
+  "category": "Molecular Biology",
+  "pass_rule": "unrounded_item_score >= pass_threshold"
+}

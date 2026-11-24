@@ -1,0 +1,234 @@
+{
+  "answer": {
+    "id": "IV-001",
+    "mode": "evidence_single",
+    "score_total": 100,
+    "metric_keys": [
+      "order_spleen_liver",
+      "order_bm_liver"
+    ]
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "lnp_evidence_v2",
+    "scoring_version": "v2"
+  },
+  "reference": {
+    "id": "IV-001",
+    "mode": "evidence_single",
+    "candidate_ids": [
+      "F03",
+      "F04",
+      "F07",
+      "F08",
+      "F09",
+      "F10"
+    ],
+    "sources": [
+      {
+        "patent": "WO2026107609A1",
+        "pdf_pages": [
+          52,
+          59,
+          60
+        ],
+        "locator": "[00316]-[00317], Table 6, Figures 8A-C",
+        "quote": "The LNP dose was 1 mg/kg injected to CD-1 mice and the endpoint was 24 hours.\nAs shown in Figures 8A-C and the BM/liver ratios of Table 6, unexpectedly, high bone marrow activity was observed for unshielded non-polar glyceride formulations with almost no activity seen in the liver.",
+        "kind": "patent",
+        "file": "WO2026107609A1.pdf",
+        "family_first_publication_date": "2026-05-28",
+        "family_id": "99887438",
+        "date_evidence_url": "https://patents.google.com/patent/WO2026107609A1/en",
+        "verification_scope": "AI review of current Google-indexed family/application/publication tables and local metadata; not exhaustive official worldwide family certification; human confirmation needed before final release."
+      }
+    ],
+    "issues": [
+      "Gold uses actual table numbers only to establish descriptive within-cohort order; close ratios are not declared statistically separated.",
+      "Molecular graph is fixed, not independently varied; ingredient1 identity is source-defined by named published analogue. No graph-only prediction claim.",
+      "N/P is missing, so this is retrospective reported-formulation prediction, not an executable reproduction protocol.",
+      "No uncertainty or per-animal ratio values in table",
+      "Ratio improvement may reflect reduced denominator rather than higher absolute delivery",
+      "Not a chemically isolated PEG effect because composition changes",
+      "No safety or efficacy endpoint"
+    ],
+    "metrics": [
+      {
+        "type": "ranking_constraints",
+        "key": "order_spleen_liver",
+        "candidate_ids": [
+          "F03",
+          "F04",
+          "F07",
+          "F08",
+          "F09",
+          "F10"
+        ],
+        "expected_pairs": [
+          [
+            "F03",
+            "F07"
+          ],
+          [
+            "F03",
+            "F10"
+          ],
+          [
+            "F04",
+            "F03"
+          ],
+          [
+            "F04",
+            "F07"
+          ],
+          [
+            "F04",
+            "F08"
+          ],
+          [
+            "F04",
+            "F09"
+          ],
+          [
+            "F04",
+            "F10"
+          ],
+          [
+            "F07",
+            "F10"
+          ],
+          [
+            "F08",
+            "F03"
+          ],
+          [
+            "F08",
+            "F07"
+          ],
+          [
+            "F08",
+            "F09"
+          ],
+          [
+            "F08",
+            "F10"
+          ],
+          [
+            "F09",
+            "F03"
+          ],
+          [
+            "F09",
+            "F07"
+          ],
+          [
+            "F09",
+            "F10"
+          ]
+        ],
+        "weight": 50
+      },
+      {
+        "type": "ranking_constraints",
+        "key": "order_bm_liver",
+        "candidate_ids": [
+          "F03",
+          "F04",
+          "F07",
+          "F08",
+          "F09",
+          "F10"
+        ],
+        "expected_pairs": [
+          [
+            "F04",
+            "F03"
+          ],
+          [
+            "F04",
+            "F07"
+          ],
+          [
+            "F04",
+            "F09"
+          ],
+          [
+            "F04",
+            "F10"
+          ],
+          [
+            "F07",
+            "F03"
+          ],
+          [
+            "F08",
+            "F03"
+          ],
+          [
+            "F08",
+            "F04"
+          ],
+          [
+            "F08",
+            "F07"
+          ],
+          [
+            "F08",
+            "F09"
+          ],
+          [
+            "F08",
+            "F10"
+          ],
+          [
+            "F09",
+            "F03"
+          ],
+          [
+            "F09",
+            "F07"
+          ],
+          [
+            "F09",
+            "F10"
+          ],
+          [
+            "F10",
+            "F03"
+          ],
+          [
+            "F10",
+            "F07"
+          ]
+        ],
+        "weight": 50
+      }
+    ],
+    "category": "in-vivo-biology",
+    "source_type": "patent",
+    "source_ids": [
+      "WO2026107609A1"
+    ],
+    "experiment_group": "[00316]-[00317], Table 6, Figures 8A-C",
+    "release_ready": true,
+    "validation_scope": "source-record alignment, scoring contract and payload checks; not an independent experimental replication",
+    "example_model_answer": {
+      "reason": "self-check: gold-derived submission used to verify the grading contract",
+      "order_spleen_liver": [
+        "F04",
+        "F08",
+        "F09",
+        "F03",
+        "F07",
+        "F10"
+      ],
+      "order_bm_liver": [
+        "F08",
+        "F04",
+        "F09",
+        "F10",
+        "F07",
+        "F03"
+      ]
+    }
+  }
+}

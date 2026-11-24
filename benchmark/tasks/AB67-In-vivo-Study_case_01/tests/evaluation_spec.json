@@ -1,0 +1,42 @@
+{
+  "item_id": "AB67",
+  "parent_item_id": "AB67",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "653adf12814d8084d717c6c3782c560a63c73ca815eb90802ed75472818351d6",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "4276291ecac993fd9b0d922feb3b4b9b6b1d77a747f67cbd1fdfaf21821adfe5",
+      "study_information": "Predict 48-hour PBS-soluble brain PGRN concentration (pg/mg wet tissue) for sandwich1_h48, sandwich2_h48 and kappa3_h48. Measurements through 24 hours and the older PTV11 profile are visible. All target 48-hour RIPA and CSF results are also withheld. Predict the measured soluble-fraction outcome; do not equate the immunoassay signal with intact active cargo or free interstitial exposure.",
+      "study_information_sha256": "573f0b27bbc0f6e693060787ecee77ae192a9ff4dbf6ae48a8c8a26ba4918a13",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2024263567A2"
+  ],
+  "study_id": "WO2024263567A2 Example5 Tables8A/8B/9/10; tissuefractionenzymeimmunoassay, humanTfRKI mice. Units pg/mg wetweight. Exactdosefor thisparticular concentrationseries not specified in accessible methods. Late targetfractionvalues are hidden.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB67",
+  "expanded_bench_id": "AB67-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Extrapolating soluble brain-fraction exposure from early measurements",
+  "format": "regression"
+}

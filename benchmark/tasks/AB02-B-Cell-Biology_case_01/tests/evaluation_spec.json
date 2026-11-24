@@ -1,0 +1,86 @@
+{
+  "item_id": "AB02-B",
+  "title": "Predicting cell-binding retention after developability repair",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "format": "ranking",
+  "task_type": "ranking",
+  "ranking_metric": "resolvable_pair_concordance",
+  "higher_is_better": true,
+  "no_contestant_tools": true,
+  "reset_context_each_case": true,
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "91642ce84118e1dbc4b5dbda88d74acac8dead11561584f4374bf3473b2e585f",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "da08dc3d6bedfa6f1da806d750c2ff5fb65ad5ce6eeab7e06681d248f8cc64fb",
+      "data_status": "patent_experimental",
+      "known_count": 3,
+      "target_count": 12,
+      "source_group_id": "WO2026052654_Example10_anti_IL2Rgamma_repair",
+      "study_information": "All molecules are anti-IL-2Rgamma VHHs in the same monovalent VHH-Fc format. Human KD values are the printed Table 23 values against recombinant human IL-2Rbeta-gamma extracellular-domain reagent P1AE2657. These were measured on a Biacore 8K at 25 C, capturing VHH-Fc on an anti-PGLALA CM3 surface, using receptor as analyte and a 1:1 Langmuir fit. The benchmark neutral-pH label is 7.5. No numerical cynomolgus results are printed in this table; those fields remain unavailable. Cell binding was measured on human IL-2Rbeta-gamma Bioassay cells with antibody incubation for 60 min at 4 C and anti-human-Fc PE median-fluorescence detection. The hidden retention endpoint uses all 11 positive observed concentration columns from the published figure, excluding the separately plotted zero-dose control. Concentrations are digitized approximate chart coordinates rather than an asserted exact serial-dilution recipe. Parent, variant and DP47 curves are always matched within the same panel. Ranking is scored only on differences robust to conservative curve-reading and log-dose-coordinate uncertainty; unresolved pairs are not forced into an experimental total order.",
+      "study_information_sha256": "ce41fbdde914605777426b4c94c5cc2d0835f19ee9ee2e1734fbc0d5326d4887"
+    }
+  ],
+  "case_count": 1,
+  "input_columns": [
+    "name",
+    "parent",
+    "format",
+    "sequence1",
+    "human_KD_nM",
+    "cyno_KD_nM",
+    "cell_binding_retention"
+  ],
+  "target_definition": "cell_binding_retention",
+  "score_formula": "max(0, (correct_pairs - wrong_pairs) / n_resolvable_pairs)",
+  "score_definition": "max(0, (correct_pairs - wrong_pairs) / n_resolvable_pairs)",
+  "diagnostics": [
+    "raw_spearman",
+    "raw_pair_concordance",
+    "correct_pairs",
+    "wrong_pairs",
+    "n_resolvable_pairs"
+  ],
+  "output_format": "One comma-separated line containing every target exactly once, in the requested order; no explanation.",
+  "blocking_requirements": [],
+  "formal_biological_score_available": true,
+  "aggregation": "single_case",
+  "follow_up": null,
+  "pairwise_policy": {
+    "freeze_before_model_submission": true,
+    "pair_definition": "strictly positive paired retention difference under propagated digitization bounds; same-parent/background covariance retained; cross-parent marginal bounds",
+    "direction": "higher retention wins",
+    "no_scored_ties": true,
+    "bounds_interpretation": "digitization uncertainty only; not biological confidence intervals",
+    "no_pair_case_policy": "do not release or score",
+    "source_panel_expected": {
+      "parents": 3,
+      "repair_variants": 12
+    },
+    "actual_case_membership": "only verified complete curves; never invent to meet expected source count"
+  },
+  "target_antigen": "anti-IL-2Rgamma VHH-Fc; human IL-2Rbeta/gamma-expressing cells; species-matched IL-2Rbeta/gamma ECD for SPR",
+  "parent_item_id": "AB02",
+  "pass_threshold": 1.0,
+  "threshold_version": "v1-20261023",
+  "low_information": true,
+  "random_pass_probability_note": "Two reliable pairs share a loser; uniform random complete rankings pass with probability 1/3. Threshold 1.0 cannot remove this information limit.",
+  "pass_rule": "unrounded_item_score >= pass_threshold",
+  "passed_evaluation_level": "item",
+  "threshold_comparison": "unrounded_score >= pass_threshold",
+  "information_status": "low_information",
+  "random_full_ranking_pass_probability": 0.3333333333333333,
+  "expanded_from": "AB02-B",
+  "expanded_bench_id": "AB02-B-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases",
+    "reference_answer_status": "experimental_truth"
+  }
+}

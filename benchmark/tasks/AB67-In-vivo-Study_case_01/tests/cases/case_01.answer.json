@@ -1,0 +1,59 @@
+{
+  "item_id": "AB67",
+  "case_id": "case_01",
+  "task_type": "numeric",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2024263567A2"
+  ],
+  "study_id": "WO2024263567A2 Example5 Tables8A/8B/9/10; tissuefractionenzymeimmunoassay, humanTfRKI mice. Units pg/mg wetweight. Exactdosefor thisparticular concentrationseries not specified in accessible methods. Late targetfractionvalues are hidden.",
+  "input_sha256": "653adf12814d8084d717c6c3782c560a63c73ca815eb90802ed75472818351d6",
+  "study_information_sha256": "573f0b27bbc0f6e693060787ecee77ae192a9ff4dbf6ae48a8c8a26ba4918a13",
+  "target_ids": [
+    "sandwich1_h48",
+    "sandwich2_h48",
+    "kappa3_h48"
+  ],
+  "truth": {
+    "sandwich1_h48": 0.35,
+    "sandwich2_h48": 0.63,
+    "kappa3_h48": 0.11
+  },
+  "higher_is_better": true,
+  "unit": "pg/mg wet tissue",
+  "sources": [
+    {
+      "publication_number": "WO2024263567A2",
+      "url": "https://patents.google.com/patent/WO2024263567A2/en",
+      "publication_date": "2024-12-26",
+      "family_earliest_publication_date": "2024-12-26",
+      "disclosure_status": "verified",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "source_channel": "web.run Google Patents WO family metadata and US table transcription",
+      "readable_publication_number": "US20250000992A1",
+      "readable_url": "https://patents.google.com/patent/US20250000992A1/en",
+      "disclosure_check": "WO2024263567A2 first2024-12-26, priority2023-06-21; A3/A9 are later documents. OlderPTV11 reference explicitly attributed by patent to US20210284702/WO2019246071 and not scored as new candidate."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "sandwich1_h48",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "value": 0.35,
+      "unit": "pg/mg wet tissue"
+    },
+    {
+      "name": "sandwich2_h48",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "value": 0.63,
+      "unit": "pg/mg wet tissue"
+    },
+    {
+      "name": "kappa3_h48",
+      "locator": "Example3 Table5 (PD), Example5 Tables8A/8B/9/10 (compartments), Example6 Table11 (affinity transfer); readable same-family US20250000992A1, published2025-01-02.",
+      "value": 0.11,
+      "unit": "pg/mg wet tissue"
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+RUBRIC: AB79 - Assessing NCA and BLQ rules in FcRn-antagonist animal studies
+
+Total Points: 100/100
+
+CRITERIA (4):
+
+Criterion 1: BLQ
+    Points: 25
+    Description: Distinguish study-specific firstBLQ=LLOQ/2 versuslaterallBLQmissing sensitivity;neverinventzeroBLQ.
+    Source: Example12
+
+Criterion 2: terminal
+    Points: 25
+    Description: IdentifyadjustedR2>.85,extrapolatedAUC<20%,span>1.5half-lives andtheanti-IL6zigzagR2<.60issue.
+    Source: Example12
+
+Criterion 3: mechanism
+    Points: 20
+    Description: Separate antibody ownPK fromendogenousIgG-loweringPD.
+    Source: FcRnexamples
+
+Criterion 4: checks
+    Points: 30
+    Description: Request rawterminalpoints/ADA/assay andexposure-matchedIgGPD comparisons.
+    Source: Example12/Table10–13

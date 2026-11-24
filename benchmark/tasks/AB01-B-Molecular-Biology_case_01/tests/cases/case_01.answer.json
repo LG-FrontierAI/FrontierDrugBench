@@ -1,0 +1,422 @@
+{
+  "item_id": "AB01-B",
+  "case_id": "case_01",
+  "data_status": "patent_experimental",
+  "task_type": "ranking",
+  "ranking_metric": "spearman",
+  "known_ids": [
+    "parent"
+  ],
+  "target_ids": [
+    "M_70c316405f5d9d39",
+    "M_2a09ac305e2893e6",
+    "M_ca97d1695a1c715a",
+    "M_bb5d3ae00580bc83",
+    "M_dc2199fdcbb19a57",
+    "M_66ce7c0bea6b6c63",
+    "M_a38e89ab750aeb12",
+    "M_c2ed39eb172f6363"
+  ],
+  "truth": {
+    "M_70c316405f5d9d39": 36.66666666666667,
+    "M_2a09ac305e2893e6": 34.146341463414636,
+    "M_ca97d1695a1c715a": 5.0,
+    "M_bb5d3ae00580bc83": 3.0303030303030303,
+    "M_dc2199fdcbb19a57": 33.333333333333336,
+    "M_66ce7c0bea6b6c63": 17.142857142857142,
+    "M_a38e89ab750aeb12": 0.3,
+    "M_c2ed39eb172f6363": 0.5555555555555556
+  },
+  "higher_is_better": false,
+  "input_sha256": "5ba8af9cf922b56a3f75188db41ddf5371617cb8aaec7bb510bfded9c6835362",
+  "complete_sha256": "af9f38cfb3efbfa62b3a920098e0d4d7131b35a17c4cf387264ca35f3886daf9",
+  "admission_sha256": "a8c7f27835af6ef9e3cb73ef00929b41ce969ac3c9874197b5066b27f31c335c",
+  "source_group_id": "AB01_FV042793_2026",
+  "source_group_context": {
+    "patent": "inputs/public/WO2026052654A1.pdf",
+    "shared_study_not_independent_experiments": true,
+    "source_evidence": "organizer/sequence_cases/patents/extracted/AB01/evidence.json"
+  },
+  "provenance": {
+    "status": "admitted",
+    "item_id": "AB01",
+    "case_id": "case_01",
+    "complete_csv": "organizer/sequence_cases/patents/extracted/AB01/case_01.complete.csv",
+    "complete_sha256": "fe4573b737c60b2c0dd3def501affa3d0f51bd9eb1e13cc9de765a0ea336d612",
+    "known_ids": [
+      "P1AM3701"
+    ],
+    "target_ids": [
+      "P1AM3702",
+      "P1AM3703",
+      "P1AM3704",
+      "P1AM3705",
+      "P1AM3706",
+      "P1AM3707",
+      "P1AM3708",
+      "P1AM3709"
+    ],
+    "lineage_id": "FV042793",
+    "row_provenance": {
+      "P1AM3701": {
+        "sample_id": "P1AM3701",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "FV042793",
+        "assay_group": "Example7.4.1_human_cyno_IL2Rbeta_gamma_ECD",
+        "fields": {
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Appendix sequence table; SEQ ID NO:336; standalone complete VHH; PDF page(s) 218; printed page(s) 217; sample P1AM3701"
+          },
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Example7.1 printed136/PDF137; Figure33 PDF328; common hole chain SEQ356 PDF222 and corresponding knob chain"
+          },
+          "human_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table15 printed140/PDF141; row P1AM3701; KD[nM] column"
+          },
+          "cyno_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table16 printed140/PDF141; row P1AM3701; KD[nM] column"
+          }
+        },
+        "seq_id": 336,
+        "sequence_length": 116,
+        "sequence_sha256": "2cbdc4645a47f1fd7d759e80290ff890270a65a453ad3218830cd0a55525c41c"
+      },
+      "P1AM3702": {
+        "sample_id": "P1AM3702",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "FV042793",
+        "assay_group": "Example7.4.1_human_cyno_IL2Rbeta_gamma_ECD",
+        "fields": {
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Appendix sequence table; SEQ ID NO:359; standalone complete VHH; PDF page(s) 222; printed page(s) 221; sample P1AM3702"
+          },
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Example7.1 printed136/PDF137; Figure33 PDF328; common hole chain SEQ356 PDF222 and corresponding knob chain"
+          },
+          "human_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table15 printed140/PDF141; row P1AM3702; KD[nM] column"
+          },
+          "cyno_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table16 printed140/PDF141; row P1AM3702; KD[nM] column"
+          }
+        },
+        "seq_id": 359,
+        "sequence_length": 116,
+        "sequence_sha256": "f59c4ff9a1a3eee5344fb49560f82d44e41999a7fdadf2669e71231e7905c33f"
+      },
+      "P1AM3703": {
+        "sample_id": "P1AM3703",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "FV042793",
+        "assay_group": "Example7.4.1_human_cyno_IL2Rbeta_gamma_ECD",
+        "fields": {
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Appendix sequence table; SEQ ID NO:363; standalone complete VHH; PDF page(s) 223; printed page(s) 222; sample P1AM3703"
+          },
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Example7.1 printed136/PDF137; Figure33 PDF328; common hole chain SEQ356 PDF222 and corresponding knob chain"
+          },
+          "human_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table15 printed140/PDF141; row P1AM3703; KD[nM] column"
+          },
+          "cyno_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table16 printed141/PDF142; row P1AM3703; KD[nM] column"
+          }
+        },
+        "seq_id": 363,
+        "sequence_length": 116,
+        "sequence_sha256": "562b87080a125a19a2a175f7bb3d55f256550b35fc0f97d1a7231d711b1ec1a7"
+      },
+      "P1AM3704": {
+        "sample_id": "P1AM3704",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "FV042793",
+        "assay_group": "Example7.4.1_human_cyno_IL2Rbeta_gamma_ECD",
+        "fields": {
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Appendix sequence table; SEQ ID NO:365; standalone complete VHH; PDF page(s) 223; printed page(s) 222; sample P1AM3704"
+          },
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Example7.1 printed136/PDF137; Figure33 PDF328; common hole chain SEQ356 PDF222 and corresponding knob chain"
+          },
+          "human_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table15 printed140/PDF141; row P1AM3704; KD[nM] column"
+          },
+          "cyno_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table16 printed141/PDF142; row P1AM3704; KD[nM] column"
+          }
+        },
+        "seq_id": 365,
+        "sequence_length": 116,
+        "sequence_sha256": "16538d725b794bc6c377d33afeea46ad7fe8a56d96536d1959a26ecfa6339d0c"
+      },
+      "P1AM3705": {
+        "sample_id": "P1AM3705",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "FV042793",
+        "assay_group": "Example7.4.1_human_cyno_IL2Rbeta_gamma_ECD",
+        "fields": {
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Appendix sequence table; SEQ ID NO:367; standalone complete VHH; PDF page(s) 224; printed page(s) 223; sample P1AM3705"
+          },
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Example7.1 printed136/PDF137; Figure33 PDF328; common hole chain SEQ356 PDF222 and corresponding knob chain"
+          },
+          "human_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table15 printed140/PDF141; row P1AM3705; KD[nM] column"
+          },
+          "cyno_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table16 printed141/PDF142; row P1AM3705; KD[nM] column"
+          }
+        },
+        "seq_id": 367,
+        "sequence_length": 116,
+        "sequence_sha256": "cd58d912fb4190fceb4cb8a27e79dc3e63e74930171af0853409a9de10682130"
+      },
+      "P1AM3706": {
+        "sample_id": "P1AM3706",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "FV042793",
+        "assay_group": "Example7.4.1_human_cyno_IL2Rbeta_gamma_ECD",
+        "fields": {
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Appendix sequence table; SEQ ID NO:369; standalone complete VHH; PDF page(s) 224; printed page(s) 223; sample P1AM3706"
+          },
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Example7.1 printed136/PDF137; Figure33 PDF328; common hole chain SEQ356 PDF222 and corresponding knob chain"
+          },
+          "human_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table15 printed140/PDF141; row P1AM3706; KD[nM] column"
+          },
+          "cyno_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table16 printed141/PDF142; row P1AM3706; KD[nM] column"
+          }
+        },
+        "seq_id": 369,
+        "sequence_length": 116,
+        "sequence_sha256": "2b122d6669a67ad59ad6dcd0b8d17af88e06bc3576ce1d9f1f4267ee82fc1e7e"
+      },
+      "P1AM3707": {
+        "sample_id": "P1AM3707",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "FV042793",
+        "assay_group": "Example7.4.1_human_cyno_IL2Rbeta_gamma_ECD",
+        "fields": {
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Appendix sequence table; SEQ ID NO:371; standalone complete VHH; PDF page(s) 224; printed page(s) 223; sample P1AM3707"
+          },
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Example7.1 printed136/PDF137; Figure33 PDF328; common hole chain SEQ356 PDF222 and corresponding knob chain"
+          },
+          "human_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table15 printed140/PDF141; row P1AM3707; KD[nM] column"
+          },
+          "cyno_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table16 printed141/PDF142; row P1AM3707; KD[nM] column"
+          }
+        },
+        "seq_id": 371,
+        "sequence_length": 116,
+        "sequence_sha256": "e249cefa5f75a96df38e3cce30c0ecb5f549ba2d86e94d82c613dc2cc3e6889b"
+      },
+      "P1AM3708": {
+        "sample_id": "P1AM3708",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "FV042793",
+        "assay_group": "Example7.4.1_human_cyno_IL2Rbeta_gamma_ECD",
+        "fields": {
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Appendix sequence table; SEQ ID NO:372; knob-chain N-terminal variable domain, excluding printed GGSG linker/Fc; PDF page(s) 224,225; printed page(s) 223,224; sample P1AM3708"
+          },
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Example7.1 printed136/PDF137; Figure33 PDF328; common hole chain SEQ356 PDF222 and corresponding knob chain"
+          },
+          "human_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table15 printed140/PDF141; row P1AM3708; KD[nM] column"
+          },
+          "cyno_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table16 printed141/PDF142; row P1AM3708; KD[nM] column"
+          }
+        },
+        "seq_id": 372,
+        "sequence_length": 116,
+        "sequence_sha256": "442c9f62a5f8f9bdf8cd051f1ea9eac8653bc49ccb11d45ae43a51ddc40a3402"
+      },
+      "P1AM3709": {
+        "sample_id": "P1AM3709",
+        "sequence_link_verified": true,
+        "observation_link_verified": true,
+        "lineage_id": "FV042793",
+        "assay_group": "Example7.4.1_human_cyno_IL2Rbeta_gamma_ECD",
+        "fields": {
+          "sequence1": {
+            "source_id": "patent_pdf",
+            "locator": "Appendix sequence table; SEQ ID NO:373; knob-chain N-terminal variable domain, excluding printed GGSG linker/Fc; PDF page(s) 225; printed page(s) 224; sample P1AM3709"
+          },
+          "format": {
+            "source_id": "patent_pdf",
+            "locator": "Example7.1 printed136/PDF137; Figure33 PDF328; common hole chain SEQ356 PDF222 and corresponding knob chain"
+          },
+          "human_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table15 printed140/PDF141; row P1AM3709; KD[nM] column"
+          },
+          "cyno_KD_nM": {
+            "source_id": "patent_pdf",
+            "locator": "Table16 printed141/PDF142; row P1AM3709; KD[nM] column"
+          }
+        },
+        "seq_id": 373,
+        "sequence_length": 116,
+        "sequence_sha256": "66e211135390429e63b7bd2290db009dfa337bf22c0af58ee7aacf5802ec1dba"
+      }
+    },
+    "ranking_source_names": [
+      "P1AM3708",
+      "P1AM3709",
+      "P1AM3705",
+      "P1AM3704",
+      "P1AM3707",
+      "P1AM3706",
+      "P1AM3703",
+      "P1AM3702"
+    ],
+    "source_group_id": "AB01_FV042793_2026",
+    "source_files": [
+      {
+        "id": "patent_pdf",
+        "path": "inputs/public/WO2026052654A1.pdf",
+        "sha256": "b758ce390fd52761b97e158a6af7ba22005a563546b8e60092c92bada03180ae"
+      },
+      {
+        "id": "extraction_review",
+        "path": "organizer/sequence_cases/patents/extracted/AB01/evidence.json",
+        "sha256": "fff369c8b43ff016d43d3092d99dd4b8b535c4589c202b81645ca9359603811c"
+      },
+      {
+        "id": "disclosure_review",
+        "path": "research/sequence_patents/evidence/local_pdf_disclosure_review_20261014.md",
+        "sha256": "8ddc42b98647731e98b6c666466ab1a1b5486b9be127a1295cf94dfa76e0f1bb"
+      }
+    ],
+    "family_first_publication": {
+      "verified": true,
+      "date": "2026-03-12",
+      "source_id": "disclosure_review",
+      "locator": "WO2026052654A1 section; bounded known-first review",
+      "verification_scope": "Known first in reviewed family index and experiment/reference attribution; not exhaustive proof of no prior disclosure."
+    },
+    "data_first_disclosure": {
+      "verified": true,
+      "date": "2026-03-12",
+      "source_id": "disclosure_review",
+      "locator": "WO2026052654A1 section; bounded known-first review",
+      "verification_scope": "Known first in reviewed family index and experiment/reference attribution; not exhaustive proof of no prior disclosure."
+    },
+    "matched_assay_conditions_verified": true,
+    "assay_conditions": {
+      "target": "recombinant human/cynomolgus IL2Rbeta-gamma extracellular-domain constructs (P1AE2657/P1AF8881)",
+      "antibody_specificity": "IL2Rbeta",
+      "format": "one-armed monovalent VHH-Fc with common knob/hole Fc design",
+      "platform": "Biacore T200",
+      "temperature_C": 25,
+      "capture": "anti-PGLALA on CM3; VHH-Fc captured",
+      "analyte": "recombinant receptor ECD",
+      "top_concentration_nM": 150,
+      "dilution_factor": 3,
+      "association_s": 240,
+      "dissociation_s": 600,
+      "fit": "1:1 Langmuir",
+      "KD_unit": "nM",
+      "running_buffer": "PBS-P+; source describes stock as 10x, do not infer a final salt concentration from that wording",
+      "locator": "Example7.4.1 printed138–139/PDF139–140"
+    },
+    "public_study_information": {
+      "text": "Each molecule is an anti-IL-2Rbeta VHH in the same one-armed VHH-Fc format. The VHH-Fc molecules were captured on an anti-PGLALA CM3 surface. Recombinant human or cynomolgus IL-2Rbeta-gamma extracellular-domain constructs were injected as analytes in a Biacore T200 assay at 25 C, using PBS-P+ buffer, a top receptor concentration of 150 nM and threefold serial dilutions. Association and dissociation were monitored for 240 s and 600 s, respectively; KD values were reported from a 1:1 Langmuir fit and are in nM. Predict ratios of the reported matched SPR KD values. The source does not provide replicate-level uncertainty for these table entries.",
+      "source_id": "patent_pdf",
+      "locator": "Example7.4.1 printed138–139/PDF139–140; Figures33 PDF328",
+      "reviewed_for_leakage": true
+    },
+    "review": {
+      "reviewed": true,
+      "reviewer": "Codex source extraction plus independent review",
+      "notes": "Local PDF sequences and assay entries reviewed; source-supported rows only. See extracted evidence and disclosure review for uncertainty and omissions."
+    },
+    "source_group_context": {
+      "patent": "inputs/public/WO2026052654A1.pdf",
+      "shared_study_not_independent_experiments": true,
+      "source_evidence": "organizer/sequence_cases/patents/extracted/AB01/evidence.json"
+    }
+  },
+  "endpoint": "cyno_to_human_KD_ratio",
+  "unit": "dimensionless",
+  "target_order": [
+    "M_a38e89ab750aeb12",
+    "M_c2ed39eb172f6363",
+    "M_bb5d3ae00580bc83",
+    "M_ca97d1695a1c715a",
+    "M_66ce7c0bea6b6c63",
+    "M_dc2199fdcbb19a57",
+    "M_2a09ac305e2893e6",
+    "M_70c316405f5d9d39"
+  ],
+  "study_information_sha256": "4e39aa8b2a3833e69414a3421eb4764be9030b46972b7549b8c1494afa7feca3",
+  "parent_item_id": "AB01",
+  "complete_csv": "organizer/sequence_cases/split_complete/AB01-B/case_01.csv",
+  "pass_threshold": 0.6,
+  "threshold_version": "v1-20261023",
+  "source_complete_path": "organizer/sequence_cases/split_complete/AB01-B/case_01.csv",
+  "source_complete_sha256": "af9f38cfb3efbfa62b3a920098e0d4d7131b35a17c4cf387264ca35f3886daf9",
+  "split_provenance": {
+    "version": "30-task-v1",
+    "source_item_id": "AB01",
+    "source_gold": "archive/pre_30_task_split/questions/AB01/tests/cases/case_01.answer.json",
+    "source_gold_sha256": "d238a9fb5f2df5c3d55f41b583bfdeb860ba20d7c9463557688f48f95e43a04b",
+    "source_complete_csv": "organizer/sequence_cases/patents/extracted/AB01/case_01.complete.csv",
+    "source_complete_sha256": "fe4573b737c60b2c0dd3def501affa3d0f51bd9eb1e13cc9de765a0ea336d612",
+    "operation": "Exact sequence/value reuse and deterministic endpoint masking; ratios derived from recorded values only.",
+    "row_order": "SHA256(split-v1:item_id:case_id:name), independent of endpoint values"
+  },
+  "category": "Molecular Biology",
+  "pass_rule": "unrounded_item_score >= pass_threshold"
+}

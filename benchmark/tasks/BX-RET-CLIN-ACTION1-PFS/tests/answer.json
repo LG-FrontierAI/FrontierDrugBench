@@ -1,0 +1,15 @@
+{
+  "bench_id": "BX-RET-CLIN-ACTION1-PFS",
+  "answer": 1.0,
+  "truth": 1,
+  "metric": "Accuracy",
+  "scoring": {
+    "type": "binary_accuracy",
+    "metric": "Accuracy",
+    "threshold": 0.5
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "binary_accuracy"
+  }
+}

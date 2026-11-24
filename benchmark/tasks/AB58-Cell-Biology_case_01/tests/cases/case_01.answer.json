@@ -1,0 +1,103 @@
+{
+  "item_id": "AB58",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026115036A1"
+  ],
+  "study_id": "AB58_Vdelta1_cell_evidence_2026",
+  "input_sha256": "ec1dd4128266fb11c67370353c1d0f5e98102b4d5cb18238e902696bfc39001d",
+  "study_information_sha256": "538c7773760e6fe240ab875adbdd66941eb54adac40753a57dffa1711af0d52e",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": null,
+  "unit": null,
+  "sources": [
+    {
+      "publication_number": "US20260152558A1",
+      "url": "https://patents.google.com/patent/US20260152558A1/en",
+      "publication_date": "2026-06-04",
+      "family_earliest_publication_date": "2026-06-04",
+      "disclosure_status": "verified",
+      "locator": "Tables6,34,35; Examples10-15,19,20; WO2026115036A1 same-day family first",
+      "source_channel": "Nonempty Google Patents targeted long output; independent root recheck 2026-10-23",
+      "disclosure_check": "Earliest publication of this family is2026-06-04. Earlier cited parental/control reagents are treated only as visible controls, not new hidden measurements. The task audits current-family experiments and does not claim exhaustive absence of all earlier related articles."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "skin_Vdelta1",
+      "locator": "Examples11-13",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "PBMC_primed",
+      "locator": "Examples11-13",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    }
+  ],
+  "rubric": [
+    {
+      "id": "denominator",
+      "points": 25,
+      "required_finding": "Distinguishes40:1 totalPBMC:tumor from1:1 enrichedVδ1:tumor and rejects an intrinsic potency comparison."
+    },
+    {
+      "id": "composition",
+      "points": 25,
+      "required_finding": "Uses83%αβ and8.6%Vδ1 to explain mixed-effector contribution and rejects exclusiveVδ1 attribution."
+    },
+    {
+      "id": "priming",
+      "points": 15,
+      "required_finding": "Recognizes seven-day priming/activation history as a confounder rather than interchangeable exposure."
+    },
+    {
+      "id": "no_fabrication",
+      "points": 15,
+      "required_finding": "Preserves only context-specific observations and does not invent normalized potency/lysis percentages."
+    },
+    {
+      "id": "causal_checks",
+      "points": 20,
+      "required_finding": "Proposes matched purifiedVδ1 input/activation and selective depletion/add-back or lineage controls with causal interpretation."
+    }
+  ],
+  "reference_answer": "The comparisons do not establish greater intrinsic potency perVδ1 cell in the PBMC preparation. The40:1 ratio uses total PBMCs as its denominator, whereas the skin-cell assay uses an enriched Vδ1 effector preparation at1:1. In the reported PBMC mixture, only8.6% of cells are Vδ1 and83% are αβT cells; changing the total-cell ratio therefore changes both potential Vδ1 input and the number of other cells. The seven-day priming history also changes activation state and composition, so it cannot be treated as interchangeable with the skin-derived-cell assay. All PBMC-mediated lysis cannot be assigned exclusively toVδ1 cells from an aggregate mixed-cell readout. αβT cells, accessory-cell interactions and priming-dependent changes remain alternative or contributing explanations. The corrected conclusion is that the source demonstrates activity in two distinct effector contexts, without a matched estimate of perVδ1-cell potency or exclusive causal attribution. A first discriminating experiment is to compare purified Vδ1 cells from both preparations at matched viable Vδ1:tumor ratios and matched activation histories. A second is selective Vδ1 depletion and add-back in the PBMC mixture, paired with αβT-cell or accessory-cell controls and live target-cell counts. These tests separate cell-intrinsic activity from mixture and priming effects.",
+  "validation_examples": {
+    "full_correct": {
+      "text": "The comparisons do not establish greater intrinsic potency perVδ1 cell in the PBMC preparation. The40:1 ratio uses total PBMCs as its denominator, whereas the skin-cell assay uses an enriched Vδ1 effector preparation at1:1. In the reported PBMC mixture, only8.6% of cells are Vδ1 and83% are αβT cells; changing the total-cell ratio therefore changes both potential Vδ1 input and the number of other cells. The seven-day priming history also changes activation state and composition, so it cannot be treated as interchangeable with the skin-derived-cell assay. All PBMC-mediated lysis cannot be assigned exclusively toVδ1 cells from an aggregate mixed-cell readout. αβT cells, accessory-cell interactions and priming-dependent changes remain alternative or contributing explanations. The corrected conclusion is that the source demonstrates activity in two distinct effector contexts, without a matched estimate of perVδ1-cell potency or exclusive causal attribution. A first discriminating experiment is to compare purified Vδ1 cells from both preparations at matched viable Vδ1:tumor ratios and matched activation histories. A second is selective Vδ1 depletion and add-back in the PBMC mixture, paired with αβT-cell or accessory-cell controls and live target-cell counts. These tests separate cell-intrinsic activity from mixture and priming effects.",
+      "expected_met_ids": [
+        "denominator",
+        "composition",
+        "priming",
+        "no_fabrication",
+        "causal_checks"
+      ]
+    },
+    "all_yes": {
+      "text": "All project claims are supported. The experiments establish clinical safety, equal function and universal transfer across contexts.",
+      "expected_met_ids": []
+    },
+    "all_no": {
+      "text": "Every project claim is false. None of the supplied measurements supports any assay-specific conclusion.",
+      "expected_met_ids": []
+    },
+    "omitted_critical": {
+      "text": "A40:1 totalPBMC:tumor ratio is not the same denominator as1:1 enrichedVdelta1:tumor, so these assays cannot establish perVdelta1 intrinsic potency. Seven-day priming also changes activation history. Keep observations context-specific and do not invent a normalized potency or lysis percentage. Compare purified viableVdelta1 cells with matched activation histories and matched cell inputs, then use selective depletion and add-back with lineage controls to test the causal contribution.",
+      "expected_met_ids": [
+        "denominator",
+        "priming",
+        "no_fabrication",
+        "causal_checks"
+      ],
+      "omitted_criterion": "composition"
+    }
+  }
+}

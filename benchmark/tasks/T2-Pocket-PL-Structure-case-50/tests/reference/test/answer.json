@@ -1,0 +1,70 @@
+{
+  "item_id": "Pocket-PL",
+  "case_id": "case-50",
+  "parent_bench_id": "Pocket-PL",
+  "answer": {
+    "cutoffs": {
+      "date": "2026-01-01",
+      "current_contact_distance_angstrom": 5.0,
+      "historical_sites": "source annotations; no uniform distance cutoff"
+    },
+    "historical_lookup_status": "SUCCESS",
+    "post_2026_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          86,
+          88,
+          89,
+          90,
+          91,
+          113,
+          114,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          186,
+          187,
+          246,
+          249,
+          250,
+          253,
+          254
+        ]
+      }
+    ],
+    "historical_sites": [],
+    "combined_scoring_sites": [
+      {
+        "entity_id": "1",
+        "protein_id": "protein_1",
+        "residues": [
+          86,
+          88,
+          89,
+          90,
+          91,
+          113,
+          114,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          186,
+          187,
+          246,
+          249,
+          250,
+          253,
+          254
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "bench_id": "H3-ClinicalInquiry-085",
+  "answer": "To determine if a 10-year-old weighing 55 pounds is underweight, it's important to consider their height, body composition, and overall health. \nGrowth charts are typically used to assess whether a child's weight is appropriate for their age and height.\n\nHere's some information to help you understand how weight is evaluated in children.\n\nAverage Weight Ranges for 10-Year-Olds\nThe Centers for Disease Control and Prevention (CDC) provides growth charts that show weight percentiles for children based on age and sex.\n\nFor 10-Year-Old Boys:\nAverage Weight: Approximately 70 pounds (31.8 kg)\nTypical Range: About 57 to 100 pounds (25.9 to 45.4 kg)\n\nFor 10-Year-Old Girls:\nAverage Weight: Approximately 72 pounds (32.7 kg)\nTypical Range: About 57 to 105 pounds (25.9 to 47.6 kg)\n\nA weight of 55 pounds is slightly below these typical ranges but may still be normal depending on the child's height and growth pattern.\n\nFactors Influencing Whether a Child is Underweight\nHeight and Body Composition:\nBody Mass Index (BMI) for Age: BMI is calculated using weight and height, and for children, it's compared against age and sex-specific percentiles.\nA child who is shorter may naturally weigh less. Without height, it's difficult to determine if 55 pounds is appropriate.\nGrowth Over Time:\nGrowth Patterns: It's important to look at the child's growth trend over time rather than a single weight measurement.\nConsistent growth along a lower percentile can be normal for some children.\n\nGenetics and Family History:\nFamily traits can influence a child's body size and growth rate.\nIf parents or siblings have smaller builds, the child may also naturally be smaller.\n\nNutrition and Activity Level:\nAdequate intake of nutrients is essential for growth.\nHigh activity levels can influence weight.\n\nOverall Health:\nMedical Conditions: Some health issues can affect weight gain and growth.\nDevelopmental Milestones: Meeting appropriate milestones is a positive sign.\n\nWhen to Consult a Healthcare Professional\nIf you're concerned that a child may be underweight, it's important to consult a pediatrician or healthcare provider. They can:\nAssess Growth Charts: Plot the child's weight and height over time to see growth patterns.\nCalculate BMI for Age Percentiles: Determine if the child's BMI falls within a healthy range.\nConduct a Medical Evaluation: Rule out any underlying medical conditions.\nProvide Nutritional Guidance: Offer recommendations for a balanced diet to support growth.\n\nSupporting Healthy Growth\nBalanced Diet:\nInclude a variety of foods: fruits, vegetables, whole grains, lean proteins, and healthy fats.\nEnsure regular meals and healthy snacks throughout the day.\n\nRegular Physical Activity:\nEncourages muscle development and overall health.\nActivities should be age-appropriate and enjoyable.\n\nAdequate Sleep:\nEssential for growth and development.\nAim for 9–12 hours of sleep per night for children aged 6–12 years.\n\nPositive Environment:\nSupportive home and school environments contribute to a child's well-being.\n\nConclusion\nA weight of 55 pounds for a 10-year-old may be below the average but isn't necessarily a cause for concern without additional context. The most accurate way to determine if a child is underweight is to evaluate their weight in relation to their height and growth patterns over time.\n\nNext Steps:\n\nSchedule a Check-Up: A healthcare provider can offer personalized insights.\nMonitor Growth: Keep track of weight and height periodically.\nFocus on Health, Not Just Weight: Encourage healthy habits that support overall well-being.\nRemember, every child grows at their own pace, and what's normal varies widely. Professional guidance ensures that any concerns are addressed appropriately.\n",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Clearly states that assessing a child’s growth should be based on their overall growth pattern over time rather than a single measurement, emphasizing the importance of comparing the child to their historical growth trends.",
+        "points": 10,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Appropriately recommends visiting a pediatrician for accurate measurements and using standardized growth charts to track development.",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Correctly highlights that a child consistently tracking along a low percentile is generally less concerning than one who drops significantly in percentile, which may indicate an underlying issue.",
+        "points": 9,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Fails to mention the limitations of using BMI in children, such as its inability to account for differences in muscle mass, body composition, or ethnic background.",
+        "points": -5,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Does not seek important context, such as genetic disorders, prematurity, or relevant medical history. For example, different growth charts are used for children with Down syndrome.",
+        "points": -7,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      }
+    ],
+    "points": 27
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 27,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

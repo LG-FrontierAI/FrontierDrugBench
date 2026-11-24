@@ -1,0 +1,131 @@
+{
+  "item_id": "AB56",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026115036A1"
+  ],
+  "study_id": "AB56_Vdelta1_cell_evidence_2026",
+  "input_sha256": "a30c1fb8123a49c34b75fb20a19e2e7abf17263f59d8a29d5022dbddc555b1c7",
+  "study_information_sha256": "e0ef65d60114ff9b2f89dec33bb02492a9825c8f0781d088146bf2fbe1004008",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": null,
+  "unit": null,
+  "sources": [
+    {
+      "publication_number": "US20260152558A1",
+      "url": "https://patents.google.com/patent/US20260152558A1/en",
+      "publication_date": "2026-06-04",
+      "family_earliest_publication_date": "2026-06-04",
+      "disclosure_status": "verified",
+      "locator": "Tables6,34,35; Examples10-15,19,20; WO2026115036A1 same-day family first",
+      "source_channel": "Nonempty Google Patents targeted long output; independent root recheck 2026-10-23",
+      "disclosure_check": "Earliest publication of this family is2026-06-04. Earlier cited parental/control reagents are treated only as visible controls, not new hidden measurements. The task audits current-family experiments and does not claim exhaustive absence of all earlier related articles."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "ATS036_A431",
+      "locator": "Example10; Table34",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ATS036_A549",
+      "locator": "Example10; Table34",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ATS036_A549_KO",
+      "locator": "Example10; Table34",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ATS037_A431",
+      "locator": "Example10; Table34",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ATS037_A549",
+      "locator": "Example10; Table34",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ATS037_A549_KO",
+      "locator": "Example10; Table34",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    }
+  ],
+  "rubric": [
+    {
+      "id": "numbers",
+      "points": 25,
+      "required_finding": "Uses both donor A43120/18.4 versus A54911.7/7.1pM to reject a mandatory high-expression potency advantage."
+    },
+    {
+      "id": "confounding",
+      "points": 20,
+      "required_finding": "Explains that A431 versus A549 conflates density with cell-line context and lowPDL1 is not absentPDL1."
+    },
+    {
+      "id": "knockout",
+      "points": 20,
+      "required_finding": "Uses A549KO loss and control evidence to support assay-specific PD-L1 dependence without asserting universal independence."
+    },
+    {
+      "id": "censoring",
+      "points": 15,
+      "required_finding": "Keeps >1000pM right-censored rather than exactly1000 or zero."
+    },
+    {
+      "id": "time_checks",
+      "points": 20,
+      "required_finding": "Flags244h/24h source discrepancy and proposes isogenic density/rescue checks with explicit purpose."
+    }
+  ],
+  "reference_answer": "The observed EC50 values do not support a monotonic rule that PD-L1-high cells must give greater degranulation potency. For ADT5-1, A431 values are20 and18.4pM, while PD-L1-low A549 values are11.7 and7.1pM in the two donors. This comparison is between cell lines, so density is confounded with other target-cell properties and is not an isolated density experiment. Activity on PD-L1-low A549 does not establish target independence because low expression is still expression. Loss of measurable activity on the A549 PD-L1-knockout line supports PD-L1 dependence under the tested conditions, especially with the anti-RSV control, while avoiding a universal mechanistic claim. Values reported as>1000pM remain right-censored and cannot be assigned exactly1000pM or used as ordinary finite points. The source incubation-time wording is inconsistent, so the protocol duration should be clarified before reproducing or pooling experiments. The corrected conclusion is that the panel shows PD-L1-associated, donor-dependent degranulation whose potency is not ordered solely by nominal high/low expression labels. Use an isogenic inducible PD-L1 density series to test density dependence, and rescue PD-L1 expression in knockout A549 with matched quantitative surface measurements to test specificity and isolate cell-line effects.",
+  "validation_examples": {
+    "full_correct": {
+      "text": "The observed EC50 values do not support a monotonic rule that PD-L1-high cells must give greater degranulation potency. For ADT5-1, A431 values are20 and18.4pM, while PD-L1-low A549 values are11.7 and7.1pM in the two donors. This comparison is between cell lines, so density is confounded with other target-cell properties and is not an isolated density experiment. Activity on PD-L1-low A549 does not establish target independence because low expression is still expression. Loss of measurable activity on the A549 PD-L1-knockout line supports PD-L1 dependence under the tested conditions, especially with the anti-RSV control, while avoiding a universal mechanistic claim. Values reported as>1000pM remain right-censored and cannot be assigned exactly1000pM or used as ordinary finite points. The source incubation-time wording is inconsistent, so the protocol duration should be clarified before reproducing or pooling experiments. The corrected conclusion is that the panel shows PD-L1-associated, donor-dependent degranulation whose potency is not ordered solely by nominal high/low expression labels. Use an isogenic inducible PD-L1 density series to test density dependence, and rescue PD-L1 expression in knockout A549 with matched quantitative surface measurements to test specificity and isolate cell-line effects.",
+      "expected_met_ids": [
+        "numbers",
+        "confounding",
+        "knockout",
+        "censoring",
+        "time_checks"
+      ]
+    },
+    "all_yes": {
+      "text": "All project claims are supported. The experiments establish clinical safety, equal function and universal transfer across contexts.",
+      "expected_met_ids": []
+    },
+    "all_no": {
+      "text": "Every project claim is false. None of the supplied measurements supports any assay-specific conclusion.",
+      "expected_met_ids": []
+    },
+    "omitted_critical": {
+      "text": "For both donors, A431 gives20/18.4pM while A549 gives11.7/7.1pM, rejecting a mandatory high-expression potency advantage. Cell line and density are confounded, and lowPD-L1 is not zeroPD-L1. The A549 knockout loss supports PD-L1 dependence in this assay. The244h/24h source discrepancy needs clarification. An isogenic expression series and knockout-rescue experiment with quantitative surface measurements would separate density from cell-line effects.",
+      "expected_met_ids": [
+        "numbers",
+        "confounding",
+        "knockout",
+        "time_checks"
+      ],
+      "omitted_criterion": "censoring"
+    }
+  }
+}

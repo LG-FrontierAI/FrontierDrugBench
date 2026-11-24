@@ -1,0 +1,40 @@
+{
+  "answer": {
+    "BIN-02": {
+      "M012": "B2",
+      "M015": "B3",
+      "M013": "B1",
+      "M019": "B3",
+      "M014": "B3",
+      "M016": "B2",
+      "M018": "B2",
+      "M017": "B2",
+      "M011": "B3",
+      "M020": "B2"
+    }
+  },
+  "scoring": {
+    "raw_total_points": 10.0,
+    "total_points": 100,
+    "items": {
+      "BIN-02": {
+        "type": "interval",
+        "raw_points": 10,
+        "candidates": [
+          "M011",
+          "M012",
+          "M013",
+          "M014",
+          "M015",
+          "M016",
+          "M017",
+          "M018",
+          "M019",
+          "M020"
+        ],
+        "points": 100.0
+      }
+    },
+    "points_policy": "Source raw_points are relative weights only; awarded points and total_points are on a 100-point scale."
+  }
+}

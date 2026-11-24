@@ -1,0 +1,18 @@
+{
+  "bench_id": "RV1-prism_t2r-PRISM-063",
+  "answer": [
+    "C1",
+    "C4",
+    "C3",
+    "C2"
+  ],
+  "scoring": {
+    "type": "ranking_concordant",
+    "metric": "concordant_pairs",
+    "points": 100
+  },
+  "grading": {
+    "method": "concordant_pairs",
+    "scoring": "concordant01"
+  }
+}

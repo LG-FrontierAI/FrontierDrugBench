@@ -1,0 +1,65 @@
+{
+  "bench_id": "H3-ClinicalInquiry-060",
+  "answer": "It sounds like you're taking good care of your blister. Here are some basic guidelines for small, clean blisters:\n\n1. Don’t pop it if you can avoid it.\nBlisters act as a natural barrier to infection—the fluid inside helps protect and heal the underlying skin.\n\n2. Keep it clean and covered.\nSince you cleaned it and used a bandage, that's perfect. Change the bandage daily or if it gets wet or dirty.\n\n3. Padding helps.\nYou can use a moleskin or blister plaster to cushion the area and prevent further rubbing.\n\n4. Watch for signs of infection:\nIncreased redness, warmth, or swelling\nPus or cloudy fluid\nRed streaks\nIncreasing pain\nIf any of these occur, seek medical attention.\n\n 5. When Draining Might Be Considered\nGenerally best done only if the blister is large, painful, or likely to burst on its own.\nIf that becomes necessary, use a sterile needle and follow strict hygiene, or have a healthcare professional do it.\n\nSummary:\nDon’t pop the blister if possible.\nKeep it clean, dry, and covered.\nMonitor for infection.\n\nIf you have any concerns—especially if you have diabetes, circulation problems, or a compromised immune system—consult a healthcare provider for personalized advice.",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "States that it is preferable to leave a small blister intact or unpopped.",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Recommends applying a non-stick bandage or blister pad to prevent friction, popping, and infection.",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Suggests seeking medical care if signs of infection develop, including redness, swelling, worsening pain, or pus discharge.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "States that draining a blister can be considered if it is large or causing significant pain.",
+        "points": 6,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Seeks unnecessary context by asking for information the user has already provided, including the size of the blister, signs of infection, and whether the blister has already been popped.",
+        "points": -7,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "Should not include detailed instructions on the proper technique of blister drainage.",
+        "points": -5,
+        "tags": [
+          "level:example",
+          "axis:instruction_following"
+        ]
+      }
+    ],
+    "points": 29
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 29,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

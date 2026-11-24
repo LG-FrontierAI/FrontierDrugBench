@@ -1,0 +1,45 @@
+{
+  "bench_id": "BX-RET-FLU-US-HOSP-NY-W42",
+  "answer": [
+    159.0,
+    159.0,
+    159.0,
+    159.0,
+    159.0,
+    159.0,
+    159.0
+  ],
+  "truth": 159.0,
+  "metric": "Relative WIS",
+  "unit": "count",
+  "scoring": {
+    "type": "relative_wis",
+    "metric": "Relative WIS",
+    "direction": "minimize",
+    "quantile_levels": [
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      0.95
+    ],
+    "interval_levels": [
+      0.1,
+      0.2,
+      0.5
+    ],
+    "wis_denominator": 0.9,
+    "reference": {
+      "kind": "uniform",
+      "lower": 0.0,
+      "upper": 5000.0
+    },
+    "reference_wis": 4381.666666666667
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "relative_wis"
+  }
+}

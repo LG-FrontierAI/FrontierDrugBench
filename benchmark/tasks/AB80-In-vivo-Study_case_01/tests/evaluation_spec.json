@@ -1,0 +1,42 @@
+{
+  "item_id": "AB80",
+  "parent_item_id": "AB80",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "15f454807e281714b356dd3b57b67f0f27a4cccdaf11b8b277a4d034954dedc7",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "560923eb9f2cba302e4e7b535623482ae72413738d70526741e48bf6ec724075",
+      "study_information": "TL1A/alpha4beta7 combination colitis-model evidence",
+      "study_information_sha256": "6affcfe765bf0d3fb78f8d9c43d7b19e70a40c7a7f6477cd09c2dc9ac6f4b2b3",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026050466A2"
+  ],
+  "study_id": "TL1A/alpha4beta7 combination colitis-model evidence",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB80",
+  "expanded_bench_id": "AB80-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Handling mortality and model transfer in TL1A/alpha4beta7 studies",
+  "format": "open_rubric"
+}

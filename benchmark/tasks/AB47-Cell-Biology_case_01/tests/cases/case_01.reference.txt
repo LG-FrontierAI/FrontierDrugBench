@@ -1,0 +1,1 @@
+{"candidate_01": 0.401, "candidate_03": 0.363}

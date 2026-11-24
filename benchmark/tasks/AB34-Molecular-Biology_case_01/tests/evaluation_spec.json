@@ -1,0 +1,42 @@
+{
+  "item_id": "AB34",
+  "parent_item_id": "AB34",
+  "category": "Molecular Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "binary",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "ee2a6ff58ea43e3777685d20f8ca8b8fd05403c165d43383cb35dc94a7757311",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "c337a99b34d1b526c166b3f01473bb6aa35d4bc1ddef2b0c0790102e34fb2796",
+      "study_information": "All molecules are the VHH-Fc constructs listed in Table9; sequence1 contains the complete tested fusion chain. Molecular names have been anonymized. The row reference is a measured reference and is not a target. All eight other rows must be predicted. The source dsDNA ELISA coats1ug/mL dsDNA overnight at4C, blocks withPBS+0.5%BSA, applies100nM VHH-Fc atroom temperature for1h, detects anti-humanIgG-HRP and reads450nm. Score is normalized absorbance relative to no-antibody control wells; higher scores indicate stronger nonspecific DNA binding. ",
+      "study_information_sha256": "e7c04b1c31d53a565d31a158835d620c06c5851baba34a9795d1bc7d2545b76b",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.65,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2025217497"
+  ],
+  "study_id": "US20250320285A1_Table12",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB34",
+  "expanded_bench_id": "AB34-Molecular-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting sequence-dependent DNA polyreactivity risk",
+  "format": "structured_json"
+}

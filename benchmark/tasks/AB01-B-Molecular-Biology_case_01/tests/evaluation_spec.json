@@ -1,0 +1,63 @@
+{
+  "item_id": "AB01-B",
+  "title": "Predicting cross-species affinity retention after humanization",
+  "category": "Molecular Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "format": "ranking",
+  "task_type": "ranking",
+  "ranking_metric": "spearman",
+  "higher_is_better": false,
+  "no_contestant_tools": true,
+  "reset_context_each_case": true,
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "5ba8af9cf922b56a3f75188db41ddf5371617cb8aaec7bb510bfded9c6835362",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "478c682886df3b4d42bbb34d9051d1dc446b210b86af401729c546d0d57aabbd",
+      "data_status": "patent_experimental",
+      "known_count": 1,
+      "target_count": 8,
+      "source_group_id": "AB01_FV042793_2026",
+      "study_information": "Each molecule is an anti-IL-2Rbeta VHH in the same one-armed VHH-Fc format. The VHH-Fc molecules were captured on an anti-PGLALA CM3 surface. Recombinant human or cynomolgus IL-2Rbeta-gamma extracellular-domain constructs were injected as analytes in a Biacore T200 assay at 25 C, using PBS-P+ buffer, a top receptor concentration of 150 nM and threefold serial dilutions. Association and dissociation were monitored for 240 s and 600 s, respectively; KD values were reported from a 1:1 Langmuir fit and are in nM. Predict ratios of the reported matched SPR KD values. The source does not provide replicate-level uncertainty for these table entries.",
+      "study_information_sha256": "4e39aa8b2a3833e69414a3421eb4764be9030b46972b7549b8c1494afa7feca3"
+    }
+  ],
+  "case_count": 1,
+  "input_columns": [
+    "name",
+    "format",
+    "sequence1",
+    "human_KD_nM",
+    "cyno_KD_nM"
+  ],
+  "target_definition": "cyno_to_human_KD_ratio",
+  "score_formula": "max(0, Spearman rho)",
+  "score_definition": "max(0, Spearman rho)",
+  "diagnostics": [
+    "raw_spearman"
+  ],
+  "output_format": "One comma-separated line containing every target exactly once, in the requested order; no explanation.",
+  "blocking_requirements": [],
+  "formal_biological_score_available": true,
+  "aggregation": "single_case",
+  "follow_up": null,
+  "target_antigen": "anti-IL-2Rbeta specificity; matched human/cynomolgus IL-2Rbeta-gamma ECD analytes",
+  "parent_item_id": "AB01",
+  "pass_threshold": 0.6,
+  "threshold_version": "v1-20261023",
+  "pass_rule": "unrounded_item_score >= pass_threshold",
+  "passed_evaluation_level": "item",
+  "threshold_comparison": "unrounded_score >= pass_threshold",
+  "expanded_from": "AB01-B",
+  "expanded_bench_id": "AB01-B-Molecular-Biology_case_01",
+  "item_scope": {
+    "case_count": 2,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases",
+    "reference_answer_status": "experimental_truth"
+  }
+}

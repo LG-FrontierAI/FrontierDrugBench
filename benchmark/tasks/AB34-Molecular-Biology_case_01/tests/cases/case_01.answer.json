@@ -1,0 +1,111 @@
+{
+  "item_id": "AB34",
+  "case_id": "case_01",
+  "task_type": "binary",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2025217497"
+  ],
+  "study_id": "US20250320285A1_Table12",
+  "input_sha256": "ee2a6ff58ea43e3777685d20f8ca8b8fd05403c165d43383cb35dc94a7757311",
+  "study_information_sha256": "e7c04b1c31d53a565d31a158835d620c06c5851baba34a9795d1bc7d2545b76b",
+  "target_ids": [
+    "molecule_01",
+    "molecule_07",
+    "molecule_02",
+    "molecule_03",
+    "molecule_08",
+    "molecule_05",
+    "molecule_04",
+    "molecule_06"
+  ],
+  "truth": {
+    "molecule_04": 1,
+    "molecule_06": 0,
+    "molecule_01": 0,
+    "molecule_07": 0,
+    "molecule_08": 1,
+    "molecule_02": 0,
+    "molecule_03": 0,
+    "molecule_05": 1
+  },
+  "higher_is_better": false,
+  "unit": "binary",
+  "sources": [
+    {
+      "publication_number": "US20250320285A1",
+      "url": "https://patents.google.com/patent/US20250320285A1/en",
+      "publication_date": "2025-10-16",
+      "family_earliest_publication_date": "2025-10-16",
+      "disclosure_status": "verified",
+      "locator": "Tables9,11A,11B,12; Example1 Materials/Methods; AlsoPublishedAs; familytable",
+      "source_channel": "Actual nonempty web.run open/find response_length long,2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "reference",
+      "locator": "Table12; VHH 1",
+      "sequence_locator": "Table9 SEQID5",
+      "value": 0,
+      "unit": "binary"
+    },
+    {
+      "name": "molecule_04",
+      "locator": "Table12; VHH 2",
+      "sequence_locator": "Table9 SEQID143",
+      "value": 1,
+      "unit": "binary"
+    },
+    {
+      "name": "molecule_06",
+      "locator": "Table12; VHH 3",
+      "sequence_locator": "Table9 SEQID144",
+      "value": 0,
+      "unit": "binary"
+    },
+    {
+      "name": "molecule_01",
+      "locator": "Table12; VHH 4",
+      "sequence_locator": "Table9 SEQID145",
+      "value": 0,
+      "unit": "binary"
+    },
+    {
+      "name": "molecule_07",
+      "locator": "Table12; VHH 5",
+      "sequence_locator": "Table9 SEQID146",
+      "value": 0,
+      "unit": "binary"
+    },
+    {
+      "name": "molecule_08",
+      "locator": "Table12; VHH 6",
+      "sequence_locator": "Table9 SEQID147",
+      "value": 1,
+      "unit": "binary"
+    },
+    {
+      "name": "molecule_02",
+      "locator": "Table12; VHH 7",
+      "sequence_locator": "Table9 SEQID148",
+      "value": 0,
+      "unit": "binary"
+    },
+    {
+      "name": "molecule_03",
+      "locator": "Table12; VHH 8",
+      "sequence_locator": "Table9 SEQID149",
+      "value": 0,
+      "unit": "binary"
+    },
+    {
+      "name": "molecule_05",
+      "locator": "Table12; VHH 9",
+      "sequence_locator": "Table9 SEQID150",
+      "value": 1,
+      "unit": "binary"
+    }
+  ]
+}

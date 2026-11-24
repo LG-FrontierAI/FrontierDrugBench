@@ -1,0 +1,25 @@
+RUBRIC: H3-ClinicalInquiry-043 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 23
+
+CRITERIA (5):
+
+Criterion 1: Correctly describes in vitro fertilization and all the steps in the procedure, including stimulation of ovulation, collection of eggs/follicles, fertilization of the eggs, incubation of the embryo, implantation of the embryo, stimulation of the endometrium to help with implantation, and monitoring of the pregnancy.
+    Points: 6
+    Tags: level:example, axis:completeness
+
+Criterion 2: Correctly lists the indications for in vitro fertilization, including infertility of unknown etiology, PCOS, anovulatory state, abnormal cervix or fallopian tube, male factor infertility such as low sperm count, and low ovarian reserve/function.
+    Points: 5
+    Tags: level:example, axis:accuracy
+
+Criterion 3: Correctly lists the risks of IVF, including limited success, ovarian hyperstimulation, and the need to freeze embryos.
+    Points: 5
+    Tags: level:example, axis:accuracy
+
+Criterion 4: Correctly advises consulting an IVF specialist if considering IVF to become pregnant, and also considers lifestyle factors and emotional/psychosocial support and evaluation.
+    Points: 7
+    Tags: level:example, axis:completeness
+
+Criterion 5: Uses words that do not exist or misuses existing words. (Justification: Terms that are not real words, or words used in the wrong sense, make a medical answer hard to trust and can mislead the user.)
+    Points: -4
+    Tags: level:example, axis:accuracy

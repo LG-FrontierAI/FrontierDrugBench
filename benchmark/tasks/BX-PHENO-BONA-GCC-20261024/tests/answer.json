@@ -1,0 +1,45 @@
+{
+  "bench_id": "BX-PHENO-BONA-GCC-20261024",
+  "answer": [
+    0.34042,
+    0.34042,
+    0.34042,
+    0.34042,
+    0.34042,
+    0.34042,
+    0.34042
+  ],
+  "truth": 0.34042,
+  "metric": "Relative WIS",
+  "unit": "",
+  "scoring": {
+    "type": "relative_wis",
+    "metric": "Relative WIS",
+    "direction": "minimize",
+    "quantile_levels": [
+      0.05,
+      0.1,
+      0.25,
+      0.5,
+      0.75,
+      0.9,
+      0.95
+    ],
+    "interval_levels": [
+      0.1,
+      0.2,
+      0.5
+    ],
+    "wis_denominator": 3.5,
+    "reference": {
+      "kind": "uniform",
+      "lower": 0.0,
+      "upper": 1.0
+    },
+    "reference_wis": 0.09422571428571429
+  },
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "relative_wis"
+  }
+}

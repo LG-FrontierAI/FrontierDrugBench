@@ -1,0 +1,30 @@
+RUBRIC: AB74 - Interpreting BBB parenchymal antibody signal
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: endpoint
+    Points: 20
+    Description: Identify the assay-qualified brain-fraction endpoint without equating it to intact active cargo.
+    Source: Examples1/2
+
+Criterion 2: observation
+    Points: 20
+    Description: Preserve approximate10–20fold/10% and equimolar paired-valency observations without inventing exact candidate values.
+    Source: Figures4/7
+
+Criterion 3: partition
+    Points: 20
+    Description: Reject Kp,uu or free-brain claims without unbound/interstitial measurements.
+    Source: Example2
+
+Criterion 4: receptor
+    Points: 15
+    Description: Separate non-depletedTfR westernblot from mechanism and safety claims.
+    Source: Figure6
+
+Criterion 5: checks
+    Points: 25
+    Description: Propose fraction purity/recovery plus intact/free-exposure checks and explain resolutions.
+    Source: Examples1–3

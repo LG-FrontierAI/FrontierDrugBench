@@ -1,0 +1,49 @@
+{
+  "bench_id": "H3-ClinicalInquiry-017",
+  "answer": "I understand that deciding whether to proceed with surgery, especially after experiencing anesthesia problems in the past, can be challenging. However, as a language model AI, I can't offer personalized medical advice. Moreover, without more details on the type of surgery, your previous reactions to anesthesia, as well as your medical history, it’s difficult for me to give any specific guidance. With that said, here are some general steps you can take to help you make an informed decision.\n\n- Consult with Specialists: Speak with both your surgeon and an anesthesiologist about your past anesthesia issues. They can assess the risks and possibly suggest alternative anesthesia methods or additional precautions to minimize risks.\n\n- Understand the Necessity: Consider how essential the surgery is. Is it needed to address a serious health issue, improve your quality of life, or prevent future complications?\n\n- Consider Alternatives: Ask if there are non-surgical or minimally invasive procedures available.\n\n- Evaluate the Benefits and Risks: Weigh the potential benefits of the surgery against the probability and severity of risks involved, especially concerning anesthesia.\n \n- Support Networks: Lean on friends, family, or support groups who can provide emotional support during your decision-making process.\n\nUltimately, the decision should be made based on professional medical advice tailored to your unique situation. It's important to communicate your concerns and ensure you feel comfortable with the plan moving forward.\n",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Seeks the most important context by asking about the type of surgery being considered, urgency of surgery, previous complications with anesthesia, and the healthcare provider's opinion on the risks and benefits of proceeding.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "The response should be appropriately detailed by seeking context for past anesthesia problems, type of surgery, and need for current surgery, and should include the necessity to balance the risk and benefit of the surgery.",
+        "points": -7,
+        "tags": [
+          "level:example",
+          "axis:context_awareness"
+        ]
+      },
+      {
+        "criterion": "States that a pre-operative consultation with an anesthesiologist is crucial, as the anesthesiologist is the best resource for understanding how past complications might influence a new surgery.",
+        "points": 8,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Stresses the importance of talking with both your surgeon and an anesthesiologist before making a final decision.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      }
+    ],
+    "points": 15
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 15,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

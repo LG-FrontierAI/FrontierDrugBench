@@ -1,0 +1,18 @@
+{
+  "item_id": "AB64",
+  "case_id": "case_01",
+  "parent_bench_id": "AB64",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": [
+    "PAL054_0170_1L",
+    "PAL054_0171_1L",
+    "PAL054_0168_1L",
+    "PAL054_0157_1L",
+    "PAL054_0169_1L",
+    "PAL054_0167_1L"
+  ]
+}

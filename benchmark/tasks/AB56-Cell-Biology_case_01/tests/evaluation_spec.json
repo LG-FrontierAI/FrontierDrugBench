@@ -1,0 +1,42 @@
+{
+  "item_id": "AB56",
+  "parent_item_id": "AB56",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "a30c1fb8123a49c34b75fb20a19e2e7abf17263f59d8a29d5022dbddc555b1c7",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "47771c5866ab091439e4bc6ac742fa3ccebc747b578a6cdd6d042447714be591",
+      "study_information": "Example10 uses primary skin-derived Vδ1 γδT cells from two donors at1:1 E:T with A431 PD-L1-high, A549 PD-L1-low and A549 PD-L1-knockout cells. Table34 reports CD107a degranulationEC50 in pM. Source methods contain inconsistent244h versus24h wording; this benchmark preserves that discrepancy as unresolved. >1000pM is a right-censored result, not a measured finiteEC50.",
+      "study_information_sha256": "e0ef65d60114ff9b2f89dec33bb02492a9825c8f0781d088146bf2fbe1004008",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026115036A1"
+  ],
+  "study_id": "AB56_Vdelta1_cell_evidence_2026",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB56",
+  "expanded_bench_id": "AB56-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Separating antigen density from target-cell context",
+  "format": "open_rubric"
+}

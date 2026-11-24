@@ -1,0 +1,30 @@
+RUBRIC: AB75 - Translating ActRII antibody PK across species and routes
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: design
+    Points: 20
+    Description: Preserve species,n2andactual30mg/kgcynoIVor12mg/kgminipigIV/SCdose.
+    Source: Example18
+
+Criterion 2: F
+    Points: 20
+    Description: Distinguish bioavailability from half-life and use dose-normalizedAUC.
+    Source: Table18
+
+Criterion 3: supported
+    Points: 20
+    Description: Preserve minipig93vs45% andcynomolgusCL.16vs.467mL/h/kg observations;do notinventhalf-lives.
+    Source: Table18
+
+Criterion 4: transfer
+    Points: 20
+    Description: Identify species/dose/absorption uncertainty without assuming a mechanism.
+    Source: Table18
+
+Criterion 5: checks
+    Points: 20
+    Description: Propose larger matched route/dose and analyte/ADA or absorption checks.
+    Source: Example18

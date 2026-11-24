@@ -1,0 +1,17 @@
+{
+  "bench_id": "D-ENV-021",
+  "answer": [
+    "HCCS",
+    "MRPL40",
+    "C12orf10"
+  ],
+  "scoring": {
+    "type": "ranking_concordant",
+    "metric": "concordant_pairs",
+    "points": 100
+  },
+  "grading": {
+    "method": "concordant_pairs",
+    "scoring": "concordant01"
+  }
+}

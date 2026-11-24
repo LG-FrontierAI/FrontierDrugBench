@@ -1,0 +1,17 @@
+{
+  "bench_id": "D-L2-10",
+  "answer": [
+    "ATP6V1B2",
+    "COQ6",
+    "GPX4"
+  ],
+  "scoring": {
+    "type": "ranking_concordant",
+    "metric": "concordant_pairs",
+    "points": 100
+  },
+  "grading": {
+    "method": "concordant_pairs",
+    "scoring": "concordant01"
+  }
+}

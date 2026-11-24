@@ -1,0 +1,42 @@
+{
+  "item_id": "AB51",
+  "parent_item_id": "AB51",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "a19ce4eb5b8e5986c509b44ff6f3423f37d12486e8bc5b2831abfeaf1ce19cde",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "819fbcc2133038037b19cab5e80059cadf42a62f1bcf5175e6e454f91d2994a2",
+      "study_information": "BW5147.G.1.4 cells coexpress humanTREM2 and an NFAT-luciferase reporter. Cells receive serial antibodydilutions, incubate4h, and luminescence is measured after substrateaddition. This engineered reporter assay is distinct from HEK293T cell binding. The inconsistent03O05 functional-unit record is excluded rather than silently corrected.",
+      "study_information_sha256": "2f7810749328dcd90a015ed76dfcdfd72b7e29b43ba3f7325162340c6cbb856a",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026006698A1"
+  ],
+  "study_id": "US20260001952A1_AB51",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB51",
+  "expanded_bench_id": "AB51-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Predicting agonist potency beyond TREM2 cell binding",
+  "format": "regression"
+}

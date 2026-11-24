@@ -1,0 +1,77 @@
+{
+  "item_id": "AB50",
+  "case_id": "case_01",
+  "task_type": "numeric",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026006698A1"
+  ],
+  "study_id": "US20260001952A1_AB50",
+  "input_sha256": "4ae23463b5b6e27267ae73c129a53dae99b23e5aa606e2cb6039b58bd893608e",
+  "study_information_sha256": "ee49dca6b6afb0f04568461d8d0f34ff148811bb79f5e3175480389c3f574dbf",
+  "target_ids": [
+    "molecule_05",
+    "molecule_04",
+    "molecule_01",
+    "molecule_02",
+    "molecule_03"
+  ],
+  "truth": {
+    "molecule_04": 6.6,
+    "molecule_02": 1.3,
+    "molecule_01": 2.3,
+    "molecule_05": 0.8,
+    "molecule_03": 2.6
+  },
+  "higher_is_better": false,
+  "unit": "ug/mL",
+  "sources": [
+    {
+      "publication_number": "US20260001952A1",
+      "url": "https://patents.google.com/patent/US20260001952A1/en",
+      "publication_date": "2026-01-01",
+      "family_earliest_publication_date": "2026-01-01",
+      "disclosure_status": "verified",
+      "locator": "Table1,Table2; Examples3,4,6,7; Figures3,4,7A-C",
+      "source_channel": "Actual nonempty web.run source1267lines; open625-700and755-775,2026-10-23"
+    }
+  ],
+  "evidence": [
+    {
+      "name": "molecule_04",
+      "locator": "Table2 mouseEC50;antibody03O05",
+      "sequence_locator": "Table1;antibody03O05",
+      "value": 6.6,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "molecule_02",
+      "locator": "Table2 mouseEC50;antibody04H08",
+      "sequence_locator": "Table1;antibody04H08",
+      "value": 1.3,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "molecule_01",
+      "locator": "Table2 mouseEC50;antibody05O07",
+      "sequence_locator": "Table1;antibody05O07",
+      "value": 2.3,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "molecule_05",
+      "locator": "Table2 mouseEC50;antibody08B23",
+      "sequence_locator": "Table1;antibody08B23",
+      "value": 0.8,
+      "unit": "ug/mL"
+    },
+    {
+      "name": "molecule_03",
+      "locator": "Table2 mouseEC50;antibody14J17",
+      "sequence_locator": "Table1;antibody14J17",
+      "value": 2.6,
+      "unit": "ug/mL"
+    }
+  ]
+}

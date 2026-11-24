@@ -1,0 +1,5 @@
+name,format,human_monomer_SPR_KD_nM,human_trimer_SPR_KD_nM,TL1A_cell_binding_EC50_nM,TL1A_cell_binding_top_MFI,membrane_TL1A_NFkB_EC50_nM
+candidate_01,IgG,14.7,0.657,1.81,55419,
+candidate_02,IgG,,0.221,1.02,49017,0.393
+candidate_03,IgG,0.602,0.199,0.41,56310,
+candidate_04,IgG,0.0547,0.216,24.95,40329,2.45

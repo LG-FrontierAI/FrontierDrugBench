@@ -1,0 +1,222 @@
+{
+  "answer": {
+    "Q01": "L",
+    "Q02": "M",
+    "Q03": "M",
+    "Q04": "M",
+    "Q05": "H",
+    "Q06": "M",
+    "Q07": "L",
+    "Q08": "L",
+    "Q09": "M",
+    "Q10": "L",
+    "Q11": "H",
+    "Q12": "B",
+    "Q13": "B",
+    "Q14": "C",
+    "Q15": "M018"
+  },
+  "scoring": {
+    "total_points": 100,
+    "items": {
+      "Q01": {
+        "type": "single_choice",
+        "points": 5,
+        "options": [
+          "L",
+          "M",
+          "H"
+        ],
+        "molecule_ids": [
+          "M001"
+        ]
+      },
+      "Q02": {
+        "type": "single_choice",
+        "points": 5,
+        "options": [
+          "L",
+          "M",
+          "H"
+        ],
+        "molecule_ids": [
+          "M002"
+        ]
+      },
+      "Q03": {
+        "type": "single_choice",
+        "points": 5,
+        "options": [
+          "L",
+          "M",
+          "H"
+        ],
+        "molecule_ids": [
+          "M003"
+        ]
+      },
+      "Q04": {
+        "type": "single_choice",
+        "points": 5,
+        "options": [
+          "L",
+          "M",
+          "H"
+        ],
+        "molecule_ids": [
+          "M004"
+        ]
+      },
+      "Q05": {
+        "type": "single_choice",
+        "points": 5,
+        "options": [
+          "L",
+          "M",
+          "H"
+        ],
+        "molecule_ids": [
+          "M005"
+        ]
+      },
+      "Q06": {
+        "type": "single_choice",
+        "points": 5,
+        "options": [
+          "L",
+          "M",
+          "H"
+        ],
+        "molecule_ids": [
+          "M006"
+        ]
+      },
+      "Q07": {
+        "type": "single_choice",
+        "points": 5,
+        "options": [
+          "L",
+          "M",
+          "H"
+        ],
+        "molecule_ids": [
+          "M007"
+        ]
+      },
+      "Q08": {
+        "type": "single_choice",
+        "points": 5,
+        "options": [
+          "L",
+          "M",
+          "H"
+        ],
+        "molecule_ids": [
+          "M008"
+        ]
+      },
+      "Q09": {
+        "type": "single_choice",
+        "points": 5,
+        "options": [
+          "L",
+          "M",
+          "H"
+        ],
+        "molecule_ids": [
+          "M009"
+        ]
+      },
+      "Q10": {
+        "type": "single_choice",
+        "points": 5,
+        "options": [
+          "L",
+          "M",
+          "H"
+        ],
+        "molecule_ids": [
+          "M010"
+        ]
+      },
+      "Q11": {
+        "type": "single_choice",
+        "points": 5,
+        "options": [
+          "L",
+          "M",
+          "H"
+        ],
+        "molecule_ids": [
+          "M011"
+        ]
+      },
+      "Q12": {
+        "type": "single_choice",
+        "points": 10,
+        "options": [
+          "A",
+          "B",
+          "C"
+        ],
+        "molecule_ids": [
+          "M012",
+          "M013"
+        ],
+        "left_molecule_id": "M012",
+        "right_molecule_id": "M013"
+      },
+      "Q13": {
+        "type": "single_choice",
+        "points": 10,
+        "options": [
+          "A",
+          "B",
+          "C"
+        ],
+        "molecule_ids": [
+          "M014",
+          "M015"
+        ],
+        "left_molecule_id": "M014",
+        "right_molecule_id": "M015"
+      },
+      "Q14": {
+        "type": "single_choice",
+        "points": 10,
+        "options": [
+          "A",
+          "B",
+          "C"
+        ],
+        "molecule_ids": [
+          "M016",
+          "M017"
+        ],
+        "left_molecule_id": "M016",
+        "right_molecule_id": "M017"
+      },
+      "Q15": {
+        "type": "single_choice",
+        "points": 15,
+        "options": [
+          "M018",
+          "M019",
+          "M020"
+        ],
+        "molecule_ids": [
+          "M018",
+          "M019",
+          "M020"
+        ]
+      }
+    },
+    "analogue_comparison_rule": {
+      "quantity": "R_left / R_right",
+      "A": "> 3",
+      "B": "[1/3, 3]",
+      "C": "< 1/3",
+      "similarity_fold_threshold": 3.0
+    }
+  }
+}

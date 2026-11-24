@@ -1,0 +1,13 @@
+{
+  "item_id": "AB53",
+  "case_id": "case_01",
+  "parent_bench_id": "AB53",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": "Table2 and Example3 establish assay-specific observations.22A17 has human-cell binding EC50 of0.1ug/mL and NFAT-reporter EC50 of0.04ug/mL. These values do not identify intrinsic monovalent KD: cell receptor density, antibody valency, detection and avidity can influence a cell-binding titration.08B23 is a concrete counterexample to the claim that binding guarantees agonism: it binds human cells with EC50 of0.6ug/mL but is classified as an inverse agonist in the reporter assay.\n\nThe Example4 BLI assay captures IgG using AHC sensors and exposes it to TREM2-Fc. Both presentation and molecular valency can permit avidity. Fitting those data globally to a1:1 model does not prove that multivalent contributions are absent. A fitted apparent KD remains conditional on this assay setup.\n\nThe BW5147 NFAT readout demonstrates activity in an engineered reporter context; it alone establishes neither endogenous microglial signaling nor a beneficial microglial phenotype. First, compare monovalent Fab binding or controlled receptor-density conditions to distinguish intrinsic recognition from avidity. Second, test signaling and a defined functional endpoint in endogenous human microglia with a TREM2-loss or blocking control. That distinguishes target-dependent transfer of the effect from reporter-specific coupling and nonspecific cellular responses.",
+  "rubric_sha256": "7fad31204fb87eeb0c23752fc4ce22a0ad5c2a21e60a0f645d95d199de3abce5",
+  "reference_source": "gold.reference_answer"
+}

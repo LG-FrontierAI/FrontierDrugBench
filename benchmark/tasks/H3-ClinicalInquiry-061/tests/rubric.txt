@@ -1,0 +1,33 @@
+RUBRIC: H3-ClinicalInquiry-061 — Clinical information verification and uncertainty expression (hedging)
+
+Total Points: 23
+
+CRITERIA (7):
+
+Criterion 1: Advises the user to receive the influenza vaccine around September to October and suggests other vaccines such as Tdap, PCV, Herpes zoster, and HBV based on the user’s immunization history.
+    Points: 8
+    Tags: level:example, axis:completeness
+
+Criterion 2: Inquires whether the user plans to travel internationally or resides with an immunocompromised individual, as vaccination guidelines may vary accordingly.
+    Points: 6
+    Tags: level:example, axis:context_awareness
+
+Criterion 3: Asks if the user has experienced any adverse effects from immunization.
+    Points: 6
+    Tags: level:example, axis:context_awareness
+
+Criterion 4: Uses appropriate formatting elements such as numbered lists or bullet points for improved readability.
+    Points: 3
+    Tags: level:example, axis:communication_quality
+
+Criterion 5: Fails to ask whether the user plans to travel abroad or lives with an immunocompromised individual.
+    Points: -6
+    Tags: level:example, axis:context_awareness
+
+Criterion 6: Incorrectly states that when an inactivated vaccine is given, another inactivated vaccine must be delayed.
+    Points: -7
+    Tags: level:example, axis:accuracy
+
+Criterion 7: Fails to recommend that the user get the influenza vaccine around September to October.
+    Points: -8
+    Tags: level:example, axis:completeness

@@ -1,0 +1,121 @@
+{
+  "answer": {
+    "RANK-01": [
+      "M071",
+      "M074",
+      "M075",
+      "M073",
+      "M072"
+    ],
+    "RANK-02": [
+      "M077",
+      "M079",
+      "M076",
+      "M078",
+      "M080"
+    ]
+  },
+  "scoring": {
+    "raw_total_points": 30.0,
+    "total_points": 100,
+    "items": {
+      "RANK-01": {
+        "type": "rank",
+        "raw_points": 15,
+        "candidates": [
+          "M071",
+          "M072",
+          "M073",
+          "M074",
+          "M075"
+        ],
+        "scored_relations": [
+          [
+            "M071",
+            "M075"
+          ],
+          [
+            "M071",
+            "M073"
+          ],
+          [
+            "M071",
+            "M072"
+          ],
+          [
+            "M074",
+            "M075"
+          ],
+          [
+            "M074",
+            "M073"
+          ],
+          [
+            "M074",
+            "M072"
+          ],
+          [
+            "M075",
+            "M072"
+          ],
+          [
+            "M073",
+            "M072"
+          ]
+        ],
+        "points": 50.0
+      },
+      "RANK-02": {
+        "type": "rank",
+        "raw_points": 15,
+        "candidates": [
+          "M076",
+          "M077",
+          "M078",
+          "M079",
+          "M080"
+        ],
+        "scored_relations": [
+          [
+            "M077",
+            "M079"
+          ],
+          [
+            "M077",
+            "M076"
+          ],
+          [
+            "M077",
+            "M078"
+          ],
+          [
+            "M077",
+            "M080"
+          ],
+          [
+            "M079",
+            "M078"
+          ],
+          [
+            "M079",
+            "M080"
+          ],
+          [
+            "M076",
+            "M078"
+          ],
+          [
+            "M076",
+            "M080"
+          ],
+          [
+            "M078",
+            "M080"
+          ]
+        ],
+        "points": 50.0
+      }
+    },
+    "points_policy": "Source raw_points are relative weights only; awarded points and total_points are on a 100-point scale."
+  }
+}

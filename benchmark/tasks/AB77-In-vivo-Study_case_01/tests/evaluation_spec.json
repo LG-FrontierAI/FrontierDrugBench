@@ -1,0 +1,42 @@
+{
+  "item_id": "AB77",
+  "parent_item_id": "AB77",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "d74b7b24dd99024c3a76304442891f41b79cb93285a2e3a8c1dae4a4a6baa491",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "b7de439e2e11b289126deed12c901c875e177c30a799c4313d27b26201e26c34",
+      "study_information": "HER2 nanobody monomer/trimer charge-engineering PK",
+      "study_information_sha256": "74f78e7ca27532b733656e1629c02850b36ef6994c86c8ab7030f95b1ca9ef2e",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026076123A2"
+  ],
+  "study_id": "HER2 nanobody monomer/trimer charge-engineering PK",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB77",
+  "expanded_bench_id": "AB77-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Separating charge and multimerization effects on HER2 nanobody persistence",
+  "format": "open_rubric"
+}

@@ -1,0 +1,13 @@
+{
+  "item_id": "AB78",
+  "case_id": "case_01",
+  "parent_bench_id": "AB78",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": "The dataset reports separate PBS-soluble brain, RIPA-extracted brain and CSF measurements. Brain fractions are in pg/mg wet tissue, whereas CSF is in pg/mL. The extraction fractions have different operational meanings and cannot be treated as interchangeable free concentrations. Sampling schedules also differ among sandwich1, sandwich2 and kappa3, so similarly ordered rows are not automatically time-matched.\n\nAt 48 hours, kappa3 had PBS signal 0.11 pg/mg and RIPA signal 1.87 pg/mg, while its CSF value was below LLOQ. That censored observation is not zero and must not be assigned an invented precise value. PTV11 is an older literature reference, not a newly disclosed candidate. These limitations do not invalidate the quantified observations; they qualify the comparisons that can be made.\n\nHowever, immunoassay concentrations alone do not establish intact active protein, unbound brain partitioning or Kp,uu. First, assess fraction purity, extraction recovery and matrix-specific assay performance to identify carryover and recovery bias. Second, collect matched tissue and CSF time points with orthogonal intact-analyte and, where possible, free-exposure measurements. Those checks distinguish genuine compartment retention from extraction or assay effects.",
+  "rubric_sha256": "2754d07f02dba53af924ebc2623ba3f9e707955e6518617e7c3fbc3fce7f4cc3",
+  "reference_source": "gold.reference_answer"
+}

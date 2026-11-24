@@ -1,0 +1,17 @@
+{
+  "bench_id": "D-ENV-026",
+  "answer": [
+    "HIGD2A",
+    "MCAT"
+  ],
+  "scoring": {
+    "type": "top_k_overlap",
+    "metric": "top_k_overlap",
+    "k": 2,
+    "points": 100
+  },
+  "grading": {
+    "method": "top_k_overlap",
+    "scoring": "overlap01"
+  }
+}

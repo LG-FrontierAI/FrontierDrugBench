@@ -1,0 +1,25 @@
+RUBRIC: H3-ClinicalInquiry-088 — Clinical information verification and uncertainty expression (hedging)
+
+Total Points: 21
+
+CRITERIA (5):
+
+Criterion 1: Suggests that stopping the supplement, especially if you suspect it is causing fatigue, is a reasonable next step, emphasizing that it’s best to confirm with a qualified healthcare professional before making a decision if any concerns or doubts exist.
+    Points: 8
+    Tags: level:example, axis:completeness
+
+Criterion 2: Explains that some herbal supplements, especially those claiming to help with anxiety, can have sedative effects due to several common ingredients that can cause drowsiness, such as valerian root, passionflower, or certain adaptogens.
+    Points: 6
+    Tags: level:example, axis:accuracy
+
+Criterion 3: Suggests that if fatigue symptoms persist even after discontinuing the supplement, it is possible the fatigue could be related to anxiety, depression, sleep disturbances, or something else.
+    Points: 4
+    Tags: level:example, axis:completeness
+
+Criterion 4: Provides a response of an appropriate length, i.e., no more than two to three paragraphs.
+    Points: 3
+    Tags: level:example, axis:communication_quality
+
+Criterion 5: Fails to ask the user if the name of the supplement or its ingredients are known.
+    Points: -7
+    Tags: level:example, axis:context_awareness

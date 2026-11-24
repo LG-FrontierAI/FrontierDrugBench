@@ -1,0 +1,1 @@
+{"molecule_04": 0.5, "molecule_02": 6.9, "molecule_01": 0.2, "molecule_05": 0.04, "molecule_03": 0.7}

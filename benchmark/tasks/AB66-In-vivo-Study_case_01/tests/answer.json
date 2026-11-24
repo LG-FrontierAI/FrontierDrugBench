@@ -1,0 +1,21 @@
+{
+  "item_id": "AB66",
+  "case_id": "case_01",
+  "parent_bench_id": "AB66",
+  "data_status": "patent_experimental",
+  "grading": {
+    "method": "task_scorer",
+    "scoring": "single_case"
+  },
+  "answer": {
+    "sandwich1_h24": 134.69,
+    "sandwich2_h24": 1346.26,
+    "kappa3_h24": 76.3
+  },
+  "unit": "pg/mL",
+  "target_ids": [
+    "sandwich1_h24",
+    "sandwich2_h24",
+    "kappa3_h24"
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "item_id": "AB76",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026128421A2"
+  ],
+  "study_id": "ABS-201 singleIV100or300mg/kg cynomolgus cohorts",
+  "input_sha256": "4805e3b7e37d7d7224283d7639e5d96affb0bec440bf290205c23a421050f77b",
+  "study_information_sha256": "4fee3d68c352def058f458bf1946752769dc7da9f54c0dc422ac149a47cf4812",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": true,
+  "unit": "rubric_score",
+  "sources": [
+    {
+      "publication_number": "WO2026128421A2",
+      "url": "https://patents.google.com/patent/WO2026128421A2/en",
+      "publication_date": "2026-06-18",
+      "family_earliest_publication_date": "2026-06-18",
+      "disclosure_status": "verified",
+      "locator": "US20260226182A1 Tables20/21",
+      "source_channel": "web.run primaryHTML explicitresponse_length long, retrieved2026-10-23"
+    }
+  ],
+  "evidence": [],
+  "rubric": [
+    {
+      "id": "design",
+      "points": 15,
+      "requirement": "Preserve route,doses,N4 andsex composition.",
+      "required_finding": "Preserve route,doses,N4 andsex composition.",
+      "source_locator": "Table20"
+    },
+    {
+      "id": "ratio",
+      "points": 20,
+      "requirement": "Distinguish3.62foldAUCinf fromapproximately3.04foldAUC0–336 at3folddose.",
+      "required_finding": "Distinguish3.62foldAUCinf fromapproximately3.04foldAUC0–336 at3folddose.",
+      "source_locator": "Table20"
+    },
+    {
+      "id": "extrapolation",
+      "points": 25,
+      "requirement": "Notice large extrapolated contribution and avoid inferringmechanism fromAUC alone.",
+      "required_finding": "Notice large extrapolated contribution and avoid inferringmechanism fromAUC alone.",
+      "source_locator": "Table20"
+    },
+    {
+      "id": "mapping",
+      "points": 15,
+      "requirement": "Do not silently equate ABS-201/AB001 without construct mapping.",
+      "required_finding": "Do not silently equate ABS-201/AB001 without construct mapping.",
+      "source_locator": "Tables20/22"
+    },
+    {
+      "id": "checks",
+      "points": 25,
+      "requirement": "Propose terminal sampling plus ADA/assay/additional-dose checks with interpretation.",
+      "required_finding": "Propose terminal sampling plus ADA/assay/additional-dose checks with interpretation.",
+      "source_locator": "Examples6/7"
+    }
+  ],
+  "reference_answer": "The ABS-201 study used a single IV dose of 100 or 300 mg/kg in cynomolgus monkeys, with four animals per cohort, two male and two female. AUCinf rose from 426,000 to 1,540,000 h·µg/mL: approximately 3.62-fold for a threefold dose. Reported clearance decreased from 0.235 to 0.195 mL/h/kg. In contrast, AUC0–336 rose from 206,000 to 626,000 h·µg/mL, approximately 3.04-fold. The finite-window observations are therefore much closer to dose proportionality than the extrapolated totals.\n\nHowever, extrapolation contributes substantially to both AUCinf estimates. A modest apparent change in total exposure does not establish target saturation or another specific mechanism. Small cohorts, sex effects, terminal-slope uncertainty, assay behavior and immunogenicity remain alternatives. The source uses ABS-201 in this table and AB001 elsewhere; identities must be mapped explicitly rather than silently merged. These data also do not establish tissue exposure or a clinical dosing rule.\n\nFirst, extend or verify terminal sampling and fit quality to assess the extrapolated AUC contribution. Second, add intermediate doses and inspect individual profiles with ADA and assay controls. These checks distinguish reproducible nonlinear disposition from cohort or analysis effects.",
+  "rubric_contrast_checks": {
+    "full_correct": {
+      "answer": "The ABS-201 study used a single IV dose of 100 or 300 mg/kg in cynomolgus monkeys, with four animals per cohort, two male and two female. AUCinf rose from 426,000 to 1,540,000 h·µg/mL: approximately 3.62-fold for a threefold dose. Reported clearance decreased from 0.235 to 0.195 mL/h/kg. In contrast, AUC0–336 rose from 206,000 to 626,000 h·µg/mL, approximately 3.04-fold. The finite-window observations are therefore much closer to dose proportionality than the extrapolated totals.\n\nHowever, extrapolation contributes substantially to both AUCinf estimates. A modest apparent change in total exposure does not establish target saturation or another specific mechanism. Small cohorts, sex effects, terminal-slope uncertainty, assay behavior and immunogenicity remain alternatives. The source uses ABS-201 in this table and AB001 elsewhere; identities must be mapped explicitly rather than silently merged. These data also do not establish tissue exposure or a clinical dosing rule.\n\nFirst, extend or verify terminal sampling and fit quality to assess the extrapolated AUC contribution. Second, add intermediate doses and inspect individual profiles with ADA and assay controls. These checks distinguish reproducible nonlinear disposition from cohort or analysis effects.",
+      "expected_score": 1.0,
+      "basis": "All criterion findings are explicitly present.",
+      "expected_points": 100
+    },
+    "all_yes": {
+      "answer": "Every proposed claim is supported; the study proves the mechanism and broad translation.",
+      "expected_score": 0.0,
+      "basis": "Unsupported blanket acceptance omits all required specific findings.",
+      "expected_points": 0
+    },
+    "all_no": {
+      "answer": "Nothing in the experiment is useful or supported. All results should be rejected.",
+      "expected_score": 0.0,
+      "basis": "Blanket dismissal omits supported observations and required specific findings.",
+      "expected_points": 0
+    },
+    "omitted_critical": {
+      "answer": "The ABS-201 study used a single IV dose of 100 or 300 mg/kg in cynomolgus monkeys, with four animals per cohort, two male and two female. AUCinf rose from 426,000 to 1,540,000 h·µg/mL: approximately 3.62-fold for a threefold dose. Reported clearance decreased from 0.235 to 0.195 mL/h/kg. In contrast, AUC0–336 rose from 206,000 to 626,000 h·µg/mL, approximately 3.04-fold. The finite-window observations are therefore much closer to dose proportionality than the extrapolated totals.",
+      "expected_score_upper_bound": 0.6,
+      "basis": "Missing central limitation and proposed checks cannot receive points for those criteria.",
+      "expected_points_upper_bound": 60
+    }
+  }
+}

@@ -1,0 +1,33 @@
+RUBRIC: H3-ClinicalInquiry-067 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 23
+
+CRITERIA (7):
+
+Criterion 1: Seeks the most informative context by asking whether the user has fever, chills, local erythema, swelling, discharge, or pain. If any of these symptoms are present, suggests the user seek prompt medical evaluation as soon as possible; otherwise, an appointment with a doctor should be arranged.
+    Points: 9
+    Tags: level:example, axis:context_awareness
+
+Criterion 2: Suggests that the user pop the blister on their feet themselves. (Justification: Blisters are the body's natural way of protecting the skin, and popping them can increase the risk of infection and delay healing.)
+    Points: -10
+    Tags: level:example, axis:accuracy
+
+Criterion 3: Reminds the user to pay attention to the protection of the blister, as diabetic neuropathy may cause numbness, making it difficult to sense pain and potentially leaving the affected area unprotected.
+    Points: 3
+    Tags: level:example, axis:completeness
+
+Criterion 4: Recommends undergoing an evaluation for diabetic foot and screening for peripheral arterial disease.
+    Points: 3
+    Tags: level:example, axis:completeness
+
+Criterion 5: Provides tips on general foot self-care: wash your feet daily with soap and warm water, pat them dry (especially between the toes), and apply lotion to the tops and bottoms while avoiding the areas between the toes. Check your feet daily for cuts, blisters, redness, swelling, or ulcers, using a mirror if necessary. Trim toenails straight across to prevent complications. Avoid walking barefoot, wear well-fitting shoes, and avoid footwear that exposes any part of the foot.
+    Points: 2
+    Tags: level:example, axis:completeness
+
+Criterion 6: Suggests smoking cessation for smokers to improve overall health and enhance recovery. (Justification: Smoking impairs circulation and delays wound healing, significantly increasing the risk of complications, especially in conditions like diabetes or peripheral arterial disease.)
+    Points: 3
+    Tags: level:example, axis:completeness
+
+Criterion 7: Reminds the user of the importance of glucose control, as maintaining optimal blood sugar levels helps prevent complications, supports wound healing, and reduces the risk of long-term damage to organs and blood vessels.
+    Points: 3
+    Tags: level:example, axis:completeness

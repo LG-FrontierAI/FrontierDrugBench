@@ -1,0 +1,43 @@
+RUBRIC: SM-053-In-vivo-Study-PKPD-ADMET — Unbound Exposure Assessment and Lead Advancement Decision
+
+Total Points: 100/100
+
+Notes: Questions 1 and 2 are each worth 50 points. Apply only the scoring conditions below, including the specified partial-credit rules. Do not award extra points for fluency, length, or confidence. Reasonable rounding is acceptable. The source assigns 20 points to unbound concentration calculations but explicitly allocates only 7.5 points to each of the two calculations. These allocations are retained, with the remaining 5 points assigned to the source requirement to explicitly introduce mouse fu = 3.1%. Score each criterion independently. Sum the awarded points, clamp to [0, 100], and normalize by 100.
+
+CRITERIA (9):
+
+Criterion 1: Unit Conversion and Total Peak Exposure
+    Points: 10
+    Description: Uses a molecular weight of approximately 358 to convert the PO Cmax of 230 ng/mL to approximately 642 nM and notes that direct comparison with the cellular IC50 of 100 nM gives a total peak concentration approximately 6.4 times the IC50.
+
+Criterion 2: Unbound Concentration Calculations
+    Points: 20
+    Description: Awards 5 points for explicitly using mouse fu = 3.1% to correct total plasma concentrations. Awards 7.5 points for calculating unbound Cmax = 642 × 0.031 ≈ 20 nM, approximately 0.20 times the IC50. Awards 7.5 points for using the reported AUC0-t to approximate the 24 h average total concentration as 537/24 ≈ 22.4 ng/mL ≈ 62.4 nM, then obtaining an average unbound concentration of approximately 1.9 nM, approximately 0.02 times the IC50. Reasonable rounding is acceptable. For either calculation, award its allocated points if the response explicitly applies fu correction and correctly establishes the corresponding unbound concentration as below the IC50 at the appropriate order of magnitude.
+
+Criterion 3: Duration of Effective Coverage
+    Points: 10
+    Description: Notes that the oral half-life is only 1 h and that the 24 h dosing interval spans approximately 24 half-lives. Since unbound Cmax itself is below the IC50, concludes that the fraction of the interval with unbound concentration above the IC50 is 0%, with no effective target coverage relative to this benchmark throughout the dosing interval.
+
+Criterion 4: Feasibility of the Current Dosing Regimen
+    Points: 10
+    Description: Clearly concludes that PO dosing at 10 mg/kg QD is not feasible in the mouse efficacy model.
+
+Criterion 5: Activity and Physicochemical Rationale for Continued Optimization
+    Points: 10
+    Description: Recommends retaining compound A as a lead for further optimization. Explains that the cellular IC50 of 100 nM meets the activity threshold used in this assessment; molecular weight of approximately 358, cLogP of 2.74, tPSA of 55 Å², HBD = 2, and RotB = 3 are consistent with Ro5 and Veber's rules; and although Fsp³ is relatively low, the molecule is small enough to allow substantial optimization. Award no points for this criterion if the response recommends termination without substantiating an insurmountable liability.
+
+Criterion 6: Oral Absorption Rationale for Continued Optimization
+    Points: 10
+    Description: Recommends retaining compound A as a lead for further optimization. Explains that Caco-2 Papp A→B = 15 × 10⁻⁶ cm/s indicates good permeability and an efflux ratio of 2.2 indicates limited efflux. The measured mouse F = 54.7% also supports successful oral absorption, with no evidence of an insurmountable structural barrier. Award no points for this criterion if the response recommends termination without substantiating an insurmountable liability.
+
+Criterion 7: CYP Inhibition and Addressable Developability Limitations
+    Points: 10
+    Description: Recommends retaining compound A as a lead for further optimization. Explains that the CYP inhibition profile shows no broad inhibition and that the existing solubility and metabolic stability limitations have clear avenues for structural optimization, with no identified insurmountable target-related or chemotype-related liability. Award no points for this criterion if the response recommends termination without substantiating an insurmountable liability.
+
+Criterion 8: Priority of Solubility Optimization
+    Points: 10
+    Description: Identifies improved solubility as a highest-priority objective alongside metabolic stability/clearance optimization. Efflux or other objectives must not be prioritized above these two.
+
+Criterion 9: Priority of Metabolic Stability and Clearance Optimization
+    Points: 10
+    Description: Identifies improved metabolic stability and reduced clearance as a highest-priority objective alongside solubility optimization. Efflux or other objectives must not be prioritized above these two.

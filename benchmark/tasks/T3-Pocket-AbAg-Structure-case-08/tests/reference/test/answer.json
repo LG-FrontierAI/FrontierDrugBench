@@ -1,0 +1,32 @@
+{
+  "item_id": "Pocket-Induce-AbAg",
+  "case_id": "case-08",
+  "parent_bench_id": "Pocket-Induce-AbAg",
+  "answer": {
+    "binding_site": {
+      "cutoff_angstrom": 5.0,
+      "entities": {
+        "1": [
+          37,
+          39,
+          40,
+          41,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          52,
+          53,
+          54,
+          61,
+          65,
+          68,
+          70,
+          77
+        ]
+      }
+    }
+  }
+}

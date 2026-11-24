@@ -1,0 +1,27 @@
+{
+  "item_id": "Pocket-Induce-PL",
+  "case_id": "case-08",
+  "parent_bench_id": "Pocket-Induce-PL",
+  "answer": {
+    "binding_site": {
+      "cutoff_angstrom": 5.0,
+      "entities": {
+        "1": [
+          41,
+          44,
+          45,
+          48,
+          52,
+          67,
+          88,
+          90,
+          103,
+          104,
+          105,
+          107,
+          116
+        ]
+      }
+    }
+  }
+}

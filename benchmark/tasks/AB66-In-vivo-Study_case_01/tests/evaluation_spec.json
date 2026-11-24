@@ -1,0 +1,42 @@
+{
+  "item_id": "AB66",
+  "parent_item_id": "AB66",
+  "category": "In Vivo Studies",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "numeric",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "47a24669ba2fa3c22f9f9129e5ee2b3215a864b3e2b8cc144eb65526b618eb46",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "8b09c210a316595bebe9d9b33ffb3a1801a7fa4ef39c8d3895c2e6ee67b2b79a",
+      "study_information": "Predict 24-hour CSF PGRN concentration (pg/mL) for sandwich1_h24, sandwich2_h24 and kappa3_h24. Early CSF measurements, matched 24-hour PBS/RIPA brain fractions and the older PTV11 reference are visible. Source constructs differ in payload and fusion architecture. Brain fractions use pg/mg wet tissue; they cannot be equated to CSF concentration or unbound partitioning. No 48-hour results are supplied.",
+      "study_information_sha256": "c2a04e07425d87fab496ef6236073e6665ebdf628d47e9760c313b066a993f87",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.6,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2024263567A2"
+  ],
+  "study_id": "WO2024263567A2 Example5 Tables8A/8B/9/10. HumanTfRKI mice, enzymeimmunoassay. Actual dose for this exact concentration series is not specified in accessible methods; do not infer one from separate PDstudies. PTV11 is an older visible reference.",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared experimental family; count in original-family sensitivity aggregation, not as independent biological replication.",
+  "expanded_from": "AB66",
+  "expanded_bench_id": "AB66-In-vivo-Study_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Transferring brain-fraction exposure to late cerebrospinal-fluid exposure",
+  "format": "regression"
+}

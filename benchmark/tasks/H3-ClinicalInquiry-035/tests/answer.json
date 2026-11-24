@@ -1,0 +1,73 @@
+{
+  "bench_id": "H3-ClinicalInquiry-035",
+  "answer": "We should take into account the information you provided about your headache: location behind the eyebrows and nose, pressing quality, mild to moderate intensity, intermittent course, with occasional need for painkillers, no associated symptoms, and no pain on palpation of the face.\n\nWith these characteristics alone, it is not possible to state a cause for the headache with certainty. Imaging examinations such as a CT scan of the paranasal sinuses and of the skull may therefore help to clarify the diagnosis. However, there are other examinations that can also help, such as nasofibroscopy.\n\nI recommend that you consult a family doctor, an otorhinolaryngologist or a neurologist for a detailed assessment and a decision on investigation and treatment strategies.",
+  "reference_available": true,
+  "scoring": {
+    "type": "healthbench_rubric_judge",
+    "rubric": [
+      {
+        "criterion": "Explains the indications for medical imaging in a person with a headache, which include the presence of any danger signs, side-locked pain, impaired vision, seeing halos around light, unilateral headache with sudden onset in individuals over 50, headaches that occur upon waking and improve in an upright position, double vision, chronic nausea, or new-onset seizures.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Recommends that the patient discuss with a healthcare professional the need for imaging, as well as diagnostic and treatment planning.",
+        "points": 9,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "Lists danger signs for headaches that require immediate medical evaluation, such as fever, any neurological deficit (e.g., lethargy, loss of consciousness), sudden onset, age over 50, changes in headache patterns or new headaches, positional headaches, headaches triggered by sneezing, coughing, or exercise, worsening pain, painful eye with autonomic symptoms (red, teary eye and nasal congestion), history of trauma or cancer, presence of immunosuppressive therapy or immune deficiency, or overuse of painkillers.",
+        "points": 7,
+        "tags": [
+          "level:example",
+          "axis:completeness"
+        ]
+      },
+      {
+        "criterion": "States that the patient needs imaging without an actual healthcare provider evaluation and without any additional context about available resources.",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "States that there are many different causes of headaches, including acute sinusitis, migraines, and tension headaches.",
+        "points": 4,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      },
+      {
+        "criterion": "Uses non-standard or invented terms, such as a misspelling or a word that does not exist in the language of the answer.",
+        "points": -2,
+        "tags": [
+          "level:example",
+          "axis:communication_quality"
+        ]
+      },
+      {
+        "criterion": "Recommends a sinus X-ray as a valid imaging method. (Justification: It is well established in the medical literature that sinus X-rays have no role in diagnosing sinusitis or other causes of headaches.)",
+        "points": -8,
+        "tags": [
+          "level:example",
+          "axis:accuracy"
+        ]
+      }
+    ],
+    "points": 27
+  },
+  "grading": {
+    "method": "llm_rubric_judge",
+    "scoring": "healthbench_rubric_judge",
+    "total_points": 27,
+    "rubric_sha256_source": "source rubric list in scoring.rubric"
+  }
+}

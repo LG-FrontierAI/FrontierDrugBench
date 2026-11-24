@@ -1,0 +1,123 @@
+{
+  "item_id": "AB57",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2026115036A1"
+  ],
+  "study_id": "AB57_Vdelta1_cell_evidence_2026",
+  "input_sha256": "5cefa20a308d4ee546012b3583c5ec8475d6d38224aa5b246afc4c4cea27f339",
+  "study_information_sha256": "08458c6658fba92113034c8e897591876821330d9e9159faae35906d60901f1f",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": null,
+  "unit": null,
+  "sources": [
+    {
+      "publication_number": "US20260152558A1",
+      "url": "https://patents.google.com/patent/US20260152558A1/en",
+      "publication_date": "2026-06-04",
+      "family_earliest_publication_date": "2026-06-04",
+      "disclosure_status": "verified",
+      "locator": "Tables6,34,35; Examples10-15,19,20; WO2026115036A1 same-day family first",
+      "source_channel": "Nonempty Google Patents targeted long output; independent root recheck 2026-10-23",
+      "disclosure_check": "Earliest publication of this family is2026-06-04. Earlier cited parental/control reagents are treated only as visible controls, not new hidden measurements. The task audits current-family experiments and does not claim exhaustive absence of all earlier related articles."
+    }
+  ],
+  "evidence": [
+    {
+      "name": "ALK051",
+      "locator": "Example19; Table35",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ALK052",
+      "locator": "Example19; Table35",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ALK055",
+      "locator": "Example19; Table35",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ALK056",
+      "locator": "Example19; Table35",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    },
+    {
+      "name": "ALK057",
+      "locator": "Example19; Table35",
+      "sequence_locator": "No sequence inference required: source-labelled experiment evidence review",
+      "value": "source evidence",
+      "unit": "assay-specific"
+    }
+  ],
+  "rubric": [
+    {
+      "id": "heterogeneity",
+      "points": 25,
+      "required_finding": "Identifies ALK056 CD27 68.99pM versus0.10–1.84 in other donors and rejects homogeneous marker potency."
+    },
+    {
+      "id": "summary",
+      "points": 20,
+      "required_finding": "Preserves mean14.25/SD30.61 as reported but explains atypicality/outlier influence; gives donor-level or robust summary."
+    },
+    {
+      "id": "units",
+      "points": 25,
+      "required_finding": "FlagspM Table/dose versusuM prose conflict without silently converting; calls for source clarification."
+    },
+    {
+      "id": "replication",
+      "points": 15,
+      "required_finding": "Distinguishes five biological donors from technical wells/plates."
+    },
+    {
+      "id": "checks",
+      "points": 15,
+      "required_finding": "Proposes dilution/export verification and donor-specific curve/fit replication with what each resolves."
+    }
+  ],
+  "reference_answer": "The donor records do not support homogeneous potency across all markers. Vδ1-frequency, Ki-67 and NKG2D responses are measurable in all five donors, but CD27 is especially heterogeneous: ALK056 has68.99pM compared with0.10–1.84pM for the other donors. The mean14.25pM and SD30.61pM can be preserved as reported Table35 summaries, but the mean is not a typical individual donor response and is strongly influenced by that extreme value. The numerical median is0.20pM, so donor-level values or robust summaries should accompany the mean. The table and stated dose series support reporting the values as Table35-labelled pM while explicitly flagging the conflicting proseuM; the discrepancy should not be silently corrected or converted into a new value. Five donors remain five biological units. Triplicate wells and three plates are technical replication and do not create fifteen independent donors. The corrected conclusion is donor-dependent seven-day PBMC activation with marker-specific heterogeneity and unresolved source-unit wording. First, verify the original dilution records and instrument export to resolve units. Second, repeat full donor-specific dose-response curves with prespecified fit-quality and uncertainty reporting, especially for ALK056 CD27, to distinguish reproducible biology from fitting or technical instability.",
+  "validation_examples": {
+    "full_correct": {
+      "text": "The donor records do not support homogeneous potency across all markers. Vδ1-frequency, Ki-67 and NKG2D responses are measurable in all five donors, but CD27 is especially heterogeneous: ALK056 has68.99pM compared with0.10–1.84pM for the other donors. The mean14.25pM and SD30.61pM can be preserved as reported Table35 summaries, but the mean is not a typical individual donor response and is strongly influenced by that extreme value. The numerical median is0.20pM, so donor-level values or robust summaries should accompany the mean. The table and stated dose series support reporting the values as Table35-labelled pM while explicitly flagging the conflicting proseuM; the discrepancy should not be silently corrected or converted into a new value. Five donors remain five biological units. Triplicate wells and three plates are technical replication and do not create fifteen independent donors. The corrected conclusion is donor-dependent seven-day PBMC activation with marker-specific heterogeneity and unresolved source-unit wording. First, verify the original dilution records and instrument export to resolve units. Second, repeat full donor-specific dose-response curves with prespecified fit-quality and uncertainty reporting, especially for ALK056 CD27, to distinguish reproducible biology from fitting or technical instability.",
+      "expected_met_ids": [
+        "heterogeneity",
+        "summary",
+        "units",
+        "replication",
+        "checks"
+      ]
+    },
+    "all_yes": {
+      "text": "All project claims are supported. The experiments establish clinical safety, equal function and universal transfer across contexts.",
+      "expected_met_ids": []
+    },
+    "all_no": {
+      "text": "Every project claim is false. None of the supplied measurements supports any assay-specific conclusion.",
+      "expected_met_ids": []
+    },
+    "omitted_critical": {
+      "text": "ALK056 CD27 is68.99pM while the other donors are0.10to1.84pM, so marker potency is not homogeneous. Mean14.25 andSD30.61 are reported but atypical for a single donor; median0.20pM and donor-level results should accompany them. Five donors remain five biological replicates; wells and plates are technical repeats. Repeating full donor-specific curves would test whether the extreme response is reproducible.",
+      "expected_met_ids": [
+        "heterogeneity",
+        "summary",
+        "replication"
+      ],
+      "omitted_criterion": "units"
+    }
+  }
+}

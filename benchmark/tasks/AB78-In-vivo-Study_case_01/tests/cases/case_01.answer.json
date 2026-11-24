@@ -1,0 +1,93 @@
+{
+  "item_id": "AB78",
+  "case_id": "case_01",
+  "task_type": "review",
+  "data_status": "patent_experimental",
+  "admission_status": "admitted",
+  "source_family_ids": [
+    "WO2024263567A2"
+  ],
+  "study_id": "PGRN/TfR brainPBS,RIPA andCSF exposure",
+  "input_sha256": "866a8e8338539322f170e3657d823d5235af01c9b2755e5c9c5b7d2185ef7f25",
+  "study_information_sha256": "b4988fcfd0bc831b89d2e7bd6c4f47aa68ee995e1240d674e96310623d72b3d2",
+  "target_ids": [],
+  "truth": {},
+  "higher_is_better": true,
+  "unit": "rubric_score",
+  "sources": [
+    {
+      "publication_number": "WO2024263567A2",
+      "url": "https://patents.google.com/patent/WO2024263567A2/en",
+      "publication_date": "2024-12-26",
+      "family_earliest_publication_date": "2024-12-26",
+      "disclosure_status": "verified",
+      "locator": "US20250000992A1 Example5 Tables8A/8B/9/10",
+      "source_channel": "web.run primaryHTML explicitresponse_length long, retrieved2026-10-23"
+    }
+  ],
+  "evidence": [],
+  "rubric": [
+    {
+      "id": "matrix",
+      "points": 25,
+      "requirement": "Distinguish PBS/RIPA/CSF andcorrectunits.",
+      "required_finding": "Distinguish PBS/RIPA/CSF andcorrectunits.",
+      "source_locator": "Tables8A/8B/9/10"
+    },
+    {
+      "id": "BLQ",
+      "points": 20,
+      "requirement": "Treat48hCSFbelowLLOQ as censored, not zero.",
+      "required_finding": "Treat48hCSFbelowLLOQ as censored, not zero.",
+      "source_locator": "Table9"
+    },
+    {
+      "id": "schedule",
+      "points": 15,
+      "requirement": "Preserve unequal schedules and olderPTV11 status.",
+      "required_finding": "Preserve unequal schedules and olderPTV11 status.",
+      "source_locator": "Example5"
+    },
+    {
+      "id": "interpretation",
+      "points": 20,
+      "requirement": "RejectKp,uu/intactactivity conclusions from these matrices alone.",
+      "required_finding": "RejectKp,uu/intactactivity conclusions from these matrices alone.",
+      "source_locator": "Example5"
+    },
+    {
+      "id": "checks",
+      "points": 20,
+      "requirement": "Propose recovery/purity andmatched intact/free-analyte checks.",
+      "required_finding": "Propose recovery/purity andmatched intact/free-analyte checks.",
+      "source_locator": "Example5"
+    }
+  ],
+  "reference_answer": "The dataset reports separate PBS-soluble brain, RIPA-extracted brain and CSF measurements. Brain fractions are in pg/mg wet tissue, whereas CSF is in pg/mL. The extraction fractions have different operational meanings and cannot be treated as interchangeable free concentrations. Sampling schedules also differ among sandwich1, sandwich2 and kappa3, so similarly ordered rows are not automatically time-matched.\n\nAt 48 hours, kappa3 had PBS signal 0.11 pg/mg and RIPA signal 1.87 pg/mg, while its CSF value was below LLOQ. That censored observation is not zero and must not be assigned an invented precise value. PTV11 is an older literature reference, not a newly disclosed candidate. These limitations do not invalidate the quantified observations; they qualify the comparisons that can be made.\n\nHowever, immunoassay concentrations alone do not establish intact active protein, unbound brain partitioning or Kp,uu. First, assess fraction purity, extraction recovery and matrix-specific assay performance to identify carryover and recovery bias. Second, collect matched tissue and CSF time points with orthogonal intact-analyte and, where possible, free-exposure measurements. Those checks distinguish genuine compartment retention from extraction or assay effects.",
+  "rubric_contrast_checks": {
+    "full_correct": {
+      "answer": "The dataset reports separate PBS-soluble brain, RIPA-extracted brain and CSF measurements. Brain fractions are in pg/mg wet tissue, whereas CSF is in pg/mL. The extraction fractions have different operational meanings and cannot be treated as interchangeable free concentrations. Sampling schedules also differ among sandwich1, sandwich2 and kappa3, so similarly ordered rows are not automatically time-matched.\n\nAt 48 hours, kappa3 had PBS signal 0.11 pg/mg and RIPA signal 1.87 pg/mg, while its CSF value was below LLOQ. That censored observation is not zero and must not be assigned an invented precise value. PTV11 is an older literature reference, not a newly disclosed candidate. These limitations do not invalidate the quantified observations; they qualify the comparisons that can be made.\n\nHowever, immunoassay concentrations alone do not establish intact active protein, unbound brain partitioning or Kp,uu. First, assess fraction purity, extraction recovery and matrix-specific assay performance to identify carryover and recovery bias. Second, collect matched tissue and CSF time points with orthogonal intact-analyte and, where possible, free-exposure measurements. Those checks distinguish genuine compartment retention from extraction or assay effects.",
+      "expected_score": 1.0,
+      "basis": "All criterion findings are explicitly present.",
+      "expected_points": 100
+    },
+    "all_yes": {
+      "answer": "Every proposed claim is supported; the study proves the mechanism and broad translation.",
+      "expected_score": 0.0,
+      "basis": "Unsupported blanket acceptance omits all required specific findings.",
+      "expected_points": 0
+    },
+    "all_no": {
+      "answer": "Nothing in the experiment is useful or supported. All results should be rejected.",
+      "expected_score": 0.0,
+      "basis": "Blanket dismissal omits supported observations and required specific findings.",
+      "expected_points": 0
+    },
+    "omitted_critical": {
+      "answer": "The dataset reports separate PBS-soluble brain, RIPA-extracted brain and CSF measurements. Brain fractions are in pg/mg wet tissue, whereas CSF is in pg/mL. The extraction fractions have different operational meanings and cannot be treated as interchangeable free concentrations. Sampling schedules also differ among sandwich1, sandwich2 and kappa3, so similarly ordered rows are not automatically time-matched.\n\nAt 48 hours, kappa3 had PBS signal 0.11 pg/mg and RIPA signal 1.87 pg/mg, while its CSF value was below LLOQ. That censored observation is not zero and must not be assigned an invented precise value. PTV11 is an older literature reference, not a newly disclosed candidate. These limitations do not invalidate the quantified observations; they qualify the comparisons that can be made.",
+      "expected_score_upper_bound": 0.6,
+      "basis": "Missing central limitation and proposed checks cannot receive points for those criteria.",
+      "expected_points_upper_bound": 60
+    }
+  }
+}

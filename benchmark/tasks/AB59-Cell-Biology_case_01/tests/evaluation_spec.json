@@ -1,0 +1,42 @@
+{
+  "item_id": "AB59",
+  "parent_item_id": "AB59",
+  "category": "Cell Biology",
+  "status": "ready",
+  "data_status": "patent_experimental",
+  "input_mode": "single_case_csv",
+  "evaluator_type": "patent_experimental_case",
+  "task_type": "review",
+  "cases": [
+    {
+      "case_id": "case_01",
+      "input": "inputs/case_01.csv",
+      "input_sha256": "7efbd006018889f03c4b510bc243bb9d18f568e34ceecc9c0e2e1767f11320a0",
+      "answer": "tests/cases/case_01.answer.json",
+      "answer_sha256": "4ec1c342fbc86a4f5d7d5c1dd521838bac4adb2cf638d4e7789437cc37b01bf6",
+      "study_information": "Example20 reports cytokine induction in Vδ1/tumor cocultures using A375 orA431, withEC50pM andSD. Only a subset is shown in this CSV; MCP1 A431 is not reported and remainsblank. The source reports noIL17A,IL10,IL1β increase>1.2fold under the tested conditions, while several other cytokines have measurable responses. A separate healthy-cell-sparing assay in Example19 uses6.6nMADT1-4-2 and assesses monocyte cytotoxicity/apoptosis; it does not measure clinical cytokine syndrome.",
+      "study_information_sha256": "9e0ab1685d73f1f88e37b1d66f8f8659645263920b6c3d2ad3aafbff3f5a1593",
+      "data_status": "patent_experimental"
+    }
+  ],
+  "case_count": 1,
+  "pass_threshold": 0.8,
+  "threshold_version": "v2-patent-20261023",
+  "source_family_ids": [
+    "WO2026115036A1"
+  ],
+  "study_id": "AB59_Vdelta1_cell_evidence_2026",
+  "aggregation": "single_case",
+  "missing_case_score": 0,
+  "contestant_tools_allowed": false,
+  "dependence_note": "Shared sources must be interpreted at the study-family level.",
+  "expanded_from": "AB59",
+  "expanded_bench_id": "AB59-Cell-Biology_case_01",
+  "item_scope": {
+    "case_count": 1,
+    "data_status": "patent_experimental",
+    "aggregation": "equal_weight_mean_all_required_cases"
+  },
+  "title": "Interpreting conditional cytokine responses without overclaiming safety",
+  "format": "open_rubric"
+}

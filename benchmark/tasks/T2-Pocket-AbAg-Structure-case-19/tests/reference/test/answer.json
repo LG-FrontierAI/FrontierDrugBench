@@ -1,0 +1,183 @@
+{
+  "item_id": "Pocket-AbAg",
+  "case_id": "case-19",
+  "parent_bench_id": "Pocket-AbAg",
+  "answer": {
+    "cutoffs": {
+      "date": "2026-01-01",
+      "current_contact_distance_angstrom": 5.0,
+      "historical_sites": "source annotations; no uniform distance cutoff"
+    },
+    "historical_lookup_status": "SUCCESS",
+    "post_2026_sites": [
+      {
+        "entity_id": "3",
+        "protein_id": "protein_1",
+        "residues": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          54,
+          56,
+          58,
+          59,
+          82,
+          160,
+          166
+        ]
+      }
+    ],
+    "historical_sites": [
+      {
+        "entity_id": "3",
+        "protein_id": "protein_1",
+        "residues": [
+          28,
+          29,
+          30,
+          31,
+          33,
+          41,
+          43,
+          44,
+          45,
+          47,
+          48,
+          49,
+          50,
+          51,
+          54,
+          56
+        ],
+        "evidence_date": "2020-01-01",
+        "source_database": "IEDB_annotation_table"
+      },
+      {
+        "entity_id": "3",
+        "protein_id": "protein_1",
+        "residues": [
+          12,
+          14,
+          15,
+          16,
+          20,
+          21,
+          22,
+          23,
+          24,
+          26,
+          28,
+          100,
+          102,
+          103,
+          104,
+          146,
+          148,
+          150,
+          171,
+          173
+        ],
+        "evidence_date": "2021-01-01",
+        "source_database": "IEDB_annotation_table"
+      },
+      {
+        "entity_id": "3",
+        "protein_id": "protein_1",
+        "residues": [
+          14,
+          15,
+          16,
+          17,
+          20,
+          23,
+          24,
+          26,
+          28,
+          100,
+          102,
+          103,
+          104,
+          148,
+          150,
+          171,
+          173
+        ],
+        "evidence_date": "2025-01-01",
+        "source_database": "IEDB_annotation_table"
+      }
+    ],
+    "combined_scoring_sites": [
+      {
+        "entity_id": "3",
+        "protein_id": "protein_1",
+        "residues": [
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          49,
+          50,
+          54,
+          56,
+          58,
+          59,
+          82,
+          160,
+          166
+        ]
+      },
+      {
+        "entity_id": "3",
+        "protein_id": "protein_1",
+        "residues": [
+          12,
+          14,
+          15,
+          16,
+          17,
+          20,
+          21,
+          22,
+          23,
+          24,
+          26,
+          28,
+          100,
+          102,
+          103,
+          104,
+          146,
+          148,
+          150,
+          171,
+          173
+        ]
+      }
+    ]
+  }
+}

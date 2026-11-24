@@ -1,0 +1,52 @@
+{
+  "item_id": "AB04",
+  "category": "Molecular Biology",
+  "title": "VHH CDR design for human CD98hc",
+  "status": "fixture_ready",
+  "data_status": "synthetic_fixture",
+  "input_mode": "single_case_csv",
+  "format": "design",
+  "no_contestant_tools": true,
+  "reset_context_each_case": true,
+  "input_columns": [
+    "name",
+    "format",
+    "sequence1",
+    "target_name",
+    "target_sequence",
+    "designable_positions1"
+  ],
+  "case_count": 1,
+  "cases": [
+    {
+      "case_id": "case_10",
+      "input": "inputs/case_10.csv",
+      "input_sha256": "85cfeb39fc293cedfbf1ad0c55de40426c4df1c5a1612cd6246fccd97bf8a9b4",
+      "data_status": "synthetic_fixture",
+      "answer": "tests/cases/case_10.answer.json",
+      "answer_sha256": "c2acebc47147da0c8c189858d88a8d2e51b4be4724d522bf8a9581b60a8002ab"
+    }
+  ],
+  "score_formula": "mean_all_10_candidates(clip(max_5_samples(AF3 ranking_score),0,1))",
+  "aggregation": "single_case",
+  "follow_up": null,
+  "formal_biological_score_available": false,
+  "difficulty_validation": "not_prerun_on_models",
+  "evaluator_type": "alphafold3_ranking",
+  "formal_design_score_available": false,
+  "parent_item_id": "AB04",
+  "pass_threshold": 0.7,
+  "threshold_version": "v1-20261023",
+  "pass_rule": "unrounded_item_score >= pass_threshold",
+  "passed_evaluation_level": "item",
+  "threshold_comparison": "unrounded_score >= pass_threshold",
+  "threshold_baseline_validation": "random_CDR_controls_pending",
+  "expanded_from": "AB04",
+  "expanded_bench_id": "AB04-Molecular-Biology_case_10",
+  "item_scope": {
+    "case_count": 10,
+    "data_status": "synthetic_fixture",
+    "aggregation": "equal_weight_mean_all_required_cases",
+    "reference_answer_status": "af3_protocol_confirmed_runtime_not_frozen"
+  }
+}

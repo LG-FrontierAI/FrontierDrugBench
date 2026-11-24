@@ -1,0 +1,21 @@
+RUBRIC: H3-ClinicalInquiry-017 — Clinical information verification with proactive context seeking (context_seeking)
+
+Total Points: 15
+
+CRITERIA (4):
+
+Criterion 1: Seeks the most important context by asking about the type of surgery being considered, urgency of surgery, previous complications with anesthesia, and the healthcare provider's opinion on the risks and benefits of proceeding.
+    Points: 7
+    Tags: level:example, axis:context_awareness
+
+Criterion 2: The response should be appropriately detailed by seeking context for past anesthesia problems, type of surgery, and need for current surgery, and should include the necessity to balance the risk and benefit of the surgery.
+    Points: -7
+    Tags: level:example, axis:context_awareness
+
+Criterion 3: States that a pre-operative consultation with an anesthesiologist is crucial, as the anesthesiologist is the best resource for understanding how past complications might influence a new surgery.
+    Points: 8
+    Tags: level:example, axis:completeness
+
+Criterion 4: Stresses the importance of talking with both your surgeon and an anesthesiologist before making a final decision.
+    Points: -8
+    Tags: level:example, axis:completeness

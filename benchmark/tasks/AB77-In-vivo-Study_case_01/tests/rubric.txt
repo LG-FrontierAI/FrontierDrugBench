@@ -1,0 +1,30 @@
+RUBRIC: AB77 - Separating charge and multimerization effects on HER2 nanobody persistence
+
+Total Points: 100/100
+
+CRITERIA (5):
+
+Criterion 1: values
+    Points: 20
+    Description: Correctly report1.0/1.3/5.8h and construct identities.
+    Source: Table1
+
+Criterion 2: design
+    Points: 20
+    Description: Preserve IProute,sex/strain/dose andsampling; do not call this IVclearance.
+    Source: Example8
+
+Criterion 3: factor
+    Points: 20
+    Description: Separate charge and multimerization; identify need for charge-only matchedcontrols.
+    Source: Examples6/8
+
+Criterion 4: limits
+    Points: 15
+    Description: Avoid universal mechanism or clinical translation; recognize binding changes.
+    Source: Example6
+
+Criterion 5: checks
+    Points: 25
+    Description: Propose matchedIVPK andfactorialcharge/architecture plusintact-analyte checks.
+    Source: Example8

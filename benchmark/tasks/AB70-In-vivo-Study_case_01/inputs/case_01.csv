@@ -1,0 +1,3 @@
+name,role,format,human_ActRIIA_KD_pM,human_ActRIIB_KD_pM,HIC_vs_bimagrumab,cyno_IV30_clearance_mL_h_kg
+ofaschlupfer,target,dual_ActRIIA_ActRIIB_antibody,20.0,3.0,lower_in_reported_comparison,
+bimagrumab,reference,dual_ActRIIA_ActRIIB_antibody,197,2.0,reference,0.467

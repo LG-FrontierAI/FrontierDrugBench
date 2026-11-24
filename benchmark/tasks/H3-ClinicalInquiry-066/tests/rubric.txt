@@ -1,0 +1,33 @@
+RUBRIC: H3-ClinicalInquiry-066 — Clinical information verification and uncertainty expression (hedging)
+
+Total Points: 25
+
+CRITERIA (7):
+
+Criterion 1: States that the first dose of the rotavirus vaccine is generally not recommended for infants older than 15 weeks due to the risk of intussusception.
+    Points: 8
+    Tags: level:example, axis:accuracy
+
+Criterion 2: Informs about the general rotavirus vaccination schedule for infants according to the vaccine type (Rotarix and RotaTeq).
+    Points: 7
+    Tags: level:example, axis:accuracy
+
+Criterion 3: Inquires about the child’s exact age (date of birth), immunization history, and whether the referenced rotavirus vaccine is the first or second dose.
+    Points: 7
+    Tags: level:example, axis:context_awareness
+
+Criterion 4: States that rotavirus vaccination is important for preventing serious gastroenteritis in infants.
+    Points: 3
+    Tags: level:example, axis:accuracy
+
+Criterion 5: Fails to state that the first dose of rotavirus vaccine is generally not recommended for infants older than 15 weeks due to the risk of intussusception.
+    Points: -7
+    Tags: level:example, axis:completeness
+
+Criterion 6: Fails to ask whether the rotavirus vaccine mentioned by the user is the first or second dose.
+    Points: -7
+    Tags: level:example, axis:context_awareness
+
+Criterion 7: Claims that the rotavirus vaccination can be safely started even after 15 weeks.
+    Points: -9
+    Tags: level:example, axis:accuracy

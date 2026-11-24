@@ -1,0 +1,40 @@
+{
+  "answer": {
+    "HLM-INTERVAL01": {
+      "M004": "S3",
+      "M002": "S2",
+      "M010": "S1",
+      "M007": "S2",
+      "M003": "S1",
+      "M006": "S4",
+      "M005": "S3",
+      "M008": "S1",
+      "M009": "S4",
+      "M001": "S2"
+    }
+  },
+  "scoring": {
+    "raw_total_points": 10.0,
+    "total_points": 100,
+    "items": {
+      "HLM-INTERVAL01": {
+        "type": "interval",
+        "raw_points": 10,
+        "candidates": [
+          "M001",
+          "M002",
+          "M003",
+          "M004",
+          "M005",
+          "M006",
+          "M007",
+          "M008",
+          "M009",
+          "M010"
+        ],
+        "points": 100.0
+      }
+    },
+    "points_policy": "Source raw_points are relative weights only; the task maximum and awarded points are reported on a 100-point scale."
+  }
+}
