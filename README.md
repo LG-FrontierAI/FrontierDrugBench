@@ -72,40 +72,6 @@ The Live Benchmark keeps its own label and is reported separately: it is a rolli
 forecasting set, not a sixth biological domain, and it never enters the
 five-domain aggregate.
 
-By task family:
-
-| Family | Prefix | Tasks |
-| --- | --- | ---: |
-| Clinical trial patient matching | `H1` | 100 |
-| Clinical inquiry and information verification | `H3` | 100 |
-| Protein Cα backbone from sequence | `T1` | 83 |
-| Antibody–antigen epitope prediction and ranking | `T2` | 95 |
-| Epitope residue prediction | `T3` | 86 |
-| Antibody–antigen complex structure | `T4` | 80 |
-| Antibody affinity, developability and design | `AB` | 98 |
-| Variant function and protein property prediction | `PROT` | 50 |
-| 5′UTR ribosome-loading prediction | `DNA` | 50 |
-| Small-molecule ADMET and activity prediction | `SM` | 64 |
-| Peptide pharmacokinetics | `Pep` | 31 |
-| Phenotype and candidate activity prediction | `RV1` | 37 |
-| Perturbation fitness/dependency phenotype | `D-` | 25 |
-| Ionizable lipid design | `LNP` | 5 |
-| Prospective forecasting (Live Benchmark) | `BX` | 42 |
-| Perturbation phenotype | `development`/`wrn`/`metabolism`/`impc`/`sexual` | 19 |
-| Other disease-biology items | `I` | 6 |
-
-By expected response (`format`):
-
-| Format | Tasks | Response |
-| --- | ---: | --- |
-| `structured_json` | 545 | a JSON object matching the schema in the prompt |
-| `ranking` | 128 | one comma-separated ordering of the listed candidates |
-| `open_rubric` | 117 | free-text clinical answer, graded against a rubric |
-| `mcq` | 106 | one option letter |
-| `forecast` | 42 | a point forecast (and interval where asked) |
-| `design` | 20 | a set of designed sequences or molecules |
-| `regression` | 13 | a single numeric prediction |
-
 ## Grading
 
 Every task ships the grader it was evaluated with. `tests/score.py` returns a score
@@ -165,15 +131,10 @@ comparison with the state of the art.
 **Not** intended as a clinical decision tool. The tasks are research instruments
 and several are deliberately narrow: one assay, one endpoint, one structure.
 
-## Answer key and contamination
+## Answers
 
 This repository ships `tests/answer.json`, `tests/reference/` payloads and
-per-case reference answers, because the graders need them. **Treat it as
-contaminated for training purposes.** If you publish derived data or a model
-trained on this tree, check it against `CANARY.txt` first.
-
-An evaluation-only mirror without the answer key is distributed as a gated
-Hugging Face dataset; use that one when you only need to run the benchmark.
+per-case reference answers, because the graders need them. 
 
 ## Limitations
 
@@ -187,8 +148,6 @@ Hugging Face dataset; use that one when you only need to run the benchmark.
   rest of the tree runs on CPU but those do not.
 - 137 tasks ship `inputs/` whose SHA-256 may be part of the score, so those files
   must not be reformatted.
-- The Live Benchmark is a rolling set; its composition changes over time, so its
-  mean is not comparable across release dates.
 
 ## Contributing
 
@@ -207,7 +166,6 @@ removing a task means updating the tree, the index and the counts above together
             across Drug Discovery and Development?},
   author = {{LGLab Frontier AI Group}},
   year   = {2026},
-  url    = {https://oribench.lglab.ac.cn/fdb}
 }
 ```
 
