@@ -1,0 +1,22 @@
+# Python / build residue
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Local evaluation artefacts
+predictions*.jsonl
+scores*.json
+REPORT.md
+runs/
+jobs/
+
+# Cache written by the LNP scorers at run time
+.tool_cache/
+
+# Secrets
+.env
+
+# OS
+.DS_Store
