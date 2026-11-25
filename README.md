@@ -4,7 +4,15 @@
 
 <h3>Benchmarking Intrinsic LLM Capabilities<br>Across Drug Discovery and Development</h3>
 
-**Lingang Laboratory AI**
+<p align="center">
+  <sub>
+    Lingang Laboratory AI · Shanghai AI Laboratory · Changping Laboratory<br>
+    Guangzhou Laboratory · Shanghai Jiao Tong University<br>
+    Shanghai Jiao Tong University School of Medicine · Fudan University<br>
+    Zhongshan Hospital, Fudan University · The University of Hong Kong<br>
+    Westlake University · Alibaba AI Data
+  </sub>
+</p>
 
 <sub>An expert-designed benchmark grounded in biological evidence.</sub>
 
@@ -119,6 +127,8 @@ FrontierDrugBench/
 The [technical report](docs/FrontierDrugBench.pdf) was updated on 2026-11-25.
 Figure provenance and export details are documented in
 [the asset notes](docs/assets/README.md).
+The report's full institutional affiliations are listed in
+[the affiliation notes](docs/affiliations.md).
 
 ## Grading
 
@@ -229,14 +239,25 @@ removing a task means updating the tree, the index and the counts above together
 @misc{frontierdrugbench2026,
   title  = {FrontierDrugBench: Benchmarking Intrinsic LLM Capabilities
             Across Drug Discovery and Development},
-  author = {{Lingang Laboratory AI}},
+  author = {{Lingang Laboratory AI} and
+            {Shanghai AI Laboratory} and
+            {Changping Laboratory} and
+            {Guangzhou Laboratory} and
+            {Shanghai Jiao Tong University} and
+            {Shanghai Jiao Tong University School of Medicine} and
+            {Fudan University} and
+            {Zhongshan Hospital, Fudan University} and
+            {The University of Hong Kong} and
+            {Westlake University} and
+            {Alibaba AI Data}},
   year   = {2026},
 }
 ```
 
 `CITATION.cff` retains the dataset authorship and release metadata and includes
-the technical report as the preferred citation. The report is credited here under
-its cover-page group name.
+the technical report as the preferred citation. Both report citations use the
+cover-page institutions as parallel group authors; personal authors are not listed.
+Full institutional names are recorded in [the affiliation notes](docs/affiliations.md).
 
 ## License
 

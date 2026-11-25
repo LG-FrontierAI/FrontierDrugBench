@@ -24,6 +24,16 @@ preferred-citation:
     and Development
   authors:
     - name: "Lingang Laboratory AI"
+    - name: "Shanghai AI Laboratory"
+    - name: "Changping Laboratory"
+    - name: "Guangzhou Laboratory"
+    - name: "Shanghai Jiao Tong University"
+    - name: "Shanghai Jiao Tong University School of Medicine"
+    - name: "Fudan University"
+    - name: "Zhongshan Hospital, Fudan University"
+    - name: "The University of Hong Kong"
+    - name: "Westlake University"
+    - name: "Alibaba AI Data"
   year: 2026
   url: "https://github.com/LG-FrontierAI/FrontierDrugBench/blob/main/docs/FrontierDrugBench.pdf"
 keywords:
