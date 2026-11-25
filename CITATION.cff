@@ -23,7 +23,7 @@ preferred-citation:
     FrontierDrugBench: Benchmarking Intrinsic LLM Capabilities Across Drug Discovery
     and Development
   authors:
-    - name: "Lingang Lab AI"
+    - name: "Lingang Laboratory AI"
   year: 2026
   url: "https://github.com/LG-FrontierAI/FrontierDrugBench/blob/main/docs/FrontierDrugBench.pdf"
 keywords:

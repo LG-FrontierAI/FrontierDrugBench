@@ -4,7 +4,7 @@
 
 <h3>Benchmarking Intrinsic LLM Capabilities<br>Across Drug Discovery and Development</h3>
 
-**Lingang Lab AI**
+**Lingang Laboratory AI**
 
 <sub>An expert-designed benchmark grounded in biological evidence.</sub>
 
@@ -229,7 +229,7 @@ removing a task means updating the tree, the index and the counts above together
 @misc{frontierdrugbench2026,
   title  = {FrontierDrugBench: Benchmarking Intrinsic LLM Capabilities
             Across Drug Discovery and Development},
-  author = {{Lingang Lab AI}},
+  author = {{Lingang Laboratory AI}},
   year   = {2026},
 }
 ```
