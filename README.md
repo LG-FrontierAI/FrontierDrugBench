@@ -3,13 +3,14 @@
 ### Benchmarking Intrinsic LLM Capabilities  
 Across Drug Discovery and Development
 
-**Lingang Lab AI**  
+**Lingang Lab AI**
+
 An expert-designed benchmark grounded in biological evidence.
 
-![Homepage](docs/assets/homepage.svg)![Technical Report](docs/assets/technical-report.svg)![Dataset](docs/assets/dataset.svg)![Citation](docs/assets/citation.svg)
+![Homepage](docs/assets/homepage.svg)   ![Technical Report](docs/assets/technical-report.svg)   ![Dataset](docs/assets/dataset.svg)   ![Citation](docs/assets/citation.svg)
 
 **971** public tasks  ·  **5** biological domains  ·  **42** Live Benchmark tasks  
-The 42 Live tasks are included in the 971-task public release. · v1.0 · English · CC BY 4.0
+The 42 Live tasks are included in the 971-task public release. · v1.0 · CC BY 4.0
 
 **How far can a general-purpose language model go across drug discovery?**
 FrontierDrugBench evaluates zero-shot scientific judgment across disease biology,
@@ -69,11 +70,11 @@ By research domain (`category` in each task header):
 2. **Read the prompt.** Use the body after `# Prompt` in the task's
 
    `instruction.md`. Keep reference answers in `tests/` hidden from the evaluated
-    model.
+     model.
 3. **Score the response.** Follow the task's `tests/score.py` contract and retain
 
    the shared `_packages/` directory. See the [benchmark guide](benchmark/README.md)
-    for file layouts, output contracts and scoring dependencies.
+     for file layouts, output contracts and scoring dependencies.
 
 This release includes task data, references and scorers. **No evaluation harness
 is included.** A runner can send each task prompt and collect its reply.
@@ -216,6 +217,8 @@ value, and any change to `inputs/` is treated as a breaking change. See the
 `benchmark/metadata/tasks.csv` is the single index of the release: adding or
 removing a task means updating the tree, the index and the counts above together.
 
+
+
 ## Citation
 
 ```bibtex
@@ -231,8 +234,10 @@ removing a task means updating the tree, the index and the counts above together
 the technical report as the preferred citation. The report is credited here under
 its cover-page group name.
 
-## License
 
-Task instructions, input data, verification scripts and rubrics are released under
-[CC BY 4.0](LICENSE). Source documents referenced by individual tasks (patent
-publications, journal articles) remain subject to their own terms.
+
+---
+
+**[CC BY 4.0](LICENSE)**  
+Task instructions, input data, verification scripts and rubrics are released under this license.  
+Source documents referenced by individual tasks (patent publications, journal articles) remain subject to their own terms.
