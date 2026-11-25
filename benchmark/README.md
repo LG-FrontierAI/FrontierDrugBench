@@ -8,7 +8,7 @@ benchmark/
     ├── _packages/          shared scorer library (frontier_benchkit)
     ├── <bench_id>/         one directory per task
     │   ├── instruction.md  prompt + classification front matter
-    │   ├── inputs/         data files (137 tasks); may be hash-pinned
+    │   ├── inputs/         data files (137 tasks)
     │   └── tests/
     │       ├── score.py    authoritative grader
     │       ├── answer.json reference answer + scoring rule
@@ -22,17 +22,17 @@ Domain and format counts are in [`../README.md#composition`](../README.md#compos
 
 ## Rules that keep the tree scoreable
 
-1. **`_packages/` stays where it is.** Every `tests/score.py` resolves the shared
-   library as `Path(__file__).parents[1] / "_packages"`. Moving it, or adding a
-   level of nesting, disables all scoring.
+1. **Keep `_packages/` beside the task directories.** Scorers that load the shared
+   library resolve it relative to their `tests/` directory:
+   `Path(__file__).resolve().parent.parents[1] / "_packages"`. When copying tasks,
+   copy the shared library and its required assets too, preserving this relative
+   layout. A task directory alone does not include its shared dependencies.
 
 2. **`tests/` is the contract.** A model never sees it. `score.py` is the
    authoritative grader; `answer.json` holds the reference and, for 809 tasks, the
    name of the comparison under `scoring.type`.
 
-3. **`inputs/` is byte-exact.** For the antibody and patent families the scorer
-   verifies each input file's SHA-256 against `tests/evaluation_spec.json`.
-   Reformatting a CSV — even a trailing newline — breaks scoring.
+3. Keep input files unchanged, including formatting; some scorers verify file checksums.
 
 4. **The prompt is the body after `# Prompt`.** The YAML header is classification
    metadata and is not part of the question.
@@ -88,10 +88,22 @@ or scorer-specific and never change the prompt.
 
 ## Which files a scorer reads
 
-A scorer reads only `tests/` (and `inputs/` when the prompt cites files). It never
+Task-specific scoring payloads reside in `tests/` (and `inputs/` when the prompt
+cites files); shared implementations and assets reside in `_packages/`. A scorer never
 needs `instruction.md` — except the rubric tasks, which prepend the conversation
 body to the answer before asking the judge. That is why editing a prompt changes
 grading for `open_rubric` tasks and only changes the question for the rest.
+
+## Live Benchmark scores
+
+The 42 Live Benchmark tasks comprise ten binary and 32 numerical forecasts.
+Binary tasks report accuracy; invalid outputs score zero. Numerical tasks report
+Relative WIS (lower is better, reference = 1), which can exceed one. The shipped
+scorer returns `score = 1 - Relative WIS` and provides the native metric through
+`evaluate(...)["detail"]["relative_wis"]`; the returned score can therefore be
+negative. Invalid numerical outputs receive Relative WIS = 1 (`score = 0`)
+and remain in the fixed 32-question denominator. Report binary accuracy and
+numerical Relative WIS separately; neither enters the five-domain macro-average.
 
 ## Multi-case tasks
 
