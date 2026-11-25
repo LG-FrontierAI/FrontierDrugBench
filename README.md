@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="docs/assets/wordmark.svg" alt="FrontierDrugBench" width="520">
+<img src="docs/assets/wordmark.svg" alt="FrontierDrugBench" width="680">
 
 <h3>Benchmarking Intrinsic LLM Capabilities<br>Across Drug Discovery and Development</h3>
 
