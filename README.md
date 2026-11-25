@@ -1,16 +1,20 @@
-![FrontierDrugBench](docs/assets/wordmark.svg)
+<div align="center">
 
-### Benchmarking Intrinsic LLM Capabilities  
-Across Drug Discovery and Development
+<img src="docs/assets/wordmark.svg" alt="FrontierDrugBench" width="520">
+
+<h3>Benchmarking Intrinsic LLM Capabilities<br>Across Drug Discovery and Development</h3>
 
 **Lingang Lab AI**
 
-An expert-designed benchmark grounded in biological evidence.
+<sub>An expert-designed benchmark grounded in biological evidence.</sub>
 
-![Homepage](docs/assets/homepage.svg)   ![Technical Report](docs/assets/technical-report.svg)   ![Dataset](docs/assets/dataset.svg)   ![Citation](docs/assets/citation.svg)
+[![Homepage](docs/assets/homepage.svg)](https://oribench.lglab.ac.cn/fdb) &nbsp; [![Technical Report](docs/assets/technical-report.svg)](docs/FrontierDrugBench.pdf) &nbsp; [![Dataset](docs/assets/dataset.svg)](https://huggingface.co/datasets/LG-FrontierAI/FrontierDrugBench) &nbsp; [![Citation](docs/assets/citation.svg)](#citation)
 
-**971** public tasks  ·  **5** biological domains  ·  **42** Live Benchmark tasks  
-The 42 Live tasks are included in the 971-task public release. · v1.0 · CC BY 4.0
+**971** public tasks &nbsp;·&nbsp; **5** biological domains &nbsp;·&nbsp; **42** Live Benchmark tasks
+
+<sub>The 42 Live tasks are included in the 971-task public release. · v1.0 · CC BY 4.0</sub>
+
+</div>
 
 **How far can a general-purpose language model go across drug discovery?**
 FrontierDrugBench evaluates zero-shot scientific judgment across disease biology,
@@ -234,10 +238,8 @@ removing a task means updating the tree, the index and the counts above together
 the technical report as the preferred citation. The report is credited here under
 its cover-page group name.
 
+## License
 
-
----
-
-**[CC BY 4.0](LICENSE)**  
-Task instructions, input data, verification scripts and rubrics are released under this license.  
-Source documents referenced by individual tasks (patent publications, journal articles) remain subject to their own terms.
+Task instructions, input data, verification scripts and rubrics are released under
+[CC BY 4.0](LICENSE). Source documents referenced by individual tasks (patent
+publications, journal articles) remain subject to their own terms.
